@@ -9,7 +9,10 @@ export default function App() {
         <Sidebar />
       </div>
       {/* Hero Page */}
-      <div className='h-screen pl-[11rem]'>
+      <div className='h-screen bg-bg-grid bg-cover bg-center'> 
+        <Hero />
+      </div>
+      <div className='h-screen bg-bg-grid bg-cover bg-center'> 
         <Hero />
       </div>
     </>
