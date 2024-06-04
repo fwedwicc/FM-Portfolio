@@ -8,12 +8,12 @@ const Sidebar = () => {
       {/* Top Side / Logo & Navigations */}
       <div className='space-y-7'>
         <img src={logo} alt="FM-logo" className='w-[1.5rem] h-[1.5rem]' />
-        <ul className='text-white text-sm space-y-1'>
-          <li>HOME</li>
-          <li>ABOUT</li>
-          <li>WORKS</li>
-          <li>CONTACT</li>
-          <li>SOCIALS</li>
+        <ul className='text-white text-sm uppercase space-y-1'>
+          <li>Home</li>
+          <li>About</li>
+          <li>Works</li>
+          <li>Contact</li>
+          <li>Socials</li>
         </ul>
       </div>
       {/* Vertical Divider */}
