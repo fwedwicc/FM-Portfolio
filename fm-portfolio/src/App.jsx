@@ -9,7 +9,7 @@ export default function App() {
         <Sidebar />
       </aside>
       {/* Hero Page */}
-      <main className='h-screen bg-grid bg-cover bg-center'> 
+      <main className='h-screen bg-grid bg-cover bg-center' id='home'>
         <Hero />
       </main>
     </>

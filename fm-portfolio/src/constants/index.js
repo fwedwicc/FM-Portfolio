@@ -1,5 +1,24 @@
 import { github, instagram, linkedin, facebook } from '../assets';
 
+export const navLinks = [
+  {
+    id: 'home',
+    title: 'HOME',
+  },
+  {
+    id: 'about',
+    title: 'ABOUT',
+  },
+  {
+    id: 'works',
+    title: 'WORKS',
+  },
+  {
+    id: 'contacts',
+    title: 'CONTACTS',
+  },
+]
+
 export const Socials = [
   {
     icon: github,

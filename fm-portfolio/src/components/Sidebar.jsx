@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/FM-logo.png';
-import { Socials } from '../constants';
+import { Socials, navLinks } from '../constants';
 
 const Sidebar = () => {
   return (
@@ -9,21 +9,11 @@ const Sidebar = () => {
       <div className='space-y-7'>
         <img src={logo} alt="FM-logo" className='w-[1.5rem] h-[1.5rem]' />
         <ul className='text-white text-sm uppercase space-y-1'>
-          <li>
-            <a href='' className='nav-link'>HOME</a>
-          </li>
-          <li>
-            <a href='' className='nav-link'>ABOUT</a>
-          </li>
-          <li>
-            <a href='' className='nav-link'>WORKS</a>
-          </li>
-          <li>
-            <a href='' className='nav-link'>CONTACT</a>
-          </li>
-          <li>
-            <a href='' className='nav-link'>SOCIALS</a>
-          </li>
+          {navLinks.map((nav, index) => (
+            <li key={index}>
+              <a href={`#${nav.id}`} className='nav-link'>{nav.title}</a>
+            </li>
+          ))}
         </ul>
       </div>
       {/* Vertical Divider */}
