@@ -9,7 +9,9 @@ const Sidebar = () => {
       <div className='space-y-7'>
         <img src={logo} alt="FM-logo" className='w-[1.5rem] h-[1.5rem]' />
         <ul className='text-white text-sm uppercase space-y-1'>
-          <li>Home</li>
+          <li>
+            <button className=''>HOME</button>
+          </li>
           <li>About</li>
           <li>Works</li>
           <li>Contact</li>

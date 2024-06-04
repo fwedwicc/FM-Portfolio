@@ -5,7 +5,7 @@ import Button from '../components/Button'
 const Hero = () => {
   return (
     <>
-      <img src={glow01} alt="" className='absolute' />
+      <img src={glow01} alt="" className='absolute inset-0' />
       <div className='pl-[11rem] h-full p-6 flex'>
         <div className='w-[25rem] flex flex-col justify-end items-end pr-4 uppercase'>
           <h4 className="text-white">Front-end</h4>
