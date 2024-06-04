@@ -10,12 +10,20 @@ const Sidebar = () => {
         <img src={logo} alt="FM-logo" className='w-[1.5rem] h-[1.5rem]' />
         <ul className='text-white text-sm uppercase space-y-1'>
           <li>
-            <button className=''>HOME</button>
+            <a href='' className='nav-link'>HOME</a>
           </li>
-          <li>About</li>
-          <li>Works</li>
-          <li>Contact</li>
-          <li>Socials</li>
+          <li>
+            <a href='' className='nav-link'>ABOUT</a>
+          </li>
+          <li>
+            <a href='' className='nav-link'>WORKS</a>
+          </li>
+          <li>
+            <a href='' className='nav-link'>CONTACT</a>
+          </li>
+          <li>
+            <a href='' className='nav-link'>SOCIALS</a>
+          </li>
         </ul>
       </div>
       {/* Vertical Divider */}
