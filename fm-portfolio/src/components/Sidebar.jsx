@@ -4,7 +4,7 @@ import { Socials } from '../constants';
 
 const Sidebar = () => {
   return (
-    <div className='flex w-[7.5rem] h-screen flex-col py-8 px-8 justify-between'>
+    <>
       {/* Top Side / Logo & Navigations */}
       <div className='space-y-7'>
         <img src={logo} alt="FM-logo" className='w-[1.5rem] h-[1.5rem]' />
@@ -17,7 +17,7 @@ const Sidebar = () => {
         </ul>
       </div>
       {/* Vertical Divider */}
-      <div className="border-l-[1px] ml-[10px] border-gray-600 h-full my-8"></div>
+      <div className="border-l-[1px] ml-[10px] border-[#373357] h-full my-8"></div>
       {/* Bottom Side / Socials */}
       <div className='flex flex-col gap-6'>
         {Socials.map((social, index) => (
@@ -26,7 +26,7 @@ const Sidebar = () => {
           </a>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

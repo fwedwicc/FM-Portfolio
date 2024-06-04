@@ -1,3 +1,7 @@
 import Sidebar from './Sidebar'
+import Hero from './Hero'
 
-export {Sidebar}
+export {
+  Sidebar,
+  Hero,
+}
