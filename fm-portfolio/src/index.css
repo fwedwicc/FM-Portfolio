@@ -5,7 +5,7 @@
 
 @layer base {
   html {
-    @apply scroll-smooth overflow-x-hidden;
+    @apply scroll-smooth;
   }
   p, h4 {
     @apply lg:text-[16px] text-[12px];
@@ -39,11 +39,8 @@
   */
 }
 
-
-
-
 h1 {
-  @apply lg:w-[950px] w-[300px] text-white font-black text-[3rem] lg:text-[10rem] lg:mb-[-4.3rem] mb-[-3rem];
+  @apply lg:w-[950px] w-[250px] text-white font-black text-[2.5rem] lg:text-[10rem] lg:mb-[-4.5rem] mb-[-2rem];
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
@@ -51,55 +48,49 @@ h1 {
 }
 
 .message {
-  @apply bg-base lg:left-[208px] left-[104px] lg:top-[20px];
-  color: #fff;
+  @apply bg-transparent lg:left-[208px] left-[51px] lg:top-[20px] bg-gradient-to-r from-[#B8B7FF] via-[#7977C7] to-[#4A489E] inline-block text-transparent bg-clip-text;
   display: block;
   overflow: hidden;
   position: absolute;
-  animation: openclose 5s ease-in-out infinite;
+  animation: openclose 8s ease-in-out infinite;
 }
 
 
 @keyframes openclose {
   0% {
-    top: -1px;
-    width: 0;
+    @apply w-0 top-[0.4px];
   }
   10% {
-    width: 0;
+    @apply w-0 top-[0.4px];
   }
   20% {
-    @apply top-[-1px] w-[900px] indent-[5px];
+    @apply top-[0.4px] w-[890px] indent-[5px];
   }
   30% {
-    @apply top-[-1px] w-[900px] indent-[5px];
+    @apply top-[0.4px] w-[890px] indent-[5px];
   }
   40% {
-    top: -1px;
-    width: 0;
+    @apply top-[0.4px] w-0 indent-[5px];
   }
   50% {
-    top: -1px;
-    width: 0;
+    @apply top-[0.4px] w-0 indent-[5px];
   }
   55% {
-    @apply top-[-14.9rem] w-0;
+    @apply top-[-15rem] w-0;
   }
   60% {
-    @apply top-[-14.9rem] w-0;
+    @apply top-[-15rem] w-0;
   }
   70% {
-    @apply top-[-14.9rem] w-[900px] indent-[5px];
+    @apply top-[-15rem] w-[610px] indent-[5px];
   }
   80% {
-    @apply top-[-14.9rem] w-[900px] indent-[5px];
+    @apply top-[-15rem] w-[610px] indent-[5px];
   }
   90% {
-    @apply top-[-14.9rem] w-0;
+    @apply top-[-15rem] w-0;
   }
   100% {
-    top: 0;
-    width: 0;
-    text-indent: 0;
+    @apply top-0 w-0 indent-0;
   }
 }

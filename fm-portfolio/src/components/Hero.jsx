@@ -24,7 +24,7 @@ const Hero = () => {
               </div>
             </div>
             {/* Bottom Side */}
-            <div className='flex items-start '>
+            <div className='flex items-start'>
               <h1 className=''>
                 <span>DE</span>
                 <div class="message">
