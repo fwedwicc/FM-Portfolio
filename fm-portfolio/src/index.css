@@ -5,7 +5,7 @@
 
 @layer base {
   html {
-    @apply scroll-smooth;
+    @apply scroll-smooth overflow-x-hidden;
   }
   p, h4 {
     @apply lg:text-[16px] text-[12px];
@@ -27,23 +27,23 @@
   .nav-link:hover:before {
     @apply w-20;
   } 
-   /* default hover state
-   .nav-link {
-      @apply items-center cursor-pointer flex w-32 font-bold gap-3;
-    }
-    .nav-link:before {
-      @apply bg-white inline-block h-px w-20;
-      content: "";
-      transition: all .60s cubic-bezier(.25,.8,.25,1);
-    }  
-    */
+  /* default hover state
+  .nav-link {
+    @apply items-center cursor-pointer flex w-32 font-bold gap-3;
+  }
+  .nav-link:before {
+    @apply bg-white inline-block h-px w-20;
+    content: "";
+    transition: all .60s cubic-bezier(.25,.8,.25,1);
+  }  
+  */
 }
 
 
 
 
 h1 {
-  @apply lg:w-[550px] w-[300px] text-white font-black text-[3rem] lg:text-[5rem] mb-[-3rem];
+  @apply lg:w-[950px] w-[300px] text-white font-black text-[3rem] lg:text-[10rem] lg:mb-[-4.3rem] mb-[-3rem];
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
@@ -51,14 +51,11 @@ h1 {
 }
 
 .message {
-  @apply bg-base;
+  @apply bg-base lg:left-[208px] left-[104px] lg:top-[20px];
   color: #fff;
   display: block;
-  font-weight: 900;
   overflow: hidden;
   position: absolute;
-  left: 104px;
-  top: 20px;
   animation: openclose 5s ease-in-out infinite;
 }
 
@@ -72,48 +69,33 @@ h1 {
     width: 0;
   }
   20% {
-    top: -1px;
-    width: 200px;
-    text-indent: 5px;
+    @apply top-[-1px] w-[900px] indent-[5px];
   }
   30% {
-    top: -1px;
-    width: 400px;
-    text-indent: 5px;
+    @apply top-[-1px] w-[900px] indent-[5px];
   }
   40% {
     top: -1px;
-    width: 400px;
-    text-indent: 5px;
+    width: 0;
   }
   50% {
     top: -1px;
     width: 0;
-    text-indent: 5px;
+  }
+  55% {
+    @apply top-[-14.9rem] w-0;
   }
   60% {
-    top: -1px;
-    width: 0;
+    @apply top-[-14.9rem] w-0;
   }
   70% {
-    top: -7.5rem;
-    width: 320px;
-    text-indent: 5px;
+    @apply top-[-14.9rem] w-[900px] indent-[5px];
   }
   80% {
-    top: -7.5rem;
-    width: 320px;
-    text-indent: 5px;
+    @apply top-[-14.9rem] w-[900px] indent-[5px];
   }
   90% {
-    top: -7.5rem;
-    width: 320px;
-    text-indent: 5px;
-  }
-  100% {
-    top: -7.5rem;
-    width: 320px;
-    text-indent: 5px;
+    @apply top-[-14.9rem] w-0;
   }
   100% {
     top: 0;
