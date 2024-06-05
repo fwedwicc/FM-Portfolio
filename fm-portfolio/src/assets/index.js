@@ -4,6 +4,7 @@ import facebook from './facebook.svg'
 import linkedin from './linkedin.svg'
 import glow01 from './glow01.png'
 import grid from './grid.png'
+import FMlogo from './FM-logo.png'
 
 export {
   github,
@@ -12,4 +13,5 @@ export {
   linkedin,
   glow01,
   grid,
+  FMlogo,
 }

@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   html {
     @apply scroll-smooth;
@@ -19,7 +20,7 @@
     }
   }
   .nav-link:before {
-    @apply bg-white inline-block h-px w-0;
+    @apply bg-[white] inline-block h-[1px] w-0;
     content: "";
     transition: all .60s cubic-bezier(.25,.8,.25,1);
   }
@@ -36,4 +37,87 @@
       transition: all .60s cubic-bezier(.25,.8,.25,1);
     }  
     */
+}
+
+
+
+
+h1 {
+  @apply lg:w-[550px] w-[300px] text-white font-black text-[3rem] lg:text-[5rem] mb-[-3rem];
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.message {
+  @apply bg-base;
+  color: #fff;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  left: 104px;
+  top: 20px;
+  animation: openclose 5s ease-in-out infinite;
+}
+
+
+@keyframes openclose {
+  0% {
+    top: -1px;
+    width: 0;
+  }
+  10% {
+    width: 0;
+  }
+  20% {
+    top: -1px;
+    width: 200px;
+    text-indent: 5px;
+  }
+  30% {
+    top: -1px;
+    width: 400px;
+    text-indent: 5px;
+  }
+  40% {
+    top: -1px;
+    width: 400px;
+    text-indent: 5px;
+  }
+  50% {
+    top: -1px;
+    width: 0;
+    text-indent: 5px;
+  }
+  60% {
+    top: -1px;
+    width: 0;
+  }
+  70% {
+    top: -7.5rem;
+    width: 320px;
+    text-indent: 5px;
+  }
+  80% {
+    top: -7.5rem;
+    width: 320px;
+    text-indent: 5px;
+  }
+  90% {
+    top: -7.5rem;
+    width: 320px;
+    text-indent: 5px;
+  }
+  100% {
+    top: -7.5rem;
+    width: 320px;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
 }

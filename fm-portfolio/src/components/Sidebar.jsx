@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
-import logo from '../assets/FM-logo.png';
+import { FMlogo } from '../assets';
 import { Socials, navLinks } from '../constants';
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleSidebar = () => setIsOpen(!isOpen);
 
   return (
     <>
       <ToggleButton onClick={toggleSidebar} />
       <aside
-        className={`fixed lg:flex w-[12rem] h-screen flex-col py-8 px-8 backdrop-blur-lg lg:bg-transparent justify-between z-10 transform transition-all duration-500 ease-in-out ${isOpen ? 'translate-x-0 visible flex' : '-translate-x-full invisible flex'
+        className={`fixed lg:flex w-[12rem] h-screen flex-col py-8 px-8 lg:backdrop-blur-none backdrop-blur-lg justify-between z-20 transform transition-all duration-500 ease-in-out ${isOpen ? 'translate-x-0 visible flex' : '-translate-x-full invisible flex'
           } lg:translate-x-0 lg:visible flex`}
       >
         <div className="flex flex-col space-y-7 flex-grow">
@@ -38,7 +37,7 @@ const ToggleButton = ({ onClick }) => (
 
 const HeaderLogo = ({ onClick }) => (
   <div className="flex justify-between items-center">
-    <img src={logo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem]" />
+    <img src={FMlogo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem]" />
     <button
       className="lg:hidden text-white hover:text-indigo-500 transition duration-300 ease-in-out"
       onClick={onClick}
