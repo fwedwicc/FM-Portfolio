@@ -1,11 +1,11 @@
 import React from 'react'
-import { glow01 } from '../assets'
+import { glow } from '../assets'
 import Button from '../components/Button'
 
 const Hero = () => {
   return (
     <>
-      <img src={glow01} alt="" className='absolute inset-0' />
+      <img src={glow} alt="" className='absolute inset-0' />
       <div className='lg:pl-[11rem] pl-[1rem] h-full lg:p-6 p-4 flex'>
         <div className='w-[25rem] flex flex-col justify-end lg:items-end items-start pr-4 uppercase'>
           <h4 className="text-white">Front-end</h4>
@@ -19,12 +19,14 @@ const Hero = () => {
               <div>
                 <p className='text-white'>Hello World! I am <span className='font-semibold text-indigo-400'>FREDERICK MORENO</span>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
-              <div className='flex lg:justify-end lg:items-start'>
+              <div className='flex lg:justify-end lg:items-start space-x-4'>
+                <Button text={'Download CV'} styles={'rounded-md z-10 bg-transparent border border-[#373357] text-[#a99fce]'}></Button>
                 <Button text={'Get in touch'} styles={'lg:rounded-tr-[1.5rem] sm:rounded-md md:rounded-md z-10'}></Button>
               </div>
             </div>
             {/* Bottom Side */}
-            <div className='flex items-start'>
+            <div className='flex flex-col items-start uppercase'>
+              <h4 className='text-white lg:mb-[-3.5rem] lg:ml-2.5 mb-[-0.5rem]'>Specializing in <span className='text-indigo-400'>web</span></h4>
               <h1 id='hero-heading-parent'>
                 <span>DE</span>
                 <div id='hero-heading-child'>
