@@ -15,7 +15,7 @@
   .nav-link {
     @apply items-center cursor-pointer flex w-32 lg:text-[16px] text-[12px];
     &:hover {
-      @apply  font-bold gap-3;
+      @apply gap-3;
     }
   }
   .nav-link:before {

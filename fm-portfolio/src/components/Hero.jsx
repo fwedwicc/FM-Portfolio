@@ -15,12 +15,12 @@ const Hero = () => {
         <div className='rounded-md rounded-tr-[2.5rem] h-full p-[1px] bg-border-gradient'>
           <div className='rounded-md rounded-tr-[2.5rem] h-full p-5 bg-[#15131C]'>
             {/* Top side */}
-            <div className='grid grid-cols-2'>
+            <div className='grid lg:grid-cols-2 grid-cols-1 lg:space-y-0 space-y-4'>
               <div>
                 <p className='text-white'>Hello World! I am <span className='font-semibold text-indigo-400'>FREDERICK MORENO</span>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
-              <div className='flex justify-end items-start'>
-                <Button text={'Get in touch'} styles={'rounded-tr-[1.5rem]'}></Button>
+              <div className='flex lg:justify-end lg:items-start'>
+                <Button text={'Get in touch'} styles={'sm:rounded-tr-[1.5rem]'}></Button>
               </div>
             </div>
             {/* Bottom Side */}
