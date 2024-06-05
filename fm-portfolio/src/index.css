@@ -5,7 +5,7 @@
 
 @layer base {
   html {
-    @apply scroll-smooth;
+    @apply scroll-smooth overflow-x-hidden;
   }
   p, h4 {
     @apply lg:text-[16px] text-[12px];
@@ -93,4 +93,19 @@ h1 {
   100% {
     @apply top-0 w-0 indent-0;
   }
+}
+
+
+
+body::-webkit-scrollbar {
+  @apply w-[9px];
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-base rounded-[10px];
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply bg-[#191420] rounded-[10px]; 
+  border: 1px solid #342e3f;
 }
