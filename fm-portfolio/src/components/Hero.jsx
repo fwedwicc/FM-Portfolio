@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <>
       <img src={glow01} alt="" className='absolute inset-0' />
-      <div className='pl-[11rem] h-full p-6 flex'>
-        <div className='w-[25rem] flex flex-col justify-end items-end pr-4 uppercase'>
+      <div className='lg:pl-[11rem] pl-[1rem] h-full lg:p-6 p-4 flex'>
+        <div className='w-[25rem] flex flex-col justify-end lg:items-end items-start pr-4 uppercase'>
           <h4 className="text-white">Front-end</h4>
           <h4 className="text-white">UI/UX</h4>
         </div>
