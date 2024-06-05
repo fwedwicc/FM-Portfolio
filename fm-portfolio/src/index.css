@@ -2,17 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
+  /* ------- Base & Typography ------- */
   html {
     @apply scroll-smooth overflow-x-hidden;
   }
-  p, h4 {
+  p,
+  h4 {
     @apply lg:text-[16px] text-[12px];
   }
+  /* ------- //Base & Typography ------- */
+  /* ------- Custom Scrollbar ------- */
+  body::-webkit-scrollbar {
+    @apply w-[9px];
+  }
+  body::-webkit-scrollbar-track {
+    @apply bg-base rounded-[10px];
+  }
+  body::-webkit-scrollbar-thumb {
+    @apply bg-[#191420] rounded-[10px] border-[#342e3f] border-solid border;
+  }
+  /* ------- //Custom Scrollbar ------- */
 }
 
 @layer components {
+  /* ------- Navigation Styles ------- */
   .nav-link {
     @apply items-center cursor-pointer flex w-32 lg:text-[16px] text-[12px];
     &:hover {
@@ -20,13 +34,12 @@
     }
   }
   .nav-link:before {
-    @apply bg-[white] inline-block h-[1px] w-0;
-    content: "";
-    transition: all .60s cubic-bezier(.25,.8,.25,1);
+    @apply bg-[white] inline-block h-[1px] w-0 content-none;
+    transition: all 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
   .nav-link:hover:before {
     @apply w-20;
-  } 
+  }
   /* default hover state
   .nav-link {
     @apply items-center cursor-pointer flex w-32 font-bold gap-3;
@@ -37,75 +50,52 @@
     transition: all .60s cubic-bezier(.25,.8,.25,1);
   }  
   */
-}
-
-h1 {
-  @apply lg:w-[950px] w-[250px] text-white font-black text-[2.5rem] lg:text-[10rem] lg:mb-[-4.5rem] mb-[-2rem];
-  text-transform: uppercase;
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
-}
-
-.message {
-  @apply bg-transparent lg:left-[208px] left-[51px] lg:top-[20px] bg-gradient-to-r from-[#B8B7FF] via-[#7977C7] to-[#4A489E] inline-block text-transparent bg-clip-text;
-  display: block;
-  overflow: hidden;
-  position: absolute;
-  animation: openclose 8s ease-in-out infinite;
-}
-
-
-@keyframes openclose {
-  0% {
-    @apply w-0 top-[0.4px];
+  /* ------- //Navigation Styles ------- */
+  /* ------- Hero Heading Styles ------- */
+  #hero-heading-parent {
+    @apply lg:w-[950px] w-[250px] text-white font-black text-[2.5rem] lg:text-[10rem] lg:mb-[-4.5rem] mb-[-2rem] uppercase overflow-hidden relative whitespace-nowrap;
   }
-  10% {
-    @apply w-0 top-[0.4px];
+  #hero-heading-child {
+    @apply bg-transparent lg:left-[208px] left-[51px] lg:top-[20px] bg-gradient-to-r from-[#B8B7FF] via-[#7977C7] to-[#4A489E] inline-block text-transparent bg-clip-text overflow-hidden absolute;
+    animation: openclose 8s ease-in-out infinite;
   }
-  20% {
-    @apply top-[0.4px] w-[890px] indent-[5px];
+  @keyframes openclose {
+    0% {
+      @apply w-0 top-[0.4px];
+    }
+    10% {
+      @apply w-0 top-[0.4px];
+    }
+    20% {
+      @apply top-[0.4px] w-[890px] indent-[5px];
+    }
+    30% {
+      @apply top-[0.4px] w-[890px] indent-[5px];
+    }
+    40% {
+      @apply top-[0.4px] w-0 indent-[5px];
+    }
+    50% {
+      @apply top-[0.4px] w-0 indent-[5px];
+    }
+    55% {
+      @apply top-[-15rem] w-0;
+    }
+    60% {
+      @apply top-[-15rem] w-0;
+    }
+    70% {
+      @apply top-[-15rem] w-[610px] indent-[5px];
+    }
+    80% {
+      @apply top-[-15rem] w-[610px] indent-[5px];
+    }
+    90% {
+      @apply top-[-15rem] w-0;
+    }
+    100% {
+      @apply top-0 w-0 indent-0;
+    }
   }
-  30% {
-    @apply top-[0.4px] w-[890px] indent-[5px];
-  }
-  40% {
-    @apply top-[0.4px] w-0 indent-[5px];
-  }
-  50% {
-    @apply top-[0.4px] w-0 indent-[5px];
-  }
-  55% {
-    @apply top-[-15rem] w-0;
-  }
-  60% {
-    @apply top-[-15rem] w-0;
-  }
-  70% {
-    @apply top-[-15rem] w-[610px] indent-[5px];
-  }
-  80% {
-    @apply top-[-15rem] w-[610px] indent-[5px];
-  }
-  90% {
-    @apply top-[-15rem] w-0;
-  }
-  100% {
-    @apply top-0 w-0 indent-0;
-  }
-}
-
-
-
-body::-webkit-scrollbar {
-  @apply w-[9px];
-}
-
-body::-webkit-scrollbar-track {
-  @apply bg-base rounded-[10px];
-}
-
-body::-webkit-scrollbar-thumb {
-  @apply bg-[#191420] rounded-[10px]; 
-  border: 1px solid #342e3f;
+  /* ------- //Hero Heading Styles ------- */
 }

@@ -25,9 +25,9 @@ const Hero = () => {
             </div>
             {/* Bottom Side */}
             <div className='flex items-start'>
-              <h1 className=''>
+              <h1 id='hero-heading-parent'>
                 <span>DE</span>
-                <div class="message">
+                <div id='hero-heading-child'>
                   <div class="word1">veloper</div>
                   <div class="word2">signer</div>
                 </div>
