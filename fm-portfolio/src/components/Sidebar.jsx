@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FMlogo } from '../assets';
 import { Socials, navLinks } from '../constants';
 
-const Sidebar = () => {
+const Sidebar = ({ activeSection }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleSidebar = () => setIsOpen(!isOpen);
 
@@ -15,7 +15,7 @@ const Sidebar = () => {
       >
         <div className="flex flex-col space-y-7 flex-grow">
           <HeaderLogo onClick={toggleSidebar} />
-          <NavLinks />
+          <NavLinks activeSection={activeSection} />
         </div>
         <div className="border-l-[1px] lg:ml-[10px] ml-[6px] border-[#373357] h-full my-8"></div>
         <SocialLinks />
@@ -49,11 +49,14 @@ const HeaderLogo = ({ onClick }) => (
   </div>
 );
 
-const NavLinks = () => (
-  <ul className="text-white text-sm uppercase space-y-1">
+const NavLinks = ({ activeSection }) => (
+  <ul className="text-white text-sm uppercase space-y-[10px]">
     {navLinks.map((nav, index) => (
       <li key={index}>
-        <a href={`#${nav.id}`} className="nav-link">
+        <a
+          href={`#${nav.id}`}
+          className={`nav-link ${activeSection === nav.id ? 'active-nav-link' : ''}`}
+        >
           {nav.title}
         </a>
       </li>

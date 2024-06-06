@@ -1,8 +1,9 @@
 import React from "react";
 
-const Button = ({ text, styles }) => (
-  <button type="button" className={`lg:py-2.5 lg:px-4 py-2 px-3 rounded-md bg-indigo-600 text-white text-[12px] lg:text-[16px] ${styles}`}>
+const Button = ({ text, styles, children }) => (
+  <button type="button" className={`lg:py-2.5 lg:px-4 py-2 px-3 rounded-md text-[12px] lg:text-[16px] ${styles}`}>
     {text}
+    {children}
   </button>
 );
 

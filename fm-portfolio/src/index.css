@@ -41,16 +41,15 @@
   .nav-link:hover:before {
     @apply w-20;
   }
-  /* default hover state
-  .nav-link {
+  .active-nav-link {
     @apply items-center cursor-pointer flex w-32 font-bold gap-3;
   }
-  .nav-link:before {
+  .active-nav-link:before {
     @apply bg-white inline-block h-px w-20;
     content: "";
     transition: all .60s cubic-bezier(.25,.8,.25,1);
   }  
-  */
+ 
   /* ------- //Navigation Styles ------- */
   /* ------- Hero Heading Styles ------- */
   #hero-heading-parent {
