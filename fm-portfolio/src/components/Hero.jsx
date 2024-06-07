@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { glow } from '../assets'
+import { glow01 } from '../assets'
 import Button from '../components/Button'
 
 gsap.registerPlugin(ScrollTrigger);
@@ -61,7 +61,7 @@ const Hero = () => {
 
   return (
     <>
-      <img src={glow} alt="Glow eclipse" className='absolute inset-0' id='scroll-animation-3' />
+      <img src={glow01} alt="Glow eclipse" className='absolute inset-0' id='scroll-animation-3' />
       <div className='lg:pl-[11rem] pl-[1rem] h-full lg:p-6 p-4 flex'>
         <div className='w-[25rem] flex flex-col justify-end lg:items-end items-start pr-4 uppercase' id='scroll-animation-2'>
           <h4 className="text-white">Front-end</h4>

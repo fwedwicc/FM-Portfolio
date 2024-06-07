@@ -2,7 +2,8 @@ import github from './github.svg'
 import instagram from './instagram.svg'
 import facebook from './facebook.svg'
 import linkedin from './linkedin.svg'
-import glow from './glow.png'
+import glow01 from './glow-01.png'
+import glow02 from './glow-02.png'
 import grid from './grid.png'
 import FMlogo from './FM-logo.png'
 
@@ -11,7 +12,8 @@ export {
   instagram,
   facebook,
   linkedin,
-  glow,
+  glow01,
+  glow02,
   grid,
   FMlogo,
 }
