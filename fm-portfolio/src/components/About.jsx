@@ -1,12 +1,33 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
+  useEffect(() => {
+    // Scroll animation
+    // gsap.to('#heading-1', {
+    //   scrollTrigger: {
+    //     trigger: '#heading-1',
+    //     toggleActions: 'restart pause reverse pause',
+    //     scrub: 1,
+        
+    //     start: 'top 50%',
+    //     end: 'bottom 90%',
+    //   },
+    //   y: 100,
+    //   ease: 'none',
+    //   duration: 3,
+    // });
+    
+  }, []);
+
   return (
     <div className='lg:pl-[13.5rem] pl-[2rem] lg:p-6 p-4 flex'>
       <div className='grid grid-cols-8'>
-        <div className='col-span-5 p-4 rounded-md'>
+        <div className='col-span-5 p-4 rounded-md' id='heading-1'>
           <h1 className='uppercase text-white font-black text-[2.5rem] lg:text-[9rem] whitespace-nowrap leading-none'>Who am i?</h1>
-
           <div className='my-7 space-y-3'>
             <p>
               I am
@@ -25,7 +46,7 @@ const About = () => {
         </div>
         {/* Image Container in right side */}
         <div className='cols-start-5 col-span-3'>
-          
+
         </div>
       </div>
     </div>

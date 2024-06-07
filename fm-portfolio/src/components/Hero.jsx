@@ -1,13 +1,69 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { glow } from '../assets'
 import Button from '../components/Button'
 
+gsap.registerPlugin(ScrollTrigger);
+
 const Hero = () => {
+  useEffect(() => {
+    // GSAP Scroll animations
+    // Heading Typography
+    gsap.to('#scroll-animation-1', {
+      scrollTrigger: {
+        trigger: '#scroll-animation-1',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 60%',
+        end: 'bottom 10%',
+      },
+      y: -100,
+      opacity: 0,
+      ease: 'none',
+      duration: 3,
+    });
+
+    // Roles Text
+    gsap.to('#scroll-animation-2', {
+      scrollTrigger: {
+        trigger: '#scroll-animation-2',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top -10%',
+        end: 'bottom 10%',
+      },
+      y: -290,
+      opacity: 0,
+      ease: 'none',
+      duration: 3,
+    });
+
+    // Glow Elipse
+    gsap.to('#scroll-animation-3', {
+      scrollTrigger: {
+        trigger: '#scroll-animation-3',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top -10%',
+        end: 'bottom 10%',
+      },
+      y: 240,
+      opacity: 0,
+      ease: 'none',
+      duration: 3,
+    });
+
+  }, []);
+
   return (
     <>
-      <img src={glow} alt="" className='absolute inset-0' />
+      <img src={glow} alt="Glow eclipse" className='absolute inset-0' id='scroll-animation-3' />
       <div className='lg:pl-[11rem] pl-[1rem] h-full lg:p-6 p-4 flex'>
-        <div className='w-[25rem] flex flex-col justify-end lg:items-end items-start pr-4 uppercase'>
+        <div className='w-[25rem] flex flex-col justify-end lg:items-end items-start pr-4 uppercase' id='scroll-animation-2'>
           <h4 className="text-white">Front-end</h4>
           <h4 className="text-white">UI/UX</h4>
         </div>
@@ -29,8 +85,8 @@ const Hero = () => {
               </div>
             </div>
             {/* Bottom Side */}
-            <div className='flex flex-col items-start uppercase'>
-              <h4 className='text-white lg:mb-[-3.5rem] lg:ml-2.5 mb-[-0.5rem]'>Specializing in <span className='text-indigo-400'>web</span></h4>
+            <div className='flex flex-col items-start uppercase' id='scroll-animation-1'>
+              <h4 className='text-white lg:mb-[-3rem] lg:ml-2.5 mb-[-0.5rem]'>Specializing in <span className='text-indigo-400'>web</span></h4>
               <h1 id='hero-heading-parent'>
                 <span>DE</span>
                 <div id='hero-heading-child'>
