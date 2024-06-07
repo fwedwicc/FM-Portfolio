@@ -5,7 +5,7 @@
 @layer base {
   /* ------- Base & Typography ------- */
   html {
-    @apply scroll-smooth overflow-x-hidden;
+    @apply overflow-x-hidden;
   }
   p,
   h4 {

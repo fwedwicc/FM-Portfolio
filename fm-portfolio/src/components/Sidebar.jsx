@@ -26,7 +26,7 @@ const Sidebar = ({ activeSection }) => {
 
 const ToggleButton = ({ onClick }) => (
   <button
-    className="lg:hidden fixed z-10 pl-[0.8rem] pt-[0.8rem] text-white hover:text-indigo-500 transition duration-300 ease-in-out"
+    className="lg:hidden fixed z-10 ml-[0.8rem] mt-[0.8rem] text-white hover:text-indigo-500 transition duration-300 ease-in-out  bg-transparent backdrop-blur-lg rounded-md"
     onClick={onClick}
   >
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="w-6 h-6">
@@ -68,7 +68,7 @@ const SocialLinks = () => (
   <div className="flex flex-col gap-6 mt-auto">
     {Socials.map((social, index) => (
       <a key={index} href={social.link} target="_blank" rel="noopener noreferrer">
-        <img src={social.icon} alt="social-icon" className="lg:w-[1.3rem] lg:h-[1.3rem] w-[0.9rem] h-[0.9rem]" />
+        <img src={social.icon} alt="social-icon" className="lg:w-[1.3rem] lg:h-[1.3rem] w-[0.9rem] h-[0.9rem] border-[#5a548c] hover:border hover:border-transparent transition duration-300 ease-in-out rounded-[4px] hover:p-[0.5px]" />
       </a>
     ))}
   </div>

@@ -1,8 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react'
 import { Sidebar, Hero, About } from './components'
-import { navLinks } from './constants';
+import Lenis from 'lenis'
 
 export default function App() {
+  // Navigation LInks Activation
   const sectionsRef = useRef([]);
   const [activeSection, setActiveSection] = useState('');
 
@@ -30,6 +31,20 @@ export default function App() {
       });
     };
   }, []);
+
+  // Lenis Library for smooth scroll
+  const lenis = new Lenis()
+
+  lenis.on('scroll', (e) => {
+    console.log(e)
+  })
+
+  function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+  }
+
+  requestAnimationFrame(raf)
   return (
     <>
       {/* Sidebar Component */}
