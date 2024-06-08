@@ -1,4 +1,19 @@
-import { github, instagram, linkedin, facebook, html, css, javascript } from '../assets';
+import {
+  github, 
+  instagram, 
+  linkedin, 
+  facebook, 
+  html, 
+  css, 
+  javascript, 
+  react, 
+  tailwind, 
+  bootstrap,
+  php, 
+  figma, 
+  git,
+  npm, 
+} from '../assets';
 
 export const navLinks = [
   {
@@ -74,5 +89,22 @@ export const AboutData = [
         content: "It began Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla eligendi sapiente est recusandae, voluptates, officia iusto quaerat molestiae maiores dolores praesentium ab quas maxime nam molestias? Consequuntur, asperiores dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita soluta unde libero consequuntur eos numquam praesentium officia ratione ea, alias tempora fuga cupiditate eveniet a, ipsam consectetur maxime iure!"
       }
     ],
+    howsItGoing: [
+      {
+        icons: [
+          html,
+          css,
+          javascript,
+          react,
+          tailwind,
+          bootstrap,
+          php,
+          figma,
+          git,
+          npm
+        ],
+        content: "SIt began Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla eligendi sapiente est recusandae, voluptates, officia iusto quaerat molestiae maiores dolores praesentium ab quas maxime nam molestias? Consequuntur, asperiores dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita soluta unde libero consequuntur eos numquam praesentium officia ratione ea, alias tempora fuga cupiditate eveniet a, ipsam consectetur maxime iure!"
+      }
+    ]
   }
 ];

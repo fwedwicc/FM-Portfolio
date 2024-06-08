@@ -4,12 +4,18 @@ import facebook from './facebook.svg'
 import linkedin from './linkedin.svg'
 import glow01 from './glow-01.png'
 import glow02 from './glow-02.png'
-import grid from './grid.png'
 import FMlogo from './FM-logo.png'
 import profile from './sample-profile.png'
 import html from './html-icon.svg'
 import css from './css-icon.svg'
 import javascript from './javascript-icon.svg'
+import react from './react-icon.svg'
+import tailwind from './tailwind-icon.svg'
+import bootstrap from './bootstrap-icon.svg'
+import php from './php-icon.svg'
+import figma from './figma-icon.svg'
+import git from './git-icon.svg'
+import npm from './npm-icon.svg'
 
 export {
   github,
@@ -18,10 +24,16 @@ export {
   linkedin,
   glow01,
   glow02,
-  grid,
   FMlogo,
   profile,
   html,
   css,
-  javascript
+  javascript,
+  react,
+  tailwind,
+  bootstrap,
+  php,
+  figma,
+  npm,
+  git,
 }

@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 const About = () => {
   useEffect(() => {
     // GSAP Scroll animation
-    // 'WHO AM I' Container
+    // 'WHO AM I' Title
     gsap.fromTo('#scroll-animation-4',
       { opacity: 0.1 }, // from
       { // to
@@ -28,7 +28,6 @@ const About = () => {
         duration: 3,
       }
     );
-
     // Glow Elipse
     gsap.to('#scroll-animation-5', {
       scrollTrigger: {
@@ -43,7 +42,6 @@ const About = () => {
       ease: 'none',
       duration: 3,
     });
-
     // 'WHO AM I' Content
     gsap.fromTo('.scroll-animation-6',
       { opacity: 0.1 }, // from
@@ -61,29 +59,56 @@ const About = () => {
         duration: 3,
       }
     );
+    // 'HOW IT STARTED' Title
+    gsap.fromTo('#scroll-animation-7',
+      { opacity: 0.1 }, // from
+      { // to
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-7',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 60%',
+          end: 'bottom 10%',
+        },
+        x: 70,
+        ease: 'none',
+        duration: 3,
+      }
+    );
+    // 'HOW IT STARTED' Content
+    gsap.fromTo('.scroll-animation-8',
+      { opacity: 0.1 }, // from
+      { // to
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '.scroll-animation-8',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 80%',
+          end: 'bottom 10%',
+        },
+        ease: 'none',
+        duration: 3,
+      }
+    );
+
 
   }, []);
-
 
   return (
     <>
       <img src={glow02} alt="Glow eclipse" className='absolute top-[100vh] inset-0' id='scroll-animation-5' />
-      <div className='lg:pl-[13.5rem] pl-[2rem] lg:p-6 p-4 flex flex-col gap-12'>
+      <div className='lg:pl-[13.5rem] pl-[2rem] lg:p-6 p-4 flex flex-col gap-[5rem]'>
         <WhoAmI />
         <HowItStarted />
+        <HowsItGoing />
       </div>
     </>
   )
 }
-
-// const RoleBadge = ({ svgPath, role }) => (
-//   <span className='bg-[#1C182D] text-[#C1B1FF] rounded-sm lg:rounded-[0.4rem] lg:py-2 lg:px-4 py-1 px-2 border border-[#40317A] inline-flex items-center flex-wrap gap-2.5 text-[12px] lg:text-[16px]'>
-//     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="lg:size-5 size-3">
-//       <path strokeLinecap="round" strokeLinejoin="round" d={svgPath} />
-//     </svg>
-//     {role}
-//   </span>
-// );
 
 const whoAmIData = AboutData[0].whoAmI[0];
 
@@ -124,21 +149,47 @@ const howItStartedData = AboutData[0].howItStarted[0];
 const HowItStarted = () => {
   return (
     <div className='grid grid-cols-8'>
-      <div className='lg:col-span-6 lg:col-start-3 col-span-7 p-px rounded-md bg-border-gradient-1'>
-        <div className='p-4 bg-base rounded-md space-y-7'>
-          <h1 className='uppercase text-white font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none' id='scroll-animation-'>
+      <div className='lg:col-span-6 lg:col-start-3 col-span-7 p-px rounded-md bg-border-gradient-2'>
+        <div className='p-4 bg-base rounded-md space-y-8'>
+          <h1 className='uppercase text-white font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none' id='scroll-animation-7'>
             How it <span className='text-[#9291DD]'>started</span>?
           </h1>
           {/* Rendered Icons */}
-          <div className='flex space-x-4 my-4'>
+          <div className='flex gap-2.5 lg:gap-4 my-4 scroll-animation-8'>
             {howItStartedData.icons.map((icon, index) => (
               <Badge styles={'lg:p-2 p-1.5'}>
-                <img key={index} src={icon} alt="icon" className='w-7 h-7 lg:w-12 lg:h-12' />
+                <img key={index} src={icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
               </Badge>
             ))}
           </div>
           {/* Rendered content */}
-          <p className='scroll-animation-'>{howItStartedData.content}</p>
+          <p className='scroll-animation-8'>{howItStartedData.content}</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+const HowsItGoingData = AboutData[0].howsItGoing[0];
+
+const HowsItGoing = () => {
+  return (
+    <div className='grid grid-cols-8'>
+      <div className='lg:col-span-6 col-span-7 p-px rounded-md bg-border-gradient-3'>
+        <div className='p-4 bg-base rounded-md space-y-8'>
+          <h1 className='uppercase text-white font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none' id='scroll-animation-'>
+            How's it <span className='text-[#9291DD]'>going</span>?
+          </h1>
+          {/* Rendered Icons */}
+          <div className='flex gap-2.5 lg:gap-4 my-4 scroll-animation-'>
+            {HowsItGoingData.icons.map((icon, index) => (
+              <Badge styles={'lg:p-2 p-1.5'}>
+                <img key={index} src={icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
+              </Badge>
+            ))}
+          </div>
+          {/* Rendered content */}
+          <p className='scroll-animation-'>{HowsItGoingData.content}</p>
         </div>
       </div>
     </div>

@@ -50,10 +50,10 @@ export default function App() {
       {/* Sidebar Component */}
       <Sidebar activeSection={activeSection} />
       {/* Hero Page */}
-      <main ref={(el) => (sectionsRef.current[0] = el)} className='h-screen bg-grid bg-contain bg-center bg-no-repeat' id='home'>
+      <main ref={(el) => (sectionsRef.current[0] = el)} className='h-screen bg-grid-1 bg-contain bg-center bg-no-repeat' id='home'>
         <Hero />
       </main>
-      <section ref={(el) => (sectionsRef.current[1] = el)} className='h-[130vh] bg-grid bg-contain bg-center bg-no-repeat bg-opacity-40' id='about'>
+      <section ref={(el) => (sectionsRef.current[1] = el)} className='h-[200vh] bg-grid-1 bg-contain bg-center bg-no-repeat' id='about'>
         <About />
       </section>
     </>
