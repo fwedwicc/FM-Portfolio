@@ -9,6 +9,7 @@ import {
   react, 
   tailwind, 
   bootstrap,
+  gsap,
   php, 
   figma, 
   git,
@@ -82,9 +83,18 @@ export const AboutData = [
     howItStarted: [
       {
         icons: [
-          html,
-          css,
-          javascript,
+          {
+            icon: html,
+            tooltip: "HyperText Markup Language"
+          },
+          {
+            icon: css,
+            tooltip: "Cascading Style Sheet"
+          },
+          {
+            icon: javascript,
+            tooltip: "JavaScript"
+          }
         ],
         content: "It began Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla eligendi sapiente est recusandae, voluptates, officia iusto quaerat molestiae maiores dolores praesentium ab quas maxime nam molestias? Consequuntur, asperiores dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita soluta unde libero consequuntur eos numquam praesentium officia ratione ea, alias tempora fuga cupiditate eveniet a, ipsam consectetur maxime iure!"
       }
@@ -98,6 +108,7 @@ export const AboutData = [
           react,
           tailwind,
           bootstrap,
+          gsap,
           php,
           figma,
           git,

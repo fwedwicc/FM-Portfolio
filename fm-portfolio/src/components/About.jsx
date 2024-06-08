@@ -4,6 +4,7 @@ import { AboutData } from '../constants';
 import Badge from '../components/Badge';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { Tooltip } from "flowbite-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -72,7 +73,7 @@ const About = () => {
           start: 'top 60%',
           end: 'bottom 10%',
         },
-        x: 70,
+        x: -70,
         ease: 'none',
         duration: 3,
       }
@@ -84,6 +85,41 @@ const About = () => {
         opacity: 4,
         scrollTrigger: {
           trigger: '.scroll-animation-8',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 80%',
+          end: 'bottom 10%',
+        },
+        ease: 'none',
+        duration: 3,
+      }
+    );
+    // 'HOW'S IT GOING' Title
+    gsap.fromTo('#scroll-animation-9',
+      { opacity: 0.1 }, // from
+      { // to
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-9',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 60%',
+          end: 'bottom 10%',
+        },
+        x: 70,
+        ease: 'none',
+        duration: 3,
+      }
+    );
+    // 'HOW'S IT GOING' Content
+    gsap.fromTo('.scroll-animation-10',
+      { opacity: 0.1 }, // from
+      { // to
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '.scroll-animation-10',
           toggleActions: 'restart pause reverse pause',
           scrub: 1,
           markers: false,
@@ -151,14 +187,16 @@ const HowItStarted = () => {
     <div className='grid grid-cols-8'>
       <div className='lg:col-span-6 lg:col-start-3 col-span-7 p-px rounded-md bg-border-gradient-2'>
         <div className='p-4 bg-base rounded-md space-y-8'>
-          <h1 className='uppercase text-white font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none' id='scroll-animation-7'>
+          <h1 className='uppercase text-white font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none ml-[4rem]' id='scroll-animation-7'>
             How it <span className='text-[#9291DD]'>started</span>?
           </h1>
           {/* Rendered Icons */}
           <div className='flex gap-2.5 lg:gap-4 my-4 scroll-animation-8'>
             {howItStartedData.icons.map((icon, index) => (
               <Badge styles={'lg:p-2 p-1.5'}>
-                <img key={index} src={icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
+                <Tooltip content={icon.tooltip} placement="bottom" className='bg-[#2A2345] mt-3'>
+                  <img key={index} src={icon.icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
+                </Tooltip>
               </Badge>
             ))}
           </div>
@@ -177,11 +215,11 @@ const HowsItGoing = () => {
     <div className='grid grid-cols-8'>
       <div className='lg:col-span-6 col-span-7 p-px rounded-md bg-border-gradient-3'>
         <div className='p-4 bg-base rounded-md space-y-8'>
-          <h1 className='uppercase text-white font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none' id='scroll-animation-'>
+          <h1 className='uppercase text-white font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none' id='scroll-animation-9'>
             How's it <span className='text-[#9291DD]'>going</span>?
           </h1>
           {/* Rendered Icons */}
-          <div className='flex gap-2.5 lg:gap-4 my-4 scroll-animation-'>
+          <div className='flex gap-2.5 lg:gap-4 my-4 scroll-animation-10'>
             {HowsItGoingData.icons.map((icon, index) => (
               <Badge styles={'lg:p-2 p-1.5'}>
                 <img key={index} src={icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
@@ -189,7 +227,7 @@ const HowsItGoing = () => {
             ))}
           </div>
           {/* Rendered content */}
-          <p className='scroll-animation-'>{HowsItGoingData.content}</p>
+          <p className='scroll-animation-10'>{HowsItGoingData.content}</p>
         </div>
       </div>
     </div>

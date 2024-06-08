@@ -12,6 +12,7 @@ import javascript from './javascript-icon.svg'
 import react from './react-icon.svg'
 import tailwind from './tailwind-icon.svg'
 import bootstrap from './bootstrap-icon.svg'
+import gsap from './gsap-icon.svg'
 import php from './php-icon.svg'
 import figma from './figma-icon.svg'
 import git from './git-icon.svg'
@@ -32,6 +33,7 @@ export {
   react,
   tailwind,
   bootstrap,
+  gsap,
   php,
   figma,
   npm,
