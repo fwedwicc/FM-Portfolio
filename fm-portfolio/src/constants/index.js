@@ -102,17 +102,50 @@ export const AboutData = [
     howsItGoing: [
       {
         icons: [
-          html,
-          css,
-          javascript,
-          react,
-          tailwind,
-          bootstrap,
-          gsap,
-          php,
-          figma,
-          git,
-          npm
+          {
+            icon: html,
+            tooltip: "HyperText Markup Language"
+          },
+          {
+            icon: css,
+            tooltip: "Cascading Style Sheet"
+          },
+          {
+            icon: javascript,
+            tooltip: "JavaScript"
+          },
+          {
+            icon: react,
+            tooltip: "React JS"
+          },
+          {
+            icon: tailwind,
+            tooltip: "Tailwind CSS"
+          },
+          {
+            icon: bootstrap,
+            tooltip: "Bootstrap"
+          },
+          {
+            icon: gsap,
+            tooltip: "GSAP"
+          },
+          {
+            icon: php,
+            tooltip: "Hypertext Preprocessor"
+          },
+          {
+            icon: figma,
+            tooltip: "Figma"
+          },
+          {
+            icon: git,
+            tooltip: "Git"
+          },
+          {
+            icon: npm,
+            tooltip: "NPM"
+          },
         ],
         content: "SIt began Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla eligendi sapiente est recusandae, voluptates, officia iusto quaerat molestiae maiores dolores praesentium ab quas maxime nam molestias? Consequuntur, asperiores dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita soluta unde libero consequuntur eos numquam praesentium officia ratione ea, alias tempora fuga cupiditate eveniet a, ipsam consectetur maxime iure!"
       }

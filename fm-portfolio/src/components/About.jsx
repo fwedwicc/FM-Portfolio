@@ -219,10 +219,12 @@ const HowsItGoing = () => {
             How's it <span className='text-[#9291DD]'>going</span>?
           </h1>
           {/* Rendered Icons */}
-          <div className='flex gap-2.5 lg:gap-4 my-4 scroll-animation-10'>
+          <div className='flex flex-wrap gap-2.5 lg:gap-4 my-4 scroll-animation-10'>
             {HowsItGoingData.icons.map((icon, index) => (
               <Badge styles={'lg:p-2 p-1.5'}>
-                <img key={index} src={icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
+                <Tooltip content={icon.tooltip} placement="bottom" className='bg-[#2A2345] mt-3'>
+                  <img key={index} src={icon.icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
+                </Tooltip>
               </Badge>
             ))}
           </div>
