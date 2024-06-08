@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { glow02 } from '../assets';
+import { glow02, profile } from '../assets';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -63,8 +63,8 @@ const About = () => {
   }, []);
 
   const RoleBadge = ({ svgPath, role }) => (
-    <span className='bg-[#1C182D] text-[#C1B1FF] rounded-[0.4rem] py-2 px-4 border border-[#40317A] inline-flex items-center justify-center gap-2.5'>
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+    <span className='bg-[#1C182D] text-[#C1B1FF] rounded-sm lg:rounded-[0.4rem] lg:py-2 lg:px-4 py-1 px-2 border border-[#40317A] inline-flex items-center flex-wrap gap-2.5 text-[12px] lg:text-[16px]'>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="lg:size-5 size-3">
         <path strokeLinecap="round" strokeLinejoin="round" d={svgPath} />
       </svg>
       {role}
@@ -76,10 +76,10 @@ const About = () => {
       <img src={glow02} alt="Glow eclipse" className='absolute top-[100vh] inset-0' id='scroll-animation-5' />
       <div className='lg:pl-[13.5rem] pl-[2rem] lg:p-6 p-4 flex'>
         <div className='grid grid-cols-8'>
-          <div className='col-span-5 p-px rounded-md bg-border-gradient-1'>
+          <div className='lg:col-span-5 col-span-7 p-px rounded-md bg-border-gradient-1'>
             <div className='p-4 bg-base rounded-md'>
-              <h1 className='uppercase text-white font-black text-[2.5rem] lg:text-[9rem] whitespace-nowrap leading-none
-              ml-[3rem]' id='scroll-animation-4'>Who am i?</h1>
+              <h1 className='uppercase text-white font-black text-[3rem] lg:text-[9rem] whitespace-nowrap leading-none
+              ml-[3rem]' id='scroll-animation-4'>Who am <span className='text-[#9291DD]'>i</span>?</h1>
               <div className='my-7 space-y-3 scroll-animation-6'>
                 <p>
                   I am
@@ -107,9 +107,6 @@ const About = () => {
             </div>
           </div>
           {/* Image Container in right side */}
-          <div className='cols-start-5 col-span-3'>
-
-          </div>
         </div>
       </div>
     </>
