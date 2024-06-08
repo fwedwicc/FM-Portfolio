@@ -53,7 +53,7 @@ export default function App() {
       <main ref={(el) => (sectionsRef.current[0] = el)} className='h-screen bg-grid bg-contain bg-center bg-no-repeat' id='home'>
         <Hero />
       </main>
-      <section ref={(el) => (sectionsRef.current[1] = el)} className='h-[130vh]' id='about'>
+      <section ref={(el) => (sectionsRef.current[1] = el)} className='h-[130vh] bg-grid bg-contain bg-center bg-no-repeat bg-opacity-40' id='about'>
         <About />
       </section>
     </>

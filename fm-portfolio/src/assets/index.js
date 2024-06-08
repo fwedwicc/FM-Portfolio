@@ -7,6 +7,9 @@ import glow02 from './glow-02.png'
 import grid from './grid.png'
 import FMlogo from './FM-logo.png'
 import profile from './sample-profile.png'
+import html from './html-icon.svg'
+import css from './css-icon.svg'
+import javascript from './javascript-icon.svg'
 
 export {
   github,
@@ -18,4 +21,7 @@ export {
   grid,
   FMlogo,
   profile,
+  html,
+  css,
+  javascript
 }

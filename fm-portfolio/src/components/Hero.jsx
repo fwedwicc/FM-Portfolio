@@ -51,7 +51,7 @@ const Hero = () => {
         start: 'top -10%',
         end: 'bottom 10%',
       },
-      y: 240,
+      x: -240,
       opacity: 0,
       ease: 'none',
       duration: 3,
