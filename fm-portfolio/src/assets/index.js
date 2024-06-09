@@ -17,6 +17,7 @@ import php from './php-icon.svg'
 import figma from './figma-icon.svg'
 import git from './git-icon.svg'
 import npm from './npm-icon.svg'
+import bcp from './BCP-logo.svg'
 
 export {
   github,
@@ -38,4 +39,5 @@ export {
   figma,
   npm,
   git,
+  bcp,
 }
