@@ -130,7 +130,6 @@ const About = () => {
       }
     );
 
-
   }, []);
 
   return (
@@ -236,5 +235,6 @@ const HowsItGoing = () => {
     </div>
   )
 }
+
 
 export default About

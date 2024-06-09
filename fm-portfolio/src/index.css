@@ -37,7 +37,7 @@
 @layer components {
   /* ------- Navigation Styles ------- */
   .nav-link {
-    @apply items-center cursor-pointer flex w-32 lg:text-[16px] text-[12px];
+    @apply items-center cursor-pointer flex w-[9rem] lg:text-[16px] text-[12px];
     &:hover {
       @apply gap-3;
     }
@@ -51,7 +51,7 @@
     @apply w-20;
   }
   .active-nav-link {
-    @apply items-center cursor-pointer flex w-32 font-bold gap-3;
+    @apply items-center cursor-pointer flex w-[9rem] font-bold gap-3;
   }
   .active-nav-link:before {
     @apply bg-white inline-block h-px w-20;

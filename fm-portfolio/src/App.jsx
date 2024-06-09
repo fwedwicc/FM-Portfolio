@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { Sidebar, Hero, About } from './components'
+import { Sidebar, Hero, About, Education } from './components'
 import Lenis from 'lenis'
 
 export default function App() {
@@ -53,8 +53,11 @@ export default function App() {
       <main ref={(el) => (sectionsRef.current[0] = el)} className='h-screen bg-grid-1 bg-contain bg-center bg-no-repeat' id='home'>
         <Hero />
       </main>
-      <section ref={(el) => (sectionsRef.current[1] = el)} className='h-[200vh] bg-grid-1 bg-contain bg-center bg-no-repeat' id='about'>
+      <section ref={(el) => (sectionsRef.current[1] = el)} className='h-[170vh] bg-grid-1 bg-contain bg-center bg-no-repeat' id='about'>
         <About />
+      </section>
+      <section ref={(el) => (sectionsRef.current[2] = el)} className='h-[100vh] bg-grid-1 bg-contain bg-center bg-no-repeat' id='education'>
+        <Education />
       </section>
     </>
   )
