@@ -4,7 +4,6 @@ import { AboutData } from '../constants';
 import Badge from '../components/Badge';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Tooltip } from "flowbite-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -193,10 +192,11 @@ const HowItStarted = () => {
           {/* Rendered Icons */}
           <div className='flex gap-2.5 lg:gap-4 my-4 scroll-animation-8'>
             {howItStartedData.icons.map((icon, index) => (
-              <Badge styles={'lg:p-2 p-1.5'}>
-                <Tooltip content={icon.tooltip} placement="bottom" className='bg-[#2A2345] mt-3'>
-                  <img key={index} src={icon.icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
-                </Tooltip>
+              <Badge styles={'lg:p-2 p-1.5 relative group'}>
+                <img key={index} src={icon.icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
+                <div className='absolute lg:text-[16px] text-[10px] bg-[#2A2345] text-white lg:px-2 px-1.5 lg:py-1.5 py-1 rounded-md z-10 opacity-0 group-hover:opacity-100 text-nowrap transition-opacity duration-300 ease-in-out' style={{ top: '120%', left: '50%', transform: 'translateX(-50%)' }}>
+                  {icon.tooltip}
+                </div>
               </Badge>
             ))}
           </div>
@@ -222,9 +222,9 @@ const HowsItGoing = () => {
           <div className='flex flex-wrap gap-2.5 lg:gap-4 my-4 scroll-animation-10'>
             {HowsItGoingData.icons.map((icon, index) => (
               <Badge styles={'lg:p-2 p-1.5'}>
-                <Tooltip content={icon.tooltip} placement="bottom" className='bg-[#2A2345] mt-3'>
-                  <img key={index} src={icon.icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
-                </Tooltip>
+
+                <img key={index} src={icon.icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
+
               </Badge>
             ))}
           </div>
