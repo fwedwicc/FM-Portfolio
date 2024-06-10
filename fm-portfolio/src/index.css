@@ -26,10 +26,10 @@
     @apply w-[9px];
   }
   body::-webkit-scrollbar-track {
-    @apply bg-base rounded-[10px];
+    @apply bg-transparent rounded-[10px];
   }
   body::-webkit-scrollbar-thumb {
-    @apply bg-[#191420] rounded-[10px] border-[#342e3f] border-solid border;
+    @apply bg-transparent rounded-[10px] border-[#342e3f] border-solid border;
   }
   /* ------- //Custom Scrollbar ------- */
 }

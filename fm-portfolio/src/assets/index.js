@@ -4,6 +4,7 @@ import facebook from './facebook.svg'
 import linkedin from './linkedin.svg'
 import glow01 from './glow-01.png'
 import glow02 from './glow-02.png'
+import glow03 from './glow-03.png'
 import FMlogo from './FM-logo.png'
 import profile from './sample-profile.png'
 import html from './html-icon.svg'
@@ -27,6 +28,7 @@ export {
   linkedin,
   glow01,
   glow02,
+  glow03,
   FMlogo,
   profile,
   html,
