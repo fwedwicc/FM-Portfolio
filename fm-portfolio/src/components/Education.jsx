@@ -1,11 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { AboutData } from '../constants';
 import { glow03 } from '../assets';
 import Badge from './Badge';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(ScrollTrigger);
+import useGsapAnimations from '../hooks/useGsapAnimations';
 
 // Destructure the specific education data, because i have different styles in each
 const { education } = AboutData[0];
@@ -14,65 +11,7 @@ const bcpTertiary = education.find(ed => ed.title === 'BCP' && ed.level === 'Ter
 const qcuTertiary = education.find(ed => ed.title === 'QCU');
 
 const Education = () => {
-  useEffect(() => {
-    // 'EDUCATION' Title
-    gsap.fromTo('#scroll-animation-11',
-      { opacity: 0.1 }, // from
-      { // to
-        opacity: 4,
-        scrollTrigger: {
-          trigger: '#scroll-animation-11',
-          toggleActions: 'restart pause reverse pause',
-          scrub: 1,
-          markers: false,
-          start: 'top 90%',
-          end: 'bottom 70%',
-        },
-        y: 40,
-        ease: 'none',
-        duration: 3,
-      }
-    );
-    // 'EDUCATION' Content
-    gsap.fromTo('.scroll-animation-12',
-      { opacity: 0.1 }, // from
-      { // to
-        opacity: 4,
-        scrollTrigger: {
-          trigger: '.scroll-animation-12',
-          toggleActions: 'restart pause reverse pause',
-          scrub: 1,
-          markers: false,
-          start: 'top 80%',
-          end: 'bottom 10%',
-        },
-        y: -50,
-        ease: 'none',
-        duration: 3,
-      }
-    );
-    // Glow Elipse
-    gsap.fromTo('#scroll-animation-13',
-      { opacity: 0.1 }, // from
-      {
-        opacity: 4,
-        scrollTrigger: {
-          trigger: '#scroll-animation-13',
-          toggleActions: 'restart pause reverse pause',
-          scrub: 1,
-          markers: false,
-          start: 'top 100%',
-          end: 'bottom 10%',
-        },
-        y: -240,
-        ease: 'none',
-        duration: 3,
-      }
-    );
-
-
-    
-  }, []);
+  useGsapAnimations();
   return (
     <>
       <img src={glow03} alt="Glow eclipse" className='absolute right-0 top-[200vh]' id='scroll-animation-13' />

@@ -1,64 +1,11 @@
-import React, { useEffect } from 'react';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React from 'react';
 import { glow01 } from '../assets'
 import Button from '../components/Button'
-
-gsap.registerPlugin(ScrollTrigger);
+import useGsapAnimations from '../hooks/useGsapAnimations';
 
 const Hero = () => {
-  useEffect(() => {
-    // GSAP Scroll animations
-    // Heading Typography
-    gsap.to('#scroll-animation-1', {
-      scrollTrigger: {
-        trigger: '#scroll-animation-1',
-        toggleActions: 'restart pause reverse pause',
-        scrub: 1,
-        markers: false,
-        start: 'top 60%',
-        end: 'bottom 10%',
-      },
-      y: -100,
-      opacity: 0,
-      ease: 'none',
-      duration: 3,
-    });
-
-    // Roles Text
-    gsap.to('#scroll-animation-2', {
-      scrollTrigger: {
-        trigger: '#scroll-animation-2',
-        toggleActions: 'restart pause reverse pause',
-        scrub: 1,
-        markers: false,
-        start: 'top -10%',
-        end: 'bottom 10%',
-      },
-      y: -290,
-      opacity: 0,
-      ease: 'none',
-      duration: 3,
-    });
-
-    // Glow Elipse
-    gsap.to('#scroll-animation-3', {
-      scrollTrigger: {
-        trigger: '#scroll-animation-3',
-        toggleActions: 'restart pause reverse pause',
-        scrub: 1,
-        markers: false,
-        start: 'top -10%',
-        end: 'bottom 10%',
-      },
-      x: -240,
-      opacity: 0,
-      ease: 'none',
-      duration: 3,
-    });
-
-  }, []);
-
+  // GSAP Custom Hook
+  useGsapAnimations();
   return (
     <>
       <img src={glow01} alt="Glow eclipse" className='absolute inset-0' id='scroll-animation-3' />
