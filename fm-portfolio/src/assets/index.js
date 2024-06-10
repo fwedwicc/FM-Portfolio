@@ -18,6 +18,7 @@ import figma from './figma-icon.svg'
 import git from './git-icon.svg'
 import npm from './npm-icon.svg'
 import bcp from './BCP-logo.svg'
+import qcu from './QCU-logo.svg'
 
 export {
   github,
@@ -40,4 +41,5 @@ export {
   npm,
   git,
   bcp,
+  qcu,
 }

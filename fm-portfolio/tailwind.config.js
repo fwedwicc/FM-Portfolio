@@ -12,6 +12,7 @@ export default {
         'border-gradient-1': 'linear-gradient(35deg, rgba(67,59,98,1) 9%, rgba(21,19,28,1) 33%)',
         'border-gradient-2': 'linear-gradient(120deg, rgba(67,59,98,1) 9%, rgba(21,19,28,1) 33%)',
         'border-gradient-3': 'linear-gradient(170deg, rgba(67,59,98,1) 9%, rgba(21,19,28,1) 33%)',
+        'border-gradient-4': 'linear-gradient(-150deg, rgba(67,59,98,1) 9%, rgba(21,19,28,1) 33%)',
       },
       colors: {
         base: "#15131C",

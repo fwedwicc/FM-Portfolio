@@ -56,7 +56,7 @@ export default function App() {
       <section ref={(el) => (sectionsRef.current[1] = el)} className='bg-grid-1 bg-contain bg-center bg-no-repeat' id='about'>
         <About />
       </section>
-      <section ref={(el) => (sectionsRef.current[2] = el)} className='h-screen bg-grid-1 bg-contain bg-center bg-no-repeat' id='about'>
+      <section ref={(el) => (sectionsRef.current[2] = el)} className='bg-grid-1 bg-contain bg-center bg-no-repeat' id='about'>
         <Education />
       </section>
     </>
