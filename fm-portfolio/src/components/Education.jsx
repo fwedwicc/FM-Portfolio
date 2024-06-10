@@ -14,12 +14,12 @@ const Education = () => {
   useGsapAnimations();
   return (
     <>
-      <img src={glow03} alt="Glow eclipse" className='absolute right-0 top-[200vh]' id='scroll-animation-13' />
-      <div className='lg:p-6 p-4 flex flex-col gap-[5rem]'>
+      <img src={glow03} alt="Glow eclipse" className='absolute right-0 top-[180vh]' id='scroll-animation-13' />
+      <div className='lg:p-6 p-4 flex flex-col gap-[2rem]'>
         <div className='flex justify-center items-center'>
           <div className=' p-px rounded-md bg-border-gradient-4'>
-            <div className='p-4 bg-base rounded-md mb-8 lg:px-12'>
-              <h1 className='uppercase text-white font-black text-[3rem] lg:text-[8rem] whitespace-nowrap leading-none mt-[1rem] lg:mt-10 text-center' id='scroll-animation-11'>Education</h1>
+            <div className='p-4 bg-base rounded-md lg:px-12'>
+              <h1 className='uppercase text-white font-black text-[3rem] lg:text-[7rem] whitespace-nowrap leading-none text-center' id='scroll-animation-11'>Education</h1>
               <BcpEducation />
               <QcuEducation />
             </div>
@@ -32,7 +32,7 @@ const Education = () => {
 
 const BcpEducation = () => {
   return (
-    <div className='flex lg:gap-12 gap-7 lg:mt-[9rem] mt-[7rem] pl-6 scroll-animation-12'>
+    <div className='flex lg:gap-12 gap-7 lg:mt-[8rem] mt-[7rem] pl-6 scroll-animation-12'>
       <img src={bcpSeniorHigh.logo} alt="BCP Logo" className='w-auto h-[5rem] lg:h-[14rem]' />
 
       <div className='lg:space-y-4 space-y-3'>
@@ -52,7 +52,7 @@ const BcpEducation = () => {
 
 const QcuEducation = () => {
   return (
-    <div className='flex lg:gap-12 gap-7 lg:mt-[5rem] mt-[3rem] pl-6 scroll-animation-12'>
+    <div className='flex lg:gap-12 gap-7 lg:mt-[3rem] mt-[3rem] pl-6 scroll-animation-12'>
       <img src={qcuTertiary.logo} alt="QCU Logo" className='w-auto h-[4rem] lg:h-[12rem]' />
 
       <div className='lg:space-y-4 space-y-3'>

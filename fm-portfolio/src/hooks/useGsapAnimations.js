@@ -78,19 +78,23 @@ const useGsapAnimations = () => {
 
     // ------------------ ABOUT ------------------
     // Glow Elipse
-    gsap.to('#scroll-animation-5', {
-      scrollTrigger: {
-        trigger: '#scroll-animation-5',
-        toggleActions: 'restart pause reverse pause',
-        scrub: 1,
-        markers: false,
-        start: 'top 100%',
-        end: 'bottom 10%',
-      },
-      y: -240,
-      ease: 'none',
-      duration: 3,
-    });
+    gsap.fromTo('#scroll-animation-5',
+      { opacity: 0 }, // from
+      { // to
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-5',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 50%',
+          end: 'bottom 10%',
+        },
+        y: -240,
+        ease: 'none',
+        duration: 3,
+      }
+    );
     // 'WHO AM I' Content
     gsap.fromTo('.scroll-animation-6',
       { opacity: 0.1 }, // from
@@ -219,7 +223,7 @@ const useGsapAnimations = () => {
     );
     // Glow Elipse
     gsap.fromTo('#scroll-animation-13',
-      { opacity: 0.1 }, // from
+      { opacity: 0.3 }, // from
       {
         opacity: 4,
         scrollTrigger: {
@@ -227,10 +231,10 @@ const useGsapAnimations = () => {
           toggleActions: 'restart pause reverse pause',
           scrub: 1,
           markers: false,
-          start: 'top 100%',
+          start: 'top -20%',
           end: 'bottom 10%',
         },
-        y: -240,
+        y: 240,
         ease: 'none',
         duration: 3,
       }

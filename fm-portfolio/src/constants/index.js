@@ -28,12 +28,16 @@ export const navLinks = [
     title: 'ABOUT',
   },
   {
+    id: 'education',
+    title: 'EDUCATION',
+  },
+  {
     id: 'projects',
     title: 'PROJECTS',
   },
   {
     id: 'experience',
-    title: 'EXPERIENCE',
+    title: 'QUALIFICATION',
   },
   {
     id: 'contact',
