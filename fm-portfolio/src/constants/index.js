@@ -13,7 +13,9 @@ import {
   php, 
   figma, 
   git,
-  npm, 
+  npm,
+  bcp,
+  qcu, 
 } from '../assets';
 
 export const navLinks = [
@@ -148,6 +150,28 @@ export const AboutData = [
           },
         ],
         content: "SIt began Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla eligendi sapiente est recusandae, voluptates, officia iusto quaerat molestiae maiores dolores praesentium ab quas maxime nam molestias? Consequuntur, asperiores dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita soluta unde libero consequuntur eos numquam praesentium officia ratione ea, alias tempora fuga cupiditate eveniet a, ipsam consectetur maxime iure!"
+      }
+    ],
+    education: [
+      {
+        logo: bcp,
+        title: 'BCP',
+        name: 'Bestlink College of the Philippines',
+        level: 'Senior High School (2019 - 2021)',
+        course: 'Information and Communication Technology'
+      },
+      {
+        title: 'BCP',
+        name: 'Bestlink College of the Philippines',
+        level: 'Tertiary - 1st Year College (2022)',
+        course: 'Bachelor of Science in Information Technology'
+      },
+      {
+        logo: qcu,
+        title: 'QCU',
+        name: 'Quezon City University',
+        level: 'Tertiary (2022 - Present)',
+        course: 'Bachelor of Science in Information Technology'
       }
     ]
   }
