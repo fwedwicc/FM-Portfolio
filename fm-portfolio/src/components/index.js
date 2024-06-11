@@ -2,6 +2,7 @@ import Sidebar from './Sidebar'
 import Hero from './Hero'
 import About from './About'
 import Education from './Education'
+import Expertise from './Expertise'
 import Project from './Project'
 
 export {
@@ -9,5 +10,6 @@ export {
   Hero,
   About,
   Education,
+  Expertise,
   Project,
 }

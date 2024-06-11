@@ -1,5 +1,5 @@
 import React from 'react'
-import { Sidebar, Hero, About, Education, Project } from './components'
+import { Sidebar, Hero, About, Education, Expertise, Project } from './components'
 import useLenisScroll from './hooks/useLenisScroll';
 import useActivateLink from './hooks/useActivateLink';
 
@@ -25,8 +25,12 @@ export default function App() {
       <section ref={(el) => (sectionsRef.current[2] = el)} className='bg-grid-1 bg-contain bg-center bg-no-repeat' id='education'>
         <Education />
       </section>
+      {/* Expertise Section */}
+      <section ref={(el) => (sectionsRef.current[3] = el)} className='h-screen border' id='expertise'>
+        <Expertise />
+      </section>
       {/* Project Section */}
-      <section ref={(el) => (sectionsRef.current[3] = el)} className=' h-screen' id='projects'>
+      <section ref={(el) => (sectionsRef.current[4] = el)} className=' h-screen' id='projects'>
         <Project />
       </section>
     </>

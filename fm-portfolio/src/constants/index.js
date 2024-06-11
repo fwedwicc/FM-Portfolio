@@ -32,12 +32,12 @@ export const navLinks = [
     title: 'EDUCATION',
   },
   {
-    id: 'projects',
-    title: 'PROJECTS',
+    id: 'expertise',
+    title: 'EXPERTISE',
   },
   {
-    id: 'experience',
-    title: 'QUALIFICATION',
+    id: 'projects',
+    title: 'PROJECTS',
   },
   {
     id: 'contact',
