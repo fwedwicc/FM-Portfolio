@@ -241,6 +241,62 @@ const useGsapAnimations = () => {
     );
     // ------------------ //EDUCATION ------------------
 
+    // ------------------ PROJECT ------------------
+    // Glow Elipse
+    gsap.fromTo('#scroll-animation-14',
+      { opacity: 0 }, // from
+      {
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-14',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 40%',
+          end: 'bottom 20%',
+        },
+        ease: 'none',
+        duration: 3,
+      }
+    );
+    // 'PROJECTS' Title
+    gsap.fromTo('#scroll-animation-15',
+      { opacity: 0.1 }, // from
+      { // to
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-15',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 80%',
+          end: 'bottom 50%',
+        },
+        x: -70,
+        ease: 'none',
+        duration: 3,
+      }
+    );
+    // 'PROJECTS' Content
+    gsap.fromTo('.scroll-animation-16',
+      { opacity: 0.1 }, // from
+      { // to
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '.scroll-animation-16',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 80%',
+          end: 'bottom 10%',
+        },
+        ease: 'none',
+        duration: 3,
+      }
+    );
+    // ------------------ //PROJECT ------------------
+
+
   }, []);
 }
 

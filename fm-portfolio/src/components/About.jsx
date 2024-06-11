@@ -37,7 +37,7 @@ const WhoAmI = () => {
             {/* Rendered roles badges */}
             <div className='space-x-3 flex justify-start items-center'>
               {whoAmIData.badge.map((badge, index) => (
-                <Badge key={index} text={badge.title} styles={'lg:py-2 lg:px-4 py-1 px-2 inline-flex items-center flex-wrap gap-2.5 text-[12px] lg:text-[16px]'}>
+                <Badge key={index} text={badge.title} styles={'lg:py-2 lg:px-4 py-1 px-2 inline-flex items-center text-nowrap gap-2.5 text-[12px] lg:text-[16px]'}>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="lg:size-5 size-3">
                     <path strokeLinecap="round" strokeLinejoin="round" d={badge.svgPath} />
                   </svg>

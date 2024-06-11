@@ -2,34 +2,35 @@ import React from 'react'
 import Badge from './Badge'
 import { ProjectData } from '../constants'
 import Button from './Button'
+import { compiledProjects } from '../assets'
 
 const Project = () => {
   const project = ProjectData[0];
 
   return (
     <>
+    <img src={compiledProjects} alt="Compiled Projects" className='w-full h-full object-cover object-center absolute' id='scroll-animation-14' />
       <div className='lg:pl-[13.5rem] pl-[2rem] flex h-full'>
         <div className='flex h-full items-center'>
           <div className='grid grid-cols-8'>
-            <div className='lg:col-span-4 col-span-7 p-px space-y-[1.5rem] z-10'>
-              <h1 className='uppercase text-white font-black text-[3rem] lg:text-[7rem] whitespace-nowrap leading-none' id='scroll-animation-'>{project.title}</h1>
+            <div className='lg:col-span-4 md:col-span-4 col-span-7 p-px space-y-[1.5rem] z-10'>
+              <h1 className='uppercase text-white font-black text-[3rem] lg:text-[7rem] whitespace-nowrap leading-none ml-[4rem]' id='scroll-animation-15'>{project.title}</h1>
               {/* Rendered roles badges */}
-              <div className='space-x-3 flex justify-start items-center flex-nowrap'>
+              <div className='space-x-3 flex justify-start items-center scroll-animation-16'>
                 {project.badge.map((badge, index) => (
-                  <Badge key={index} text={badge.title} styles={'lg:py-2 lg:px-4 py-1 px-2 inline-flex items-center flex-wrap gap-2.5 text-[12px] lg:text-[16px] bg-[#211F4B] border-[#574699]'}>
+                  <Badge key={index} text={badge.title} styles={'lg:py-2 lg:px-4 py-1 px-2 inline-flex items-center text-nowrap gap-2.5 text-[12px] lg:text-[16px] bg-[#211F4B] border-[#574699]'}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="lg:size-5 size-3">
                       <path strokeLinecap="round" strokeLinejoin="round" d={badge.svgPath} />
                     </svg>
                   </Badge>
                 ))}
               </div>
-              <p className='text-white'>{project.content}</p>
-              <div className='flex gap-3'>
+              <p className='text-white scroll-animation-16'>{project.content}</p>
+              <div className='flex gap-3 scroll-animation-16'>
                 <Button text={'View all'} styles={'z-10 text-white bg-indigo-600 flex justify-center items-center gap-2'}>
                   <svg className="lg:w-5 w-4 lg:h-5 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19 12H5m14 0-4 4m4-4-4-4" />
                   </svg>
-
                 </Button>
                 <Button text={'View on GitHub'} styles={'z-10 bg-transparent border border-[#373357] text-[#cabef4] flex justify-center items-center gap-4'}>
                   <svg className='lg:w-5 w-4 lg:h-5 h-4' aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">

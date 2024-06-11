@@ -26,7 +26,7 @@ export default function App() {
         <Education />
       </section>
       {/* Project Section */}
-      <section ref={(el) => (sectionsRef.current[3] = el)} className='bg-compiled-proj h-screen bg-cover bg-center bg-no-repeat' id='projects'>
+      <section ref={(el) => (sectionsRef.current[3] = el)} className=' h-screen' id='projects'>
         <Project />
       </section>
     </>
