@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Expertise = () => {
+const Contact = () => {
   return (
     <div className='flex justify-center items-center h-full'>
       <code className='text-[3rem] font-thin text-white'>Wait lang!</code>
@@ -8,4 +8,4 @@ const Expertise = () => {
   )
 }
 
-export default Expertise
+export default Contact

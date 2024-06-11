@@ -4,6 +4,7 @@ import About from './About'
 import Education from './Education'
 import Expertise from './Expertise'
 import Project from './Project'
+import Contact from './Contact'
 
 export {
   Sidebar,
@@ -12,4 +13,5 @@ export {
   Education,
   Expertise,
   Project,
+  Contact
 }
