@@ -1,5 +1,5 @@
 import React from 'react'
-import { Sidebar, Hero, About, Education } from './components'
+import { Sidebar, Hero, About, Education, Project } from './components'
 import useLenisScroll from './hooks/useLenisScroll';
 import useActivateLink from './hooks/useActivateLink';
 
@@ -8,7 +8,7 @@ export default function App() {
   const { sectionsRef, activeSection } = useActivateLink();
   // Custom hook for lenis smooth scroll
   useLenisScroll();
-  
+
   return (
     <>
       {/* Sidebar Component */}
@@ -24,6 +24,9 @@ export default function App() {
       {/* Education Section */}
       <section ref={(el) => (sectionsRef.current[2] = el)} className='bg-grid-1 h-screen bg-contain bg-center bg-no-repeat' id='education'>
         <Education />
+      </section>
+      <section ref={(el) => (sectionsRef.current[3] = el)} className='h-screen' id='projects'>
+        <Project />
       </section>
     </>
   )

@@ -20,6 +20,7 @@ import git from './git-icon.svg'
 import npm from './npm-icon.svg'
 import bcp from './BCP-logo.svg'
 import qcu from './QCU-logo.svg'
+import compiledProjects from './compiled-projects.png'
 
 export {
   github,
@@ -44,4 +45,5 @@ export {
   git,
   bcp,
   qcu,
+  compiledProjects,
 }
