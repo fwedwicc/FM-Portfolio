@@ -297,7 +297,6 @@ const useGsapAnimations = () => {
     // ------------------ //PROJECT ------------------
 
     // ------------------ Sidebar Component ------------------ 
-    // Sidebar (Sample)
     gsap.to('#scroll-animation-17', {
       scrollTrigger: {
         trigger: '#scroll-animation-17',
@@ -320,6 +319,78 @@ const useGsapAnimations = () => {
     });
     // ------------------ //Sidebar Component ------------------ 
 
+    // ------------------ Contact Section & Footer Component ------------------ 
+    // 'GET IN TOUCH' Title
+    gsap.fromTo('#scroll-animation-18',
+      { opacity: 0 }, // from
+      { // to
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-18',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 20%',
+          end: 'bottom 20%',
+        },
+        x: -70,
+        ease: 'none',
+        duration: 3,
+      }
+    );
+    // 'CONTACT' Content
+    gsap.fromTo('.scroll-animation-19',
+      { opacity: 0 }, // from
+      { // to
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '.scroll-animation-19',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 30%',
+          end: 'bottom 30%',
+        },
+        ease: 'none',
+        duration: 3,
+      }
+    );
+    // Glow Elipse
+    gsap.fromTo('#scroll-animation-20',
+      { opacity: 0 }, // from
+      {
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-20',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 30%',
+          end: 'top 20%',
+        },
+        ease: 'none',
+        duration: 3,
+      }
+    );
+    // Footer Component
+    gsap.fromTo('#scroll-animation-21',
+      { opacity: 0 }, // from
+      {
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-21',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 90%',
+          end: 'top 20%',
+        },
+        ease: 'none',
+        duration: 3,
+      }
+    );
+    // ------------------ //Contact Section & Footer Component ------------------ 
+  
   }, []);
 }
 

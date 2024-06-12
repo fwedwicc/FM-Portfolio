@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className='grid grid-cols-4 w-full'>
+    <div className='grid grid-cols-4 w-full' id='scroll-animation-21'>
       <div className="col-span-1 flex justify-start items-end">
         <img src={footer.logo} alt="FM Logo" className='lg:w-[2rem] w-[1.4rem] lg:h-[2rem] h-[1.4rem]' />
       </div>
