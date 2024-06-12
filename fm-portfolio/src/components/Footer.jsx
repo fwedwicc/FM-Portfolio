@@ -8,11 +8,11 @@ const Footer = () => {
   return (
     <div className='grid grid-cols-4 w-full'>
       <div className="col-span-1 flex justify-start items-end">
-        <img src={footer.logo} alt="FM Logo" className='w-[2rem] h-[2rem]' />
+        <img src={footer.logo} alt="FM Logo" className='lg:w-[2rem] w-[1.4rem] lg:h-[2rem] h-[1.4rem]' />
       </div>
       <div className="col-span-1 text-white flex justify-center">
         <div className='space-y-[0.3rem]'>
-          <h1 className='font-medium text-[1.5rem]'>LINKS</h1>
+          <h1 className='font-medium lg:text-[1.5rem] text-[0.9rem]'>LINKS</h1>
           {footer.links.map((link, index) => (
             <li
               key={index}
@@ -20,7 +20,7 @@ const Footer = () => {
             >
               <a
                 href={`#${link.id}`}
-                className='text-sm'
+                className='lg:text-[16px] text-[12px]'
               >{link.title}
               </a>
             </li>
@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
       <div className="col-span-1 text-white space-y-[0.2rem] flex justify-center">
         <div className='space-y-[0.3rem]'>
-          <h1 className='font-medium text-[1.5rem]'>SOCIALS</h1>
+          <h1 className='font-medium lg:text-[1.5rem] text-[0.9rem]'>SOCIALS</h1>
           {footer.socials.map((social, index) => (
             <li
               key={index}
@@ -38,7 +38,7 @@ const Footer = () => {
               <a
                 href={social.link}
                 target='_blank'
-                className='text-sm'
+                className='lg:text-[16px] text-[12px]'
               >
                 {social.name}
               </a>
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="col-span-1 flex justify-end items-end">
-        <h2 className='text-white leading-none'>©{currentYear} Frederick Moreno</h2>
+        <h2 className='text-white leading-none lg:text-[16px] text-[10px] text-nowrap'>©{currentYear} Frederick Moreno</h2>
       </div>
     </div>
   )

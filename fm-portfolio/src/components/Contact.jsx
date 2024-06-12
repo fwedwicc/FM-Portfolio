@@ -16,7 +16,7 @@ const Contact = () => {
               <h1 className='uppercase font-black text-[3rem] lg:text-[9rem] whitespace-nowrap leading-none' id='scroll-animation-'>Get in touch<span className='text-[#9291DD]'>.</span></h1>
             </div>
             <ul className='space-y-1.5 pb-[0.8rem]'>
-              <li className='block text-indigo-400 font-extrabold text-[1.2rem] uppercase'>{contacts.name}</li>
+              <li className='block text-indigo-400 font-extrabold lg:text-[1.2rem] text-[0.9rem] uppercase'>{contacts.name}</li>
               {contacts.contacts.map((contact, index) => (
                 <li key={index} className='flex items-center gap-3'>
                   <img src={contact.icon} alt={contact.alt} className='w-4 h-4' />
