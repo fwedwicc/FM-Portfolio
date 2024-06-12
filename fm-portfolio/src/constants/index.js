@@ -231,22 +231,18 @@ export const FooterData = [
     ],
     socials: [
       {
-        icon: github,
         name: "GITHUB",
         link: "https://www.github.com/fwedwicc",
       },
       {
-        icon: linkedin,
         name: "LINKEDIN",
         link: "https://www.facebook.com/fwedwic",
       },
       {
-        icon: instagram,
         name: "INSTAGRAM",
         link: "https://www.instagram.com/fwedwiccc",
       },
       {
-        icon: facebook,
         name: "FACEBOOK",
         link: "https://www.facebook.com/fwedwic",
       }
