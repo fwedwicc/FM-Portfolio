@@ -36,7 +36,7 @@ export default function App() {
         <Project />
       </section>
       {/* Contact and Footer Section */}
-      <section ref={(el) => (sectionsRef.current[5] = el)} className=' h-screen bg-grid-1 bg-contain bg-center bg-no-repeat' id='contact'>
+      <section ref={(el) => (sectionsRef.current[5] = el)} className='h-screen' id='contact'>
         <Contact />
       </section>
     </>
