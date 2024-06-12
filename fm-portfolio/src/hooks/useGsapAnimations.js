@@ -303,7 +303,7 @@ const useGsapAnimations = () => {
         trigger: '#scroll-animation-17',
         toggleActions: 'restart pause reverse pause',
         scrub: 1,
-        markers: true,
+        markers: false,
         start: 'top -530%',
         end: 'bottom 10%',
       },

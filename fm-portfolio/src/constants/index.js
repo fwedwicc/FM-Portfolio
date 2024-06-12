@@ -15,7 +15,8 @@ import {
   git,
   npm,
   bcp,
-  qcu, 
+  qcu,
+  FMlogo, 
 } from '../assets';
 
 export const navLinks = [
@@ -51,12 +52,12 @@ export const Socials = [
     link: "https://www.github.com/fwedwicc",
   },
   {
-    icon: instagram,
-    link: "https://www.instagram.com/fwedwiccc",
-  },
-  {
     icon: linkedin,
     link: "https://www.facebook.com/fwedwic",
+  },
+  {
+    icon: instagram,
+    link: "https://www.instagram.com/fwedwiccc",
   },
   {
     icon: facebook,
@@ -200,5 +201,55 @@ export const ProjectData = [
       },
     ],
 
+  }
+];
+
+export const FooterData = [
+  {
+    logo: FMlogo,
+    links: [
+      {
+        id: 'home',
+        title: 'HOME',
+      },
+      {
+        id: 'about',
+        title: 'ABOUT',
+      },
+      {
+        id: 'education',
+        title: 'EDUCATION',
+      },
+      {
+        id: 'expertise',
+        title: 'EXPERTISE',
+      },
+      {
+        id: 'projects',
+        title: 'PROJECTS',
+      }
+    ],
+    socials: [
+      {
+        icon: github,
+        name: "GITHUB",
+        link: "https://www.github.com/fwedwicc",
+      },
+      {
+        icon: linkedin,
+        name: "LINKEDIN",
+        link: "https://www.facebook.com/fwedwic",
+      },
+      {
+        icon: instagram,
+        name: "INSTAGRAM",
+        link: "https://www.instagram.com/fwedwiccc",
+      },
+      {
+        icon: facebook,
+        name: "FACEBOOK",
+        link: "https://www.facebook.com/fwedwic",
+      }
+    ]
   }
 ]
