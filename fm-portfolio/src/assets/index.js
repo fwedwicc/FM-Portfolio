@@ -6,6 +6,7 @@ import glow01 from './glow-01.png'
 import glow02 from './glow-02.png'
 import glow03 from './glow-03.png'
 import glow04 from './glow-04.png'
+import glow05 from './glow-05.png'
 import FMlogo from './FM-logo.png'
 import profile from './sample-profile.png'
 import html from './html-icon.svg'
@@ -32,6 +33,7 @@ export {
   glow02,
   glow03,
   glow04,
+  glow05,
   FMlogo,
   profile,
   html,
