@@ -17,6 +17,9 @@ import {
   bcp,
   qcu,
   FMlogo, 
+  mail,
+  phone,
+  location,
 } from '../assets';
 
 export const navLinks = [
@@ -203,6 +206,29 @@ export const ProjectData = [
 
   }
 ];
+
+export const ContactData = [
+  {
+    name: "Frederick Moreno",
+    contacts: [
+      {
+        icon: mail,
+        alt: "mail",
+        name: "moreno.frederick.capiral@gmail.com"
+      },
+      {
+        icon: phone,
+        alt: "phone",
+        name: "+63 951 432 6912"
+      },
+      {
+        icon: location,
+        alt: "location",
+        name: "Caloocan City"
+      }
+    ]
+  }
+]
 
 export const FooterData = [
   {

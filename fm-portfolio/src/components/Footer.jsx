@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className='grid grid-cols-4 w-full'>
       <div className="col-span-1 flex justify-start items-end">
-        <img src={footer.logo} alt="FM Logo" />
+        <img src={footer.logo} alt="FM Logo" className='w-[2rem] h-[2rem]' />
       </div>
       <div className="col-span-1 text-white flex justify-center">
         <div className='space-y-[0.3rem]'>

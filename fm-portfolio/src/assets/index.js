@@ -23,6 +23,9 @@ import npm from './npm-icon.svg'
 import bcp from './BCP-logo.svg'
 import qcu from './QCU-logo.svg'
 import compiledProjects from './compiled-projects.png'
+import mail from './mail.svg'
+import phone from './contact.svg'
+import location from './location.svg'
 
 export {
   github,
@@ -50,4 +53,7 @@ export {
   bcp,
   qcu,
   compiledProjects,
+  mail,
+  phone,
+  location,
 }
