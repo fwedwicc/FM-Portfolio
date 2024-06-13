@@ -23,7 +23,7 @@ const Hero = () => {
                 <p className='text-white'>Hello World! I am <span className='font-semibold text-indigo-400'>FREDERICK MORENO</span>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
               <div className='flex lg:justify-end lg:items-start space-x-4'>
-                <Button text={'Download CV'} styles={''}>
+                <Button text={'Download CV'} styles={'hover:bg-[#100E16]'}>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                   </svg>
