@@ -56,11 +56,11 @@ export const Socials = [
   },
   {
     icon: linkedin,
-    link: "https://www.facebook.com/fwedwic",
+    link: "https://www.linkedin.com/in/frederick-moreno/",
   },
   {
     icon: instagram,
-    link: "https://www.instagram.com/fwedwiccc",
+    link: "https://www.instagram.com/freefinnn",
   },
   {
     icon: facebook,
