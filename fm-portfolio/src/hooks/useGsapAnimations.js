@@ -303,7 +303,7 @@ const useGsapAnimations = () => {
         toggleActions: 'restart pause reverse pause',
         scrub: 1,
         markers: false,
-        start: 'top -530%',
+        start: 'top -500%',
         end: 'bottom 10%',
       },
       opacity: 0,

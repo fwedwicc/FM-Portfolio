@@ -2,9 +2,10 @@ import React from 'react';
 import { glow01 } from '../assets'
 import Button from '../components/Button'
 import useGsapAnimations from '../hooks/useGsapAnimations';
-import { ContactData } from '../constants';
+import { HeroData, ContactData } from '../constants';
 
 const Hero = () => {
+  const heroData = HeroData[0];
   const contacts = ContactData[0];
   // GSAP Custom Hook
   useGsapAnimations();
@@ -13,8 +14,9 @@ const Hero = () => {
       <img src={glow01} alt="Glow eclipse" className='absolute inset-0' id='scroll-animation-3' />
       <div className='lg:pl-[11rem] pl-[1rem] h-full lg:p-6 p-4 flex'>
         <div className='w-[25rem] flex flex-col justify-end lg:items-end items-start pr-4 uppercase' id='scroll-animation-2'>
-          <h4 className="text-white">Front-end</h4>
-          <h4 className="text-white">UI/UX</h4>
+          {heroData.role.map((role, index) => (
+            <h4 key={index} className="text-white">{role}</h4>
+          ))}
         </div>
         {/* Right Container */}
         <div className='rounded-md rounded-tr-[2.5rem] h-full p-[1px] bg-border-gradient'>
@@ -22,7 +24,9 @@ const Hero = () => {
             {/* Top side */}
             <div className='grid lg:grid-cols-2 grid-cols-1 lg:space-y-0 space-y-4'>
               <div>
-                <p className='text-white'>Hello World! I am <span className='font-semibold text-indigo-400'>FREDERICK MORENO</span>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p className='text-white'>Hello World! I am <span className='font-semibold text-indigo-400'>{heroData.name}</span>,  
+                {heroData.content}
+                </p>
               </div>
               <div className='flex lg:justify-end lg:items-start space-x-4'>
                 <Button text={'Download CV'} styles={'hover:bg-[#100E16]'}>
