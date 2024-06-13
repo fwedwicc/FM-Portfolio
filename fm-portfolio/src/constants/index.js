@@ -15,8 +15,7 @@ import {
   git,
   npm,
   bcp,
-  qcu,
-  FMlogo, 
+  qcu, 
   mail,
   phone,
   location,
@@ -52,18 +51,22 @@ export const navLinks = [
 export const Socials = [
   {
     icon: github,
+    name: "GITHUB",
     link: "https://www.github.com/fwedwicc",
   },
   {
     icon: linkedin,
+    name: "LINKEDIN",
     link: "https://www.linkedin.com/in/frederick-moreno/",
   },
   {
     icon: instagram,
+    name: "INSTAGRAM",
     link: "https://www.instagram.com/freefinnn",
   },
   {
     icon: facebook,
+    name: "FACEBOOK",
     link: "https://www.facebook.com/fwedwic",
   }
 ];
@@ -225,52 +228,6 @@ export const ContactData = [
         icon: location,
         alt: "location",
         name: "Caloocan City"
-      }
-    ]
-  }
-]
-
-export const FooterData = [
-  {
-    logo: FMlogo,
-    links: [
-      {
-        id: 'home',
-        title: 'HOME',
-      },
-      {
-        id: 'about',
-        title: 'ABOUT',
-      },
-      {
-        id: 'education',
-        title: 'EDUCATION',
-      },
-      {
-        id: 'expertise',
-        title: 'EXPERTISE',
-      },
-      {
-        id: 'projects',
-        title: 'PROJECTS',
-      }
-    ],
-    socials: [
-      {
-        name: "GITHUB",
-        link: "https://www.github.com/fwedwicc",
-      },
-      {
-        name: "LINKEDIN",
-        link: "https://www.facebook.com/fwedwic",
-      },
-      {
-        name: "INSTAGRAM",
-        link: "https://www.instagram.com/fwedwiccc",
-      },
-      {
-        name: "FACEBOOK",
-        link: "https://www.facebook.com/fwedwic",
       }
     ]
   }

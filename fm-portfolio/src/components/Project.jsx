@@ -1,7 +1,6 @@
 import React from 'react'
 import Badge from './Badge'
-import { ProjectData } from '../constants'
-import { Socials } from '../constants'
+import { ProjectData, Socials } from '../constants'
 import Button from './Button'
 import { compiledProjects } from '../assets'
 
