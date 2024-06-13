@@ -297,26 +297,26 @@ const useGsapAnimations = () => {
     // ------------------ //PROJECT ------------------
 
     // ------------------ Sidebar Component ------------------ 
-    gsap.to('#scroll-animation-17', {
-      scrollTrigger: {
-        trigger: '#scroll-animation-17',
-        toggleActions: 'restart pause reverse pause',
-        scrub: 1,
-        markers: false,
-        start: 'top -500%',
-        end: 'bottom 10%',
-      },
-      opacity: 0,
-      ease: 'none',
-      duration: 3,
-      onComplete: function() {
-        gsap.set('#scroll-animation-17', { display: 'none' });
-      },
-      onReverseComplete: function() {
-        gsap.set('#scroll-animation-17', { display: 'block' });
-        gsap.to('#scroll-animation-17', { opacity: 1, duration: 0 });
-      }
-    });
+    // gsap.to('#scroll-animation-17', {
+    //   scrollTrigger: {
+    //     trigger: '#scroll-animation-17',
+    //     toggleActions: 'restart pause reverse pause',
+    //     scrub: 1,
+    //     markers: false,
+    //     start: 'top -500%',
+    //     end: 'bottom 10%',
+    //   },
+    //   opacity: 0,
+    //   ease: 'none',
+    //   duration: 3,
+    //   onComplete: function() {
+    //     gsap.set('#scroll-animation-17', { display: 'none' });
+    //   },
+    //   onReverseComplete: function() {
+    //     gsap.set('#scroll-animation-17', { display: 'block' });
+    //     gsap.to('#scroll-animation-17', { opacity: 1, duration: 0 });
+    //   }
+    // });
     // ------------------ //Sidebar Component ------------------ 
 
     // ------------------ Contact Section & Footer Component ------------------ 

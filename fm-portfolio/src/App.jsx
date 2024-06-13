@@ -1,10 +1,10 @@
-import React from 'react'
-import { Sidebar, Hero, About, Education, Expertise, Project, Contact } from './components'
+import React from 'react';
+import { Sidebar, Hero, About, Education, Expertise, Project, Contact } from './components';
 import useLenisScroll from './hooks/useLenisScroll';
 import useActivateLink from './hooks/useActivateLink';
 
 export default function App() {
-  // Navigation LInks Activation
+  // Navigation Links Activation
   const { sectionsRef, activeSection } = useActivateLink();
   // Custom hook for lenis smooth scroll
   useLenisScroll();
@@ -12,7 +12,13 @@ export default function App() {
   return (
     <>
       {/* Sidebar Component */}
-      <Sidebar activeSection={activeSection} />
+      <div
+        className={`transition-opacity duration-500 ease-in-out ${
+          activeSection === 'contact' ? 'opacity-0 pointer-events-none' : 'opacity-100'
+        }`}
+      >
+        <Sidebar activeSection={activeSection} />
+      </div>
       {/* Hero/Home Section */}
       <main ref={(el) => (sectionsRef.current[0] = el)} className='h-screen bg-grid-1 bg-contain bg-center bg-no-repeat' id='home'>
         <Hero />
@@ -32,7 +38,7 @@ export default function App() {
       {/* Testimonial Section */}
 
       {/* Project Section */}
-      <section ref={(el) => (sectionsRef.current[4] = el)} className=' h-screen' id='projects'>
+      <section ref={(el) => (sectionsRef.current[4] = el)} className='h-screen' id='projects'>
         <Project />
       </section>
       {/* Contact and Footer Section */}
@@ -40,5 +46,5 @@ export default function App() {
         <Contact />
       </section>
     </>
-  )
+  );
 }

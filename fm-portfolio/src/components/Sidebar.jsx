@@ -7,7 +7,7 @@ const Sidebar = ({ activeSection }) => {
   const toggleSidebar = () => setIsOpen(!isOpen);
 
   return (
-    <div id='scroll-animation-17'>
+    <div id='scroll-animation-'>
       <ToggleButton onClick={toggleSidebar} />
       <aside
         className={`fixed lg:flex w-[12rem] h-screen flex-col py-8 px-8 lg:backdrop-blur-none backdrop-blur-lg justify-between z-20 transform transition-all duration-500 ease-in-out ${isOpen ? 'translate-x-0 visible flex' : '-translate-x-full invisible flex'
