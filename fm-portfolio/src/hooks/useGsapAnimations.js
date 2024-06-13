@@ -296,29 +296,6 @@ const useGsapAnimations = () => {
     );
     // ------------------ //PROJECT ------------------
 
-    // ------------------ Sidebar Component ------------------ 
-    // gsap.to('#scroll-animation-17', {
-    //   scrollTrigger: {
-    //     trigger: '#scroll-animation-17',
-    //     toggleActions: 'restart pause reverse pause',
-    //     scrub: 1,
-    //     markers: false,
-    //     start: 'top -500%',
-    //     end: 'bottom 10%',
-    //   },
-    //   opacity: 0,
-    //   ease: 'none',
-    //   duration: 3,
-    //   onComplete: function() {
-    //     gsap.set('#scroll-animation-17', { display: 'none' });
-    //   },
-    //   onReverseComplete: function() {
-    //     gsap.set('#scroll-animation-17', { display: 'block' });
-    //     gsap.to('#scroll-animation-17', { opacity: 1, duration: 0 });
-    //   }
-    // });
-    // ------------------ //Sidebar Component ------------------ 
-
     // ------------------ Contact Section & Footer Component ------------------ 
     // 'GET IN TOUCH' Title
     gsap.fromTo('#scroll-animation-18',
@@ -347,8 +324,8 @@ const useGsapAnimations = () => {
           trigger: '.scroll-animation-19',
           toggleActions: 'restart pause reverse pause',
           scrub: 1,
-          markers: false,
-          start: 'top 30%',
+          markers: true,
+          start: 'top 40%',
           end: 'bottom 30%',
         },
         ease: 'none',
