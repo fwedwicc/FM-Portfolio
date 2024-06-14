@@ -32,7 +32,7 @@ export default function App() {
         <Education />
       </section>
       {/* Expertise Section */}
-      <section ref={(el) => (sectionsRef.current[3] = el)} className='h-screen' id='expertise'>
+      <section ref={(el) => (sectionsRef.current[3] = el)} className='border' id='expertise'>
         <Expertise />
       </section>
       {/* Testimonial Section */}
