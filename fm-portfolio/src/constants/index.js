@@ -251,14 +251,60 @@ export const ContactData = [
   }
 ];
 
+
 export const ExpertiseData = [
   {
-    skills: [
-
+    techStacks: [
+      {
+        icon: figma,
+        tooltip: "Figma"
+      },
+      {
+        icon: git,
+        tooltip: "Git"
+      },
+      {
+        icon: npm,
+        tooltip: "NPM"
+      },
+      {
+        icon: figma,
+        tooltip: "Figma"
+      },
+      {
+        icon: git,
+        tooltip: "Git"
+      },
+      {
+        icon: npm,
+        tooltip: "NPM"
+      },
+      {
+        icon: figma,
+        tooltip: "Figma"
+      },
+      {
+        icon: git,
+        tooltip: "Git"
+      },
+      {
+        icon: npm,
+        tooltip: "NPM"
+      },
+      {
+        icon: figma,
+        tooltip: "Figma"
+      },
+      {
+        icon: git,
+        tooltip: "Git"
+      },
+      {
+        icon: npm,
+        tooltip: "NPM"
+      }
     ],
-    githubStats: [
-
-    ],
+    githubStats: [],
     certifications: [
       {
         title: "Certifications",
@@ -266,54 +312,25 @@ export const ExpertiseData = [
         btnText: "View Certificates",
         link: "#",
         images01: [
-          {
-            src: cert05,
-          },
-          {
-            src: cert06,
-          },
-          {
-            src: cert07,
-          },
-          {
-            src: cert01,
-          },
-          {
-            src: cert02,
-          },
-          {
-            src: cert03,
-          },
-          {
-            src: cert04,
-          },
-
+          { src: cert05 },
+          { src: cert06 },
+          { src: cert07 },
+          { src: cert01 },
+          { src: cert02 },
+          { src: cert03 },
+          { src: cert04 }
         ],
         images02: [
-          {
-            src: cert05,
-          },
-          {
-            src: cert06,
-          },
-          {
-            src: cert07,
-          },
-          {
-            src: cert04,
-          },
-          {
-            src: cert01,
-          },
-          {
-            src: cert02,
-          },
-          {
-            src: cert03,
-          },
+          { src: cert05 },
+          { src: cert06 },
+          { src: cert07 },
+          { src: cert04 },
+          { src: cert01 },
+          { src: cert02 },
+          { src: cert03 }
         ]
       }
     ]
-
   }
 ];
+

@@ -3,7 +3,6 @@ import React from 'react'
 const Stats = () => {
   return (
     <div className='flex flex-col lg:gap-6 gap-3 py-12'>
-      <h1 className='uppercase text-white font-black text-[2.5rem] lg:text-[5rem] whitespace-nowrap leading-none text-center mb-[2rem]' id='scroll-animation-'>Github Stats</h1>
       <div className='flex justify-center items-start lg:gap-6 gap-3 flex-wrap'>
         {/* Language Graph */}
         <div className='flex flex-col gap-3'>
