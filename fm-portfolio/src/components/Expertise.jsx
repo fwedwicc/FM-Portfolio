@@ -5,7 +5,7 @@ import { ExpertiseData } from '../constants'
 
 const Expertise = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col lg:gap-12 gap-4'>
       <GithubStats />
       <Certifications />
     </div>
@@ -35,10 +35,10 @@ const certificates = ExpertiseData[0].certifications[0];
 const Certifications = () => {
   return (
 
-    <div className='flex flex-col h-screen gap-12 items-center justify-center'>
+    <div className='flex flex-col gap-12 lg:h-screen items-center justify-center'>
       <img src={fade01} alt="Compiled Certifications" className='w-full h-full object-cover object-center absolute z-10' id='scroll-animation-' />
       <img src={glow06} alt="Glow Elipse" className='absolute -z-10' />
-      <div className='space-y-4'>
+      <div className='space-y-4' id='scroll-animation-24'>
         <h1 className='uppercase text-white font-black text-[2.5rem] lg:text-[5rem] whitespace-nowrap leading-none text-center' id='scroll-animation-'>{certificates.title}</h1>
         <p className='text-white text-center lg:px-[20rem] md:px-[8rem] px-[2rem]'>{certificates.content}</p>
       </div>

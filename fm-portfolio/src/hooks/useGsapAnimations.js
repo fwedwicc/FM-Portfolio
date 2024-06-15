@@ -342,7 +342,7 @@ const useGsapAnimations = () => {
           toggleActions: 'restart pause reverse pause',
           scrub: 1,
           markers: false,
-          start: 'top 30%',
+          start: 'top 50%',
           end: 'top 20%',
         },
         ease: 'none',
@@ -397,6 +397,23 @@ const useGsapAnimations = () => {
       ease: 'none',
       duration: 3,
     });
+    // 'CERTIFICATIONS' Title and Content
+    gsap.fromTo('#scroll-animation-24',
+      { opacity: 0 }, // from
+      {
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-24',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 70%',
+          end: 'top 20%',
+        },
+        ease: 'none',
+        duration: 3,
+      }
+    );
     // ------------------ //Expertise Section ------------------ 
 
   
