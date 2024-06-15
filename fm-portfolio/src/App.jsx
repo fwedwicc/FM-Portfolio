@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sidebar, Hero, About, Education, Expertise, Project, Contact } from './components';
+import { Sidebar, Hero, About, Education, Skills, Project, Contact, Certifications, Stats } from './components';
 import useLenisScroll from './hooks/useLenisScroll';
 import useActivateLink from './hooks/useActivateLink';
 
@@ -32,17 +32,26 @@ export default function App() {
         <Education />
       </section>
       {/* Expertise Section */}
-      <section ref={(el) => (sectionsRef.current[3] = el)} className='' id='expertise'>
-        <Expertise />
+      <section ref={(el) => (sectionsRef.current[3] = el)} id='expertise'>
+        <Skills />
       </section>
+      <section ref={(el) => (sectionsRef.current[4] = el)} id='expertise'>
+        <Stats />
+      </section>
+      <section ref={(el) => (sectionsRef.current[5] = el)} id='expertise'>
+        <Certifications />
+      </section>
+      
+
+
       {/* Testimonial Section */}
 
       {/* Project Section */}
-      <section ref={(el) => (sectionsRef.current[4] = el)} className='h-screen' id='projects'>
+      <section ref={(el) => (sectionsRef.current[6] = el)} className='h-screen' id='projects'>
         <Project />
       </section>
       {/* Contact and Footer Section */}
-      <section ref={(el) => (sectionsRef.current[5] = el)} className='h-screen' id='contact'>
+      <section ref={(el) => (sectionsRef.current[7] = el)} className='h-screen' id='contact'>
         <Contact />
       </section>
     </>
