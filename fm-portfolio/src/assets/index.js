@@ -28,6 +28,8 @@ import mail from './mail.svg'
 import phone from './contact.svg'
 import location from './location.svg'
 import fade01 from './fade-01.png'
+import cert01 from './freeCodeCamp - Moreno, Frederick C. - Responsive Web Design.png'
+import cert02 from './Programming Hero - Moreno, Frederick C. - ReactJS Course.jpg'
 
 export {
   github,
@@ -60,4 +62,6 @@ export {
   phone,
   location,
   fade01,
+  cert01,
+  cert02,
 }

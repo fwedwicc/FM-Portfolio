@@ -1,24 +1,26 @@
 import {
-  github, 
-  instagram, 
-  linkedin, 
-  facebook, 
-  html, 
-  css, 
-  javascript, 
-  react, 
-  tailwind, 
+  github,
+  instagram,
+  linkedin,
+  facebook,
+  html,
+  css,
+  javascript,
+  react,
+  tailwind,
   bootstrap,
   gsap,
-  php, 
-  figma, 
+  php,
+  figma,
   git,
   npm,
   bcp,
-  qcu, 
+  qcu,
   mail,
   phone,
   location,
+  cert01,
+  cert02,
 } from '../assets';
 
 export const navLinks = [
@@ -242,4 +244,32 @@ export const ContactData = [
       }
     ]
   }
-]
+];
+
+export const ExpertiseData = [
+  {
+    skills: [
+
+    ],
+    githubStats: [
+
+    ],
+    certifications: [
+      {
+        title: "Certifications",
+        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non praesentium, quibusdam inventore quaerat vitae debitis optio illo. um, quibusdam inventore quaerat vitae debitis optio illo.",
+        btnText: "View Certificates",
+        link: "#",
+        images: [
+          {
+            src: cert01,
+          },
+          {
+            src: cert02,
+          }
+        ],
+      }
+    ]
+
+  }
+];
