@@ -35,22 +35,22 @@ const certificates = ExpertiseData[0].certifications[0];
 const Certifications = () => {
   return (
 
-    <div className='flex flex-col h-screen gap-12 items-center justify-center border'>
-      <img src={fade01} alt="Compiled Certifications" className='w-full h-full object-cover object-center absolute' id='scroll-animation-' />
+    <div className='flex flex-col h-screen gap-12 items-center justify-center'>
+      <img src={fade01} alt="Compiled Certifications" className='w-full h-full object-cover object-center absolute z-10' id='scroll-animation-' />
       <img src={glow06} alt="Glow Elipse" className='absolute -z-10' />
       <div className='space-y-4'>
         <h1 className='uppercase text-white font-black text-[2.5rem] lg:text-[5rem] whitespace-nowrap leading-none text-center' id='scroll-animation-'>{certificates.title}</h1>
         <p className='text-white text-center lg:px-[20rem] md:px-[8rem] px-[2rem]'>{certificates.content}</p>
       </div>
-      <div className='space-y-2'>
-        <div className='aboslute flex gap-2 lg:h-[12rem] h-[7rem]'>
-          {certificates.images.map((cert, index) => (
-            <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto' />
+      <div className='space-y-4'>
+        <div className='aboslute flex gap-3 lg:h-[12rem] h-[7rem] z-0' id='scroll-animation-22'>
+          {certificates.images01.map((cert, index) => (
+            <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-sm' />
           ))}
         </div>
-        <div className='aboslute flex gap-2 lg:h-[12rem] h-[7rem]'>
-          {certificates.images.map((cert, index) => (
-            <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto' />
+        <div className='aboslute flex gap-3 lg:h-[12rem] h-[7rem] z-0' id='scroll-animation-23'>
+          {certificates.images02.map((cert, index) => (
+            <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-sm' />
           ))}
         </div>
       </div>

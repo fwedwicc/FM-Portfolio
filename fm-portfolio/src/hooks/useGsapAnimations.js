@@ -367,6 +367,38 @@ const useGsapAnimations = () => {
       }
     );
     // ------------------ //Contact Section & Footer Component ------------------ 
+
+    // ------------------ Expertise Section ------------------ 
+    // Certification Container 1
+    gsap.to('#scroll-animation-22', {
+      scrollTrigger: {
+        trigger: '#scroll-animation-22',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 90%',
+        end: 'bottom 10%',
+      },
+      x: 100,
+      ease: 'none',
+      duration: 3,
+    });
+    // Certification Container 2
+    gsap.to('#scroll-animation-23', {
+      scrollTrigger: {
+        trigger: '#scroll-animation-23',
+        toggleActions: 'restart pause reverse pause',
+        scrub: 1,
+        markers: false,
+        start: 'top 90%',
+        end: 'bottom 10%',
+      },
+      x: -100,
+      ease: 'none',
+      duration: 3,
+    });
+    // ------------------ //Expertise Section ------------------ 
+
   
   }, []);
 }

@@ -30,6 +30,11 @@ import location from './location.svg'
 import fade01 from './fade-01.png'
 import cert01 from './freeCodeCamp - Moreno, Frederick C. - Responsive Web Design.png'
 import cert02 from './Programming Hero - Moreno, Frederick C. - ReactJS Course.jpg'
+import cert03 from './Programming Hero - Moreno, Frederick C. - Complete Web Development.jpg'
+import cert04 from './Simplillearn - Moreno, Frederick C. - Intro to Front-end Development Course.png'
+import cert05 from './SoloLearn - Moreno, Frederick C. - Web Development.png'
+import cert06 from './Xaltius - Moreno, Frederick C. - Webinar.png'
+import cert07 from './TESDA - Moreno, Frederick C. - Developing Designs For User Interface.png'
 
 export {
   github,
@@ -64,4 +69,9 @@ export {
   fade01,
   cert01,
   cert02,
+  cert03,
+  cert04,
+  cert05,
+  cert06,
+  cert07,
 }

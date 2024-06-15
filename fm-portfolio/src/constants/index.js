@@ -21,6 +21,11 @@ import {
   location,
   cert01,
   cert02,
+  cert03,
+  cert04,
+  cert05,
+  cert06,
+  cert07,
 } from '../assets';
 
 export const navLinks = [
@@ -260,14 +265,53 @@ export const ExpertiseData = [
         content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non praesentium, quibusdam inventore quaerat vitae debitis optio illo. um, quibusdam inventore quaerat vitae debitis optio illo.",
         btnText: "View Certificates",
         link: "#",
-        images: [
+        images01: [
+          {
+            src: cert05,
+          },
+          {
+            src: cert06,
+          },
+          {
+            src: cert07,
+          },
           {
             src: cert01,
           },
           {
             src: cert02,
-          }
+          },
+          {
+            src: cert03,
+          },
+          {
+            src: cert04,
+          },
+
         ],
+        images02: [
+          {
+            src: cert05,
+          },
+          {
+            src: cert06,
+          },
+          {
+            src: cert07,
+          },
+          {
+            src: cert04,
+          },
+          {
+            src: cert01,
+          },
+          {
+            src: cert02,
+          },
+          {
+            src: cert03,
+          },
+        ]
       }
     ]
 
