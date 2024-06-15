@@ -7,6 +7,7 @@ import glow02 from './glow-02.png'
 import glow03 from './glow-03.png'
 import glow04 from './glow-04.png'
 import glow05 from './glow-05.png'
+import glow06 from './glow-06.png'
 import FMlogo from './FM-logo.png'
 import profile from './sample-profile.png'
 import html from './html-icon.svg'
@@ -26,6 +27,7 @@ import compiledProjects from './compiled-projects.png'
 import mail from './mail.svg'
 import phone from './contact.svg'
 import location from './location.svg'
+import fade01 from './fade-01.png'
 
 export {
   github,
@@ -37,6 +39,7 @@ export {
   glow03,
   glow04,
   glow05,
+  glow06,
   FMlogo,
   profile,
   html,
@@ -56,4 +59,5 @@ export {
   mail,
   phone,
   location,
+  fade01,
 }
