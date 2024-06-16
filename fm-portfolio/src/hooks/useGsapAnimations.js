@@ -432,6 +432,58 @@ const useGsapAnimations = () => {
         duration: 3,
       }
     );
+    // Tech Stacks' Title
+    gsap.fromTo('#scroll-animation-26',
+      { opacity: 0 }, // from
+      {
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-26',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 70%',
+          end: 'bottom 40%',
+        },
+        y: 30,
+        ease: 'none',
+        duration: 3,
+      }
+    );
+    // Tech Stacks' Content
+    gsap.fromTo('#scroll-animation-27',
+      { opacity: 0 }, // from
+      {
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-27',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 70%',
+          end: 'bottom 40%',
+        },
+        ease: 'none',
+        duration: 3,
+      }
+    );
+    // Github Stats' Content
+    gsap.fromTo('#scroll-animation-28',
+      { opacity: 0 }, // from
+      {
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-28',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 70%',
+          end: 'bottom 40%',
+        },
+        ease: 'none',
+        duration: 3,
+      }
+    );
     // ------------------ //Expertise Section ------------------ 
 
   

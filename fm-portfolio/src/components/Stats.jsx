@@ -5,7 +5,7 @@ const Stats = () => {
   return (
     <div className='relative'>
       <img src={glow02} alt="Glow eclipse" className='absolute top-[-50vh] inset-0' id='scroll-animation-25' />
-      <div className='flex flex-col lg:gap-6 gap-3 py-12'>
+      <div className='flex flex-col lg:gap-6 gap-3 py-12' id='scroll-animation-28'>
         <div className='flex justify-center items-start lg:gap-6 gap-3 flex-wrap'>
           {/* Language Graph */}
           <div className='flex flex-col gap-3'>
