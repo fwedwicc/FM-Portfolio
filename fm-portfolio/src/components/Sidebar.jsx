@@ -17,7 +17,7 @@ const Sidebar = ({ activeSection }) => {
           <HeaderLogo onClick={toggleSidebar} />
           <NavLinks activeSection={activeSection} />
         </div>
-        <div className="border-l-[1px] lg:ml-[10px] ml-[6px] border-[#373357] h-full my-8"></div>
+        <div className="border-l-[1px] lg:ml-[10px] ml-[6px] border-[#59568fbd] h-full my-8"></div>
         <SocialLinks />
       </aside>
     </div>

@@ -414,6 +414,24 @@ const useGsapAnimations = () => {
         duration: 3,
       }
     );
+    // Glow Elipse
+    gsap.fromTo('#scroll-animation-25',
+      { opacity: 0 }, // from
+      {
+        opacity: 4,
+        scrollTrigger: {
+          trigger: '#scroll-animation-25',
+          toggleActions: 'restart pause reverse pause',
+          scrub: 1,
+          markers: false,
+          start: 'top 40%',
+          end: 'bottom 70%',
+        },
+        y: -400,
+        ease: 'none',
+        duration: 3,
+      }
+    );
     // ------------------ //Expertise Section ------------------ 
 
   

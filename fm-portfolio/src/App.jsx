@@ -35,17 +35,13 @@ export default function App() {
       <section ref={(el) => (sectionsRef.current[3] = el)} id='expertise'>
         <Skills />
       </section>
-      <section ref={(el) => (sectionsRef.current[4] = el)} id='expertise'>
+      <section ref={(el) => (sectionsRef.current[4] = el)} className='bg-grid-2 bg-contain bg-center bg-no-repeat' id='expertise'>
         <Stats />
       </section>
       <section ref={(el) => (sectionsRef.current[5] = el)} id='expertise'>
         <Certifications />
       </section>
-      
-
-
       {/* Testimonial Section */}
-
       {/* Project Section */}
       <section ref={(el) => (sectionsRef.current[6] = el)} className='h-screen' id='projects'>
         <Project />
