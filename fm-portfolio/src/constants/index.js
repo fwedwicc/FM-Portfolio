@@ -26,6 +26,9 @@ import {
   cert05,
   cert06,
   cert07,
+  htmllogo,
+  csslogo,
+  jslogo,
 } from '../assets';
 
 export const navLinks = [
@@ -256,16 +259,16 @@ export const ExpertiseData = [
   {
     techStacks: [
       {
-        icon: figma,
-        tooltip: "Figma"
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
       },
       {
-        icon: git,
-        tooltip: "Git"
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
       },
       {
-        icon: npm,
-        tooltip: "NPM"
+        icon: jslogo,
+        tooltip: "Javascript"
       },
       {
         icon: figma,

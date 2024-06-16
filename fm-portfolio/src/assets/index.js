@@ -35,6 +35,9 @@ import cert04 from './Simplillearn - Moreno, Frederick C. - Intro to Front-end D
 import cert05 from './SoloLearn - Moreno, Frederick C. - Web Development.png'
 import cert06 from './Xaltius - Moreno, Frederick C. - Webinar.png'
 import cert07 from './TESDA - Moreno, Frederick C. - Developing Designs For User Interface.png'
+import htmllogo from './html-logo.png'
+import csslogo from './css-logo.png'
+import jslogo from './javascript-logo.png'
 
 export {
   github,
@@ -74,4 +77,7 @@ export {
   cert05,
   cert06,
   cert07,
+  htmllogo,
+  csslogo,
+  jslogo,
 }
