@@ -20,9 +20,23 @@ const AllProjects = () => {
           <h1 className='uppercase text-white font-black text-[3rem] lg:text-[9rem] whitespace-nowrap leading-none text-center' id='scroll-animation-'>Projects</h1>
           <p className='text-white text-center lg:px-[20rem] md:px-[8rem] px-[2rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptate repellat iusto dolor voluptatem voluptatibus porro accusamus architecto sapiente suscipit dicta excepturi nostrum ipsa, quisquam pariatur repellendus modi unde aut.</p>
         </div>
-        <div className='grid grid-cols-1 lg:grid-cols-2 mt-[4rem]'>
-          <Card />
-          <Card />
+        <div className='grid grid-cols-1 lg:grid-cols-2 mt-[4rem] gap-6'>
+          <Link to="">
+            <Card
+              title={'QCU-LMS'}
+              desc={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel esse enim facilis debitis! Enim, provident obcaecati nisi mollitia hic.'}
+              img={'https://placehold.co/300x200'}
+              roles={['Front-end Developer', 'UI/UX Designer']}
+            />
+          </Link>
+          <Link to="">
+            <Card
+              title={"PAP'S Barbershop"}
+              desc={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel esse enim facilis debitis! Enim, provident obcaecati nisi mollitia hic.'}
+              img={'https://placehold.co/300x200'}
+              roles={['Front-end Developer', 'UI/UX Designer']}
+            />
+          </Link>
         </div>
       </div>
     </motion.div>
