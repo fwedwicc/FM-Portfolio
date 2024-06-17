@@ -1,5 +1,6 @@
 import React from 'react'
 import { Sidebar, Hero, About, Education, Skills, Project, Contact, Certifications, Stats } from '../components';
+import { motion } from 'framer-motion'
 import useLenisScroll from '../hooks/useLenisScroll';
 import useActivateLink from '../hooks/useActivateLink';
 
@@ -8,7 +9,12 @@ const Home = () => {
   useLenisScroll();
 
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1.3 }}
+    >
       <div
         className={`transition-opacity duration-500 ease-in-out ${
           activeSection === 'contact' ? 'opacity-0 pointer-events-none' : 'opacity-100'
@@ -28,10 +34,10 @@ const Home = () => {
       <section ref={(el) => (sectionsRef.current[3] = el)} id='expertise'>
         <Skills />
       </section>
-      <section ref={(el) => (sectionsRef.current[4] = el)} className='bg-grid-2 bg-contain bg-center bg-no-repeat' id='stats'>
+      <section ref={(el) => (sectionsRef.current[4] = el)} className='bg-grid-2 bg-contain bg-center bg-no-repeat' id='expertise'>
         <Stats />
       </section>
-      <section ref={(el) => (sectionsRef.current[5] = el)} id='certifications'>
+      <section ref={(el) => (sectionsRef.current[5] = el)} id='expertise'>
         <Certifications />
       </section>
       <section ref={(el) => (sectionsRef.current[6] = el)} className='h-screen' id='projects'>
@@ -40,7 +46,7 @@ const Home = () => {
       <section ref={(el) => (sectionsRef.current[7] = el)} className='h-screen bg-grid-2 bg-contain bg-center bg-no-repeat' id='contact'>
         <Contact />
       </section>
-    </>
+    </motion.div>
   );
 };
 

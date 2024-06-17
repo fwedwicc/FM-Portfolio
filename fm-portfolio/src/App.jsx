@@ -1,5 +1,5 @@
 import React from 'react';
-import {NoPage, Home, AllProjects} from './pages'
+import { NoPage, Home, AllProjects } from './pages'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export default function App() {
