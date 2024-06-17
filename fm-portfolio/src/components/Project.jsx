@@ -3,6 +3,7 @@ import Badge from './Badge'
 import { ProjectData, Socials } from '../constants'
 import Button from './Button'
 import { compiledProjects } from '../assets'
+import { Link } from 'react-router-dom'
 
 const Project = () => {
   const project = ProjectData[0];
@@ -27,11 +28,13 @@ const Project = () => {
               </div>
               <p className='text-white scroll-animation-16'>{project.content}</p>
               <div className='flex gap-3 scroll-animation-16'>
-                <Button text={'View all'} styles={'bg-indigo-600 hover:bg-indigo-700'}>
-                  <svg className="lg:w-5 w-4 lg:h-5 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19 12H5m14 0-4 4m4-4-4-4" />
-                  </svg>
-                </Button>
+                <Link to='/all-projects'>
+                  <Button text={'View all'} styles={'bg-indigo-600 hover:bg-indigo-700'}>
+                    <svg className="lg:w-5 w-4 lg:h-5 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                      <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19 12H5m14 0-4 4m4-4-4-4" />
+                    </svg>
+                  </Button>
+                </Link>
                 <a href={`${github.link}?tab=repositories`} target='_blank'>
                   <Button text={'View on GitHub'} styles={'bg-[#1f1d37] hover:bg-[#1d1928]'}>
                     <svg className='lg:w-5 w-4 lg:h-5 h-4' aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
