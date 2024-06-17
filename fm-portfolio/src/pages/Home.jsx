@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { Sidebar, Hero, About, Education, Skills, Project, Contact, Certifications, Stats } from '../components';
 import { motion } from 'framer-motion'
 import useLenisScroll from '../hooks/useLenisScroll';
@@ -8,6 +8,17 @@ const Home = () => {
   const { sectionsRef, activeSection } = useActivateLink();
   useLenisScroll();
 
+  // Directly navigate to the section if hash is present in the URL
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const element = document.getElementById(hash.substring(1));
+      if (element) {
+        element.scrollIntoView();
+      }
+    }
+  }, []);
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -16,9 +27,8 @@ const Home = () => {
       transition={{ duration: 1.3 }}
     >
       <div
-        className={`transition-opacity duration-500 ease-in-out ${
-          activeSection === 'contact' ? 'opacity-0 pointer-events-none' : 'opacity-100'
-        }`}
+        className={`transition-opacity duration-500 ease-in-out ${activeSection === 'contact' ? 'opacity-0 pointer-events-none' : 'opacity-100'
+          }`}
       >
         <Sidebar activeSection={activeSection} />
       </div>
