@@ -337,3 +337,23 @@ export const ExpertiseData = [
   }
 ];
 
+export const ProjectOverviewData = [
+  {
+    id: 'qcu-lms',
+    title: 'QCU-LMS',
+    desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel esse enim facilis debitis! Enim, provident obcaecati nisi mollitia hic.',
+    img: 'https://placehold.co/300x200',
+    roles: ['Front-end Developer', 'UI/UX Designer'],
+    miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
+    figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
+  },
+  {
+    id: 'paps-barbershop',
+    title: "PAP'S Barbershop",
+    desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel esse enim facilis debitis! Enim, provident obcaecati nisi mollitia hic.',
+    img: 'https://placehold.co/300x200',
+    roles: ['Front-end Developer', 'UI/UX Designer'],
+    miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
+    figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
+  }
+];

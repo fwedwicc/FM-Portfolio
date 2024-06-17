@@ -1,10 +1,10 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { FMlogo } from '../assets'
-import Card from '../components/Card'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { motion } from 'framer-motion';
+import { FMlogo } from '../assets';
+import Card from '../components/Card';
+import { Link } from 'react-router-dom';
 
-const AllProjects = () => {
+const AllProjects = ({ projects }) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -21,26 +21,20 @@ const AllProjects = () => {
           <p className='text-white text-center lg:px-[20rem] md:px-[8rem] px-[2rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptate repellat iusto dolor voluptatem voluptatibus porro accusamus architecto sapiente suscipit dicta excepturi nostrum ipsa, quisquam pariatur repellendus modi unde aut.</p>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 mt-[4rem] gap-6'>
-          <Link to="">
-            <Card
-              title={'QCU-LMS'}
-              desc={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel esse enim facilis debitis! Enim, provident obcaecati nisi mollitia hic.'}
-              img={'https://placehold.co/300x200'}
-              roles={['Front-end Developer', 'UI/UX Designer']}
-            />
-          </Link>
-          <Link to="">
-            <Card
-              title={"PAP'S Barbershop"}
-              desc={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel esse enim facilis debitis! Enim, provident obcaecati nisi mollitia hic.'}
-              img={'https://placehold.co/300x200'}
-              roles={['Front-end Developer', 'UI/UX Designer']}
-            />
-          </Link>
+          {projects.map(project => (
+            <Link key={project.id} to={`/project/${project.id}`}>
+              <Card
+                title={project.title}
+                desc={project.desc}
+                img={project.img}
+                roles={project.roles}
+              />
+            </Link>
+          ))}
         </div>
       </div>
     </motion.div>
   )
 }
 
-export default AllProjects
+export default AllProjects;
