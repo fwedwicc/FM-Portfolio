@@ -3,8 +3,10 @@ import { motion } from 'framer-motion';
 import { FMlogo, grid01, glow07 } from '../assets';
 import Card from '../components/Card';
 import { Link } from 'react-router-dom';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const AllProjects = ({ projects }) => {
+  useScrollToTop();
   return (
     <motion.div
       initial={{ opacity: 0 }}
