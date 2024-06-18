@@ -6,6 +6,14 @@ import { ContactData } from '../constants'
 
 const Contact = () => {
   const contacts = ContactData[0];
+  const renderLink = (link) => (
+    <a
+      href={`#${link.id}`}
+      className='lg:text-[16px] text-[12px]'
+    >
+      {link.title}
+    </a>
+  );
 
   return (
     <div className='flex justify-center items-center h-full p-[2rem] relative'>
@@ -36,7 +44,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='row-span-2 flex items-end'>
-          <Footer />
+          <Footer link={renderLink} />
         </div>
       </div>
       <img src={glow05} alt="Glow eclipse" className='absolute bottom-0 z-10' id='scroll-animation-20' />

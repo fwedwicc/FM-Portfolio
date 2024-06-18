@@ -2,11 +2,20 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FMlogo, grid01, glow07 } from '../assets';
 import Card from '../components/Card';
+import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import useScrollToTop from '../hooks/useScrollToTop';
 
 const AllProjects = ({ projects }) => {
   useScrollToTop();
+  const renderLink = (link) => (
+    <Link
+      to={`/home#${link.id}`}
+      className='lg:text-[16px] text-[12px]'
+    >
+      {link.title}
+    </Link>
+  );
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -35,6 +44,9 @@ const AllProjects = ({ projects }) => {
               />
             </Link>
           ))}
+        </div>
+        <div className='mt-[7rem]'>
+          <Footer link={renderLink} />
         </div>
       </div>
     </motion.div>
