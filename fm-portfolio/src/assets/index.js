@@ -8,6 +8,7 @@ import glow03 from './glow-03.png'
 import glow04 from './glow-04.png'
 import glow05 from './glow-05.png'
 import glow06 from './glow-06.png'
+import glow07 from './glow-07.png'
 import FMlogo from './FM-logo.png'
 import profile from './sample-profile.png'
 import html from './html-icon.svg'
@@ -24,6 +25,7 @@ import npm from './npm-icon.svg'
 import bcp from './BCP-logo.svg'
 import qcu from './QCU-logo.svg'
 import compiledProjects from './compiled-projects.png'
+import grid01 from './grid-01.png'
 import mail from './mail.svg'
 import phone from './contact.svg'
 import location from './location.svg'
@@ -50,6 +52,7 @@ export {
   glow04,
   glow05,
   glow06,
+  glow07,
   FMlogo,
   profile,
   html,
@@ -66,6 +69,7 @@ export {
   bcp,
   qcu,
   compiledProjects,
+  grid01,
   mail,
   phone,
   location,

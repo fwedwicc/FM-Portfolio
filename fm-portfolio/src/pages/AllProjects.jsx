@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FMlogo } from '../assets';
+import { FMlogo, grid01, glow07 } from '../assets';
 import Card from '../components/Card';
 import { Link } from 'react-router-dom';
 
@@ -12,7 +12,9 @@ const AllProjects = ({ projects }) => {
       exit={{ opacity: 0 }}
       transition={{ duration: 1.5 }}
     >
-      <div className='lg:p-6 p-4 border'>
+      <img src={glow07} alt="Glow eclipse" className='-z-10 fixed' id='scroll-animation-' />
+      <img src={grid01} alt="Grid" className='w-full h-full object-contain -z-20 object-center fixed' id='scroll-animation-' />
+      <div className='lg:p-8 p-6 z-10'>
         <Link to="/home#projects">
           <img src={FMlogo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem]" />
         </Link>
