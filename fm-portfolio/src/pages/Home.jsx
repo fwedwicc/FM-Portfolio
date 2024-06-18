@@ -1,12 +1,10 @@
 import React, { useEffect } from 'react';
 import { Sidebar, Hero, About, Education, Skills, Project, Contact, Certifications, Stats } from '../components';
 import { motion } from 'framer-motion'
-import useLenisScroll from '../hooks/useLenisScroll';
 import useActivateLink from '../hooks/useActivateLink';
 
 const Home = () => {
   const { sectionsRef, activeSection } = useActivateLink();
-  useLenisScroll();
 
   // Directly navigate to the section if hash is present in the URL
   useEffect(() => {

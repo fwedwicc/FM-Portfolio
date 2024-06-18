@@ -2,8 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { NoPage, Home, AllProjects, ProjectOverview } from './pages';
 import { ProjectOverviewData } from './constants';
+import useLenisScroll from './hooks/useLenisScroll';
 
 export default function App() {
+  useLenisScroll();
   const projects = ProjectOverviewData;
 
   return (

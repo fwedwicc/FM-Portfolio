@@ -1,16 +1,23 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { NoPage } from './index'
+import { motion } from 'framer-motion';
 
 const ProjectOverview = ({ projects }) => {
   const { projectId } = useParams();
   const project = projects.find(proj => proj.id === projectId);
 
   if (!project) {
-    return <div>Project not found</div>;
+    return <NoPage />;
   }
 
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1.3 }}
+    >
       <h1 className='text-white'>{project.title}</h1>
       <p>{project.desc}</p>
       {project.miro && (
@@ -34,7 +41,7 @@ const ProjectOverview = ({ projects }) => {
           className='w-[20rem] h-[12rem]'
         ></iframe>
       )}
-    </div>
+    </motion.div>
   );
 };
 
