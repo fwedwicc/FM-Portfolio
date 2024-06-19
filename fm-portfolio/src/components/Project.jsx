@@ -27,7 +27,7 @@ const Project = () => {
                 ))}
               </div>
               <p className='text-white scroll-animation-16'>{project.content}</p>
-              <div className='flex gap-3 scroll-animation-16'>
+              <div className='flex gap-4 scroll-animation-16'>
                 <Link to='/all-projects'>
                   <Button text={'View all'} styles={'bg-indigo-600 hover:bg-indigo-700'}>
                     <svg className="lg:w-5 w-4 lg:h-5 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
