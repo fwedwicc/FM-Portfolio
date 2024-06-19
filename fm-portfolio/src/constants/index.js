@@ -82,6 +82,7 @@ export const Socials = [
   }
 ];
 
+// TODO: Hero Content
 export const HeroData = [
   {
     role: [
@@ -95,6 +96,7 @@ export const HeroData = [
 
 export const AboutData = [
   {
+    // TODO: 'WHO AM I?' Content
     whoAmI: [
       {
         name: "Frederick Moreno",
@@ -115,6 +117,7 @@ export const AboutData = [
         ]
       }
     ],
+    // TODO: 'HOW IT STARTED?' Content
     howItStarted: [
       {
         icons: [
@@ -134,6 +137,7 @@ export const AboutData = [
         content: "It began Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla eligendi sapiente est recusandae, voluptates, officia iusto quaerat molestiae maiores dolores praesentium ab quas maxime nam molestias? Consequuntur, asperiores dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita soluta unde libero consequuntur eos numquam praesentium officia ratione ea, alias tempora fuga cupiditate eveniet a, ipsam consectetur maxime iure!"
       }
     ],
+    // TODO: 'HOW'S IT GOING?' Content and Icons
     howsItGoing: [
       {
         icons: [
@@ -210,6 +214,7 @@ export const AboutData = [
   }
 ];
 
+// TODO: Project Content
 export const ProjectData = [
   {
     title: "Projects",
@@ -255,7 +260,7 @@ export const ContactData = [
   }
 ];
 
-
+// TODO: Expertise Logos
 export const ExpertiseData = [
   {
     techStacks: [
@@ -311,10 +316,12 @@ export const ExpertiseData = [
     githubStats: [],
     certifications: [
       {
+        // TODO: Certification Content
         title: "Certifications",
         content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non praesentium, quibusdam inventore quaerat vitae debitis optio illo. um, quibusdam inventore quaerat vitae debitis optio illo.",
         btnText: "View Certificates",
         link: "#",
+        // TODO: Certification Carousel Images
         images01: [
           { src: cert05 },
           { src: cert06 },
@@ -338,6 +345,7 @@ export const ExpertiseData = [
   }
 ];
 
+// TODO: Project Overview Content
 export const ProjectOverviewData = [
   {
     id: 'qcu-lms',

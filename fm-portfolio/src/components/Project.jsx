@@ -10,6 +10,7 @@ const Project = () => {
   const github = Socials[0];
   return (
     <>
+      {/* TODO: Compiled Project Background Image */}
       <img src={compiledProjects} alt="Compiled Projects" className='w-full h-full object-cover object-center absolute' id='scroll-animation-14' />
       <div className='lg:pl-[13.5rem] pl-[2rem] flex h-full'>
         <div className='flex h-full items-center'>

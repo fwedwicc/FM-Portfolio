@@ -24,6 +24,7 @@ const ProjectOverview = ({ projects }) => {
     return <NoPage />;
   }
 
+  // TODO: GSAP Scroll Animation
   return (
     <motion.div
       initial={{ opacity: 0 }}
