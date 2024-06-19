@@ -2,14 +2,23 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { NoPage } from './index'
 import { motion } from 'framer-motion';
-import { FMlogo, poster01 } from '../assets';
+import { FMlogo, poster01, glow05 } from '../assets';
 import Badge from '../components/Badge';
 import Button from '../components/Button';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 const ProjectOverview = ({ projects }) => {
   const { projectId } = useParams();
   const project = projects.find(proj => proj.id === projectId);
+  const renderLink = (link) => (
+    <Link
+      to={`/home#${link.id}`}
+      className='lg:text-[16px] text-[12px]'
+    >
+      {link.title}
+    </Link>
+  );
 
   if (!project) {
     return <NoPage />;
@@ -26,7 +35,7 @@ const ProjectOverview = ({ projects }) => {
       <Link to="/all-projects">
         <img src={FMlogo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem] absolute lg:left-12 left-9 lg:top-12 top-9" />
       </Link>
-      <div className='z-20 lg:pt-[11rem] pt-[9rem] p-12'>
+      <div className='z-20 lg:pt-[11rem] pt-[9rem] p-12 relative'>
         <div className='grid lg:grid-cols-2 grid-cols-1 mb-[4rem] lg:gap-12 gap-8'>
           <div className='lg:space-y-8 space-y-5'>
             <div className='space-y-3'>
@@ -74,30 +83,59 @@ const ProjectOverview = ({ projects }) => {
                 ))}
               </div>
             </div>
-
           </div>
         </div>
-        {project.miro && (
-          <iframe
-            src={project.miro}
-            frameBorder="0"
-            scrolling="no"
-            allow="fullscreen; clipboard-read; clipboard-write"
-            allowFullScreen
-            title="Miro Board"
-            className='w-full h-[50rem] rounded-lg'
-          ></iframe>
-        )}
-        {project.figma && (
-          <iframe
-            src={project.figma}
-            style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }}
-            allow="fullscreen; clipboard-read; clipboard-write"
-            allowFullScreen
-            title="Figma Prototype"
-            className='w-full h-[50rem] rounded-lg'
-          ></iframe>
-        )}
+        <div className='space-y-12'>
+          {/* Embedded Miro */}
+          <div>
+            <div className='flex justify-between items-center mb-3'>
+              <h2 className='text-white font-semibold text-[12px] lg:text-[16px]'>Low-Fidelity Prototype:</h2>
+              <a href={project.miroLink} className='text-[12px] lg:text-[16px] text-indigo-500 font-semibold underline underline-offset-2 gap-1.5 inline-flex items-center' target='_blank'>
+                View on Miro
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-4">
+                  <path fillRule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clipRule="evenodd" />
+                </svg>
+              </a>
+            </div>
+            {project.miro && (
+              <iframe
+                src={project.miro}
+                frameBorder="0"
+                scrolling="no"
+                allow="fullscreen; clipboard-read; clipboard-write"
+                allowFullScreen
+                title="Miro Board"
+                className='w-full lg:h-[50rem] h-[40rem] rounded-lg'
+              ></iframe>
+            )}
+          </div>
+          {/* Embedded Figma */}
+          <div>
+            <div className='flex justify-between items-center mb-3'>
+              <h2 className='text-white font-semibold text-[12px] lg:text-[16px]'>High-Fidelity Prototype:</h2>
+              <a href={project.figmaLink} className='text-[12px] lg:text-[16px] text-indigo-500 font-semibold underline underline-offset-2 gap-1.5 inline-flex items-center' target='_blank'>
+                View on Figma
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-4">
+                  <path fillRule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clipRule="evenodd" />
+                </svg>
+              </a>
+            </div>
+            {project.figma && (
+              <iframe
+                src={project.figma}
+                style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }}
+                allow="fullscreen; clipboard-read; clipboard-write"
+                allowFullScreen
+                title="Figma Prototype"
+                className='w-full lg:h-[50rem] h-[40rem] rounded-lg'
+              ></iframe>
+            )}
+          </div>
+        </div>
+        <div className='mt-[7rem] z-10'>
+          <Footer link={renderLink} />
+        </div>
+        <img src={glow05} alt="Glow eclipse" className='absolute bottom-0 -z-10' id='scroll-animation-' />
       </div>
     </motion.div>
   );
