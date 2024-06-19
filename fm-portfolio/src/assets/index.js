@@ -40,6 +40,7 @@ import cert07 from './TESDA - Moreno, Frederick C. - Developing Designs For User
 import htmllogo from './html-logo.png'
 import csslogo from './css-logo.png'
 import jslogo from './javascript-logo.png'
+import poster01 from './sample-poster.png'
 
 export {
   github,
@@ -84,4 +85,5 @@ export {
   htmllogo,
   csslogo,
   jslogo,
+  poster01,
 }
