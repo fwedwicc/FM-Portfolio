@@ -345,6 +345,7 @@ export const ProjectOverviewData = [
     desc: 'Lorem ipsum bcaecati nisi mollitia hic.',
     content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
     img: 'https://placehold.co/300x200',
+    roles: ['Front-end Developer', 'UI/UX Designer'],
     category: ['School Project'],
     tools: [
       {
