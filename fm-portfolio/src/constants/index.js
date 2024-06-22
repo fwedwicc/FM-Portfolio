@@ -29,6 +29,12 @@ import {
   htmllogo,
   csslogo,
   jslogo,
+  reactlogo,
+  vuelogo,
+  nextlogo,
+  phplogo,
+  tailwindlogo,
+  bootstraplogo,
   poster01,
 } from '../assets';
 
@@ -277,40 +283,28 @@ export const ExpertiseData = [
         tooltip: "Javascript"
       },
       {
-        icon: figma,
-        tooltip: "Figma"
+        icon: reactlogo,
+        tooltip: "ReactJS"
       },
       {
-        icon: git,
-        tooltip: "Git"
+        icon: vuelogo,
+        tooltip: "VueJS"
       },
       {
-        icon: npm,
-        tooltip: "NPM"
+        icon: nextlogo,
+        tooltip: "NextJS"
       },
       {
-        icon: figma,
-        tooltip: "Figma"
+        icon: phplogo,
+        tooltip: "Hypertext Preprocessor"
       },
       {
-        icon: git,
-        tooltip: "Git"
+        icon: tailwindlogo,
+        tooltip: "Tailwind CSS"
       },
       {
-        icon: npm,
-        tooltip: "NPM"
-      },
-      {
-        icon: figma,
-        tooltip: "Figma"
-      },
-      {
-        icon: git,
-        tooltip: "Git"
-      },
-      {
-        icon: npm,
-        tooltip: "NPM"
+        icon: bootstraplogo,
+        tooltip: "Bootstrap"
       }
     ],
     githubStats: [],

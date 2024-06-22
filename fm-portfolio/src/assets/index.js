@@ -40,6 +40,12 @@ import cert07 from './TESDA - Moreno, Frederick C. - Developing Designs For User
 import htmllogo from './html-logo.png'
 import csslogo from './css-logo.png'
 import jslogo from './javascript-logo.png'
+import reactlogo from './reactjs-logo.png'
+import vuelogo from './vuejs-logo.png'
+import nextlogo from './nextjs-logo.png'
+import phplogo from './php-logo.png'
+import tailwindlogo from './tailwind-logo.png'
+import bootstraplogo from './bootstrap-logo.png'
 import poster01 from './sample-poster.png'
 
 export {
@@ -85,5 +91,11 @@ export {
   htmllogo,
   csslogo,
   jslogo,
+  reactlogo,
+  vuelogo,
+  nextlogo,
+  phplogo,
+  tailwindlogo,
+  bootstraplogo,
   poster01,
 }

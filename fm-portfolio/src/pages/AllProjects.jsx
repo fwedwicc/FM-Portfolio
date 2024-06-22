@@ -16,6 +16,7 @@ const AllProjects = ({ projects }) => {
       {link.title}
     </Link>
   );
+  // TODO: GSAP Scroll Animation
   return (
     <motion.div
       initial={{ opacity: 0 }}
