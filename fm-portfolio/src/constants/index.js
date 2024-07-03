@@ -88,7 +88,6 @@ export const Socials = [
   }
 ];
 
-// TODO: Hero Content
 export const HeroData = [
   {
     role: [
@@ -96,17 +95,16 @@ export const HeroData = [
       "UI/UX"
     ],
     name: "FREDERICK MORENO",
-    content: " consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    content: " a BSIT student based in the Philippines. I am Front-end Developer and UI/UX Designer, combining technology and creativity. I'm also a traditional artist, bringing a unique blend of artistic sensibility and technical expertise to all my projects."
   }
 ]
 
 export const AboutData = [
   {
-    // TODO: 'WHO AM I?' Content
     whoAmI: [
       {
         name: "Frederick Moreno",
-        content: "I am Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla eligendi sapiente est recusandae, voluptates, officia iusto quaerat molestiae maiores dolores praesentium ab quas maxime nam molestias? Consequuntur, asperiores dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita soluta unde libero consequuntur eos numquam praesentium officia ratione ea, alias tempora fuga cupiditate eveniet a, ipsam consectetur maxime iure!",
+        content: "A dedicated BSIT student from the Philippines with a fervent passion for technology and creativity. My digital career focuses on front-end development and UI/UX design, aiming to create seamless and engaging user experiences. My expertise lies in bridging the gap between design and development, ensuring that every project is both functional and visually appealing. Beyond my technical pursuits, I am a traditional artist, bringing a unique blend of artistic sensibility and technical prowess to my work.",
         badge: [
           {
             title: "Front-end Developer",
@@ -396,12 +394,13 @@ export const ProjectOverviewData = [
     figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
   },
   {
-    id: 'paps-barbershop',
-    title: "PAP'S Barbershop",
-    desc: 'Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.',
+    id: 'fmUI',
+    title: 'fmUI',
+    desc: 'Lorem ipsum bcaecati nisi mollitia hic.',
     content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
     img: 'https://placehold.co/300x200',
-    roles: ['Front-end Developer', 'UI/UX Designer'],
+    roles: ['Web Developer', 'UI/UX Designer'],
+    category: ['Personal Project'],
     tools: [
       {
         icon: htmllogo,
@@ -415,19 +414,18 @@ export const ProjectOverviewData = [
         icon: jslogo,
         tooltip: "Javascript"
       },
-    ],
-    poster: poster01,
-    miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
-    figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
-  },
-  {
-    id: 'paps-barbershop',
-    title: "PAP'S Barbershop",
-    desc: 'Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.',
-    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
-    img: 'https://placehold.co/300x200',
-    roles: ['Front-end Developer', 'UI/UX Designer'],
-    tools: [
+      {
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
+      },
+      {
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
+      },
+      {
+        icon: jslogo,
+        tooltip: "Javascript"
+      },
       {
         icon: htmllogo,
         tooltip: "HyperText Markup Language"
@@ -441,81 +439,10 @@ export const ProjectOverviewData = [
         tooltip: "Javascript"
       },
     ],
-    poster: poster01,
-    miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
-    figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
-  },
-  {
-    id: 'paps-barbershop',
-    title: "PAP'S Barbershop",
-    desc: 'Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.',
-    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
-    img: 'https://placehold.co/300x200',
-    roles: ['Front-end Developer', 'UI/UX Designer'],
-    tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "Javascript"
-      },
-    ],
-    poster: poster01,
-    miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
-    figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
-  },
-  {
-    id: 'paps-barbershop',
-    title: "PAP'S Barbershop",
-    desc: 'Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.',
-    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
-    img: 'https://placehold.co/300x200',
-    roles: ['Front-end Developer', 'UI/UX Designer'],
-    tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "Javascript"
-      },
-    ],
-    poster: poster01,
-    miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
-    figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
-  },
-  {
-    id: 'paps-barbershop',
-    title: "PAP'S Barbershop",
-    desc: 'Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.',
-    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
-    img: 'https://placehold.co/300x200',
-    roles: ['Front-end Developer', 'UI/UX Designer'],
-    tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "Javascript"
-      },
-    ],
+    githubLink: "https://github.com/fwedwicc/QCU-LMS",
+    siteLink: "#",
+    miroLink: "#",
+    figmaLink: "#",
     poster: poster01,
     miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
     figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
