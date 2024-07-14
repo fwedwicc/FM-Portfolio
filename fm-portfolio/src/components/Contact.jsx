@@ -47,7 +47,7 @@ const Contact = () => {
           <Footer link={renderLink} />
         </div>
       </div>
-      <img src={glow05} alt="Glow eclipse" className='absolute bottom-0 z-10' id='scroll-animation-20' />
+      <img src={glow05} alt="Glow eclipse" className='absolute bottom-0' id='scroll-animation-20' />
     </div>
 
   )

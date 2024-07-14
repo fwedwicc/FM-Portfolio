@@ -8,7 +8,7 @@ const certificates = ExpertiseData[0].certifications[0];
 const Certifications = () => {
   return (
     <div className='flex flex-col gap-12 items-center py-12 justify-center'>
-      <img src={fade01} alt="Compiled Certifications" className='w-full h-full object-cover object-center absolute z-10' id='scroll-animation-' />
+      <img src={fade01} alt="Fade Effect" className='w-full h-full object-cover object-center absolute z-10' />
       <img src={glow06} alt="Glow Elipse" className='absolute -z-10' />
       <div className='space-y-4' id='scroll-animation-24'>
         <h1 className='uppercase text-white font-black text-[2.5rem] lg:text-[5rem] whitespace-nowrap leading-none text-center' id='scroll-animation-'>{certificates.title}</h1>

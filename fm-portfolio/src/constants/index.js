@@ -447,4 +447,112 @@ export const ProjectOverviewData = [
     miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
     figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
   },
+  {
+    id: 'fm-gallery',
+    title: 'FM Gallery',
+    desc: 'Lorem ipsum bcaecati nisi mollitia hic.',
+    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
+    img: 'https://placehold.co/300x200',
+    roles: ['Web Developer', 'UI/UX Designer'],
+    category: ['Personal Project'],
+    tools: [
+      {
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
+      },
+      {
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
+      },
+      {
+        icon: jslogo,
+        tooltip: "Javascript"
+      },
+      {
+        icon: reactlogo,
+        tooltip: "ReactJS"
+      },
+      {
+        icon: tailwindlogo,
+        tooltip: "Tailwind CSS"
+      },
+      {
+        icon: jslogo,
+        tooltip: "Javascript"
+      },
+      {
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
+      },
+      {
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
+      },
+      {
+        icon: jslogo,
+        tooltip: "Javascript"
+      },
+    ],
+    githubLink: "https://github.com/fwedwicc/FM-Gallery",
+    siteLink: "#",
+    miroLink: "#",
+    figmaLink: "#",
+    poster: poster01,
+    miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
+    figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
+  },
+  {
+    id: 'fm-portfolio',
+    title: 'FM Portfolio',
+    desc: 'Lorem ipsum bcaecati nisi mollitia hic.',
+    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
+    img: 'https://placehold.co/300x200',
+    roles: ['Front-end Developer', 'UI/UX Designer'],
+    category: ['Personal Project'],
+    tools: [
+      {
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
+      },
+      {
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
+      },
+      {
+        icon: jslogo,
+        tooltip: "Javascript"
+      },
+      {
+        icon: reactlogo,
+        tooltip: "ReactJS"
+      },
+      {
+        icon: tailwindlogo,
+        tooltip: "Tailwind CSS"
+      },
+      {
+        icon: jslogo,
+        tooltip: "Javascript"
+      },
+      {
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
+      },
+      {
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
+      },
+      {
+        icon: jslogo,
+        tooltip: "Javascript"
+      },
+    ],
+    githubLink: "https://github.com/fwedwicc/FM-Portfolio",
+    siteLink: "#",
+    miroLink: "#",
+    figmaLink: "#",
+    poster: poster01,
+    miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
+    figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
+  },
 ];
