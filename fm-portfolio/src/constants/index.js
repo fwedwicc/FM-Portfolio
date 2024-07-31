@@ -31,12 +31,22 @@ import {
   htmllogo,
   csslogo,
   jslogo,
+  figmalogo,
   reactlogo,
   vuelogo,
   nextlogo,
-  phplogo,
   tailwindlogo,
   bootstraplogo,
+  phplogo,
+  netlogo,
+  gsaplogo,
+  framerlogo,
+  vitelogo,
+  vercellogo,
+  gitlogo,
+  npmlogo,
+  vscodelogo,
+  vslogo,
   poster01,
 } from '../assets';
 
@@ -146,7 +156,6 @@ export const AboutData = [
         content: "Way back in 2019 (SHS), my journey began with a curiosity for how websites work, leading me to dive into the world of web development. Starting with the basics of HTML, CSS, and JavaScript, I quickly found joy in crafting interactive and visually appealing web pages. As I honed my skills, Figma became my go-to tool for designing intuitive user interfaces, merging creativity with functionality. This foundation laid the groundwork for my ongoing passion and expertise in front-end development and UI/UX design."
       }
     ],
-    // TODO: 'HOW'S IT GOING?' Content and Icons
     howsItGoing: [
       {
         icons: [
@@ -265,7 +274,6 @@ export const ContactData = [
   }
 ];
 
-// TODO: Expertise Logos
 export const ExpertiseData = [
   {
     techStacks: [
@@ -282,20 +290,20 @@ export const ExpertiseData = [
         tooltip: "Javascript"
       },
       {
-        icon: reactlogo,
-        tooltip: "ReactJS"
+        icon: figmalogo,
+        tooltip: "Figma"
       },
       {
-        icon: vuelogo,
-        tooltip: "VueJS"
+        icon: reactlogo,
+        tooltip: "ReactJS"
       },
       {
         icon: nextlogo,
         tooltip: "NextJS"
       },
       {
-        icon: phplogo,
-        tooltip: "Hypertext Preprocessor"
+        icon: vuelogo,
+        tooltip: "VueJS"
       },
       {
         icon: tailwindlogo,
@@ -304,7 +312,47 @@ export const ExpertiseData = [
       {
         icon: bootstraplogo,
         tooltip: "Bootstrap"
-      }
+      },
+      {
+        icon: phplogo,
+        tooltip: "Hypertext Preprocessor"
+      },
+      {
+        icon: netlogo,
+        tooltip: ".NET"
+      },
+      {
+        icon: gsaplogo,
+        tooltip: "GSAP"
+      },
+      {
+        icon: framerlogo,
+        tooltip: "Framer Motion"
+      },
+      {
+        icon: vitelogo,
+        tooltip: "Vite"
+      },
+      {
+        icon: vercellogo,
+        tooltip: "Vercel"
+      },
+      {
+        icon: gitlogo,
+        tooltip: "Git"
+      },
+      {
+        icon: npmlogo,
+        tooltip: "NPM"
+      },
+      {
+        icon: vscodelogo,
+        tooltip: "VS Code"
+      },
+      {
+        icon: vslogo,
+        tooltip: "Visual Studio"
+      },
     ],
     githubStats: [],
     certifications: [
