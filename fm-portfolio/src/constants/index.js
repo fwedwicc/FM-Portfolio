@@ -7,6 +7,8 @@ import {
   css,
   javascript,
   react,
+  nextjs,
+  vue,
   tailwind,
   bootstrap,
   gsap,
@@ -121,7 +123,6 @@ export const AboutData = [
         ]
       }
     ],
-    // TODO: 'HOW IT STARTED?' Content
     howItStarted: [
       {
         icons: [
@@ -136,9 +137,13 @@ export const AboutData = [
           {
             icon: javascript,
             tooltip: "JavaScript"
-          }
+          },
+          {
+            icon: figma,
+            tooltip: "Figma"
+          },
         ],
-        content: "It began Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla eligendi sapiente est recusandae, voluptates, officia iusto quaerat molestiae maiores dolores praesentium ab quas maxime nam molestias? Consequuntur, asperiores dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita soluta unde libero consequuntur eos numquam praesentium officia ratione ea, alias tempora fuga cupiditate eveniet a, ipsam consectetur maxime iure!"
+        content: "Way back in 2019 (SHS), my journey began with a curiosity for how websites work, leading me to dive into the world of web development. Starting with the basics of HTML, CSS, and JavaScript, I quickly found joy in crafting interactive and visually appealing web pages. As I honed my skills, Figma became my go-to tool for designing intuitive user interfaces, merging creativity with functionality. This foundation laid the groundwork for my ongoing passion and expertise in front-end development and UI/UX design."
       }
     ],
     // TODO: 'HOW'S IT GOING?' Content and Icons
@@ -158,8 +163,24 @@ export const AboutData = [
             tooltip: "JavaScript"
           },
           {
+            icon: figma,
+            tooltip: "Figma"
+          },
+          {
             icon: react,
             tooltip: "React JS"
+          },
+          {
+            icon: nextjs,
+            tooltip: "Next JS"
+          },
+          {
+            icon: vue,
+            tooltip: "Vue JS"
+          },
+          {
+            icon: php,
+            tooltip: "Hypertext Preprocessor"
           },
           {
             icon: tailwind,
@@ -169,28 +190,8 @@ export const AboutData = [
             icon: bootstrap,
             tooltip: "Bootstrap"
           },
-          {
-            icon: gsap,
-            tooltip: "GSAP"
-          },
-          {
-            icon: php,
-            tooltip: "Hypertext Preprocessor"
-          },
-          {
-            icon: figma,
-            tooltip: "Figma"
-          },
-          {
-            icon: git,
-            tooltip: "Git"
-          },
-          {
-            icon: npm,
-            tooltip: "NPM"
-          },
         ],
-        content: "SIt began Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla eligendi sapiente est recusandae, voluptates, officia iusto quaerat molestiae maiores dolores praesentium ab quas maxime nam molestias? Consequuntur, asperiores dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita soluta unde libero consequuntur eos numquam praesentium officia ratione ea, alias tempora fuga cupiditate eveniet a, ipsam consectetur maxime iure!"
+        content: `Since starting in web development, I have significantly expanded my skill set. I've mastered HTML, CSS, and JavaScript, and embraced modern frameworks like React JS, Next JS, and Vue JS. PHP aids my server-side scripting, while Tailwind CSS and Bootstrap ensure responsive design. This diverse expertise allows me to create functional and visually engaging projects, driven by a passion for continuous learning and growth in web development and UI/UX design.`
       }
     ],
     education: [

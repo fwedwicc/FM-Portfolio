@@ -15,6 +15,8 @@ import html from './html-icon.svg'
 import css from './css-icon.svg'
 import javascript from './javascript-icon.svg'
 import react from './react-icon.svg'
+import nextjs from './next-icon.svg'
+import vue from './vue-icon.svg'
 import tailwind from './tailwind-icon.svg'
 import bootstrap from './bootstrap-icon.svg'
 import gsap from './gsap-icon.svg'
@@ -66,6 +68,8 @@ export {
   css,
   javascript,
   react,
+  nextjs,
+  vue,
   tailwind,
   bootstrap,
   gsap,
