@@ -19,7 +19,7 @@ const Education = () => {
         <div className='flex justify-center items-center'>
           <div className=' p-px rounded-md bg-border-gradient-4'>
             <div className='p-4 bg-base rounded-md lg:px-12'>
-              <h1 className='uppercase text-white font-black text-[3rem] lg:text-[7rem] whitespace-nowrap leading-none text-center' id='scroll-animation-11'>Education</h1>
+              <h1 className='uppercase text-white font-black text-[3rem] lg:text-[6rem] whitespace-nowrap leading-none text-center' id='scroll-animation-11'>Education</h1>
               <BcpEducation />
               <QcuEducation />
             </div>

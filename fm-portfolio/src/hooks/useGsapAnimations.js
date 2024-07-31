@@ -195,7 +195,7 @@ const useGsapAnimations = () => {
           toggleActions: 'restart pause reverse pause',
           scrub: 1,
           markers: false,
-          start: 'top 90%',
+          start: 'top 70%',
           end: 'bottom 70%',
         },
         y: 40,
@@ -486,7 +486,7 @@ const useGsapAnimations = () => {
     );
     // ------------------ //Expertise Section ------------------ 
 
-  
+
   }, []);
 }
 

@@ -24,7 +24,7 @@ const whoAmIData = AboutData[0].whoAmI[0];
 const WhoAmI = () => {
   return (
     <div className='grid grid-cols-8'>
-      <div className='lg:col-span-5 col-span-7 p-px rounded-md bg-border-gradient-1'>
+      <div className='lg:col-span-5 col-span-8 p-px rounded-md bg-border-gradient-1'>
         <div className='p-4 bg-base rounded-md'>
           <h1 className='uppercase text-white font-black text-[3rem] lg:text-[9rem] whitespace-nowrap leading-none
             ml-[5rem]' id='scroll-animation-4'>Who am <span className='text-[#9291DD]'>i</span>?</h1>
@@ -35,7 +35,7 @@ const WhoAmI = () => {
               </span>
             </p>
             {/* Rendered roles badges */}
-            <div className='space-x-3 flex justify-start items-center'>
+            <div className='gap-3 flex flex-wrap justify-start items-center'>
               {whoAmIData.badge.map((badge, index) => (
                 <Badge key={index} text={badge.title} styles={'lg:py-2 lg:px-4 py-1 px-2 inline-flex items-center text-nowrap gap-2.5 text-[12px] lg:text-[16px]'}>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="lg:size-5 size-3">
@@ -46,7 +46,7 @@ const WhoAmI = () => {
             </div>
           </div>
           {/* Description */}
-          <p className='scroll-animation-6'>{whoAmIData.content}</p>
+          <p className='scroll-animation-6 md:pr-24'>{whoAmIData.content}</p>
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@ const howItStartedData = AboutData[0].howItStarted[0];
 const HowItStarted = () => {
   return (
     <div className='grid grid-cols-8'>
-      <div className='lg:col-span-6 lg:col-start-3 col-span-7 p-px rounded-md bg-border-gradient-2'>
+      <div className='lg:col-span-6 lg:col-start-3 col-span-8 p-px rounded-md bg-border-gradient-2'>
         <div className='p-4 bg-base rounded-md space-y-8'>
           <h1 className='uppercase text-white font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none ml-[4rem]' id='scroll-animation-7'>
             How it <span className='text-[#9291DD]'>started</span>?
@@ -75,7 +75,7 @@ const HowItStarted = () => {
             ))}
           </div>
           {/* Rendered content */}
-          <p className='scroll-animation-8'>{howItStartedData.content}</p>
+          <p className='scroll-animation-8 md:pr-24'>{howItStartedData.content}</p>
         </div>
       </div>
     </div>
@@ -87,7 +87,7 @@ const HowsItGoingData = AboutData[0].howsItGoing[0];
 const HowsItGoing = () => {
   return (
     <div className='grid grid-cols-8'>
-      <div className='lg:col-span-6 col-span-7 p-px rounded-md bg-border-gradient-3'>
+      <div className='lg:col-span-6 col-span-8 p-px rounded-md bg-border-gradient-3'>
         <div className='p-4 bg-base rounded-md space-y-8'>
           <h1 className='uppercase text-white font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none' id='scroll-animation-9'>
             How's it <span className='text-[#9291DD]'>going</span>?
@@ -104,7 +104,7 @@ const HowsItGoing = () => {
             ))}
           </div>
           {/* Rendered content */}
-          <p className='scroll-animation-10'>{HowsItGoingData.content}</p>
+          <p className='scroll-animation-10 md:pr-24'>{HowsItGoingData.content}</p>
         </div>
       </div>
     </div>

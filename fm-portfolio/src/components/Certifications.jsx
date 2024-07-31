@@ -15,12 +15,12 @@ const Certifications = () => {
         <p className='text-white text-center lg:px-[20rem] md:px-[8rem] px-[2rem]'>{certificates.content}</p>
       </div>
       <div className='space-y-4'>
-        <div className='aboslute flex gap-3 lg:h-[12rem] h-[7rem] z-0' id='scroll-animation-22'>
+        <div className='aboslute flex gap-3 lg:h-[10rem] h-[7rem] z-0' id='scroll-animation-22'>
           {certificates.images01.map((cert, index) => (
             <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-sm' />
           ))}
         </div>
-        <div className='aboslute flex gap-3 lg:h-[12rem] h-[7rem] z-0' id='scroll-animation-23'>
+        <div className='aboslute flex gap-3 lg:h-[10rem] h-[7rem] z-0' id='scroll-animation-23'>
           {certificates.images02.map((cert, index) => (
             <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-sm' />
           ))}
