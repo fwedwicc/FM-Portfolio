@@ -39,6 +39,12 @@ import cert04 from './Simplillearn - Moreno, Frederick C. - Intro to Front-end D
 import cert05 from './SoloLearn - Moreno, Frederick C. - Web Development.png'
 import cert06 from './Xaltius - Moreno, Frederick C. - Webinar.png'
 import cert07 from './TESDA - Moreno, Frederick C. - Developing Designs For User Interface.png'
+import cert08 from './ZUITT - Moreno, Frederick C. - Data Visualization Workshop Certification.png'
+import cert09 from './GeeksforGeeks - Moreno, Frederick C. - Full Stack Developer Bootcamp-1.png'
+import cert10 from './Great Learning - Moreno, Frederick C. - UIUX for Beginners.png'
+import cert11 from './SoloLearn - Moreno, Frederick C. - Intro to CSS.png'
+import cert12 from './Simplilearn - Moreno, Frederick C. - Web Creation 101.png'
+import cert13 from './SoloLearn - Moreno, Frederick C. - JavaScript Intermediate.png'
 import htmllogo from './html-logo.png'
 import csslogo from './css-logo.png'
 import jslogo from './javascript-logo.png'
@@ -102,6 +108,12 @@ export {
   cert05,
   cert06,
   cert07,
+  cert08,
+  cert09,
+  cert10,
+  cert11,
+  cert12,
+  cert13,
   htmllogo,
   csslogo,
   jslogo,

@@ -12,17 +12,18 @@ const Certifications = () => {
       <img src={glow06} alt="Glow Elipse" className='absolute -z-10' />
       <div className='space-y-4' id='scroll-animation-24'>
         <h1 className='uppercase text-white font-black text-[2.5rem] lg:text-[5rem] whitespace-nowrap leading-none text-center' id='scroll-animation-'>{certificates.title}</h1>
-        <p className='text-white text-center lg:px-[20rem] md:px-[8rem] px-[2rem]'>{certificates.content}</p>
+        <p className='text-white text-center px-[2rem]' dangerouslySetInnerHTML={{ __html: certificates.content }}
+        ></p>
       </div>
       <div className='space-y-4'>
-        <div className='aboslute flex gap-3 lg:h-[10rem] h-[7rem] z-0' id='scroll-animation-22'>
+        <div className='aboslute ml-[-10rem] flex gap-3 lg:h-[10rem] h-[7rem] z-0' id='scroll-animation-22'>
           {certificates.images01.map((cert, index) => (
-            <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-sm' />
+            <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-md' />
           ))}
         </div>
         <div className='aboslute flex gap-3 lg:h-[10rem] h-[7rem] z-0' id='scroll-animation-23'>
           {certificates.images02.map((cert, index) => (
-            <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-sm' />
+            <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-md' />
           ))}
         </div>
       </div>

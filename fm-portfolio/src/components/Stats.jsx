@@ -13,7 +13,7 @@ const Stats = () => {
             <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fwedwicc&locale=en&hide_title=true&layout=compact&card_width=350&langs_count=8&order=2&bg_color=1C182D&text_color=C1B1FF&border_color=40317A" className='h-[12rem] w-auto' alt="languages graph" />
           </div>
           {/* Streak Graph */}
-          <div className='flex flex-col lg:gap-3 gap-0'>
+          <div className='flex flex-col gap-3'>
             <h4 className='font-semibold lg:text-left text-center'>Streaks</h4>
             <img src="https://streak-stats.demolab.com?user=fwedwicc&theme=material-palenight&currStreakNum=C1B1FF&background=1C182D&border=40317A&currStreakLabel=C1B1FF&fire=F1E05A&ring=C693EA&dates=C1B1FF&sideNums=C1B1FF&sideLabels=C1B1FF&stroke=AF84FF36" className='h-[12rem] w-auto' alt="streak graph" />
           </div>

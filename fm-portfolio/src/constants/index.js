@@ -28,6 +28,12 @@ import {
   cert05,
   cert06,
   cert07,
+  cert08,
+  cert09,
+  cert10,
+  cert11,
+  cert12,
+  cert13,
   htmllogo,
   csslogo,
   jslogo,
@@ -357,12 +363,11 @@ export const ExpertiseData = [
     githubStats: [],
     certifications: [
       {
-        // TODO: Certification Content
+        // TODO: Certification Link
         title: "Certifications",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non praesentium, quibusdam inventore quaerat vitae debitis optio illo. um, quibusdam inventore quaerat vitae debitis optio illo.",
+        content: "My extensive collection includes a variety of completed courses, active participation in numerous <br class='md:block hidden' /> workshops and seminars, and from tech industry-relevant webinars.",
         btnText: "View Certificates",
         link: "#",
-        // TODO: Certification Carousel Images
         images01: [
           { src: cert05 },
           { src: cert06 },
@@ -370,16 +375,20 @@ export const ExpertiseData = [
           { src: cert01 },
           { src: cert02 },
           { src: cert03 },
-          { src: cert04 }
+          { src: cert04 },
+          { src: cert02 },
+          { src: cert03 },
         ],
         images02: [
+          { src: cert11 },
+          { src: cert12 },
+          { src: cert08 },
+          { src: cert13 },
+          { src: cert09 },
           { src: cert05 },
-          { src: cert06 },
-          { src: cert07 },
-          { src: cert04 },
-          { src: cert01 },
+          { src: cert10 },
           { src: cert02 },
-          { src: cert03 }
+          { src: cert03 },
         ]
       }
     ]
