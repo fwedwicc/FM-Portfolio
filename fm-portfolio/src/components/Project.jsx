@@ -31,8 +31,8 @@ const Project = () => {
               <div className='flex gap-4 scroll-animation-16'>
                 <Link to='/all-projects'>
                   <Button text={'View all'} styles={'bg-indigo-600 hover:bg-indigo-700'}>
-                    <svg className="lg:w-5 w-4 lg:h-5 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                      <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19 12H5m14 0-4 4m4-4-4-4" />
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-4">
+                      <path fillRule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clipRule="evenodd" />
                     </svg>
                   </Button>
                 </Link>

@@ -23,7 +23,7 @@ const Hero = () => {
           <div className='rounded-md rounded-tr-[2.5rem] h-full p-5 bg-[#15131C] flex flex-col justify-between'>
             {/* Top side */}
             <div className='grid lg:grid-cols-2 grid-cols-1 lg:space-y-0 space-y-4'>
-              <div className='z-20'>
+              <div className='z-10'>
                 <p className='text-white'>Hello World! I am <span className='font-semibold text-indigo-400'>{heroData.name}</span>,
                   {heroData.content}
                 </p>
