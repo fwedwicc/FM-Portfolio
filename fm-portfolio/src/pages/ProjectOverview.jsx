@@ -61,13 +61,13 @@ const ProjectOverview = ({ projects }) => {
                 </a>
               </div>
             </div>
-            <div className='flex flex-col items-start justify-end gap-4'>
+            <div className='flex flex-col items-start justify-end gap-6'>
               {/*  */}
               <div>
                 <h2 className='text-white mb-2 font-semibold text-[12px] lg:text-[16px]'>Category:</h2>
                 <div className='flex gap-2.5 scroll-animation-'>
                   {project.category.map((category, index) => (
-                    <Badge key={index} text={category} styles={'lg:py-2 lg:px-4 py-1 px-2 text-[12px] lg:text-[16px] bg-opacity-50 backdrop-blur-md'} />
+                    <Badge key={index} text={category} styles={'g:py-1.5 lg:px-3 py-1 px-2 text-xs lg:text-sm bg-opacity-50 backdrop-blur-md'} />
                   ))}
                 </div>
               </div>
@@ -78,7 +78,7 @@ const ProjectOverview = ({ projects }) => {
                   {project.tools.map((icon, index) => (
                     <Badge key={index} styles={'lg:p-2 p-1.5 relative group hover:shadow-xl hover:shadow-[#412F84]/50 transition-all duration-300 ease-in-out hover:border-[#6C59B9] hover:bg-[#221D36] bg-opacity-50 backdrop-blur-md'}>
                       <img src={icon.icon} alt="icon" className='w-6 h-6 lg:w-8 lg:h-8' />
-                      <div className='absolute lg:text-[16px] text-[10px] bg-[#2A2345] text-white lg:px-2 px-1.5 lg:py-1.5 py-1 rounded-md z-10 opacity-0 group-hover:opacity-100 text-nowrap transition-opacity duration-300 ease-in-out' style={{ top: '120%', left: '50%', transform: 'translateX(-50%)' }}>
+                      <div className='absolute text-sm bg-[#2A2345] text-white lg:px-2 px-1.5 lg:py-1.5 py-1 rounded-md z-10 opacity-0 group-hover:opacity-100 text-nowrap transition-opacity duration-300 ease-in-out' style={{ top: '120%', left: '50%', transform: 'translateX(-50%)' }}>
                         {icon.tooltip}
                       </div>
                     </Badge>
