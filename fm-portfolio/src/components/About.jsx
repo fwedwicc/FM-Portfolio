@@ -37,8 +37,8 @@ const WhoAmI = () => {
             {/* Rendered roles badges */}
             <div className='gap-3 flex flex-wrap justify-start items-center'>
               {whoAmIData.badge.map((badge, index) => (
-                <Badge key={index} text={badge.title} styles={'lg:py-2 lg:px-4 py-1 px-2 inline-flex items-center text-nowrap gap-2.5 text-[12px] lg:text-[16px]'}>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="lg:size-5 size-3">
+                <Badge key={index} text={badge.title} styles={'lg:py-1.5 lg:px-3 py-1 px-2 inline-flex items-center text-nowrap gap-2 text-xs lg:text-sm'}>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="lg:size-3.5 size-2">
                     <path strokeLinecap="round" strokeLinejoin="round" d={badge.svgPath} />
                   </svg>
                 </Badge>
@@ -46,7 +46,7 @@ const WhoAmI = () => {
             </div>
           </div>
           {/* Description */}
-          <p className='scroll-animation-6 md:pr-24'>{whoAmIData.content}</p>
+          <p className='scroll-animation-6 md:pr-24 leading-relaxed'>{whoAmIData.content}</p>
         </div>
       </div>
     </div>
@@ -64,18 +64,18 @@ const HowItStarted = () => {
             How it <span className='text-[#9291DD]'>started</span>?
           </h1>
           {/* Rendered Icons */}
-          <div className='flex gap-2.5 lg:gap-4 my-4 scroll-animation-8'>
+          <div className='flex gap-2 lg:gap-3 my-4 scroll-animation-8'>
             {howItStartedData.icons.map((icon, index) => (
               <Badge key={index} styles={'lg:p-2 p-1.5 relative group hover:shadow-xl hover:shadow-[#412F84]/50 transition-all duration-300 ease-in-out hover:border-[#6C59B9] hover:bg-[#221D36]'}>
-                <img src={icon.icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
-                <div className='absolute lg:text-[16px] text-[10px] bg-[#2A2345] text-white lg:px-2 px-1.5 lg:py-1.5 py-1 rounded-md z-10 opacity-0 group-hover:opacity-100 text-nowrap transition-opacity duration-300 ease-in-out' style={{ top: '120%', left: '50%', transform: 'translateX(-50%)' }}>
+                <img src={icon.icon} alt="icon" className='w-6 h-6 lg:w-8 lg:h-8' />
+                <div className='absolute text-sm bg-[#2A2345] text-white lg:px-2 px-1.5 lg:py-1.5 py-1 rounded-md z-10 opacity-0 group-hover:opacity-100 text-nowrap transition-opacity duration-300 ease-in-out' style={{ top: '120%', left: '50%', transform: 'translateX(-50%)' }}>
                   {icon.tooltip}
                 </div>
               </Badge>
             ))}
           </div>
           {/* Rendered content */}
-          <p className='scroll-animation-8 md:pr-24'>{howItStartedData.content}</p>
+          <p className='scroll-animation-8 md:pr-24 leading-relaxed'>{howItStartedData.content}</p>
         </div>
       </div>
     </div>
@@ -93,18 +93,18 @@ const HowsItGoing = () => {
             How's it <span className='text-[#9291DD]'>going</span>?
           </h1>
           {/* Rendered Icons */}
-          <div className='flex flex-wrap gap-2.5 lg:gap-4 my-4 scroll-animation-10'>
+          <div className='flex flex-wrap gap-2 lg:gap-3 my-4 scroll-animation-10'>
             {HowsItGoingData.icons.map((icon, index) => (
               <Badge key={index} styles={'lg:p-2 p-1.5 relative group hover:shadow-xl hover:shadow-[#412F84]/50 transition-all duration-300 ease-in-out hover:border-[#6C59B9] hover:bg-[#221D36]'}>
-                <img src={icon.icon} alt="icon" className='w-7 h-7 lg:w-10 lg:h-10' />
-                <div className='absolute lg:text-[16px] text-[10px] bg-[#2A2345] text-white lg:px-2 px-1.5 lg:py-1.5 py-1 rounded-md z-10 opacity-0 group-hover:opacity-100 text-nowrap transition-opacity duration-300 ease-in-out' style={{ top: '120%', left: '50%', transform: 'translateX(-50%)' }}>
+                <img src={icon.icon} alt="icon" className='w-6 h-6 lg:w-8 lg:h-8' />
+                <div className='absolute text-sm bg-[#2A2345] text-white lg:px-2 px-1.5 lg:py-1.5 py-1 rounded-md z-10 opacity-0 group-hover:opacity-100 text-nowrap transition-opacity duration-300 ease-in-out' style={{ top: '120%', left: '50%', transform: 'translateX(-50%)' }}>
                   {icon.tooltip}
                 </div>
               </Badge>
             ))}
           </div>
           {/* Rendered content */}
-          <p className='scroll-animation-10 md:pr-24'>{HowsItGoingData.content}</p>
+          <p className='scroll-animation-10 md:pr-24 leading-relaxed'>{HowsItGoingData.content}</p>
         </div>
       </div>
     </div>

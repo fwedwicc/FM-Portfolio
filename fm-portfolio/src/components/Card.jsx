@@ -10,11 +10,11 @@ const Card = ({ title, desc, img, roles = [] }) => {
         </div>
         <div className='flex flex-col gap-4 col-span-5'>
           <div>
-            <h1 className='text-white text-[2rem]'>{title}</h1>
-            <p>{desc}</p>
+            <h1 className='text-white text-[1.5rem]'>{title}</h1>
+            <p className='text-sm'>{desc}</p>
           </div>
           <div className='space-y-2'>
-            <h3 className='text-white font-semibold'>Roles:</h3>
+            <h3 className='text-white font-semibold text-sm'>Roles:</h3>
             <div className='flex-wrap flex gap-3'>
               {roles.map((role, index) => (
                 <Badge key={index} text={role} styles={'lg:py-2 lg:px-4 py-1 px-2 text-[12px] lg:text-[16px]'} />

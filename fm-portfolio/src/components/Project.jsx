@@ -20,8 +20,8 @@ const Project = () => {
               {/* Rendered roles badges */}
               <div className='space-x-3 flex justify-start items-center scroll-animation-16'>
                 {project.badge.map((badge, index) => (
-                  <Badge key={index} text={badge.title} styles={'lg:py-2 lg:px-4 py-1 px-2 inline-flex items-center text-nowrap gap-2.5 text-[12px] lg:text-[16px] bg-[#211F4B] border-[#574699]'}>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="lg:size-5 size-3">
+                  <Badge key={index} text={badge.title} styles={'lg:py-1.5 lg:px-3 py-1 px-2 inline-flex items-center text-nowrap gap-2 text-xs lg:text-sm bg-[#211F4B] border-[#574699]'}>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="lg:size-3.5 size-2">
                       <path strokeLinecap="round" strokeLinejoin="round" d={badge.svgPath} />
                     </svg>
                   </Badge>

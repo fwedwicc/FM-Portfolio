@@ -50,12 +50,12 @@ const HeaderLogo = ({ onClick }) => (
 );
 
 const NavLinks = ({ activeSection }) => (
-  <ul className="text-white text-sm uppercase space-y-[10px]">
+  <ul className="text-white uppercase space-y-[10px]">
     {navLinks.map((nav, index) => (
       <li key={index}>
         <a
           href={`#${nav.id}`}
-          className={`nav-link ${activeSection === nav.id ? 'active-nav-link' : ''}`}
+          className={`nav-link text-sm ${activeSection === nav.id ? 'active-nav-link' : ''}`}
         >
           {nav.title}
         </a>

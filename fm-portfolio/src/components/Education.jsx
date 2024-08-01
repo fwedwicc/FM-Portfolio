@@ -56,7 +56,7 @@ const QcuEducation = () => {
       <img src={qcuTertiary.logo} alt="QCU Logo" className='w-auto h-[4rem] lg:h-[12rem]' />
 
       <div className='lg:space-y-4 space-y-3'>
-        <h1 className='uppercase bg-gradient-to-r from-[#B8B7FF] via-[#7977C7] to-[#4A489E] text-transparent bg-clip-text font-black text-[3rem] lg:text-[5rem] whitespace-nowrap leading-none'>
+        <h1 className='uppercase bg-gradient-to-r from-[#B8B7FF] via-[#7977C7] to-[#4A489E] text-transparent bg-clip-text font-black text-[2rem] lg:text-[4rem] whitespace-nowrap leading-none'>
           {qcuTertiary.title}
         </h1>
         <div className='flex flex-wrap gap-6'>
@@ -73,7 +73,7 @@ const Content = ({ name, level, course, container }) => {
     <div className={`${container}`}>
       <h4 className='font-semibold'>{name}</h4>
       <p className='font-thin italic'>{level}</p>
-      <Badge text={course} styles={'lg:py-2 lg:px-4 py-1 px-2 inline-flex items-center flex-wrap gap-2.5 text-[12px] lg:text-[16px]'} />
+      <Badge text={course} styles={'lg:py-1.5 lg:px-3 py-1 px-2 inline-flex items-center flex-wrap gap-2.5 text-xs lg:text-sm'} />
     </div>
   )
 }

@@ -44,7 +44,7 @@ const Footer = ({ link }) => {
         </div>
       </div>
       <div className="col-span-1 flex justify-end items-end">
-        <h2 className='text-white leading-none lg:text-[16px] text-[10px] text-nowrap'>
+        <h2 className='text-white leading-none text-sm text-nowrap'>
           ©{currentYear} {contacts.name}
         </h2>
       </div>
