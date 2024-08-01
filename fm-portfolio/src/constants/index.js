@@ -393,14 +393,14 @@ export const ExpertiseData = [
   }
 ];
 
-// TODO: Project Overview Content
 export const ProjectOverviewData = [
   {
+    // TODO: fmUI Project Content
     // fmUI
     id: 'fmUI',
     title: 'fmUI',
-    desc: 'Lorem ipsum bcaecati nisi mollitia hic.',
-    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
+    desc: 'fmUI: a project aimed at providing a diverse range of open-source Tailwind CSS components and templates for seamless web development.',
+    content: "fmUI: a project aimed at providing a diverse range of open-source Tailwind CSS components and templates for seamless web development.",
     img: 'https://placehold.co/300x200',
     roles: ['Web Developer', 'UI/UX Designer'],
     category: ['Personal Project'],
@@ -418,31 +418,19 @@ export const ProjectOverviewData = [
         tooltip: "Javascript"
       },
       {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
+        icon: reactlogo,
+        tooltip: "ReactJS"
       },
       {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
+        icon: tailwindlogo,
+        tooltip: "Tailwind CSS"
       },
       {
-        icon: jslogo,
-        tooltip: "Javascript"
-      },
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "Javascript"
+        icon: framerlogo,
+        tooltip: "Framer Motion"
       },
     ],
-    githubLink: "https://github.com/fwedwicc/QCU-LMS",
+    githubLink: "https://github.com/fwedwicc/fmUI",
     siteLink: "#",
     miroLink: "#",
     figmaLink: "#",
@@ -451,11 +439,12 @@ export const ProjectOverviewData = [
     figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
   },
   {
-    // FM Gallery
+    // TODO: FM DailyUI Project Content
+    // FM DailyUI
     id: 'fm-dailyUI',
     title: 'FM DailyUI',
-    desc: 'Lorem ipsum bcaecati nisi mollitia hic.',
-    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
+    desc: 'FM DailyUI: a curated collection of 100 Days of UI challenge prompts from https://www.dailyui.co, showcasing creative and innovative UI designs using my design system; fmUI.',
+    content: "FM DailyUI: a curated collection of 100 Days of UI challenge prompts from https://www.dailyui.co, showcasing creative and innovative UI designs using my design system; fmUI.",
     img: 'https://placehold.co/300x200',
     roles: ['Front-end Developer', 'UI/UX Designer'],
     category: ['Personal Project'],
@@ -481,23 +470,11 @@ export const ProjectOverviewData = [
         tooltip: "Tailwind CSS"
       },
       {
-        icon: jslogo,
-        tooltip: "Javascript"
-      },
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "Javascript"
+        icon: framerlogo,
+        tooltip: "Framer Motion"
       },
     ],
-    githubLink: "https://github.com/fwedwicc/FM-Gallery",
+    githubLink: "https://github.com/fwedwicc/FM-DailyUI",
     siteLink: "#",
     miroLink: "#",
     figmaLink: "#",
@@ -506,11 +483,52 @@ export const ProjectOverviewData = [
     figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
   },
   {
+    // TODO: FM Gallery Project Content
     // FM Gallery
     id: 'fm-gallery',
     title: 'FM Gallery',
-    desc: 'Lorem ipsum bcaecati nisi mollitia hic.',
-    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
+    desc: 'FM Gallery: an assemblage of my finest portrait masterpieces from throughout my career as an artist.',
+    content: "FM Gallery: an assemblage of my finest portrait masterpieces from throughout my career as an artist.",
+    img: 'https://placehold.co/300x200',
+    roles: ['Front-end Developer', 'UI/UX Designer'],
+    category: ['Personal Project'],
+    tools: [
+      {
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
+      },
+      {
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
+      },
+      {
+        icon: jslogo,
+        tooltip: "Javascript"
+      },
+      {
+        icon: tailwindlogo,
+        tooltip: "Tailwind CSS"
+      },
+      {
+        icon: gsaplogo,
+        tooltip: "GSAP"
+      },
+    ],
+    githubLink: "https://github.com/fwedwicc/FM-Gallery",
+    siteLink: "https://fwedwicc.github.io/FM-Gallery/",
+    miroLink: "#",
+    figmaLink: "#",
+    poster: poster01,
+    miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
+    figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
+  },
+  {
+    // TODO: FM Portfolio Project Content
+    // FM Portfolio
+    id: 'fm-portfolio',
+    title: 'FM Portfolio',
+    desc: 'FM Portfolio: a thorough exhibition that pertains to my background, interests, education & achievements, innovative & creative works, and tech profession.',
+    content: "FM Portfolio: a thorough exhibition that pertains to my background, interests, education & achievements, innovative & creative works, and tech profession.",
     img: 'https://placehold.co/300x200',
     roles: ['Web Developer', 'UI/UX Designer'],
     category: ['Personal Project'],
@@ -536,75 +554,12 @@ export const ProjectOverviewData = [
         tooltip: "Tailwind CSS"
       },
       {
-        icon: jslogo,
-        tooltip: "Javascript"
+        icon: gsaplogo,
+        tooltip: "GSAP"
       },
       {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "Javascript"
-      },
-    ],
-    githubLink: "https://github.com/fwedwicc/FM-Gallery",
-    siteLink: "#",
-    miroLink: "#",
-    figmaLink: "#",
-    poster: poster01,
-    miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
-    figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
-  },
-  {
-    // FM Portfolio
-    id: 'fm-portfolio',
-    title: 'FM Portfolio',
-    desc: 'Lorem ipsum bcaecati nisi mollitia hic.',
-    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
-    img: 'https://placehold.co/300x200',
-    roles: ['Front-end Developer', 'UI/UX Designer'],
-    category: ['Personal Project'],
-    tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "Javascript"
-      },
-      {
-        icon: reactlogo,
-        tooltip: "ReactJS"
-      },
-      {
-        icon: tailwindlogo,
-        tooltip: "Tailwind CSS"
-      },
-      {
-        icon: jslogo,
-        tooltip: "Javascript"
-      },
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "Javascript"
+        icon: framerlogo,
+        tooltip: "Framer Motion"
       },
     ],
     githubLink: "https://github.com/fwedwicc/FM-Portfolio",
@@ -616,6 +571,7 @@ export const ProjectOverviewData = [
     figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
   },
   {
+    // TODO: QCU-LMS Project Content
     // QCU-LMS
     id: 'qcu-lms',
     title: 'QCU-LMS',

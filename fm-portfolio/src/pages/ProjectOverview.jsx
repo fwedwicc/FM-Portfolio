@@ -73,7 +73,7 @@ const ProjectOverview = ({ projects }) => {
               </div>
               {/*  */}
               <div>
-                <h2 className='text-white mb-2 font-semibold text-[12px] lg:text-[16px]'>Development Tools:</h2>
+                <h2 className='text-white mb-2 font-semibold text-[12px] lg:text-[16px]'>Technologies Stack:</h2>
                 <div className='flex gap-2.5 scroll-animation-'>
                   {project.tools.map((icon, index) => (
                     <Badge key={index} styles={'lg:p-2 p-1.5 relative group hover:shadow-xl hover:shadow-[#412F84]/50 transition-all duration-300 ease-in-out hover:border-[#6C59B9] hover:bg-[#221D36] bg-opacity-50 backdrop-blur-md'}>

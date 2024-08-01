@@ -11,7 +11,7 @@ const Card = ({ title, desc, img, roles = [] }) => {
         <div className='flex flex-col gap-4 col-span-5'>
           <div className='space-y-1.5'>
             <h2 className='text-white font-bold text-[1.3rem]'>{title}</h2>
-            <p className='text-sm'>{desc}</p>
+            <p className='text-[13px]'>{desc}</p>
           </div>
           <div className='space-y-2'>
             <h3 className='text-white font-bold text-sm'>Roles:</h3>
