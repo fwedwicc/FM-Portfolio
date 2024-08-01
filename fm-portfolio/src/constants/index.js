@@ -238,7 +238,7 @@ export const AboutData = [
 export const ProjectData = [
   {
     title: "Projects",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, cupiditate! Sapiente placeat tempora ab eaque veniam maxime, doloremque iusto ipsa dolores! Natus reprehenderit vero et ex culpa expedita nostrum facilis.",
+    content: "This section serves as a comprehensive showcase of my innovative and creative web development projects. In these endeavors, I take on multiple roles, including Front-end Developer and UI/UX Designer, to ensure the delivery of high-quality websites and web applications.",
     badge: [
       {
         title: "Front-end Development",
@@ -253,7 +253,6 @@ export const ProjectData = [
         svgPath: "m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125"
       },
     ],
-
   }
 ];
 
