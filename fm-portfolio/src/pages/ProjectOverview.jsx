@@ -32,7 +32,7 @@ const ProjectOverview = ({ projects }) => {
       exit={{ opacity: 0 }}
       transition={{ duration: 1.3 }}
     >
-      <img src={poster01} alt="Compiled Certifications" className='w-full h-full object-cover object-center absolute -z-10' id='scroll-animation-' />
+      <img src={project.poster} alt="Compiled Certifications" className='w-full h-full object-cover object-center absolute -z-10' id='scroll-animation-' />
       <div className='z-20 p-12 relative'>
         <Link to="/all-projects">
           <img src={FMlogo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem]" />
