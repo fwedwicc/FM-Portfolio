@@ -3,6 +3,12 @@ import {
   instagram,
   linkedin,
   facebook,
+  mail,
+  phone,
+  location,
+} from '../assets';
+
+import {
   html,
   css,
   javascript,
@@ -16,11 +22,33 @@ import {
   figma,
   git,
   npm,
-  bcp,
+} from '../assets/icons';
+
+import {
   qcu,
-  mail,
-  phone,
-  location,
+  bcp,
+  htmllogo,
+  csslogo,
+  jslogo,
+  figmalogo,
+  reactlogo,
+  vuelogo,
+  nextlogo,
+  phplogo,
+  netlogo,
+  gsaplogo,
+  framerlogo,
+  vitelogo,
+  vercellogo,
+  gitlogo,
+  npmlogo,
+  vscodelogo,
+  vslogo,
+  tailwindlogo,
+  bootstraplogo
+} from '../assets/logos';
+
+import {
   cert01,
   cert02,
   cert03,
@@ -34,27 +62,7 @@ import {
   cert11,
   cert12,
   cert13,
-  htmllogo,
-  csslogo,
-  jslogo,
-  figmalogo,
-  reactlogo,
-  vuelogo,
-  nextlogo,
-  tailwindlogo,
-  bootstraplogo,
-  phplogo,
-  netlogo,
-  gsaplogo,
-  framerlogo,
-  vitelogo,
-  vercellogo,
-  gitlogo,
-  npmlogo,
-  vscodelogo,
-  vslogo,
-  poster01,
-} from '../assets';
+} from '../assets/certifications';
 
 import { sampleThumbnail, sampleBanner } from '../assets/banners';
 
@@ -480,7 +488,7 @@ export const ProjectOverviewData = [
     siteLink: "#",
     miroLink: "#",
     figmaLink: "#",
-    poster: poster01,
+    poster: sampleBanner,
     miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
     figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
   },
@@ -520,7 +528,7 @@ export const ProjectOverviewData = [
     siteLink: "https://fwedwicc.github.io/FM-Gallery/",
     miroLink: "#",
     figmaLink: "#",
-    poster: poster01,
+    poster: sampleBanner,
     miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
     figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
   },
@@ -568,7 +576,7 @@ export const ProjectOverviewData = [
     siteLink: "#",
     miroLink: "#",
     figmaLink: "#",
-    poster: poster01,
+    poster: sampleBanner,
     miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
     figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
   },
@@ -624,7 +632,7 @@ export const ProjectOverviewData = [
     siteLink: "#",
     miroLink: "#",
     figmaLink: "#",
-    poster: poster01,
+    poster: sampleBanner,
     miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
     figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
   },

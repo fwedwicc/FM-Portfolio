@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { NoPage } from './index'
 import { motion } from 'framer-motion';
-import { FMlogo, poster01, glow05 } from '../assets';
+import { FMlogo, glow05 } from '../assets';
 import Badge from '../components/Badge';
 import Button from '../components/Button';
 import { Link } from 'react-router-dom';

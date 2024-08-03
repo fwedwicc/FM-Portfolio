@@ -1,0 +1,45 @@
+import bcp from './BCP-logo.svg'
+import qcu from './QCU-logo.svg'
+import htmllogo from './html-logo.png'
+import csslogo from './css-logo.png'
+import jslogo from './javascript-logo.png'
+import figmalogo from './figma-logo.png'
+import reactlogo from './reactjs-logo.png'
+import vuelogo from './vuejs-logo.png'
+import nextlogo from './nextjs-logo.png'
+import phplogo from './php-logo.png'
+import netlogo from './net-logo.png'
+import gsaplogo from './gsap-logo.png'
+import framerlogo from './framer-motion-logo.png'
+import vitelogo from './vite-logo.png'
+import vercellogo from './vercel-logo.png'
+import gitlogo from './git-logo.png'
+import npmlogo from './npm-logo.png'
+import vscodelogo from './vscode-logo.png'
+import vslogo from './vs-logo.png'
+import tailwindlogo from './tailwind-logo.png'
+import bootstraplogo from './bootstrap-logo.png'
+
+export {
+  bcp,
+  qcu,
+  htmllogo,
+  csslogo,
+  jslogo,
+  figmalogo,
+  reactlogo,
+  vuelogo,
+  nextlogo,
+  phplogo,
+  netlogo,
+  gsaplogo,
+  framerlogo,
+  vitelogo,
+  vercellogo,
+  gitlogo,
+  npmlogo,
+  vscodelogo,
+  vslogo,
+  tailwindlogo,
+  bootstraplogo
+}

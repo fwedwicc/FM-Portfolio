@@ -1,3 +1,4 @@
+import FMlogo from './FM-logo.png'
 import github from './github.svg'
 import instagram from './instagram.svg'
 import facebook from './facebook.svg'
@@ -9,64 +10,16 @@ import glow04 from './glow-04.png'
 import glow05 from './glow-05.png'
 import glow06 from './glow-06.png'
 import glow07 from './glow-07.png'
-import FMlogo from './FM-logo.png'
-import profile from './sample-profile.png'
-import html from './html-icon.svg'
-import css from './css-icon.svg'
-import javascript from './javascript-icon.svg'
-import react from './react-icon.svg'
-import nextjs from './next-icon.svg'
-import vue from './vue-icon.svg'
-import tailwind from './tailwind-icon.svg'
-import bootstrap from './bootstrap-icon.svg'
-import gsap from './gsap-icon.svg'
-import php from './php-icon.svg'
-import figma from './figma-icon.svg'
-import git from './git-icon.svg'
-import npm from './npm-icon.svg'
-import bcp from './BCP-logo.svg'
-import qcu from './QCU-logo.svg'
-import compiledProjects from './compiled-projects.png'
+import fade01 from './fade-01.png'
 import grid01 from './grid-01.png'
+import compiledProjects from './compiled-projects.png'
 import mail from './mail.svg'
 import phone from './contact.svg'
 import location from './location.svg'
-import fade01 from './fade-01.png'
-import cert01 from './freeCodeCamp - Moreno, Frederick C. - Responsive Web Design.png'
-import cert02 from './Programming Hero - Moreno, Frederick C. - ReactJS Course.jpg'
-import cert03 from './Programming Hero - Moreno, Frederick C. - Complete Web Development.jpg'
-import cert04 from './Simplillearn - Moreno, Frederick C. - Intro to Front-end Development Course.png'
-import cert05 from './SoloLearn - Moreno, Frederick C. - Web Development.png'
-import cert06 from './Xaltius - Moreno, Frederick C. - Webinar.png'
-import cert07 from './TESDA - Moreno, Frederick C. - Developing Designs For User Interface.png'
-import cert08 from './ZUITT - Moreno, Frederick C. - Data Visualization Workshop Certification.png'
-import cert09 from './GeeksforGeeks - Moreno, Frederick C. - Full Stack Developer Bootcamp-1.png'
-import cert10 from './Great Learning - Moreno, Frederick C. - UIUX for Beginners.png'
-import cert11 from './SoloLearn - Moreno, Frederick C. - Intro to CSS.png'
-import cert12 from './Simplilearn - Moreno, Frederick C. - Web Creation 101.png'
-import cert13 from './SoloLearn - Moreno, Frederick C. - JavaScript Intermediate.png'
-import htmllogo from './html-logo.png'
-import csslogo from './css-logo.png'
-import jslogo from './javascript-logo.png'
-import figmalogo from './figma-logo.png'
-import reactlogo from './reactjs-logo.png'
-import vuelogo from './vuejs-logo.png'
-import nextlogo from './nextjs-logo.png'
-import phplogo from './php-logo.png'
-import netlogo from './net-logo.png'
-import gsaplogo from './gsap-logo.png'
-import framerlogo from './framer-motion-logo.png'
-import vitelogo from './vite-logo.png'
-import vercellogo from './vercel-logo.png'
-import gitlogo from './git-logo.png'
-import npmlogo from './npm-logo.png'
-import vscodelogo from './vscode-logo.png'
-import vslogo from './vs-logo.png'
-import tailwindlogo from './tailwind-logo.png'
-import bootstraplogo from './bootstrap-logo.png'
-import poster01 from './sample-poster.png'
+
 
 export {
+  FMlogo,
   github,
   instagram,
   facebook,
@@ -78,60 +31,10 @@ export {
   glow05,
   glow06,
   glow07,
-  FMlogo,
-  profile,
-  html,
-  css,
-  javascript,
-  react,
-  nextjs,
-  vue,
-  tailwind,
-  bootstrap,
-  gsap,
-  php,
-  figma,
-  npm,
-  git,
-  bcp,
-  qcu,
-  compiledProjects,
+  fade01,
   grid01,
+  compiledProjects,
   mail,
   phone,
-  location,
-  fade01,
-  cert01,
-  cert02,
-  cert03,
-  cert04,
-  cert05,
-  cert06,
-  cert07,
-  cert08,
-  cert09,
-  cert10,
-  cert11,
-  cert12,
-  cert13,
-  htmllogo,
-  csslogo,
-  jslogo,
-  figmalogo,
-  reactlogo,
-  vuelogo,
-  nextlogo,
-  phplogo,
-  netlogo,
-  gsaplogo,
-  framerlogo,
-  vitelogo,
-  vercellogo,
-  gitlogo,
-  npmlogo,
-  vscodelogo,
-  vslogo,
-  tailwindlogo,
-  bootstraplogo,
-  poster01,
+  location
 }
