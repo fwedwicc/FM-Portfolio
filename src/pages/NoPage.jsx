@@ -7,7 +7,7 @@ import { glow05 } from '../assets'
 const NoPage = () => {
   const renderLink = (link) => (
     <Link
-      to={`/home#${link.id}`}
+      to={`/FM-Portfolio#${link.id}`}
       className='lg:text-[16px] text-[12px]'
     >
       {link.title}

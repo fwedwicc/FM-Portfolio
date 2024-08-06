@@ -13,7 +13,7 @@ const ProjectOverview = ({ projects }) => {
   const project = projects.find(proj => proj.id === projectId);
   const renderLink = (link) => (
     <Link
-      to={`/home#${link.id}`}
+      to={`/FM-Portfolio#${link.id}`}
       className='lg:text-[16px] text-[12px]'
     >
       {link.title}
@@ -34,7 +34,7 @@ const ProjectOverview = ({ projects }) => {
     >
       <img src={project.poster} alt="Compiled Certifications" className='w-full h-full object-cover object-center absolute -z-10' id='scroll-animation-' />
       <div className='z-20 p-12 relative'>
-        <Link to="/all-projects">
+        <Link to="/FM-Portfolio/all-projects">
           <img src={FMlogo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem]" />
         </Link>
         <div className='lg:pt-[11rem] pt-[9rem]'>
