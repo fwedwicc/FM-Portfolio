@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { NoPage, Home, AllProjects, ProjectOverview } from './pages';
-import { ProjectOverviewData } from './constants';
+import { NoPage, Home, AllProjects, ProjectOverview } from './pages/index.js';
+import { ProjectOverviewData } from './constants/index.js';
 import App from './App.jsx'
 import './index.css'
 

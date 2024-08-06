@@ -1,6 +1,6 @@
 import React from 'react';
 import { glow01 } from '../assets'
-import Button from '../components/Button'
+import Button from './Button'
 import useGsapAnimations from '../hooks/useGsapAnimations';
 import { HeroData, ContactData } from '../constants';
 

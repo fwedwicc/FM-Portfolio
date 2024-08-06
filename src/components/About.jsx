@@ -1,7 +1,7 @@
 import React from 'react';
 import { glow02 } from '../assets';
 import { AboutData } from '../constants';
-import Badge from '../components/Badge';
+import Badge from './Badge';
 import useGsapAnimations from '../hooks/useGsapAnimations';
 
 const About = () => {
