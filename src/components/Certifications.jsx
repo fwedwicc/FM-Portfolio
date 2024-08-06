@@ -7,15 +7,15 @@ const certificates = ExpertiseData[0].certifications[0];
 
 const Certifications = () => {
   return (
-    <div className='flex flex-col gap-12 items-center py-12 justify-center'>
-      <img src={fade01} alt="Fade Effect" className='w-full h-full object-cover object-center absolute z-10' />
+    <div className='flex flex-col gap-12 items-center py-12 justify-center relative overflow-hidden'>
+      <img src={fade01} alt="Fade Effect" className='w-full h-full object-cover absolute inset-0 z-10' />
       <img src={glow06} alt="Glow Elipse" className='absolute -z-10' />
       <div className='space-y-4' id='scroll-animation-24'>
         <h1 className='uppercase text-white font-black text-[2.5rem] lg:text-[5rem] whitespace-nowrap leading-none text-center' id='scroll-animation-'>{certificates.title}</h1>
         <p className='text-white text-center px-[2rem]' dangerouslySetInnerHTML={{ __html: certificates.content }}
         ></p>
       </div>
-      <div className='space-y-4'>
+      <div className='space-y-4 overflow-hidden'>
         <div className='aboslute ml-[-10rem] flex gap-3 lg:h-[10rem] h-[7rem] z-0' id='scroll-animation-22'>
           {certificates.images01.map((cert, index) => (
             <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-md' />
