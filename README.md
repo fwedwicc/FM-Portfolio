@@ -2,8 +2,6 @@
 
 FM Portfolio is an extensive showcase that delves into my personal background, interests, education, and achievements. It highlights my innovative and creative works, as well as my professional journey in the tech industry. This project serves as a comprehensive representation of my skills, experiences, and dedication to front-end development and UI/UX design.
 
-~ Image overview - Under construction / This is just a sample
-
 <img src="https://github.com/fwedwicc/README-assets/blob/main/banners/FM-Portfolio-banner.png" width='100%' alt="FM Portfolio Overview"  />
 
 ## Table of Contents
@@ -53,8 +51,6 @@ FM Portfolio is an extensive showcase that delves into my personal background, i
   <img src="https://github.com/fwedwicc/README-assets/blob/main/icons/vite-logo.png" height="40" alt="Vite Logo"  />
   <img width="12" />
   <img src="https://github.com/fwedwicc/README-assets/blob/main/icons/npm-logo.png" height="40" alt="NPM Logo"  />
-  <img width="12" />
-  <img src="https://github.com/fwedwicc/README-assets/blob/main/icons/vercel-logo.png" height="40" alt="Vercel Logo"  />
 </div>
 
 ## Contact
