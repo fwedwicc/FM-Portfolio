@@ -4,7 +4,7 @@ FM Portfolio is an extensive showcase that delves into my personal background, i
 
 ~ Image overview - Under construction / This is just a sample
 
-<img src="https://github.com/fwedwicc/README-assets/blob/main/banners/sample-readme-banner.png" width='100%' alt=""  />
+<img src="https://github.com/fwedwicc/README-assets/blob/main/banners/FM-Portfolio-banner.png" width='100%' alt="FM Portfolio Overview"  />
 
 ## Table of Contents
 

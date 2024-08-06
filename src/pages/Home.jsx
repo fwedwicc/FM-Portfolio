@@ -48,7 +48,7 @@ const Home = () => {
       <section ref={(el) => (sectionsRef.current[5] = el)} id='expertise' className='w-full'>
         <Certifications />
       </section>
-      <section ref={(el) => (sectionsRef.current[6] = el)} className='h-screen' id='projects w-full'>
+      <section ref={(el) => (sectionsRef.current[6] = el)} className='h-screen w-full' id='projects'>
         <Project />
       </section>
       <section ref={(el) => (sectionsRef.current[7] = el)} className='h-screen bg-grid-2 bg-contain bg-center bg-no-repeat w-full' id='contact'>

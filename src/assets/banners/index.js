@@ -1,7 +1,7 @@
-import sampleThumbnail from './sample-thumbnail.png'
-import sampleBanner from './sample-banner.png'
+import FMPortfolioThumbnail from './FM-Portfolio-thumbnail.png'
+import FMPortfolioBanner from './FM-Portfolio-banner.png'
 
 export {
-  sampleThumbnail,
-  sampleBanner,
+  FMPortfolioThumbnail,
+  FMPortfolioBanner,
 }
