@@ -36,22 +36,22 @@ const Home = () => {
       <section ref={(el) => (sectionsRef.current[1] = el)} className='bg-grid-1 bg-contain bg-center bg-no-repeat' id='about'>
         <About />
       </section>
-      <section ref={(el) => (sectionsRef.current[2] = el)} className='bg-grid-1 bg-contain bg-center bg-no-repeat' id='education'>
+      <section ref={(el) => (sectionsRef.current[2] = el)} className='bg-grid-1 bg-contain bg-center bg-no-repeat w-full' id='education'>
         <Education />
       </section>
-      <section ref={(el) => (sectionsRef.current[3] = el)} id='expertise'>
+      <section ref={(el) => (sectionsRef.current[3] = el)} id='expertise' className='w-full'>
         <Skills />
       </section>
-      <section ref={(el) => (sectionsRef.current[4] = el)} className='bg-grid-2 bg-contain bg-center bg-no-repeat' id='expertise'>
+      <section ref={(el) => (sectionsRef.current[4] = el)} className='bg-grid-2 bg-contain bg-center bg-no-repeat w-full' id='expertise'>
         <Stats />
       </section>
-      <section ref={(el) => (sectionsRef.current[5] = el)} id='expertise'>
+      <section ref={(el) => (sectionsRef.current[5] = el)} id='expertise' className='w-full'>
         <Certifications />
       </section>
-      <section ref={(el) => (sectionsRef.current[6] = el)} className='h-screen' id='projects'>
+      <section ref={(el) => (sectionsRef.current[6] = el)} className='h-screen' id='projects w-full'>
         <Project />
       </section>
-      <section ref={(el) => (sectionsRef.current[7] = el)} className='h-screen bg-grid-2 bg-contain bg-center bg-no-repeat' id='contact'>
+      <section ref={(el) => (sectionsRef.current[7] = el)} className='h-screen bg-grid-2 bg-contain bg-center bg-no-repeat w-full' id='contact'>
         <Contact />
       </section>
     </motion.div>

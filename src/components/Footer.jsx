@@ -8,7 +8,7 @@ const Footer = ({ link }) => {
   const contacts = ContactData[0];
 
   return (
-    <div className='grid grid-cols-4 w-full' id='scroll-animation-21'>
+    <div className='grid grid-cols-4 w-full' id='scroll-animation-'>
       <div className="col-span-1 flex justify-start items-end">
         <img src={FMlogo} alt="FM Logo" className='lg:w-[2rem] w-[1.4rem] lg:h-[2rem] h-[1.4rem]' />
       </div>
