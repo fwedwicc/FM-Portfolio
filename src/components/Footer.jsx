@@ -14,8 +14,8 @@ const Footer = ({ link }) => {
       </div>
       <div className="col-span-1 text-white flex justify-center">
         <div className='space-y-[0.3rem]'>
-          <h1 className='font-medium lg:text-[1.5rem] text-[0.9rem]'>LINKS</h1>
-          <ul>
+          <h1 className='font-medium lg:text-[1.2rem] text-[0.9rem]'>LINKS</h1>
+          <ul className='space-y-[4px]'>
             {filterednavLinks.map((navLink, index) => (
               <li key={index} className='list-none nav-link'>
                 {link(navLink)}
@@ -26,15 +26,15 @@ const Footer = ({ link }) => {
       </div>
       <div className="col-span-1 text-white space-y-[0.2rem] flex justify-center">
         <div className='space-y-[0.3rem]'>
-          <h1 className='font-medium lg:text-[1.5rem] text-[0.9rem]'>SOCIALS</h1>
-          <ul>
+          <h1 className='font-medium lg:text-[1.2rem] text-[0.9rem]'>SOCIALS</h1>
+          <ul className='space-y-[4px]'>
             {Socials.map((social, index) => (
               <li key={index} className='list-none nav-link'>
                 <a
                   href={social.link}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='lg:text-[16px] text-[12px]'
+                  className='text-sm'
                 >
                   {social.name}
                 </a>
@@ -45,7 +45,7 @@ const Footer = ({ link }) => {
       </div>
       <div className="col-span-1 flex justify-end items-end">
         <h2 className='text-white leading-none text-sm text-nowrap'>
-          ©{currentYear} {contacts.name}
+          ©{currentYear} <span className='text-indigo-500'>{contacts.name}</span>
         </h2>
       </div>
     </div>

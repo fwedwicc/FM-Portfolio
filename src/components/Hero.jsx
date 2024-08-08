@@ -15,7 +15,7 @@ const Hero = () => {
       <div className='lg:pl-[11rem] pl-[1rem] h-full lg:p-6 p-4 flex'>
         <div className='w-[25rem] flex flex-col justify-end lg:items-end items-start pr-4 uppercase' id='scroll-animation-2'>
           {heroData.role.map((role, index) => (
-            <h4 key={index} className="text-white">{role}</h4>
+            <h4 key={index} className="text-white text-sm">{role}</h4>
           ))}
         </div>
         {/* Right Container */}
@@ -46,7 +46,7 @@ const Hero = () => {
             </div>
             {/* Bottom Side */}
             <div className='flex flex-col items-start uppercase' id='scroll-animation-1'>
-              <h4 className='text-white lg:mb-[-3rem] lg:ml-2.5 mb-[-0.5rem]'>Specializing in <span className='text-indigo-400'>web</span></h4>
+              <h4 className='text-white text-sm lg:mb-[-3rem] lg:ml-2.5 mb-[-0.5rem]'>Specializing in <strong className='text-indigo-400'>web</strong></h4>
               <h1 id='hero-heading-parent'>
                 <span>DE</span>
                 <div id='hero-heading-child'>

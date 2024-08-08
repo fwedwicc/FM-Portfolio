@@ -17,7 +17,7 @@ const Sidebar = ({ activeSection }) => {
           <HeaderLogo onClick={toggleSidebar} />
           <NavLinks activeSection={activeSection} />
         </div>
-        <div className="border-l-[1px] lg:ml-[10px] ml-[6px] border-[#59568fbd] h-full my-8"></div>
+        <div className="border-l-[1.3px] lg:ml-[10px] ml-[6px] border-[#59568fbd]/40 h-full my-8"></div>
         <SocialLinks />
       </aside>
     </div>
@@ -50,7 +50,7 @@ const HeaderLogo = ({ onClick }) => (
 );
 
 const NavLinks = ({ activeSection }) => (
-  <ul className="text-white uppercase space-y-[10px]">
+  <ul className="text-white uppercase space-y-[8px]">
     {navLinks.map((nav, index) => (
       <li key={index}>
         <a
@@ -65,13 +65,18 @@ const NavLinks = ({ activeSection }) => (
 );
 
 const SocialLinks = () => (
-  <div className="flex flex-col gap-6 mt-auto">
+  <div className="flex flex-col gap-4 mt-auto">
     {Socials.map((social, index) => (
-      <a key={index} href={social.link} target="_blank" rel="noopener noreferrer">
-        <img src={social.icon} alt="social-icon" className="lg:w-[1.3rem] lg:h-[1.3rem] w-[0.9rem] h-[0.9rem] border-[#5a548c] hover:border hover:border-transparent transition duration-300 ease-in-out rounded-[4px] hover:p-[0.5px]" />
+      <a key={index} href={social.link} target="_blank" rel="noopener noreferrer" className='self-start transition duration-300 ease-in-out hover:bg-neutral-800 hover:scale-110 p-[2px] rounded-md'>
+        <svg className="size-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+          <path fill-rule="evenodd" d={social.svg} clip-rule="evenodd" />
+          {index === 1 ? (
+            <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
+          ) : null}
+        </svg>
       </a>
     ))}
-  </div>
+  </div >
 );
 
 export default Sidebar;
