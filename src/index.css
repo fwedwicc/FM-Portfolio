@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,800;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,800;1,800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,15 +10,14 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
+    font-variation-settings: "slnt" 0;
   }
   h1 {
     font-family: "Montserrat", sans-serif;
   }
   p,
   h4 {
-    @apply lg:text-[16px] text-[12px] text-white;
+    @apply lg:text-sm text-[12px] text-white;
   }
   /* ------- //Base & Typography ------- */
   /* ------- Custom Scrollbar ------- */
