@@ -1,5 +1,6 @@
 import React from 'react';
 import { Socials, navLinks, ContactData } from '../constants';
+import { Link } from 'react-router-dom'
 import { FMlogo } from '../assets';
 
 const Footer = ({ link }) => {
@@ -10,7 +11,9 @@ const Footer = ({ link }) => {
   return (
     <div className='grid lg:grid-cols-4 grid-cols-1 gap-8 w-full' id='scroll-animation-'>
       <div className="col-span-1 flex justify-center lg:justify-start items-end">
-        <img src={FMlogo} alt="FM Logo" className='lg:w-[2rem] w-[1.4rem] lg:h-[2rem] h-[1.4rem]' />
+        <a href='/FM-Portfolio/#home'>
+          <img src={FMlogo} alt="FM-logo" className="lg:w-[2rem] w-[1.4rem] lg:h-[2rem] h-[1.4rem]" />
+        </a>
       </div>
       <div className='col-span-2 grid grid-cols-2 gap-8'>
         <div className="col-span-1 text-white flex lg:justify-center justify-end">

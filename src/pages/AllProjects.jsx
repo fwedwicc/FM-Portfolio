@@ -11,7 +11,7 @@ const AllProjects = ({ projects }) => {
   const renderLink = (link) => (
     <Link
       to={`/FM-Portfolio#${link.id}`}
-      className='lg:text-[16px] text-[12px]'
+      className='lg:text-sm text-[12px]'
     >
       {link.title}
     </Link>
@@ -27,7 +27,7 @@ const AllProjects = ({ projects }) => {
       <img src={glow07} alt="Glow eclipse" className='-z-10 fixed' id='scroll-animation-' />
       <img src={grid01} alt="Grid" className='w-full h-full object-contain -z-20 object-center fixed' id='scroll-animation-' />
       <div className='lg:p-8 p-6 z-10'>
-        <Link to="/FM-Portfolio#projects">
+        <Link to="/FM-Portfolio/#projects">
           <img src={FMlogo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem]" />
         </Link>
         <div className='space-y-4'>

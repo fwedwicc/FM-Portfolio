@@ -37,7 +37,9 @@ const ToggleButton = ({ onClick }) => (
 
 const HeaderLogo = ({ onClick }) => (
   <div className="flex justify-between items-center">
-    <img src={FMlogo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem]" />
+    <a href="/FM-Portfolio/#home">
+      <img src={FMlogo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem]" />
+    </a>
     <button
       className="lg:hidden text-white hover:text-indigo-500 transition duration-300 ease-in-out"
       onClick={onClick}
