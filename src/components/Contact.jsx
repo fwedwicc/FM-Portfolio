@@ -9,7 +9,7 @@ const Contact = () => {
   const renderLink = (link) => (
     <a
       href={`#${link.id}`}
-      className='text-sm'
+      className='lg:text-sm text-[12px]'
     >
       {link.title}
     </a>

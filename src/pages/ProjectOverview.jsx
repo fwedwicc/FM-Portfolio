@@ -14,7 +14,7 @@ const ProjectOverview = ({ projects }) => {
   const renderLink = (link) => (
     <Link
       to={`/FM-Portfolio#${link.id}`}
-      className='lg:text-[16px] text-[12px]'
+      className='lg:text-sm text-[12px]'
     >
       {link.title}
     </Link>
