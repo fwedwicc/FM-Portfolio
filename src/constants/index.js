@@ -414,11 +414,11 @@ export const ProjectOverviewData = [
     // fmUI
     id: 'fmUI',
     title: 'fmUI',
-    desc: 'fmUI: a project aimed at providing a diverse range of open-source Tailwind CSS components and templates for seamless web development.',
-    content: "fmUI: a project aimed at providing a diverse range of open-source Tailwind CSS components and templates for seamless web development.",
+    desc: 'A project aimed at providing a diverse range of open-source Tailwind CSS components and templates for seamless web development.',
+    content: "fmUI is an extensive collection of free Tailwind CSS components and templates created specifically for your forthcoming project. With a diverse set of components and sample pages, you are able to develop websites, web apps, and much more.",
     img: 'https://placehold.co/300x200',
     roles: ['Web Developer', 'UI/UX Designer'],
-    category: ['Personal Project'],
+    category: ['Front-end Development Project', 'UI/UX Design Project', 'Career Project'],
     tools: [
       {
         icon: htmllogo,
@@ -446,7 +446,7 @@ export const ProjectOverviewData = [
       },
     ],
     githubLink: "https://github.com/fwedwicc/fmUI",
-    siteLink: "#",
+    siteLink: "https://fwedwicc.github.io/fmUI/",
     miroLink: "#",
     figmaLink: "#",
     poster: FMPortfolioBanner,
@@ -456,13 +456,13 @@ export const ProjectOverviewData = [
   {
     // TODO: FM DailyUI Project Content
     // FM DailyUI
-    id: 'fm-dailyUI',
+    id: 'FM-DailyUI',
     title: 'FM DailyUI',
-    desc: 'FM DailyUI: a curated collection of 100 Days of UI challenge prompts from https://www.dailyui.co, showcasing creative and innovative UI designs using my design system; fmUI.',
-    content: "FM DailyUI: a curated collection of 100 Days of UI challenge prompts from https://www.dailyui.co, showcasing creative and innovative UI designs using my design system; fmUI.",
+    desc: 'A curated collection of 100 Days of UI challenge prompts from https://www.dailyui.co, showcasing creative and innovative UI designs using my design system; fmUI.',
+    content: "FM DailyUI is an extensive compilation of 100 Days of UI challenge prompts from DailyUI. This project showcases a wide range of creative and innovative UI designs, each crafted using my custom design system, fmUI. It's a journey through diverse design challenges, highlighting the versatility and capabilities of fmUI in creating dynamic and visually appealing user interfaces.",
     img: 'https://placehold.co/300x200',
     roles: ['Front-end Developer', 'UI/UX Designer'],
-    category: ['Personal Project'],
+    category: ['Front-end Development Project', 'UI/UX Design Project', 'Career Project'],
     tools: [
       {
         icon: htmllogo,
@@ -490,7 +490,7 @@ export const ProjectOverviewData = [
       },
     ],
     githubLink: "https://github.com/fwedwicc/FM-DailyUI",
-    siteLink: "#",
+    siteLink: "https://fwedwicc.github.io/FM-DailyUI/",
     miroLink: "#",
     figmaLink: "#",
     poster: FMPortfolioBanner,
@@ -500,13 +500,13 @@ export const ProjectOverviewData = [
   {
     // TODO: FM Gallery Project Content
     // FM Gallery
-    id: 'fm-gallery',
+    id: 'FM-Gallery',
     title: 'FM Gallery',
     desc: 'FM Gallery: an assemblage of my finest portrait masterpieces from throughout my career as an artist.',
-    content: "FM Gallery: an assemblage of my finest portrait masterpieces from throughout my career as an artist.",
+    content: "FM Gallery is a curated collection of my most exceptional portrait masterpieces, showcasing the artistic journey and growth I have experienced throughout my career. Each piece reflects my dedication to capturing the essence of my subjects and the evolution of my skills as an artist.",
     img: 'https://placehold.co/300x200',
     roles: ['Front-end Developer', 'UI/UX Designer'],
-    category: ['Personal Project'],
+    category: ['Front-end Development Project', 'Career Project', 'Personal Project'],
     tools: [
       {
         icon: htmllogo,
@@ -543,10 +543,10 @@ export const ProjectOverviewData = [
     id: 'fm-portfolio',
     title: 'FM Portfolio',
     desc: 'FM Portfolio: a thorough exhibition that pertains to my background, interests, education & achievements, innovative & creative works, and tech profession.',
-    content: "FM Portfolio: a thorough exhibition that pertains to my background, interests, education & achievements, innovative & creative works, and tech profession.",
+    content: "FM Portfolio is an extensive showcase that delves into my personal background, interests, education, and achievements. It highlights my innovative and creative works, as well as my professional journey in the tech industry. This project serves as a comprehensive representation of my skills, experiences, and dedication to front-end development and UI/UX design.",
     img: FMPortfolioThumbnail,
     roles: ['Web Developer', 'UI/UX Designer'],
-    category: ['Personal Project'],
+    category: ['Front-end Development Project', 'UI/UX Design Project', 'Career Project'],
     tools: [
       {
         icon: htmllogo,
@@ -578,7 +578,7 @@ export const ProjectOverviewData = [
       },
     ],
     githubLink: "https://github.com/fwedwicc/FM-Portfolio",
-    siteLink: "#",
+    siteLink: "https://fwedwicc.github.io/FM-Portfolio/",
     miroLink: "#",
     figmaLink: "#",
     poster: FMPortfolioBanner,
@@ -588,13 +588,13 @@ export const ProjectOverviewData = [
   {
     // TODO: QCU-LMS Project Content
     // QCU-LMS
-    id: 'qcu-lms',
+    id: 'QCU-LMS',
     title: 'QCU-LMS',
     desc: 'Lorem ipsum bcaecati nisi mollitia hic.',
     content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
     img: 'https://placehold.co/300x200',
     roles: ['Front-end Developer', 'UI/UX Designer'],
-    category: ['School Project'],
+    category: ['Software Engineering Project'],
     tools: [
       {
         icon: htmllogo,
@@ -609,32 +609,48 @@ export const ProjectOverviewData = [
         tooltip: "Javascript"
       },
       {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "Javascript"
-      },
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "Javascript"
-      },
+        icon: phplogo,
+        tooltip: "Hypertext Preprocessor"
+      }
     ],
     githubLink: "https://github.com/fwedwicc/QCU-LMS",
     siteLink: "#",
+    miroLink: "#",
+    figmaLink: "#",
+    poster: FMPortfolioBanner,
+    miro: 'https://miro.com/app/live-embed/uXjVNgfIihc=/?moveToViewport=-4631,-5002,6372,3049&embedId=604395391311',
+    figma: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlypKtruQL7Eg7AKbuk5iul%2FPAPS-Barbershop-(Prototypes)%3Fnode-id%3D0-1%26t%3DHKRJ4kcALtbAnqwM-1'
+  },
+  {
+    // TODO: quackOverflow Project Content
+    // quackOverflow
+    id: 'quackOverflow',
+    title: 'quackOverflow',
+    desc: 'Lorem ipsum bcaecati nisi mollitia hic.',
+    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
+    img: 'https://placehold.co/300x200',
+    roles: ['Web Developer', 'UI/UX Designer'],
+    category: ['Personal Project', 'Entertainment Project'],
+    tools: [
+      {
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
+      },
+      {
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
+      },
+      {
+        icon: jslogo,
+        tooltip: "Javascript"
+      },
+      {
+        icon: tailwindlogo,
+        tooltip: "Tailwind CSS"
+      }
+    ],
+    githubLink: "https://github.com/fwedwicc/quackOverflow",
+    siteLink: "https://quack-overflow.vercel.app/",
     miroLink: "#",
     figmaLink: "#",
     poster: FMPortfolioBanner,

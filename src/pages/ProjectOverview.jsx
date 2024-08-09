@@ -44,7 +44,7 @@ const ProjectOverview = ({ projects }) => {
           <div className='grid lg:grid-cols-2 grid-cols-1 mb-[4rem] lg:gap-12 gap-8'>
             <div className='lg:space-y-8 space-y-5'>
               <div className='space-y-3'>
-                <h1 className='uppercase text-white font-black text-[2.5rem] lg:text-[5rem] whitespace-nowrap leading-none' id='scroll-animation-'>{project.title}</h1>
+                <h1 className='text-white font-black text-[1.5rem] lg:text-[3rem] whitespace-nowrap leading-none' id='scroll-animation-'>{project.title}</h1>
                 <p>{project.content}</p>
               </div>
               <div className='flex gap-4 scroll-animation-'>
@@ -68,16 +68,16 @@ const ProjectOverview = ({ projects }) => {
               {/*  */}
               <div>
                 <h2 className='text-white mb-2 font-semibold text-[12px] lg:text-[16px]'>Category:</h2>
-                <div className='flex gap-2.5 scroll-animation-'>
+                <div className='flex flex-wrap gap-2.5 scroll-animation-'>
                   {project.category.map((category, index) => (
-                    <Badge key={index} text={category} styles={'g:py-1.5 lg:px-3 py-1 px-2 text-xs lg:text-sm bg-opacity-50 backdrop-blur-md'} />
+                    <Badge key={index} text={category} styles={'g:py-1.5 lg:px-3 py-1 px-2 text-xs lg:text-sm text-nowrap bg-opacity-50 backdrop-blur-md'} />
                   ))}
                 </div>
               </div>
               {/*  */}
               <div>
                 <h2 className='text-white mb-2 font-semibold text-[12px] lg:text-[16px]'>Technologies Stack:</h2>
-                <div className='flex gap-2.5 scroll-animation-'>
+                <div className='flex flex-wrap gap-2.5 scroll-animation-'>
                   {project.tools.map((icon, index) => (
                     <div className="relative flex items-center" key={index}>
                       <div className="group relative flex items-center">

@@ -32,7 +32,7 @@ const AllProjects = ({ projects }) => {
         </Link>
         <div className='space-y-4'>
           <h1 className='uppercase text-white font-black text-[3rem] lg:text-[9rem] whitespace-nowrap leading-none text-center' id='scroll-animation-'>Projects</h1>
-          <p className='text-white text-center lg:px-[15rem] md:px-[8rem] px-[2rem]'>The current section provides as a comprehensive exhibition of my innovative and imaginative web development work. My work is a representation of a dedication to both aesthetically pleasing and usefulness; it combines technical expertise with creative design to deliver smooth and interesting user experiences.</p>
+          <p className='text-white text-center lg:px-[15rem] md:px-[8rem] px-[2rem]'>This section provides as a comprehensive exhibition of my innovative and imaginative web development work. These works are a representation of a dedication to both aesthetically pleasing and usefulness; combining my technical skills with a touch of creativity to deliver smooth and enjoyable user experiences.</p>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 mt-[4rem] gap-6'>
           {projects.map(project => (
