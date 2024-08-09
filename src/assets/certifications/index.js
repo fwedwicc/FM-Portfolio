@@ -11,6 +11,8 @@ import cert10 from './Great Learning - Moreno, Frederick C. - UIUX for Beginners
 import cert11 from './SoloLearn - Moreno, Frederick C. - Intro to CSS.png'
 import cert12 from './Simplilearn - Moreno, Frederick C. - Web Creation 101.png'
 import cert13 from './SoloLearn - Moreno, Frederick C. - JavaScript Intermediate.png'
+import cert14 from './QCU - Moreno, Frederick C. - Tech Quizbee.png'
+import cert15 from './QCU - Moreno, Frederick C. - Logo Design.png'
 
 export {
   cert01,
@@ -25,5 +27,7 @@ export {
   cert10,
   cert11,
   cert12,
-  cert13
+  cert13,
+  cert14,
+  cert15
 }

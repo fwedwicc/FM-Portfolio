@@ -13,6 +13,7 @@ import gsaplogo from './gsap-logo.png'
 import framerlogo from './framer-motion-logo.png'
 import vitelogo from './vite-logo.png'
 import vercellogo from './vercel-logo.png'
+import githublogo from './github-logo.png'
 import gitlogo from './git-logo.png'
 import npmlogo from './npm-logo.png'
 import vscodelogo from './vscode-logo.png'
@@ -36,6 +37,7 @@ export {
   framerlogo,
   vitelogo,
   vercellogo,
+  githublogo,
   gitlogo,
   npmlogo,
   vscodelogo,

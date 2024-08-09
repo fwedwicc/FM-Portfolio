@@ -67,7 +67,7 @@ const ProjectOverview = ({ projects }) => {
             <div className='flex flex-col items-start justify-end gap-6'>
               {/*  */}
               <div>
-                <h2 className='text-white mb-2 font-semibold text-[12px] lg:text-[16px]'>Category:</h2>
+                <h2 className='text-white mb-3 font-semibold text-[12px] lg:text-sm'>Project category:</h2>
                 <div className='flex flex-wrap gap-2.5 scroll-animation-'>
                   {project.category.map((category, index) => (
                     <Badge key={index} text={category} styles={'g:py-1.5 lg:px-3 py-1 px-2 text-xs lg:text-sm text-nowrap bg-opacity-50 backdrop-blur-md'} />
@@ -76,7 +76,7 @@ const ProjectOverview = ({ projects }) => {
               </div>
               {/*  */}
               <div>
-                <h2 className='text-white mb-2 font-semibold text-[12px] lg:text-[16px]'>Technologies Stack:</h2>
+                <h2 className='text-white mb-3 font-semibold text-[12px] lg:text-sm'>Technologies and Tools:</h2>
                 <div className='flex flex-wrap gap-2.5 scroll-animation-'>
                   {project.tools.map((icon, index) => (
                     <div className="relative flex items-center" key={index}>
@@ -98,8 +98,8 @@ const ProjectOverview = ({ projects }) => {
             {/* Embedded Miro */}
             <div>
               <div className='flex justify-between items-center mb-3'>
-                <h2 className='text-white font-semibold text-[12px] lg:text-[16px]'>Low-Fidelity Prototype:</h2>
-                <a href={project.miroLink} className='text-[12px] lg:text-[16px] text-indigo-500 font-semibold underline underline-offset-2 gap-1.5 inline-flex items-center' target='_blank'>
+                <h2 className='text-white font-semibold text-[12px] lg:text-sm'>Sketch Board:</h2>
+                <a href={project.miroLink} className='text-[12px] lg:text-sm text-indigo-500 font-semibold underline underline-offset-2 gap-1.5 inline-flex items-center' target='_blank'>
                   View on Miro
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-4">
                     <path fillRule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clipRule="evenodd" />
@@ -121,8 +121,8 @@ const ProjectOverview = ({ projects }) => {
             {/* Embedded Figma */}
             <div>
               <div className='flex justify-between items-center mb-3'>
-                <h2 className='text-white font-semibold text-[12px] lg:text-[16px]'>High-Fidelity Prototype:</h2>
-                <a href={project.figmaLink} className='text-[12px] lg:text-[16px] text-indigo-500 font-semibold underline underline-offset-2 gap-1.5 inline-flex items-center' target='_blank'>
+                <h2 className='text-white font-semibold text-[12px] lg:text-sm'>Design Board:</h2>
+                <a href={project.figmaLink} className='text-[12px] lg:text-sm text-indigo-500 font-semibold underline underline-offset-2 gap-1.5 inline-flex items-center' target='_blank'>
                   View on Figma
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-4">
                     <path fillRule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clipRule="evenodd" />

@@ -41,6 +41,7 @@ import {
   vitelogo,
   vercellogo,
   gitlogo,
+  githublogo,
   npmlogo,
   vscodelogo,
   vslogo,
@@ -62,6 +63,8 @@ import {
   cert11,
   cert12,
   cert13,
+  cert14,
+  cert15
 } from '../assets/certifications';
 
 import { FMPortfolioThumbnail, FMPortfolioBanner } from '../assets/banners';
@@ -309,10 +312,6 @@ export const ExpertiseData = [
         tooltip: "Javascript"
       },
       {
-        icon: figmalogo,
-        tooltip: "Figma"
-      },
-      {
         icon: reactlogo,
         tooltip: "ReactJS"
       },
@@ -365,6 +364,14 @@ export const ExpertiseData = [
         tooltip: "NPM"
       },
       {
+        icon: figmalogo,
+        tooltip: "Figma"
+      },
+      {
+        icon: githublogo,
+        tooltip: "GitHub"
+      },
+      {
         icon: vscodelogo,
         tooltip: "VS Code"
       },
@@ -396,7 +403,7 @@ export const ExpertiseData = [
           { src: cert11 },
           { src: cert12 },
           { src: cert08 },
-          { src: cert13 },
+          { src: cert15 },
           { src: cert09 },
           { src: cert05 },
           { src: cert10 },
@@ -444,6 +451,22 @@ export const ProjectOverviewData = [
         icon: framerlogo,
         tooltip: "Framer Motion"
       },
+      {
+        icon: githublogo,
+        tooltip: "GitHub"
+      },
+      {
+        icon: gitlogo,
+        tooltip: "Git"
+      },
+      {
+        icon: vitelogo,
+        tooltip: "Vite"
+      },
+      {
+        icon: npmlogo,
+        tooltip: "NPM"
+      },
     ],
     githubLink: "https://github.com/fwedwicc/fmUI",
     siteLink: "https://fwedwicc.github.io/fmUI/",
@@ -488,6 +511,22 @@ export const ProjectOverviewData = [
         icon: framerlogo,
         tooltip: "Framer Motion"
       },
+      {
+        icon: githublogo,
+        tooltip: "GitHub"
+      },
+      {
+        icon: gitlogo,
+        tooltip: "Git"
+      },
+      {
+        icon: vitelogo,
+        tooltip: "Vite"
+      },
+      {
+        icon: npmlogo,
+        tooltip: "NPM"
+      },
     ],
     githubLink: "https://github.com/fwedwicc/FM-DailyUI",
     siteLink: "https://fwedwicc.github.io/FM-DailyUI/",
@@ -527,6 +566,18 @@ export const ProjectOverviewData = [
       {
         icon: gsaplogo,
         tooltip: "GSAP"
+      },
+      {
+        icon: githublogo,
+        tooltip: "GitHub"
+      },
+      {
+        icon: gitlogo,
+        tooltip: "Git"
+      },
+      {
+        icon: npmlogo,
+        tooltip: "NPM"
       },
     ],
     githubLink: "https://github.com/fwedwicc/FM-Gallery",
@@ -576,6 +627,22 @@ export const ProjectOverviewData = [
         icon: framerlogo,
         tooltip: "Framer Motion"
       },
+      {
+        icon: githublogo,
+        tooltip: "GitHub"
+      },
+      {
+        icon: gitlogo,
+        tooltip: "Git"
+      },
+      {
+        icon: vitelogo,
+        tooltip: "Vite"
+      },
+      {
+        icon: npmlogo,
+        tooltip: "NPM"
+      },
     ],
     githubLink: "https://github.com/fwedwicc/FM-Portfolio",
     siteLink: "https://fwedwicc.github.io/FM-Portfolio/",
@@ -611,7 +678,23 @@ export const ProjectOverviewData = [
       {
         icon: phplogo,
         tooltip: "Hypertext Preprocessor"
-      }
+      },
+      {
+        icon: githublogo,
+        tooltip: "GitHub"
+      },
+      {
+        icon: gitlogo,
+        tooltip: "Git"
+      },
+      {
+        icon: vitelogo,
+        tooltip: "Vite"
+      },
+      {
+        icon: npmlogo,
+        tooltip: "NPM"
+      },
     ],
     githubLink: "https://github.com/fwedwicc/QCU-LMS",
     siteLink: "#",
