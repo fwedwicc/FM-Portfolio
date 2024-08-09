@@ -7,8 +7,11 @@ import Badge from '../components/Badge';
 import Button from '../components/Button';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
+import useScrollToTop from '../hooks/useScrollToTop';
+
 
 const ProjectOverview = ({ projects }) => {
+  useScrollToTop();
   const { projectId } = useParams();
   const project = projects.find(proj => proj.id === projectId);
   const renderLink = (link) => (

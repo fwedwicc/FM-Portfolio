@@ -2,8 +2,10 @@ import React, { useEffect } from 'react';
 import { Sidebar, Hero, About, Education, Skills, Project, Contact, Certifications, Stats } from '../components';
 import { motion } from 'framer-motion'
 import useActivateLink from '../hooks/useActivateLink';
+import useScrollRestoration from '../hooks/useScrollRestoration'
 
 const Home = () => {
+  useScrollRestoration();
   const { sectionsRef, activeSection } = useActivateLink();
 
   // Directly navigate to the section if hash is present in the URL

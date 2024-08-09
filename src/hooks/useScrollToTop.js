@@ -2,13 +2,15 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 const useScrollToTop = () => {
-  const { pathname } = useLocation();
+  const location = useLocation();
 
   useEffect(() => {
-    if (pathname === '/all-projects') {
+    const timer = setTimeout(() => {
       window.scrollTo(0, 0);
-    }
-  }, [pathname]);
+    }, 0);
+
+    return () => clearTimeout(timer);
+  }, [location]);
 };
 
 export default useScrollToTop;
