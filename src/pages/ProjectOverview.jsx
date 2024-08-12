@@ -5,9 +5,11 @@ import { motion } from 'framer-motion';
 import { FMlogo, glow05 } from '../assets';
 import Badge from '../components/Badge';
 import Button from '../components/Button';
+import Alert from '../components/Alert';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 import useScrollToTop from '../hooks/useScrollToTop';
+
 
 
 const ProjectOverview = ({ projects }) => {
@@ -35,6 +37,8 @@ const ProjectOverview = ({ projects }) => {
       exit={{ opacity: 0 }}
       transition={{ duration: 1.3 }}
     >
+      {/* Temporary Alert */}
+      <Alert />
       <img src={project.poster} alt="Compiled Certifications" className='w-full h-full object-cover object-center absolute -z-10' id='scroll-animation-' />
       <div className='z-20 p-12 relative'>
         <Link to="/FM-Portfolio/all-projects">

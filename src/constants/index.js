@@ -484,7 +484,7 @@ export const ProjectOverviewData = [
       {
         profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
         name: 'Frederick Moreno',
-        role: 'Front-end Developer'
+        role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
     summary: 'fmUI Summary'
@@ -550,7 +550,7 @@ export const ProjectOverviewData = [
       {
         profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
         name: 'Frederick Moreno',
-        role: 'Front-end Developer'
+        role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
     summary: 'FM DailyUI Summary'
@@ -608,7 +608,7 @@ export const ProjectOverviewData = [
       {
         profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
         name: 'Frederick Moreno',
-        role: 'Front-end Developer'
+        role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
     summary: 'FM Gallery Summary'
@@ -738,12 +738,12 @@ export const ProjectOverviewData = [
       {
         profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
         name: 'Frederick Moreno',
-        role: 'Front-end Developer'
+        role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
       {
         profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
         name: 'Lian Torres',
-        role: 'Back-end Developer'
+        role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
     summary: 'QCU-LMS Summary'
@@ -785,7 +785,7 @@ export const ProjectOverviewData = [
       {
         profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
         name: 'Frederick Moreno',
-        role: 'Front-end Developer'
+        role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
     summary: 'quackOverflow Summary'

@@ -4,11 +4,11 @@ import Badge from './Badge';
 const Card = ({ title, desc, img, roles = [] }) => {
   return (
     <div className='w-full h-full rounded-lg p-4 flex hover:shadow-2xl hover:shadow-[#412F84]/20 border border-[#221c3d] transition-all duration-300 ease-in-out hover:border-[#6C59B9] bg-base/70 hover:bg-[#191723]/70'>
-      <div className='grid grid-cols-8 gap-5'>
-        <div className='col-span-3'>
+      <div className='grid md:grid-cols-8 grid-cols-1 gap-5'>
+        <div className='md:col-span-3 col-span-1'>
           <img src={img} alt={title} className='object-cover w-full h-full rounded-[0.3rem]' />
         </div>
-        <div className='flex flex-col gap-4 col-span-5'>
+        <div className='flex flex-col gap-4 md:col-span-5 col-span-1'>
           <div className='space-y-1.5'>
             <h2 className='text-white font-bold text-[1.3rem]'>{title}</h2>
             <p className='text-[13px]'>{desc}</p>
