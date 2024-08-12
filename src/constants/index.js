@@ -420,11 +420,14 @@ export const ProjectOverviewData = [
     // TODO: fmUI Project Content
     // fmUI
     id: 'fmUI',
+    img: 'https://placehold.co/300x200',
     title: 'fmUI',
     desc: 'A project aimed at providing a diverse range of open-source Tailwind CSS components and templates for seamless web development.',
-    content: "fmUI is an extensive collection of free Tailwind CSS components and templates created specifically for your forthcoming project. With a diverse set of components and sample pages, you are able to develop websites, web apps, and much more.",
-    img: 'https://placehold.co/300x200',
     roles: ['Web Developer', 'UI/UX Designer'],
+    poster: FMPortfolioBanner,
+    content: "fmUI is an extensive collection of free Tailwind CSS components and templates created specifically for your forthcoming project. With a diverse set of components and sample pages, you are able to develop websites, web apps, and much more.",
+    siteLink: "https://fwedwicc.github.io/fmUI/",
+    githubLink: "https://github.com/fwedwicc/fmUI",
     category: ['Front-end Development Project', 'UI/UX Design Project', 'Career Project'],
     tools: [
       {
@@ -468,19 +471,29 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    githubLink: "https://github.com/fwedwicc/fmUI",
-    siteLink: "https://fwedwicc.github.io/fmUI/",
-    poster: FMPortfolioBanner,
+    date: 'June 2024 - Present',
+    status: 'Work in progress',
+    contributor: [
+      {
+        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        name: 'Frederick Moreno',
+        role: 'Front-end Developer'
+      },
+    ],
+    summary: 'fmUI Summary'
   },
   {
     // TODO: FM DailyUI Project Content
     // FM DailyUI
     id: 'FM-DailyUI',
+    img: 'https://placehold.co/300x200',
     title: 'FM DailyUI',
     desc: 'A curated collection of 100 Days of UI challenge prompts from https://www.dailyui.co, showcasing creative and innovative UI designs using my design system; fmUI.',
-    content: "FM DailyUI is an extensive compilation of 100 Days of UI challenge prompts from DailyUI. This project showcases a wide range of creative and innovative UI designs, each crafted using my custom design system, fmUI. It's a journey through diverse design challenges, highlighting the versatility and capabilities of fmUI in creating dynamic and visually appealing user interfaces.",
-    img: 'https://placehold.co/300x200',
     roles: ['Front-end Developer', 'UI/UX Designer'],
+    poster: FMPortfolioBanner,
+    content: "FM DailyUI is an extensive compilation of 100 Days of UI challenge prompts from DailyUI. This project showcases a wide range of creative and innovative UI designs, each crafted using my custom design system, fmUI. It's a journey through diverse design challenges, highlighting the versatility and capabilities of fmUI in creating dynamic and visually appealing user interfaces.",
+    siteLink: "https://fwedwicc.github.io/FM-DailyUI/",
+    githubLink: "https://github.com/fwedwicc/FM-DailyUI",
     category: ['Front-end Development Project', 'UI/UX Design Project', 'Career Project'],
     tools: [
       {
@@ -524,19 +537,29 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    githubLink: "https://github.com/fwedwicc/FM-DailyUI",
-    siteLink: "https://fwedwicc.github.io/FM-DailyUI/",
-    poster: FMPortfolioBanner,
+    date: 'July 2024 - Present',
+    status: 'Work in progress',
+    contributor: [
+      {
+        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        name: 'Frederick Moreno',
+        role: 'Front-end Developer'
+      },
+    ],
+    summary: 'FM DailyUI Summary'
   },
   {
     // TODO: FM Gallery Project Content
     // FM Gallery
     id: 'FM-Gallery',
+    img: 'https://placehold.co/300x200',
     title: 'FM Gallery',
     desc: 'FM Gallery: an assemblage of my finest portrait masterpieces from throughout my career as an artist.',
-    content: "FM Gallery is a curated collection of my most exceptional portrait masterpieces, showcasing the artistic journey and growth I have experienced throughout my career. Each piece reflects my dedication to capturing the essence of my subjects and the evolution of my skills as an artist.",
-    img: 'https://placehold.co/300x200',
     roles: ['Front-end Developer', 'UI/UX Designer'],
+    poster: FMPortfolioBanner,
+    content: "FM Gallery is a curated collection of my most exceptional portrait masterpieces, showcasing the artistic journey and growth I have experienced throughout my career. Each piece reflects my dedication to capturing the essence of my subjects and the evolution of my skills as an artist.",
+    siteLink: "https://fwedwicc.github.io/FM-Gallery/",
+    githubLink: "https://github.com/fwedwicc/FM-Gallery",
     category: ['Front-end Development Project', 'Career Project', 'Personal Project'],
     tools: [
       {
@@ -572,19 +595,29 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    githubLink: "https://github.com/fwedwicc/FM-Gallery",
-    siteLink: "https://fwedwicc.github.io/FM-Gallery/",
-    poster: FMPortfolioBanner,
+    date: 'July 2024 - Present',
+    status: 'Finished',
+    contributor: [
+      {
+        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        name: 'Frederick Moreno',
+        role: 'Front-end Developer'
+      },
+    ],
+    summary: 'FM Gallery Summary'
   },
   {
     // TODO: FM Portfolio Project Content
     // FM Portfolio
-    id: 'fm-portfolio',
+    id: 'FM-Portfolio',
+    img: FMPortfolioThumbnail,
     title: 'FM Portfolio',
     desc: 'FM Portfolio: a thorough exhibition that pertains to my background, interests, education & achievements, innovative & creative works, and tech profession.',
-    content: "FM Portfolio is an extensive showcase that delves into my personal background, interests, education, and achievements. It highlights my innovative and creative works, as well as my professional journey in the tech industry. This project serves as a comprehensive representation of my skills, experiences, and dedication to front-end development and UI/UX design.",
-    img: FMPortfolioThumbnail,
     roles: ['Web Developer', 'UI/UX Designer'],
+    poster: FMPortfolioBanner,
+    content: "FM Portfolio is an extensive showcase that delves into my personal background, interests, education, and achievements. It highlights my innovative and creative works, as well as my professional journey in the tech industry. This project serves as a comprehensive representation of my skills, experiences, and dedication to front-end development and UI/UX design.",
+    siteLink: "https://fwedwicc.github.io/FM-Portfolio/",
+    githubLink: "https://github.com/fwedwicc/FM-Portfolio",
     category: ['Front-end Development Project', 'UI/UX Design Project', 'Career Project'],
     tools: [
       {
@@ -632,19 +665,29 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    githubLink: "https://github.com/fwedwicc/FM-Portfolio",
-    siteLink: "https://fwedwicc.github.io/FM-Portfolio/",
-    poster: FMPortfolioBanner,
+    date: 'Dummy - Present',
+    status: 'Work in progress',
+    contributor: [
+      {
+        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        name: 'Frederick Moreno',
+        role: 'Front-end Developer'
+      },
+    ],
+    summary: 'FM Portfolio Summary'
   },
   {
     // TODO: QCU-LMS Project Content
     // QCU-LMS
     id: 'QCU-LMS',
-    title: 'QCU-LMS',
-    desc: 'Lorem ipsum bcaecati nisi mollitia hic.',
-    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
     img: 'https://placehold.co/300x200',
+    title: 'QCU-LMS',
+    desc: 'Dummy content',
     roles: ['Front-end Developer', 'UI/UX Designer'],
+    poster: FMPortfolioBanner,
+    content: "Dummy content",
+    siteLink: "#",
+    githubLink: "https://github.com/fwedwicc/QCU-LMS",
     category: ['Software Engineering Project'],
     tools: [
       {
@@ -680,19 +723,34 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    githubLink: "https://github.com/fwedwicc/QCU-LMS",
-    siteLink: "#",
-    poster: FMPortfolioBanner,
+    date: 'Dummy - Present',
+    status: '',
+    contributor: [
+      {
+        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        name: 'Frederick Moreno',
+        role: 'Front-end Developer'
+      },
+      {
+        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        name: 'Lian Torres',
+        role: 'Back-end Developer'
+      },
+    ],
+    summary: 'QCU-LMS Summary'
   },
   {
     // TODO: quackOverflow Project Content
     // quackOverflow
     id: 'quackOverflow',
-    title: 'quackOverflow',
-    desc: 'Lorem ipsum bcaecati nisi mollitia hic.',
-    content: "Lorem Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic Lorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hicLorem ipsum dolor sit amet consectetur, adipisEnim, provident obcaecati nisi mollitia hic.",
     img: 'https://placehold.co/300x200',
+    title: 'quackOverflow',
+    desc: 'Dummy content',
     roles: ['Web Developer', 'UI/UX Designer'],
+    poster: FMPortfolioBanner,
+    content: "Dummy content",
+    siteLink: "https://quack-overflow.vercel.app/",
+    githubLink: "https://github.com/fwedwicc/quackOverflow",
     category: ['Personal Project', 'Entertainment Project'],
     tools: [
       {
@@ -712,8 +770,15 @@ export const ProjectOverviewData = [
         tooltip: "Tailwind CSS"
       }
     ],
-    githubLink: "https://github.com/fwedwicc/quackOverflow",
-    siteLink: "https://quack-overflow.vercel.app/",
-    poster: FMPortfolioBanner,
+    date: 'Dummy - Present',
+    status: 'Finished',
+    contributor: [
+      {
+        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        name: 'Frederick Moreno',
+        role: 'Front-end Developer'
+      },
+    ],
+    summary: 'quackOverflow Summary'
   },
 ];
