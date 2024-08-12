@@ -67,6 +67,8 @@ import {
   cert15
 } from '../assets/certifications';
 
+import { FrederickMoreno } from '../assets/profiles';
+
 import { FMPortfolioThumbnail, FMPortfolioBanner } from '../assets/banners';
 
 export const navLinks = [
@@ -665,16 +667,16 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    date: 'Dummy - Present',
+    date: 'June 2024 - Present',
     status: 'Work in progress',
     contributor: [
       {
-        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        profile: FrederickMoreno,
         name: 'Frederick Moreno',
-        role: 'Front-end Developer'
+        role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
-    summary: 'FM Portfolio Summary'
+    summary: 'This project showcases my dual expertise as a Front-end Developer and UI/UX Designer, it is a thorough exhibition that pertains to my background, interests, education & achievements, innovative & creative works, and tech profession.'
   },
   {
     // TODO: QCU-LMS Project Content

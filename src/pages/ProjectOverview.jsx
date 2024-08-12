@@ -96,13 +96,13 @@ const ProjectOverview = ({ projects }) => {
             </div>
           </div>
           {/* Main Content */}
-          <div className='grid lg:grid-cols-7 grid-cols-1 gap-6'>
+          <div className='grid lg:grid-cols-7 grid-cols-1 gap-10'>
             {/* Visuals */}
-            <div className='md:col-span-5 col-span-1 ring-[1px] rounded-[18px] ring-[#221c38] border-[0.5rem] relative h-[40rem] border-[#191529]/30'>
-              <img src={project.img} alt="" className='object-cover absolute w-full h-full rounded-[14px]' />
+            <div className='md:col-span-5 col-span-1 ring-[1px] lg:rounded-[18px] md:rounded-[15px] rounded-[7px] ring-[#221c38] border-[0.5rem] relative h-[17rem] lg:h-[40rem] md:h-[30rem] border-[#191529]/30'>
+              <img src={project.img} alt="" className='object-cover absolute w-full h-full lg:rounded-[14px] md:rounded-[11px] rounded-[4px]' />
             </div>
             {/* Details */}
-            <div className='md:col-span-2 col-span-1 border flex flex-col gap-6'>
+            <div className='md:col-span-2 col-span-1 flex flex-col gap-6'>
               {/* Header */}
               <div>
                 <h4 className='font-semibold text-lg'>{project.title}</h4>
@@ -122,20 +122,24 @@ const ProjectOverview = ({ projects }) => {
               {/* Contributors */}
               <div className='space-y-1.5'>
                 <h2 className='text-white mb-3 font-semibold text-[12px] lg:text-sm'>Contributor/s:</h2>
-                <div className='flex flex-wrap md:flex-col flex-row gap-3'>
+                <div className='flex flex-wrap lg:flex-col flex-row lg:gap-5 gap-8'>
                   {project.contributor.map((contributor, index) => (
                     <div className='flex items-start gap-4' key={index}>
-                      <img className="size-10 p-1 rounded-full ring-2 ring-indigo-500" src={contributor.profile} alt={`${contributor.name} Avatar`} />
+                      <img className="size-10 p-[2px] rounded-full ring-[2px] ring-indigo-400" src={contributor.profile} alt={`${contributor.name} Avatar`} />
                       <div>
-                        <p>{contributor.name}</p>
-                        <p className='text-[#a297c5] text-xs'>{contributor.role}</p>
+                        <p className='text-[16px] pb-1'>{contributor.name}</p>
+                        {contributor.role.map((role, roleIndex) => (
+                          <p className='text-[#a297c5] text-xs block mt-0.5' key={roleIndex}>
+                            {role}
+                          </p>
+                        ))}
                       </div>
                     </div>
                   ))}
                 </div>
               </div>
-              {/*  */}
-              <p className='pt-3'>{project.summary}</p>
+              {/* Project Summary */}
+              <p className='pt-3 w-full max-w-md'>{project.summary}</p>
             </div>
           </div>
           <div className='mt-[5rem] z-10'>
