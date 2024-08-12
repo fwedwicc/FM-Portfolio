@@ -41,6 +41,7 @@ const ProjectOverview = ({ projects }) => {
           <img src={FMlogo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem]" />
         </Link>
         <div className='lg:pt-[11rem] pt-[9rem]'>
+          {/* Header */}
           <div className='grid lg:grid-cols-2 grid-cols-1 mb-[4rem] lg:gap-12 gap-8'>
             <div className='lg:space-y-8 space-y-5'>
               <div className='space-y-3'>
@@ -94,53 +95,8 @@ const ProjectOverview = ({ projects }) => {
               </div>
             </div>
           </div>
-          <div className='space-y-12'>
-            {/* Embedded Miro */}
-            <div>
-              <div className='flex justify-between items-center mb-3'>
-                <h2 className='text-white font-semibold text-[12px] lg:text-sm'>Sketch Board:</h2>
-                <a href={project.miroLink} className='text-[12px] lg:text-sm text-indigo-500 font-semibold underline underline-offset-2 gap-1.5 inline-flex items-center' target='_blank'>
-                  View on Miro
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-4">
-                    <path fillRule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clipRule="evenodd" />
-                  </svg>
-                </a>
-              </div>
-              {project.miro && (
-                <iframe
-                  src={project.miro}
-                  frameBorder="0"
-                  scrolling="no"
-                  allow="fullscreen; clipboard-read; clipboard-write"
-                  allowFullScreen
-                  title="Miro Board"
-                  className='w-full lg:h-[50rem] h-[40rem] rounded-lg'
-                ></iframe>
-              )}
-            </div>
-            {/* Embedded Figma */}
-            <div>
-              <div className='flex justify-between items-center mb-3'>
-                <h2 className='text-white font-semibold text-[12px] lg:text-sm'>Design Board:</h2>
-                <a href={project.figmaLink} className='text-[12px] lg:text-sm text-indigo-500 font-semibold underline underline-offset-2 gap-1.5 inline-flex items-center' target='_blank'>
-                  View on Figma
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-4">
-                    <path fillRule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clipRule="evenodd" />
-                  </svg>
-                </a>
-              </div>
-              {project.figma && (
-                <iframe
-                  src={project.figma}
-                  style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }}
-                  allow="fullscreen; clipboard-read; clipboard-write"
-                  allowFullScreen
-                  title="Figma Prototype"
-                  className='w-full lg:h-[50rem] h-[40rem] rounded-lg'
-                ></iframe>
-              )}
-            </div>
-          </div>
+          {/* Main Content */}
+
           <div className='mt-[7rem] z-10'>
             <Footer link={renderLink} />
           </div>
