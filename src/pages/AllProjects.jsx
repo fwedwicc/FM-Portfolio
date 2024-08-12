@@ -36,7 +36,7 @@ const AllProjects = ({ projects }) => {
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 mt-[4rem] gap-6'>
           {projects.map(project => (
-            <Link key={project.id} to={`/FM-Portfolio/project/${project.id}`}>
+            <Link key={project.id} to={`/FM-Portfolio/all-projects/${project.id}`}>
               <Card
                 title={project.title}
                 desc={project.desc}

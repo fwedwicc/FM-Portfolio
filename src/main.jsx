@@ -22,7 +22,7 @@ const router = createBrowserRouter([
         element: <AllProjects projects={projects} />,
       },
       {
-        path: "/FM-Portfolio/project/:projectId",
+        path: "/FM-Portfolio/all-projects/:projectId",
         element: <ProjectOverview projects={projects} />,
       },
       {

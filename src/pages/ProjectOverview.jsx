@@ -96,9 +96,11 @@ const ProjectOverview = ({ projects }) => {
             </div>
           </div>
           {/* Main Content */}
-          <div className='grid md:grid-cols-7 grid-cols-1 gap-6'>
+          <div className='grid lg:grid-cols-7 grid-cols-1 gap-6'>
             {/* Visuals */}
-            <div className='md:col-span-5 col-span-1 border'>This is where the illustration goes.</div>
+            <div className='md:col-span-5 col-span-1 ring-[1px] rounded-[18px] ring-[#221c38] border-[0.5rem] relative h-[40rem] border-[#191529]/30'>
+              <img src={project.img} alt="" className='object-cover absolute w-full h-full rounded-[14px]' />
+            </div>
             {/* Details */}
             <div className='md:col-span-2 col-span-1 border flex flex-col gap-6'>
               {/* Header */}
