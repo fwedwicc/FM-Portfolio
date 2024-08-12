@@ -96,8 +96,55 @@ const ProjectOverview = ({ projects }) => {
             </div>
           </div>
           {/* Main Content */}
-
-          <div className='mt-[7rem] z-10'>
+          <div className='grid md:grid-cols-7 grid-cols-1 gap-6'>
+            {/* Visuals */}
+            <div className='md:col-span-5 col-span-1 border'>This is where the illustration goes.</div>
+            {/* Details */}
+            <div className='md:col-span-2 col-span-1 border flex flex-col gap-5'>
+              {/* Header */}
+              <div>
+                <h4 className='font-semibold text-lg'>FM Portfolio</h4>
+                <p className='font-thin italic text-[#a297c5]'>July 2024 - Present</p>
+              </div>
+              {/* Badges */}
+              <div className='space-y-1.5'>
+                <h2 className='text-white mb-3 font-semibold text-[12px] lg:text-sm'>Status:</h2>
+                <Badge text="Work in progress" styles={'g:py-1.5 lg:px-3 py-1 px-2 text-xs text-nowrap bg-opacity-50 backdrop-blur-md border-blue-500/30 text-blue-400 bg-blue-800/10'} />
+                <Badge text="Finished" styles={'g:py-1.5 lg:px-3 py-1 px-2 text-xs text-nowrap bg-opacity-50 backdrop-blur-md border-green-500/30 text-green-400 bg-green-800/10'} />
+                <Badge text="Discontinued/On-hold" styles={'g:py-1.5 lg:px-3 py-1 px-2 text-xs text-nowrap bg-opacity-50 backdrop-blur-md border-yellow-500/30 text-yellow-400 bg-yellow-800/10'} />
+              </div>
+              {/* Contributors */}
+              <div className='space-y-1.5'>
+                <h2 className='text-white mb-3 font-semibold text-[12px] lg:text-sm'>Contributor/s:</h2>
+                <div className='flex flex-wrap md:flex-col flex-row gap-3'>
+                  <div className='flex items-start gap-4'>
+                    <img className="size-10 p-1 rounded-full ring-2 ring-indigo-500" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80" alt="Sample Avatar Profile" />
+                    <div>
+                      <p>Frederick Moreno</p>
+                      <p className='text-[#a297c5] text-xs'>Front-end Developer</p>
+                    </div>
+                  </div>
+                  <div className='flex items-start gap-4'>
+                    <img className="size-10 p-1 rounded-full ring-2 ring-indigo-500" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80" alt="Sample Avatar Profile" />
+                    <div>
+                      <p>Frederick Moreno</p>
+                      <p className='text-[#a297c5] text-xs'>Front-end Developer</p>
+                    </div>
+                  </div>
+                  <div className='flex items-start gap-4'>
+                    <img className="size-10 p-1 rounded-full ring-2 ring-indigo-500" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80" alt="Sample Avatar Profile" />
+                    <div>
+                      <p>Frederick Moreno</p>
+                      <p className='text-[#a297c5] text-xs'>Front-end Developer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/*  */}
+              <p className='pt-3'>This project serves as a comprehensive representation of my expertise and passion as both a Front-end Developer and UI/UX Designer. Through this portfolio, I aim to demonstrate my ability to merge design principles with cutting-edge development techniques to create seamless and engaging digital experiences.</p>
+            </div>
+          </div>
+          <div className='mt-[5rem] z-10'>
             <Footer link={renderLink} />
           </div>
           <img src={glow05} alt="Glow eclipse" className='absolute bottom-0 -z-10' id='scroll-animation-' />
