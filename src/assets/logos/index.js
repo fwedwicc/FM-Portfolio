@@ -20,6 +20,8 @@ import vscodelogo from './vscode-logo.png'
 import vslogo from './vs-logo.png'
 import tailwindlogo from './tailwind-logo.png'
 import bootstraplogo from './bootstrap-logo.png'
+import FMLogo from './FM-logo.png'
+import fmUILogo from './fmUI-logo.png'
 
 export {
   bcp,
@@ -43,5 +45,7 @@ export {
   vscodelogo,
   vslogo,
   tailwindlogo,
-  bootstraplogo
+  bootstraplogo,
+  FMLogo,
+  fmUILogo
 }

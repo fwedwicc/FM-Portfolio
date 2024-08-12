@@ -46,7 +46,9 @@ import {
   vscodelogo,
   vslogo,
   tailwindlogo,
-  bootstraplogo
+  bootstraplogo,
+  FMLogo,
+  fmUILogo,
 } from '../assets/logos';
 
 import {
@@ -68,6 +70,9 @@ import {
 } from '../assets/certifications';
 
 import { FrederickMoreno } from '../assets/profiles';
+
+import { testMockup } from '../assets/mockups';
+
 
 import { FMPortfolioThumbnail, FMPortfolioBanner } from '../assets/banners';
 
@@ -667,6 +672,8 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
+    logo: FMLogo,
+    mockup: testMockup,
     date: 'June 2024 - Present',
     status: 'Work in progress',
     contributor: [
