@@ -27,7 +27,7 @@ const WhoAmI = () => {
       <div className='lg:col-span-5 col-span-8 p-px rounded-md bg-border-gradient-1'>
         <div className='p-4 bg-base rounded-md'>
           <h1 className='uppercase text-white font-black text-[3rem] lg:text-[9rem] whitespace-nowrap leading-none
-            ml-[5rem]' id='scroll-animation-4'>Who am <span className='text-[#9291DD]'>i</span>?</h1>
+            md:ml-[5rem]' id='scroll-animation-4'>Who am <span className='text-[#9291DD]'>i</span>?</h1>
           <div className='my-7 space-y-3 scroll-animation-6'>
             <p>
               I am
@@ -60,7 +60,7 @@ const HowItStarted = () => {
     <div className='grid grid-cols-8'>
       <div className='lg:col-span-6 lg:col-start-3 col-span-8 p-px rounded-md bg-border-gradient-2'>
         <div className='p-4 bg-base rounded-md space-y-8'>
-          <h1 className='uppercase text-white font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none ml-[4rem]' id='scroll-animation-7'>
+          <h1 className='uppercase text-white font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none md:ml-[4rem]' id='scroll-animation-7'>
             How it <span className='text-[#9291DD]'>started</span>?
           </h1>
           {/* Rendered Icons */}

@@ -15,13 +15,13 @@ const Certifications = () => {
         <p className='text-white text-center px-[2rem]' dangerouslySetInnerHTML={{ __html: certificates.content }}
         ></p>
       </div>
-      <div className='space-y-4 overflow-hidden'>
-        <div className='aboslute ml-[-10rem] flex gap-4 lg:h-[10rem] h-[7rem] z-0' id='scroll-animation-22'>
+      <div className='md:space-y-4 space-y-2 overflow-hidden'>
+        <div className='aboslute ml-[-10rem] flex md:gap-4 gap-2 md:h-[10rem] h-[5rem] z-0' id='scroll-animation-22'>
           {certificates.images01.map((cert, index) => (
             <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-md border-1 border-white' />
           ))}
         </div>
-        <div className='aboslute flex gap-4 lg:h-[10rem] h-[7rem] z-0' id='scroll-animation-23'>
+        <div className='aboslute flex md:gap-4 gap-2 md:h-[10rem] h-[5rem] z-0' id='scroll-animation-23'>
           {certificates.images02.map((cert, index) => (
             <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-md border-1 border-white' />
           ))}

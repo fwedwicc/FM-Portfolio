@@ -16,7 +16,7 @@ const Project = () => {
         <div className='flex h-full items-center'>
           <div className='grid grid-cols-8'>
             <div className='lg:col-span-4 md:col-span-4 col-span-7 p-px space-y-[1.5rem] z-10'>
-              <h1 className='uppercase text-white font-black text-[3rem] lg:text-[7rem] whitespace-nowrap leading-none ml-[4rem]' id='scroll-animation-15'>{project.title}</h1>
+              <h1 className='uppercase text-white font-black text-[3rem] lg:text-[7rem] whitespace-nowrap leading-none md:ml-[4rem]' id='scroll-animation-15'>{project.title}</h1>
               {/* Rendered roles badges */}
               <div className='space-x-3 flex justify-start items-center scroll-animation-16'>
                 {project.badge.map((badge, index) => (

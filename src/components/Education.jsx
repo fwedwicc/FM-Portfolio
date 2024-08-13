@@ -32,7 +32,7 @@ const Education = () => {
 
 const BcpEducation = () => {
   return (
-    <div className='flex lg:gap-12 gap-7 lg:mt-[8rem] mt-[7rem] pl-6 scroll-animation-12'>
+    <div className='flex lg:gap-12 gap-7 md:mt-[8rem] mt-[3rem] pl-6 scroll-animation-12'>
       <img src={bcpSeniorHigh.logo} alt="BCP Logo" className='w-auto h-[5rem] lg:h-[14rem]' />
 
       <div className='lg:space-y-4 space-y-3'>

@@ -7,6 +7,15 @@ gsap.registerPlugin(ScrollTrigger);
 // GSAP Scroll animations
 const useGsapAnimations = () => {
   useEffect(() => {
+    // Check if the screen width is greater than 768px (considered as mobile size)
+    const isMobile = window.innerWidth <= 768;
+
+    if (isMobile) {
+      // If on mobile, kill all ScrollTrigger instances and GSAP animations
+      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+      gsap.globalTimeline.clear();
+      return;
+    }
     // ------------------ HERO ------------------
     // Heading Typography
     gsap.to('#scroll-animation-1', {
