@@ -7,7 +7,7 @@ const Skills = () => {
   const techStacks = ExpertiseData[0].techStacks;
 
   return (
-    <div className='flex flex-col lg:gap-6 gap-3 py-8 pt-14'>
+    <div className='flex flex-col lg:gap-6 gap-4 py-8 pt-14'>
       <h1 className='uppercase text-white font-black text-[3rem] lg:text-[7rem] whitespace-nowrap leading-none text-center md:mb-[3rem]' id='scroll-animation-26'>EXPERTISE</h1>
       <div className='flex justify-center flex-wrap lg:px-80 md:px-60 px-4 items-center gap-2.5 lg:gap-4 my-4 z-10' id='scroll-animation-27'>
         {techStacks.map((stack, index) => (

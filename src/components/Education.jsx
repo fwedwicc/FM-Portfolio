@@ -19,7 +19,7 @@ const Education = () => {
         <div className='flex justify-center items-center'>
           <div className=' p-px rounded-md bg-border-gradient-4'>
             <div className='p-4 bg-base rounded-md lg:px-12'>
-              <h1 className='uppercase text-white font-black text-[3rem] lg:text-[6rem] whitespace-nowrap leading-none text-center' id='scroll-animation-11'>Education</h1>
+              <h1 className='uppercase text-white font-black text-[2.8rem] lg:text-[6rem] whitespace-nowrap leading-none text-center' id='scroll-animation-11'>Education</h1>
               <BcpEducation />
               <QcuEducation />
             </div>
@@ -32,11 +32,10 @@ const Education = () => {
 
 const BcpEducation = () => {
   return (
-    <div className='flex lg:gap-12 gap-7 md:mt-[8rem] mt-[3rem] pl-6 scroll-animation-12'>
-      <img src={bcpSeniorHigh.logo} alt="BCP Logo" className='w-auto h-[5rem] lg:h-[14rem]' />
-
+    <div className='flex lg:gap-12 gap-7 md:mt-[8rem] mt-[3rem] scroll-animation-12'>
+      <img src={bcpSeniorHigh.logo} alt="BCP Logo" className='w-auto h-[3.5rem] lg:h-[14rem]' />
       <div className='lg:space-y-4 space-y-3'>
-        <h1 className='uppercase bg-gradient-to-r from-[#B8B7FF] via-[#7977C7] to-[#4A489E] text-transparent bg-clip-text font-black text-[3rem] lg:text-[5rem] whitespace-nowrap leading-none'>
+        <h1 className='uppercase bg-gradient-to-r from-[#B8B7FF] via-[#7977C7] to-[#4A489E] text-transparent bg-clip-text font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none'>
           {bcpSeniorHigh.title}
         </h1>
         <div className='flex flex-wrap gap-6'>
@@ -52,9 +51,8 @@ const BcpEducation = () => {
 
 const QcuEducation = () => {
   return (
-    <div className='flex lg:gap-12 gap-7 lg:mt-[3rem] mt-[3rem] pl-6 scroll-animation-12'>
-      <img src={qcuTertiary.logo} alt="QCU Logo" className='w-auto h-[4rem] lg:h-[12rem]' />
-
+    <div className='flex lg:gap-12 gap-7 lg:mt-[3rem] mt-[3rem] scroll-animation-12'>
+      <img src={qcuTertiary.logo} alt="QCU Logo" className='w-auto h-[3.5rem] lg:h-[12rem]' />
       <div className='lg:space-y-4 space-y-3'>
         <h1 className='uppercase bg-gradient-to-r from-[#B8B7FF] via-[#7977C7] to-[#4A489E] text-transparent bg-clip-text font-black text-[2rem] lg:text-[4rem] whitespace-nowrap leading-none'>
           {qcuTertiary.title}

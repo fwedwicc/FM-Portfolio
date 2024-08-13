@@ -12,8 +12,8 @@ const Hero = () => {
   return (
     <>
       <img src={glow01} alt="Glow eclipse" className='absolute inset-0' id='scroll-animation-3' />
-      <div className='lg:pl-[11rem] pl-[1rem] h-full lg:p-6 p-4 flex'>
-        <div className='w-[25rem] flex flex-col justify-end items-end pr-4 uppercase' id='scroll-animation-2'>
+      <div className='lg:pl-[11rem] h-full lg:p-6 p-4 flex'>
+        <div className='lg:w-[25rem] md:w-[20rem] w-[5rem] md:mb-0 mb-[3rem] flex flex-col justify-end items-end md:pr-4 pr-0 uppercase' id='scroll-animation-2'>
           {heroData.role.map((role, index) => (
             <h4 key={index} className="text-white text-nowrap lg:text-sm text-xs">{role}</h4>
           ))}
@@ -45,7 +45,7 @@ const Hero = () => {
               </div>
             </div>
             {/* Bottom Side */}
-            <div className='flex flex-col items-start uppercase' id='scroll-animation-1'>
+            <div className='flex flex-col items-start uppercase md:mb-0 mb-[3rem]' id='scroll-animation-1'>
               <h4 className='text-white text-xs md:text-sm lg:mb-[-3rem] lg:ml-2.5 mb-[-0.5rem]'>Specializing in <strong className='text-indigo-400'>web</strong></h4>
               <h1 id='hero-heading-parent'>
                 <span>DE</span>

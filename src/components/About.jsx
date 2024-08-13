@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <img src={glow02} alt="Glow eclipse" className='absolute top-[100vh] inset-0' id='scroll-animation-5' />
-      <div className='lg:pl-[13.5rem] lg:p-6 p-4 flex flex-col gap-[5rem]'>
+      <div className='lg:pl-[13.5rem] lg:p-6 p-4 flex flex-col md:gap-[5rem] gap-[3rem]'>
         <WhoAmI />
         <HowItStarted />
         <HowsItGoing />
@@ -93,7 +93,7 @@ const HowsItGoing = () => {
     <div className='grid grid-cols-8'>
       <div className='lg:col-span-6 col-span-8 p-px rounded-md bg-border-gradient-3'>
         <div className='p-4 bg-base rounded-md space-y-8'>
-          <h1 className='uppercase text-white font-black text-wrap text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none' id='scroll-animation-9'>
+          <h1 className='uppercase text-white font-black md:text-nowrap text-wrap text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none' id='scroll-animation-9'>
             How's it <span className='text-[#9291DD]'>going</span>?
           </h1>
           {/* Rendered Icons */}
