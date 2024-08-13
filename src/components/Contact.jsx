@@ -16,12 +16,12 @@ const Contact = () => {
   );
 
   return (
-    <div className='flex justify-center items-center h-full p-[2rem] relative'>
+    <div className='flex justify-center items-center h-full md:p-[2rem] p-4 relative'>
       <div className='h-full w-full grid grid-rows-6 z-20'>
         <div className='row-span-4 rounded-md p-4 text-white'>
           <div className='space-y-4'>
             <div>
-              <h1 className='uppercase font-black text-[3rem] lg:text-[9rem] whitespace-nowrap leading-none md:ml-[3rem]' id='scroll-animation-18'>Get in touch<span className='text-[#9291DD]'>.</span></h1>
+              <h1 className='uppercase font-black text-[3rem] lg:text-[9rem] md:text-nowrap text-wrap whitespace-nowrap leading-none md:ml-[3rem]' id='scroll-animation-18'>Get in touch<span className='text-[#9291DD]'>.</span></h1>
             </div>
             <ul className='space-y-1.5 pb-[0.8rem] scroll-animation-19'>
               <li className='block text-indigo-400 font-extrabold lg:text-[1.2rem] text-[0.9rem] uppercase'>{contacts.name}</li>

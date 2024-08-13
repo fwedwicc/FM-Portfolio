@@ -7,7 +7,7 @@ const certificates = ExpertiseData[0].certifications[0];
 
 const Certifications = () => {
   return (
-    <div className='flex flex-col gap-12 items-center py-12 justify-center relative overflow-hidden'>
+    <div className='flex flex-col md:gap-12 gap-8 items-center py-12 justify-center relative overflow-hidden'>
       <img src={fade01} alt="Fade Effect" className='w-full h-full object-cover absolute inset-0 z-10' />
       <img src={glow06} alt="Glow Elipse" className='absolute -z-10 w-[50rem] h-auto' />
       <div className='space-y-4' id='scroll-animation-24'>
