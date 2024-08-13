@@ -32,7 +32,7 @@ const Education = () => {
 
 const BcpEducation = () => {
   return (
-    <div className='flex lg:gap-12 gap-7 md:mt-[8rem] mt-[3rem] scroll-animation-12'>
+    <div className='flex lg:gap-12 gap-5 md:mt-[8rem] mt-[3rem] scroll-animation-12'>
       <img src={bcpSeniorHigh.logo} alt="BCP Logo" className='w-auto h-[3.5rem] lg:h-[14rem]' />
       <div className='lg:space-y-4 space-y-3'>
         <h1 className='uppercase bg-gradient-to-r from-[#B8B7FF] via-[#7977C7] to-[#4A489E] text-transparent bg-clip-text font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none'>
@@ -51,7 +51,7 @@ const BcpEducation = () => {
 
 const QcuEducation = () => {
   return (
-    <div className='flex lg:gap-12 gap-7 lg:mt-[3rem] mt-[3rem] scroll-animation-12'>
+    <div className='flex lg:gap-12 gap-5 lg:mt-[3rem] mt-[3rem] scroll-animation-12'>
       <img src={qcuTertiary.logo} alt="QCU Logo" className='w-auto h-[3.5rem] lg:h-[12rem]' />
       <div className='lg:space-y-4 space-y-3'>
         <h1 className='uppercase bg-gradient-to-r from-[#B8B7FF] via-[#7977C7] to-[#4A489E] text-transparent bg-clip-text font-black text-[2rem] lg:text-[4rem] whitespace-nowrap leading-none'>
