@@ -12,10 +12,10 @@ const Project = () => {
     <>
       {/* TODO: Compiled Project Background Image */}
       <img src={compiledProjects} alt="Compiled Projects" className='w-full h-full object-cover object-center absolute z-20' id='scroll-animation-14' />
-      <div className='lg:pl-[13.5rem] pl-[2rem] flex h-auto absolute z-30'>
+      <div className='lg:pl-[13.5rem] pl-[2rem] flex h-full absolute z-30'>
         <div className='flex h-full items-center'>
           <div className='grid grid-cols-8'>
-            <div className='lg:col-span-4 md:col-span-4 col-span-7 p-px space-y-[1.5rem] z-10 mt-[10rem]'>
+            <div className='lg:col-span-4 md:col-span-4 col-span-7 p-px space-y-[1.5rem] z-10'>
               <h1 className='uppercase text-white font-black text-[3rem] lg:text-[7rem] whitespace-nowrap leading-none ml-[4rem]' id='scroll-animation-15'>{project.title}</h1>
               {/* Rendered roles badges */}
               <div className='space-x-3 flex justify-start items-center scroll-animation-16'>
