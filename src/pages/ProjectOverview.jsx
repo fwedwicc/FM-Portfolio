@@ -40,7 +40,7 @@ const ProjectOverview = ({ projects }) => {
       {/* Temporary Alert */}
       <Alert />
       <img src={project.poster} alt="Compiled Certifications" className='w-full h-full object-cover object-center absolute -z-10' id='scroll-animation-' />
-      <div className='z-20 p-12 relative'>
+      <div className='z-20 lg:p-12 p-6 relative'>
         <Link to="/FM-Portfolio/all-projects">
           <img src={FMlogo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem]" />
         </Link>

@@ -12,8 +12,8 @@ const Hero = () => {
   return (
     <>
       <img src={glow01} alt="Glow eclipse" className='absolute inset-0' id='scroll-animation-3' />
-      <div className='lg:pl-[11rem] pl-14 h-full lg:p-6 p-4 flex'>
-        <div className='md:flex hidden md:mb-0 mb-[3rem] flex-col justify-end items-end md:pr-4 pr-0 uppercase' id='scroll-animation-2'>
+      <div className='lg:pl-[11rem] pl-12 h-full lg:p-6 p-4 flex'>
+        <div className='md:flex hidden md:mb-0 mb-[6rem] flex-col justify-end items-end md:pr-4 pr-0 uppercase' id='scroll-animation-2'>
           {heroData.role.map((role, index) => (
             <h4 key={index} className="text-white text-nowrap lg:text-sm text-xs">{role}</h4>
           ))}
@@ -28,9 +28,9 @@ const Hero = () => {
                   {heroData.content}
                 </p>
               </div>
-              <div className='flex lg:justify-end lg:items-start space-x-4'>
-                {/* TODO: Download CV Button */}
-                <Button text={'Download CV'} styles={'hover:bg-[#100E16]'}>
+              <div className='flex lg:justify-end lg:items-start gap-4'>
+                {/* TODO: Download Resume Button */}
+                <Button text={'Resume'} styles={'hover:bg-[#100E16]'}>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-3 lg:size-4">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                   </svg>
@@ -45,7 +45,7 @@ const Hero = () => {
               </div>
             </div>
             {/* Bottom Side */}
-            <div className='flex flex-col items-start uppercase md:mb-0 mb-[3rem]' id='scroll-animation-1'>
+            <div className='flex flex-col items-start uppercase md:mb-0 mb-[6rem]' id='scroll-animation-1'>
               <div className='md:mb-0 mb-[4px] md:hidden flex flex-col justify-end items-start md:pr-4 pr-0 uppercase' id='scroll-animation-2'>
                 {heroData.role.map((role, index) => (
                   <h4 key={index} className="text-white text-nowrap lg:text-sm text-xs">{role}</h4>
