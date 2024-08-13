@@ -11,17 +11,17 @@ const Certifications = () => {
       <img src={fade01} alt="Fade Effect" className='w-full h-full object-cover absolute inset-0 z-10' />
       <img src={glow06} alt="Glow Elipse" className='absolute -z-10 w-[50rem] h-auto' />
       <div className='space-y-4' id='scroll-animation-24'>
-        <h1 className='uppercase text-white font-black text-[2.5rem] lg:text-[5rem] whitespace-nowrap leading-none text-center' id='scroll-animation-'>{certificates.title}</h1>
+        <h1 className='uppercase text-white font-black text-[2rem] lg:text-[5rem] whitespace-nowrap leading-none text-center' id='scroll-animation-'>{certificates.title}</h1>
         <p className='text-white text-center px-[2rem]' dangerouslySetInnerHTML={{ __html: certificates.content }}
         ></p>
       </div>
       <div className='md:space-y-4 space-y-2 overflow-hidden'>
-        <div className='aboslute ml-[-10rem] flex md:gap-4 gap-2 md:h-[10rem] h-[5rem] z-0' id='scroll-animation-22'>
+        <div className='aboslute ml-[-10rem] flex md:gap-4 gap-2 md:h-[10rem] h-[4rem] z-0' id='scroll-animation-22'>
           {certificates.images01.map((cert, index) => (
             <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-md border-1 border-white' />
           ))}
         </div>
-        <div className='aboslute flex md:gap-4 gap-2 md:h-[10rem] h-[5rem] z-0' id='scroll-animation-23'>
+        <div className='aboslute flex md:gap-4 gap-2 md:h-[10rem] h-[4rem] z-0' id='scroll-animation-23'>
           {certificates.images02.map((cert, index) => (
             <img key={index} src={cert.src} alt={`Certification ${index + 1}`} className='h-full w-auto rounded-md border-1 border-white' />
           ))}

@@ -18,7 +18,7 @@ const Project = () => {
             <div className='lg:col-span-4 md:col-span-4 col-span-7 p-px space-y-[1.5rem] z-10'>
               <h1 className='uppercase text-white font-black text-[3rem] lg:text-[7rem] whitespace-nowrap leading-none md:ml-[4rem]' id='scroll-animation-15'>{project.title}</h1>
               {/* Rendered roles badges */}
-              <div className='space-x-3 flex justify-start items-center scroll-animation-16'>
+              <div className='gap-3 flex flex-wrap justify-start items-center scroll-animation-16'>
                 {project.badge.map((badge, index) => (
                   <Badge key={index} text={badge.title} styles={'lg:py-1.5 lg:px-3 py-1 px-2 inline-flex items-center text-nowrap gap-2 text-xs lg:text-sm bg-[#211F4B] border-[#574699]'}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="lg:size-3.5 size-2">
