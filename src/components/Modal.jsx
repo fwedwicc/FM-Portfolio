@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Button from './Button';
 
 const Modal = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,27 +17,23 @@ const Modal = () => {
   };
 
   return (
-    <>
+    <div
+      className={`fixed inset-0 flex items-center justify-center bg-base bg-opacity-70 z-50 transition-opacity duration-300 ease-out ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
+    >
       <div
-        className={`fixed inset-0 flex items-center justify-center bg-base bg-opacity-70 z-50 transition-opacity duration-300 ease-out ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        className={`bg-base backdrop-blur-md border border-[#59568fbd]/20 rounded-lg md:p-6 p-4 max-w-sm text-center transform transition-transform duration-300 ease-out ${isOpen ? 'scale-100' : 'scale-95'
           }`}
       >
-        <div
-          className={`bg-white rounded-lg shadow-lg p-6 max-w-sm text-center transform transition-transform duration-300 ease-out ${isOpen ? 'scale-100' : 'scale-95'
-            }`}
+        <p className="mb-6">
+          This portfolio shines on larger screens, <br /> consider switching for a better view.
+        </p>
+        <Button text={'Got it'}
+          onClick={closeModal}
         >
-          <p className="mb-4 text-gray-700">
-            Please view this portfolio on large devices for a full and better experience.
-          </p>
-          <button
-            onClick={closeModal}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-          >
-            Got it
-          </button>
-        </div>
+        </Button>
       </div>
-    </>
+    </div>
   );
 };
 
