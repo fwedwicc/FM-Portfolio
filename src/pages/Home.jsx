@@ -3,6 +3,7 @@ import { Sidebar, Hero, About, Education, Skills, Project, Contact, Certificatio
 import { motion } from 'framer-motion'
 import useActivateLink from '../hooks/useActivateLink';
 import useScrollRestoration from '../hooks/useScrollRestoration'
+import Modal from '../components/Modal'
 
 const Home = () => {
   useScrollRestoration();
@@ -26,6 +27,7 @@ const Home = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 1.3 }}
     >
+      <Modal />
       <div
         className={`transition-opacity duration-500 ease-in-out ${activeSection === 'contact' ? 'opacity-0 pointer-events-none' : 'opacity-100'
           }`}

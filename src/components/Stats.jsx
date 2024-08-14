@@ -21,7 +21,7 @@ const Stats = () => {
         {/* Contribution Graph */}
         <div className='flex flex-col gap-3'>
           <h4 className='font-semibold text-center'>Contribution Graph</h4>
-          <img src="https://github-readme-activity-graph.vercel.app/graph?username=fwedwicc&radius=7&theme=material-palenight&bg_color=1C182D&text_color=ffffff&area=true&order=5&hide_title=true&hide_border=true" className='lg:h-[20rem] h-[7rem] w-auto rounded-2xl' alt="activity-graph graph" />
+          <img src="https://github-readme-activity-graph.vercel.app/graph?username=fwedwicc&radius=7&theme=material-palenight&bg_color=15131C&text_color=ffffff&area=true&order=5&hide_title=true&hide_border=true" className='lg:h-[20rem] h-[7rem] w-auto rounded-2xl' alt="activity-graph graph" />
         </div>
       </div>
     </div>

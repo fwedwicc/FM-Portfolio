@@ -36,7 +36,7 @@
 @layer components {
   /* ------- Navigation Styles ------- */
   .nav-link {
-    @apply items-center cursor-pointer flex lg:w-[8rem] w-[7rem] lg:text-[16px] text-[12px];
+    @apply items-center cursor-pointer flex lg:w-[8rem] w-[7rem] lg:text-sm text-[12px];
     &:hover {
       @apply gap-3;
     }

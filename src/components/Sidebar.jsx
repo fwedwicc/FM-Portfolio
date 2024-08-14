@@ -10,7 +10,7 @@ const Sidebar = ({ activeSection }) => {
     <div id='scroll-animation-'>
       <ToggleButton onClick={toggleSidebar} />
       <aside
-        className={`fixed lg:flex w-[12rem] h-full flex-col py-8 px-8 lg:backdrop-blur-none backdrop-blur-lg justify-between z-50 transform transition-all duration-500 ease-in-out ${isOpen ? 'translate-x-0 visible flex' : '-translate-x-full invisible flex'
+        className={`fixed lg:flex w-[12rem] h-full flex-col py-8 px-8 lg:backdrop-blur-none backdrop-blur-lg justify-between z-40 transform transition-all duration-500 ease-in-out ${isOpen ? 'translate-x-0 visible flex' : '-translate-x-full invisible flex'
           } lg:translate-x-0 lg:visible flex`}
       >
         <div className="flex flex-col space-y-7 flex-grow">
@@ -57,7 +57,7 @@ const NavLinks = ({ activeSection }) => (
       <li key={index}>
         <a
           href={`#${nav.id}`}
-          className={`nav-link text-sm ${activeSection === nav.id ? 'active-nav-link' : ''}`}
+          className={`nav-link text-[12px] lg:text-sm ${activeSection === nav.id ? 'active-nav-link' : ''}`}
         >
           {nav.title}
         </a>
