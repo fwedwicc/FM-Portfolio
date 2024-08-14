@@ -26,7 +26,7 @@ const Sidebar = ({ activeSection }) => {
 
 const ToggleButton = ({ onClick }) => (
   <button
-    className="lg:hidden fixed z-50 ml-[0.8rem] mt-[0.8rem] text-white hover:text-indigo-500 transition duration-300 ease-in-out  bg-transparent backdrop-blur-lg rounded-md"
+    className="lg:hidden fixed z-40 ml-[0.8rem] mt-[0.8rem] text-white hover:text-indigo-500 transition duration-300 ease-in-out  bg-transparent backdrop-blur-lg rounded-[4px] py-[2px] px-[1px]"
     onClick={onClick}
   >
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="w-6 h-6">

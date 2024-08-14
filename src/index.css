@@ -61,13 +61,13 @@
   /* ------- //Navigation Styles ------- */
   /* ------- Hero Heading Styles ------- */
   #hero-heading-parent {
-    @apply lg:w-[1038px] w-[250px] text-white font-black text-[2.5rem] lg:text-[10rem] lg:mb-[-4.8rem] mb-[-2rem] uppercase overflow-hidden relative whitespace-nowrap;
+    @apply lg:w-[1038px] w-[350px] text-white font-black text-[2rem] lg:text-[10rem] lg:mb-[-4.8rem] mb-[-2rem] uppercase overflow-hidden relative whitespace-nowrap;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
   }
   #hero-heading-child {
-    @apply bg-transparent lg:left-[236px] left-[51px] lg:top-[20px] bg-gradient-to-r from-[#B8B7FF] via-[#7977C7] to-[#4A489E] inline-block text-transparent bg-clip-text overflow-hidden absolute;
+    @apply bg-transparent lg:left-[236px] left-[43px] lg:top-[20px] bg-gradient-to-r from-[#B8B7FF] via-[#7977C7] to-[#4A489E] inline-block text-transparent bg-clip-text overflow-hidden absolute;
     animation: openclose 8s ease-in-out infinite;
     font-optical-sizing: auto;
     font-weight: 800;
