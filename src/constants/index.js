@@ -71,13 +71,19 @@ import {
 
 import { FrederickMoreno } from '../assets/profiles';
 
-import { testMockup } from '../assets/mockups';
+import {
+  FMPortfolioGraphics,
+  FMDailyUIGraphics,
+  FMGalleryGraphics
+} from '../assets/graphics';
 
 import {
   FMPortfolioThumbnail,
   FMPortfolioBanner,
   FMDailyUIBanner,
   FMDailyUIThumbnail,
+  FMGalleryThumbnail,
+  FMGalleryUIBanner,
 } from '../assets/banners';
 
 export const navLinks = [
@@ -482,8 +488,7 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    logo: fmUILogo,
-    mockup: testMockup,
+    graphics: '',
     date: 'June 2024 - Present',
     status: 'Work in progress',
     contributor: [
@@ -550,8 +555,7 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    logo: FMLogo,
-    mockup: testMockup,
+    graphics: FMDailyUIGraphics,
     date: 'July 2024 - Present',
     status: 'Work in progress',
     contributor: [
@@ -567,11 +571,11 @@ export const ProjectOverviewData = [
     // TODO: FM Gallery Project Content
     // FM Gallery
     id: 'FM-Gallery',
-    img: 'https://placehold.co/300x200',
+    img: FMGalleryThumbnail,
     title: 'FM Gallery',
     desc: 'FM Gallery: an assemblage of my finest portrait masterpieces from throughout my career as an artist.',
     roles: ['Front-end Developer', 'UI/UX Designer'],
-    poster: FMPortfolioBanner,
+    poster: FMGalleryUIBanner,
     content: "FM Gallery is a curated collection of my most exceptional portrait masterpieces, showcasing the artistic journey and growth I have experienced throughout my career. Each piece reflects my dedication to capturing the essence of my subjects and the evolution of my skills as an artist.",
     siteLink: "https://fwedwicc.github.io/FM-Gallery/",
     githubLink: "https://github.com/fwedwicc/FM-Gallery",
@@ -610,8 +614,7 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    logo: FMLogo,
-    mockup: testMockup,
+    graphics: FMGalleryGraphics,
     date: 'July 2024',
     status: 'Finished',
     contributor: [
@@ -682,8 +685,7 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    logo: FMLogo,
-    mockup: testMockup,
+    graphics: FMPortfolioGraphics,
     date: 'June 2024 - Present',
     status: 'Work in progress',
     contributor: [
@@ -742,8 +744,7 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    logo: FMLogo,
-    mockup: testMockup,
+    graphics: '',
     date: 'Dummy - Present',
     status: '',
     contributor: [
@@ -791,8 +792,7 @@ export const ProjectOverviewData = [
         tooltip: "Tailwind CSS"
       }
     ],
-    logo: FMLogo,
-    mockup: testMockup,
+    graphics: '',
     date: 'Dummy - Present',
     status: 'Finished',
     contributor: [
