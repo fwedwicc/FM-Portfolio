@@ -73,7 +73,6 @@ import { FrederickMoreno } from '../assets/profiles';
 
 import { testMockup } from '../assets/mockups';
 
-
 import { FMPortfolioThumbnail, FMPortfolioBanner } from '../assets/banners';
 
 export const navLinks = [
@@ -138,7 +137,7 @@ export const HeroData = [
       "UI/UX"
     ],
     name: "FREDERICK MORENO",
-    content: " a BSIT student based in the Philippines. I am Front-end Developer and UI/UX Designer, combining technology and creativity. I'm also a traditional artist, bringing a unique blend of artistic sensibility and technical expertise to all my projects."
+    content: " a BSIT student based in the Philippines. I am a Front-end Developer and UI/UX Designer, combining technology and creativity. I'm also a traditional artist, bringing a unique blend of artistic sensibility and technical expertise to all my projects."
   }
 ]
 
@@ -269,11 +268,11 @@ export const ProjectData = [
         svgPath: "M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"
       },
       {
-        title: "UI/UX Designing",
+        title: "UI/UX Design",
         svgPath: "m4.988 19.012 5.41-5.41m2.366-6.424 4.058 4.058-2.03 5.41L5.3 20 4 18.701l3.355-9.494 5.41-2.029Zm4.626 4.625L12.197 6.61 14.807 4 20 9.194l-2.61 2.61Z"
       },
       {
-        title: "Wireframing",
+        title: "Wireframe",
         svgPath: "m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125"
       },
     ],
@@ -297,7 +296,7 @@ export const ContactData = [
       {
         icon: location,
         alt: "location",
-        name: "Caloocan City"
+        name: "Caloocan City, Philippines"
       }
     ]
   }
@@ -316,7 +315,7 @@ export const ExpertiseData = [
       },
       {
         icon: jslogo,
-        tooltip: "Javascript"
+        tooltip: "JavaScript"
       },
       {
         icon: reactlogo,
@@ -435,7 +434,7 @@ export const ProjectOverviewData = [
     content: "fmUI is an extensive collection of free Tailwind CSS components and templates created specifically for your forthcoming project. With a diverse set of components and sample pages, you are able to develop websites, web apps, and much more.",
     siteLink: "https://fwedwicc.github.io/fmUI/",
     githubLink: "https://github.com/fwedwicc/fmUI",
-    category: ['Front-end Development Project', 'UI/UX Design Project', 'Career Project'],
+    category: ['Web Development Project', 'UI/UX Design Project', 'Career Project'],
     tools: [
       {
         icon: htmllogo,
@@ -447,7 +446,7 @@ export const ProjectOverviewData = [
       },
       {
         icon: jslogo,
-        tooltip: "Javascript"
+        tooltip: "JavaScript"
       },
       {
         icon: reactlogo,
@@ -478,16 +477,18 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
+    logo: fmUILogo,
+    mockup: testMockup,
     date: 'June 2024 - Present',
     status: 'Work in progress',
     contributor: [
       {
-        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        profile: FrederickMoreno,
         name: 'Frederick Moreno',
         role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
-    summary: 'fmUI Summary'
+    summary: "As the Web Developer and UI/UX Designer for this project, I am dedicated to crafting and maintaining high-quality components and templates. Every Tailwind CSS component was thoughtfully designed from scratch, ensuring a seamless and error-free experience across the application. My role is to ensure that each element not only meets the project's aesthetic goals but also functions flawlessly."
   },
   {
     // TODO: FM DailyUI Project Content
@@ -513,7 +514,7 @@ export const ProjectOverviewData = [
       },
       {
         icon: jslogo,
-        tooltip: "Javascript"
+        tooltip: "JavaScript"
       },
       {
         icon: reactlogo,
@@ -544,16 +545,18 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
+    logo: FMLogo,
+    mockup: testMockup,
     date: 'July 2024 - Present',
     status: 'Work in progress',
     contributor: [
       {
-        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        profile: FrederickMoreno,
         name: 'Frederick Moreno',
         role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
-    summary: 'FM DailyUI Summary'
+    summary: 'As a Front-end Developer and UI/UX Designer, I tackled the 100 Days of UI challenge from DailyUI by crafting original, dynamic designs using my custom system, fmUI. This project showcases my ability to merge design and development, creating flexible, visually striking user interfaces that excel in both aesthetics and functionality, even when facing complex challenges.'
   },
   {
     // TODO: FM Gallery Project Content
@@ -579,7 +582,7 @@ export const ProjectOverviewData = [
       },
       {
         icon: jslogo,
-        tooltip: "Javascript"
+        tooltip: "JavaScript"
       },
       {
         icon: tailwindlogo,
@@ -602,16 +605,18 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    date: 'July 2024 - Present',
+    logo: FMLogo,
+    mockup: testMockup,
+    date: 'July 2024',
     status: 'Finished',
     contributor: [
       {
-        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        profile: FrederickMoreno,
         name: 'Frederick Moreno',
         role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
-    summary: 'FM Gallery Summary'
+    summary: 'As a Front-end Developer and UI/UX Designer, I developed FM Gallery to beautifully present my most exceptional portrait masterpieces. By combining technical skill with creative design, I crafted an engaging platform that highlights both my artistic journey and the evolution of my skills.'
   },
   {
     // TODO: FM Portfolio Project Content
@@ -637,7 +642,7 @@ export const ProjectOverviewData = [
       },
       {
         icon: jslogo,
-        tooltip: "Javascript"
+        tooltip: "JavaScript"
       },
       {
         icon: reactlogo,
@@ -683,7 +688,7 @@ export const ProjectOverviewData = [
         role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
-    summary: 'This project showcases my dual expertise as a Front-end Developer and UI/UX Designer, it is a thorough exhibition that pertains to my background, interests, education & achievements, innovative & creative works, and tech profession.'
+    summary: 'As a Web Developer and UI/UX Designer, I crafted FM Portfolio to provide an in-depth showcase of my professional journey. This project highlights my personal background, education, and achievements while also featuring my innovative works in the tech industry. I focused on creating a seamless user experience that effectively represents my skills, experiences, and dedication to front-end development and UI/UX design.'
   },
   {
     // TODO: QCU-LMS Project Content
@@ -709,7 +714,7 @@ export const ProjectOverviewData = [
       },
       {
         icon: jslogo,
-        tooltip: "Javascript"
+        tooltip: "JavaScript"
       },
       {
         icon: phplogo,
@@ -732,6 +737,8 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
+    logo: FMLogo,
+    mockup: testMockup,
     date: 'Dummy - Present',
     status: '',
     contributor: [
@@ -772,13 +779,15 @@ export const ProjectOverviewData = [
       },
       {
         icon: jslogo,
-        tooltip: "Javascript"
+        tooltip: "JavaScript"
       },
       {
         icon: tailwindlogo,
         tooltip: "Tailwind CSS"
       }
     ],
+    logo: FMLogo,
+    mockup: testMockup,
     date: 'Dummy - Present',
     status: 'Finished',
     contributor: [
