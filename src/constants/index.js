@@ -73,7 +73,12 @@ import { FrederickMoreno } from '../assets/profiles';
 
 import { testMockup } from '../assets/mockups';
 
-import { FMPortfolioThumbnail, FMPortfolioBanner } from '../assets/banners';
+import {
+  FMPortfolioThumbnail,
+  FMPortfolioBanner,
+  FMDailyUIBanner,
+  FMDailyUIThumbnail,
+} from '../assets/banners';
 
 export const navLinks = [
   {
@@ -494,11 +499,11 @@ export const ProjectOverviewData = [
     // TODO: FM DailyUI Project Content
     // FM DailyUI
     id: 'FM-DailyUI',
-    img: 'https://placehold.co/300x200',
+    img: FMDailyUIThumbnail,
     title: 'FM DailyUI',
     desc: 'A curated collection of 100 Days of UI challenge prompts from https://www.dailyui.co, showcasing creative and innovative UI designs using my design system; fmUI.',
     roles: ['Front-end Developer', 'UI/UX Designer'],
-    poster: FMPortfolioBanner,
+    poster: FMDailyUIBanner,
     content: "FM DailyUI is an extensive compilation of 100 Days of UI challenge prompts from DailyUI. This project showcases a wide range of creative and innovative UI designs, each crafted using my custom design system, fmUI. It's a journey through diverse design challenges, highlighting the versatility and capabilities of fmUI in creating dynamic and visually appealing user interfaces.",
     siteLink: "https://fwedwicc.github.io/FM-DailyUI/",
     githubLink: "https://github.com/fwedwicc/FM-DailyUI",
