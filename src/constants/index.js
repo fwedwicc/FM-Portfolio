@@ -767,10 +767,10 @@ export const ProjectOverviewData = [
     id: 'quackOverflow',
     img: 'https://placehold.co/300x200',
     title: 'quackOverflow',
-    desc: 'Dummy content',
+    desc: 'quackOverflow: A chat app that helps you debug code by explaining it to a virtual rubber duck, inspired by the Rubber Duck Debugging theory.',
     roles: ['Web Developer', 'UI/UX Designer'],
     poster: FMPortfolioBanner,
-    content: "Dummy content",
+    content: "quackOverflow: A chat app where you can debug your code by explaining it to a virtual rubber duck. Inspired by the Rubber Duck Debugging theory, quackOverflow helps programmers find solutions by walking through their code line-by-line, turning obstacles into opportunities for discovery.",
     siteLink: "https://quack-overflow.vercel.app/",
     githubLink: "https://github.com/fwedwicc/quackOverflow",
     category: ['Personal Project', 'Entertainment Project'],
@@ -790,18 +790,34 @@ export const ProjectOverviewData = [
       {
         icon: tailwindlogo,
         tooltip: "Tailwind CSS"
-      }
+      },
+      {
+        icon: githublogo,
+        tooltip: "GitHub"
+      },
+      {
+        icon: gitlogo,
+        tooltip: "Git"
+      },
+      {
+        icon: vercellogo,
+        tooltip: "Vercel"
+      },
+      {
+        icon: npmlogo,
+        tooltip: "NPM"
+      },
     ],
     graphics: '',
-    date: 'Dummy - Present',
+    date: 'May 2024',
     status: 'Finished',
     contributor: [
       {
-        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        profile: FrederickMoreno,
         name: 'Frederick Moreno',
         role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
-    summary: 'quackOverflow Summary'
+    summary: "As a Web Developer and UI/UX Designer in this project, I created quackOverflow to make debugging both fun and effective. This quirky app lets you chat your code problems to a virtual rubber duck that only says 'quack, ' turning the serious task of debugging into a lighthearted, yet surprisingly helpful, experience."
   },
 ];
