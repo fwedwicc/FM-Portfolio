@@ -74,7 +74,8 @@ import { FrederickMoreno } from '../assets/profiles';
 import {
   FMPortfolioGraphics,
   FMDailyUIGraphics,
-  FMGalleryGraphics
+  FMGalleryGraphics,
+  quackOverflowGraphics
 } from '../assets/graphics';
 
 import {
@@ -84,6 +85,8 @@ import {
   FMDailyUIThumbnail,
   FMGalleryThumbnail,
   FMGalleryUIBanner,
+  quackOverflowThumbnail,
+  quackOverflowBanner
 } from '../assets/banners';
 
 export const navLinks = [
@@ -765,11 +768,11 @@ export const ProjectOverviewData = [
     // TODO: quackOverflow Project Content
     // quackOverflow
     id: 'quackOverflow',
-    img: 'https://placehold.co/300x200',
+    img: quackOverflowThumbnail,
     title: 'quackOverflow',
     desc: 'quackOverflow: A chat app that helps you debug code by explaining it to a virtual rubber duck, inspired by the Rubber Duck Debugging theory.',
     roles: ['Web Developer', 'UI/UX Designer'],
-    poster: FMPortfolioBanner,
+    poster: quackOverflowBanner,
     content: "quackOverflow: A chat app where you can debug your code by explaining it to a virtual rubber duck. Inspired by the Rubber Duck Debugging theory, quackOverflow helps programmers find solutions by walking through their code line-by-line, turning obstacles into opportunities for discovery.",
     siteLink: "https://quack-overflow.vercel.app/",
     githubLink: "https://github.com/fwedwicc/quackOverflow",
@@ -808,7 +811,7 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    graphics: '',
+    graphics: quackOverflowGraphics,
     date: 'May 2024',
     status: 'Finished',
     contributor: [

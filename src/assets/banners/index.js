@@ -4,6 +4,8 @@ import FMDailyUIThumbnail from './FM-DailyUI-thumbnail.png'
 import FMDailyUIBanner from './FM-DailyUI-banner.png'
 import FMGalleryThumbnail from './FM-Gallery-thumbnail.png'
 import FMGalleryUIBanner from './FM-Gallery-banner.png'
+import quackOverflowThumbnail from './quackOverflow-thumbnail.png'
+import quackOverflowBanner from './quackOverflow-banner.png'
 
 export {
   FMPortfolioThumbnail,
@@ -11,5 +13,7 @@ export {
   FMDailyUIThumbnail,
   FMDailyUIBanner,
   FMGalleryThumbnail,
-  FMGalleryUIBanner
+  FMGalleryUIBanner,
+  quackOverflowThumbnail,
+  quackOverflowBanner
 }
