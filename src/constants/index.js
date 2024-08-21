@@ -831,13 +831,13 @@ export const ProjectOverviewData = [
     // FUNKO Ecommerce
     id: 'FUNKOecommerce',
     img: FUNKOecommerceThumbnail,
-    title: 'FUNKO E-commerce',
-    desc: 'FUNKO E-commerce: A chat app that helps you debug code by explaining it to a virtual rubber duck, inspired by the Rubber Duck Debugging theory. asdf asdf asdf asdf asdf',
+    title: 'FUNKO E-Commerce',
+    desc: "FUNKO E-Commerce: A E-Commerce front-end project, featuring various components of a fully functional e-commerce web app centered around the Demon Slayer-themed Funko Pop collection.",
     roles: ['Front-end Developer', 'UI/UX Designer'],
     poster: FUNKOecommerceBanner,
-    content: "FUNKO E-commerce: A chat app where you can debug your code by explaining it to a virtual rubber duck. Inspired by the Rubber Duck Debugging theory, quackOverflow helps programmers find solutions by walking through their code line-by-line, turning obstacles into opportunities for discovery.",
+    content: "FUNKO E-Commerce is a front-end project that demonstrates the development of a e-commerce application. The project features a wide array of components, including dynamic product showcases, user-friendly navigation, and interactive elements, all centered around the Demon Slayer-themed Funko Pop collection. This project focuses on creating engaging, responsive, and visually appearling interfaces tailored to an e-commerce environment.",
     siteLink: "",
-    githubLink: "https://github.com/fwedwicc/quackOverflow",
+    githubLink: "https://github.com/fwedwicc/IPT101-Moreno-eCommerce",
     category: ['University Project', 'Web Development Project'],
     tools: [
       {
@@ -874,7 +874,7 @@ export const ProjectOverviewData = [
       },
     ],
     graphics: FUNKOecommerceGraphics,
-    date: 'May 2024',
+    date: 'March 2024',
     status: 'Finished',
     contributor: [
       {
@@ -883,6 +883,6 @@ export const ProjectOverviewData = [
         role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
-    summary: "As a Web Developer and UI/UX Designer in this project, I created quackOverflow to make debugging both fun and effective. This quirky app lets you chat your code problems to a virtual rubber duck that only says 'quack, ' turning the serious task of debugging into a lighthearted, yet surprisingly helpful, experience."
+    summary: "As a Front-end Developer and UI/UX Designer, I developed the FUNKO E-Commerce for my university project, featuring a visually appealing interfaces of an e-commerce web app. This project highlights my skills in creating dynamic, responsive, and visually engaging components that enhance the shopping experience, all while integrating a popular cultural theme into the design."
   },
 ];
