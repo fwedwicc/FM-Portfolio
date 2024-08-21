@@ -52,7 +52,7 @@ const ProjectOverview = ({ projects }) => {
                 <h1 className='text-white font-black text-[1.5rem] lg:text-[3rem] whitespace-nowrap leading-none' id='scroll-animation-'>{project.title}</h1>
                 <p>{project.content}</p>
               </div>
-              <div className='flex gap-4 scroll-animation-'>
+              <div className='flex items-center gap-4 scroll-animation-'>
                 {project.siteLink ? (
                   <a href={project.siteLink} target='_blank' rel="noopener noreferrer">
                     <Button text={'Live site'} styles={'bg-indigo-600 hover:bg-indigo-700'}>
@@ -62,7 +62,7 @@ const ProjectOverview = ({ projects }) => {
                     </Button>
                   </a>
                 ) : (
-                  <Button text={'Live site'} disabled>
+                  <Button text={'Live site'} styles={'bg-indigo-600'} disabled>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-4">
                       <path fillRule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clipRule="evenodd" />
                     </svg>
@@ -75,6 +75,14 @@ const ProjectOverview = ({ projects }) => {
                     </svg>
                   </Button>
                 </a>
+                {project.siteLink ? ('') : (
+                  <span className='flex items-center text-xs font-thin gap-1.5 text-yellow-400'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+                    </svg>
+                    This project has no live site
+                  </span>
+                )}
               </div>
             </div>
             <div className='flex flex-col items-start justify-end gap-6'>
@@ -160,7 +168,7 @@ const ProjectOverview = ({ projects }) => {
           <img src={glow05} alt="Glow eclipse" className='absolute bottom-0 -z-10' id='scroll-animation-' />
         </div>
       </div>
-    </motion.div>
+    </motion.div >
   );
 };
 

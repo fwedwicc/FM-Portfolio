@@ -713,7 +713,7 @@ export const ProjectOverviewData = [
     roles: ['Front-end Developer', 'UI/UX Designer'],
     poster: FMPortfolioBanner,
     content: "Dummy content",
-    siteLink: "#",
+    siteLink: "",
     githubLink: "https://github.com/fwedwicc/QCU-LMS",
     category: ['Software Engineering Project'],
     tools: [
