@@ -75,7 +75,8 @@ import {
   FMPortfolioGraphics,
   FMDailyUIGraphics,
   FMGalleryGraphics,
-  quackOverflowGraphics
+  quackOverflowGraphics,
+  FUNKOecommerceGraphics,
 } from '../assets/graphics';
 
 import {
@@ -86,7 +87,9 @@ import {
   FMGalleryThumbnail,
   FMGalleryUIBanner,
   quackOverflowThumbnail,
-  quackOverflowBanner
+  quackOverflowBanner,
+  FUNKOecommerceThumbnail,
+  FUNKOecommerceBanner,
 } from '../assets/banners';
 
 export const navLinks = [
@@ -812,6 +815,65 @@ export const ProjectOverviewData = [
       },
     ],
     graphics: quackOverflowGraphics,
+    date: 'May 2024',
+    status: 'Finished',
+    contributor: [
+      {
+        profile: FrederickMoreno,
+        name: 'Frederick Moreno',
+        role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
+      },
+    ],
+    summary: "As a Web Developer and UI/UX Designer in this project, I created quackOverflow to make debugging both fun and effective. This quirky app lets you chat your code problems to a virtual rubber duck that only says 'quack, ' turning the serious task of debugging into a lighthearted, yet surprisingly helpful, experience."
+  },
+  {
+    // TODO: FUNKO Ecommerce Project Content
+    // FUNKO Ecommerce
+    id: 'FUNKOecommerce',
+    img: FUNKOecommerceThumbnail,
+    title: 'FUNKO E-commerce',
+    desc: 'FUNKO E-commerce: A chat app that helps you debug code by explaining it to a virtual rubber duck, inspired by the Rubber Duck Debugging theory. asdf asdf asdf asdf asdf',
+    roles: ['Front-end Developer', 'UI/UX Designer'],
+    poster: FUNKOecommerceBanner,
+    content: "FUNKO E-commerce: A chat app where you can debug your code by explaining it to a virtual rubber duck. Inspired by the Rubber Duck Debugging theory, quackOverflow helps programmers find solutions by walking through their code line-by-line, turning obstacles into opportunities for discovery.",
+    siteLink: "",
+    githubLink: "https://github.com/fwedwicc/quackOverflow",
+    category: ['University Project', 'Web Development Project'],
+    tools: [
+      {
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
+      },
+      {
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
+      },
+      {
+        icon: jslogo,
+        tooltip: "JavaScript"
+      },
+      {
+        icon: tailwindlogo,
+        tooltip: "Tailwind CSS"
+      },
+      {
+        icon: githublogo,
+        tooltip: "GitHub"
+      },
+      {
+        icon: gitlogo,
+        tooltip: "Git"
+      },
+      {
+        icon: vercellogo,
+        tooltip: "Vercel"
+      },
+      {
+        icon: npmlogo,
+        tooltip: "NPM"
+      },
+    ],
+    graphics: FUNKOecommerceGraphics,
     date: 'May 2024',
     status: 'Finished',
     contributor: [
