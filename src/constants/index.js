@@ -69,14 +69,14 @@ import {
   cert15
 } from '../assets/certifications';
 
-import { FrederickMoreno } from '../assets/profiles';
+import { FrederickMoreno, LianTorres } from '../assets/profiles';
 
 import {
   FMPortfolioGraphics,
   FMDailyUIGraphics,
   FMGalleryGraphics,
   quackOverflowGraphics,
-  FUNKOecommerceGraphics,
+  FUNKOshopGraphics,
 } from '../assets/graphics';
 
 import {
@@ -88,8 +88,8 @@ import {
   FMGalleryUIBanner,
   quackOverflowThumbnail,
   quackOverflowBanner,
-  FUNKOecommerceThumbnail,
-  FUNKOecommerceBanner,
+  FUNKOshopThumbnail,
+  FUNKOshopBanner,
 } from '../assets/banners';
 
 export const navLinks = [
@@ -440,6 +440,89 @@ export const ExpertiseData = [
 
 export const ProjectOverviewData = [
   {
+    // TODO: Tech-Commr Project Content
+    // Tech-Commr
+    id: 'Tech-Commr',
+    pageStatus: '',
+    img: 'https://placehold.co/300x200',
+    title: 'Tech-Commr',
+    desc: 'Tech-Commr Description',
+    roles: ['Front-end Developer', 'UI/UX Designer', 'Graphic Designer'],
+    poster: '',
+    content: "Tech-Commr Content",
+    siteLink: "",
+    githubLink: "",
+    category: ['Startup Project', 'Full-Stack Project', 'Team Project'],
+    tools: [
+      {
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
+      },
+      {
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
+      },
+      {
+        icon: jslogo,
+        tooltip: "JavaScript"
+      },
+      {
+        icon: reactlogo,
+        tooltip: "ReactJS"
+      },
+      {
+        icon: tailwindlogo,
+        tooltip: "Tailwind CSS"
+      },
+      {
+        icon: framerlogo,
+        tooltip: "Framer Motion"
+      },
+      {
+        icon: githublogo,
+        tooltip: "GitHub"
+      },
+      {
+        icon: gitlogo,
+        tooltip: "Git"
+      },
+      {
+        icon: vitelogo,
+        tooltip: "Vite"
+      },
+      {
+        icon: npmlogo,
+        tooltip: "NPM"
+      },
+    ],
+    graphics: '',
+    date: 'August 2024 - Present',
+    status: 'Work in progress',
+    contributor: [
+      {
+        profile: LianTorres,
+        name: 'Lian Torres',
+        role: ['Founder', 'Lead Programmer', 'Back-end Developer']
+      },
+      {
+        profile: FrederickMoreno,
+        name: 'Frederick Moreno',
+        role: ['Front-end Developer', 'UI/UX Designer', 'Graphic Designer']
+      },
+      {
+        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        name: 'Kiel Marice Serrano',
+        role: ['Marketing Officer', 'Social Media Manager', 'Content Strategist']
+      },
+      {
+        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        name: 'Reanna Carreon',
+        role: ['Social Media Manager', 'Influencer Marketing Manager']
+      },
+    ],
+    summary: 'Tech-Commr Summary'
+  },
+  {
     // TODO: fmUI Project Content
     // fmUI
     id: 'fmUI',
@@ -705,71 +788,6 @@ export const ProjectOverviewData = [
     summary: 'As a Web Developer and UI/UX Designer, I crafted FM Portfolio to provide an in-depth showcase of my professional journey. This project highlights my personal background, education, and achievements while also featuring my innovative works in the tech industry. I focused on creating a seamless user experience that effectively represents my skills, experiences, and dedication to front-end development and UI/UX design.'
   },
   {
-    // TODO: QCU-LMS Project Content
-    // QCU-LMS
-    id: 'QCU-LMS',
-    pageStatus: '',
-    img: 'https://placehold.co/300x200',
-    title: 'QCU-LMS',
-    desc: 'Dummy content',
-    roles: ['Front-end Developer', 'UI/UX Designer'],
-    poster: FMPortfolioBanner,
-    content: "Dummy content",
-    siteLink: "",
-    githubLink: "https://github.com/fwedwicc/QCU-LMS",
-    category: ['Software Engineering Project'],
-    tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "JavaScript"
-      },
-      {
-        icon: phplogo,
-        tooltip: "Hypertext Preprocessor"
-      },
-      {
-        icon: githublogo,
-        tooltip: "GitHub"
-      },
-      {
-        icon: gitlogo,
-        tooltip: "Git"
-      },
-      {
-        icon: vitelogo,
-        tooltip: "Vite"
-      },
-      {
-        icon: npmlogo,
-        tooltip: "NPM"
-      },
-    ],
-    graphics: '',
-    date: 'Dummy - Present',
-    status: '',
-    contributor: [
-      {
-        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
-        name: 'Frederick Moreno',
-        role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
-      },
-      {
-        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
-        name: 'Lian Torres',
-        role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
-      },
-    ],
-    summary: 'QCU-LMS Summary'
-  },
-  {
     // quackOverflow
     id: 'quackOverflow',
     pageStatus: 'Done',
@@ -829,18 +847,18 @@ export const ProjectOverviewData = [
     summary: "As a Web Developer and UI/UX Designer in this project, I created quackOverflow to make debugging both fun and effective. This quirky app lets you chat your code problems to a virtual rubber duck that only says 'quack, ' turning the serious task of debugging into a lighthearted, yet surprisingly helpful, experience."
   },
   {
-    // FUNKO Ecommerce
-    id: 'FUNKOecommerce',
+    // FUNKO Shop
+    id: 'FUNKOshop',
     pageStatus: 'Done',
-    img: FUNKOecommerceThumbnail,
-    title: 'FUNKO E-Commerce',
-    desc: "FUNKO E-Commerce: A E-Commerce front-end project, featuring various components of a fully functional e-commerce web app centered around the Demon Slayer-themed Funko Pop collection.",
+    img: FUNKOshopThumbnail,
+    title: 'FUNKO Shop',
+    desc: "FUNKO Shop: An e-commerce front-end project, featuring various components of a fully functional e-commerce web app centered around the Demon Slayer-themed Funko Pop collection.",
     roles: ['Front-end Developer', 'UI/UX Designer'],
-    poster: FUNKOecommerceBanner,
-    content: "FUNKO E-Commerce is a front-end project that demonstrates the development of a e-commerce application. The project features a wide array of components, including dynamic product showcases, user-friendly navigation, and interactive elements, all centered around the Demon Slayer-themed Funko Pop collection. This project focuses on creating engaging, responsive, and visually appearling interfaces tailored to an e-commerce environment.",
+    poster: FUNKOshopBanner,
+    content: "FUNKO Shop is a front-end project that demonstrates the development of a e-commerce application. The project features a wide array of components, including dynamic product showcases, user-friendly navigation, and interactive elements, all centered around the Demon Slayer-themed Funko Pop collection. This project focuses on creating engaging, responsive, and visually appearling interfaces tailored to an e-commerce environment.",
     siteLink: "",
     githubLink: "https://github.com/fwedwicc/IPT101-Moreno-eCommerce",
-    category: ['University Project', 'Web Development Project'],
+    category: ['University Project', 'Web Development Project', 'Front-end Development Project'],
     tools: [
       {
         icon: htmllogo,
@@ -867,7 +885,7 @@ export const ProjectOverviewData = [
         tooltip: "GitHub"
       },
     ],
-    graphics: FUNKOecommerceGraphics,
+    graphics: FUNKOshopGraphics,
     date: 'March 2024',
     status: 'Finished',
     contributor: [
@@ -877,14 +895,14 @@ export const ProjectOverviewData = [
         role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
-    summary: "As a Front-end Developer and UI/UX Designer, I developed the FUNKO E-Commerce for my university project, featuring a visually appealing interfaces of an e-commerce web app. This project highlights my skills in creating dynamic, responsive, and visually engaging components that enhance the shopping experience, all while integrating a popular cultural theme into the design."
+    summary: "As a Front-end Developer and UI/UX Designer, I developed the FUNKO Shop for my university project, featuring a visually appealing interfaces of an e-commerce web app. This project highlights my skills in creating dynamic, responsive, and visually engaging components that enhance the shopping experience, all while integrating a popular cultural theme into the design."
   },
   {
     // TODO: PAPS Barber Shop Project Content
     // PAPS Barber Shop
     id: 'PAPSbarberShop',
     pageStatus: '',
-    img: '',
+    img: 'https://placehold.co/300x200',
     title: 'PAPS Barber Shop',
     desc: "PAPS Barber Shop Description",
     roles: ['UI/UX Designer'],
@@ -922,5 +940,70 @@ export const ProjectOverviewData = [
       },
     ],
     summary: ""
+  },
+  {
+    // TODO: QCU-LMS Project Content
+    // QCU-LMS
+    id: 'QCU-LMS',
+    pageStatus: '',
+    img: 'https://placehold.co/300x200',
+    title: 'QCU-LMS',
+    desc: 'QCU-LMS Description',
+    roles: ['Front-end Developer', 'UI/UX Designer'],
+    poster: '',
+    content: "QCU-LMS Content",
+    siteLink: "",
+    githubLink: "",
+    category: ['Software Engineering Project', 'University Project', 'Full-Stack Project'],
+    tools: [
+      {
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
+      },
+      {
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
+      },
+      {
+        icon: jslogo,
+        tooltip: "JavaScript"
+      },
+      {
+        icon: phplogo,
+        tooltip: "Hypertext Preprocessor"
+      },
+      {
+        icon: githublogo,
+        tooltip: "GitHub"
+      },
+      {
+        icon: gitlogo,
+        tooltip: "Git"
+      },
+      {
+        icon: vitelogo,
+        tooltip: "Vite"
+      },
+      {
+        icon: npmlogo,
+        tooltip: "NPM"
+      },
+    ],
+    graphics: '',
+    date: 'Unknown - Present',
+    status: '',
+    contributor: [
+      {
+        profile: FrederickMoreno,
+        name: 'Frederick Moreno',
+        role: ['Front-end Developer', 'UI/UX Designer']
+      },
+      {
+        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        name: 'Lian Torres',
+        role: ['Project Manager', 'Lead Programmer', 'Back-end Developer']
+      },
+    ],
+    summary: 'QCU-LMS Summary'
   },
 ];

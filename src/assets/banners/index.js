@@ -6,8 +6,8 @@ import FMGalleryThumbnail from './FM-Gallery-thumbnail.png'
 import FMGalleryUIBanner from './FM-Gallery-banner.png'
 import quackOverflowThumbnail from './quackOverflow-thumbnail.png'
 import quackOverflowBanner from './quackOverflow-banner.png'
-import FUNKOecommerceThumbnail from './FUNKO-Ecommerce-thumbnail.png'
-import FUNKOecommerceBanner from './FUNKO-Ecommerce-banner.png'
+import FUNKOshopThumbnail from './FUNKO-Shop-thumbnail.png'
+import FUNKOshopBanner from './FUNKO-Shop-banner.png'
 
 export {
   FMPortfolioThumbnail,
@@ -18,6 +18,6 @@ export {
   FMGalleryUIBanner,
   quackOverflowThumbnail,
   quackOverflowBanner,
-  FUNKOecommerceThumbnail,
-  FUNKOecommerceBanner
+  FUNKOshopThumbnail,
+  FUNKOshopBanner
 }
