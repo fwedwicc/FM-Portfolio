@@ -443,6 +443,7 @@ export const ProjectOverviewData = [
     // TODO: fmUI Project Content
     // fmUI
     id: 'fmUI',
+    pageStatus: '',
     img: 'https://placehold.co/300x200',
     title: 'fmUI',
     desc: 'A project aimed at providing a diverse range of open-source Tailwind CSS components and templates for seamless web development.',
@@ -509,6 +510,7 @@ export const ProjectOverviewData = [
   {
     // FM DailyUI
     id: 'FM-DailyUI',
+    pageStatus: 'Done',
     img: FMDailyUIThumbnail,
     title: 'FM DailyUI',
     desc: 'A curated collection of 100 Days of UI challenge prompts from https://www.dailyui.co, showcasing creative and innovative UI designs using my design system; fmUI.',
@@ -575,6 +577,7 @@ export const ProjectOverviewData = [
   {
     // FM Gallery
     id: 'FM-Gallery',
+    pageStatus: 'Done',
     img: FMGalleryThumbnail,
     title: 'FM Gallery',
     desc: 'FM Gallery: an assemblage of my finest portrait masterpieces from throughout my career as an artist.',
@@ -633,6 +636,7 @@ export const ProjectOverviewData = [
   {
     // FM Portfolio
     id: 'FM-Portfolio',
+    pageStatus: 'Done',
     img: FMPortfolioThumbnail,
     title: 'FM Portfolio',
     desc: 'FM Portfolio: a thorough exhibition that pertains to my background, interests, education & achievements, innovative & creative works, and tech profession.',
@@ -704,6 +708,7 @@ export const ProjectOverviewData = [
     // TODO: QCU-LMS Project Content
     // QCU-LMS
     id: 'QCU-LMS',
+    pageStatus: '',
     img: 'https://placehold.co/300x200',
     title: 'QCU-LMS',
     desc: 'Dummy content',
@@ -767,6 +772,7 @@ export const ProjectOverviewData = [
   {
     // quackOverflow
     id: 'quackOverflow',
+    pageStatus: 'Done',
     img: quackOverflowThumbnail,
     title: 'quackOverflow',
     desc: 'quackOverflow: A chat app that helps you debug code by explaining it to a virtual rubber duck, inspired by the Rubber Duck Debugging theory.',
@@ -825,6 +831,7 @@ export const ProjectOverviewData = [
   {
     // FUNKO Ecommerce
     id: 'FUNKOecommerce',
+    pageStatus: 'Done',
     img: FUNKOecommerceThumbnail,
     title: 'FUNKO E-Commerce',
     desc: "FUNKO E-Commerce: A E-Commerce front-end project, featuring various components of a fully functional e-commerce web app centered around the Demon Slayer-themed Funko Pop collection.",
@@ -876,6 +883,7 @@ export const ProjectOverviewData = [
     // TODO: PAPS Barber Shop Project Content
     // PAPS Barber Shop
     id: 'PAPSbarberShop',
+    pageStatus: '',
     img: '',
     title: 'PAPS Barber Shop',
     desc: "PAPS Barber Shop Description",

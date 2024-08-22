@@ -37,8 +37,12 @@ const ProjectOverview = ({ projects }) => {
       exit={{ opacity: 0 }}
       transition={{ duration: 1.3 }}
     >
-      {/* Temporary Alert */}
-      <Alert />
+      {/* Alert for Page Status */}
+      {project.pageStatus === 'Done' ? (
+        <Alert styles='lg:hidden md:hidden hidden' />
+      ) : (
+        <Alert />
+      )}
       <img src={project.poster} alt="Compiled Certifications" className='w-full h-full object-cover object-center absolute -z-10' id='scroll-animation-' />
       <div className='z-20 lg:p-12 p-6 relative'>
         <Link to="/FM-Portfolio/all-projects">
@@ -92,7 +96,7 @@ const ProjectOverview = ({ projects }) => {
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                               <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
                             </svg>
-                            This project has no live site or GitHub repository
+                            This project has no live site & GitHub repository
                           </span>
                         );
                       case !project.siteLink:
