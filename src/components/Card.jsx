@@ -14,7 +14,7 @@ const Card = ({ title, desc, img, roles = [] }) => {
             <p className='text-[13px]'>{desc}</p>
           </div>
           <div className='space-y-2'>
-            <h3 className='text-white font-bold text-sm'>Roles:</h3>
+            <h3 className='text-white font-bold text-sm'>Role/s:</h3>
             <div className='flex-wrap flex gap-3'>
               {roles.map((role, index) => (
                 <Badge key={index} text={role} styles={'lg:py-1.5 lg:px-3 py-1 px-2 text-xs lg:text-sm'} />

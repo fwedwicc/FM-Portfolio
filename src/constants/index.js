@@ -849,28 +849,20 @@ export const ProjectOverviewData = [
         tooltip: "Cascading Style Sheet"
       },
       {
-        icon: jslogo,
-        tooltip: "JavaScript"
-      },
-      {
         icon: tailwindlogo,
         tooltip: "Tailwind CSS"
       },
       {
+        icon: netlogo,
+        tooltip: "ASP.Net"
+      },
+      {
+        icon: vslogo,
+        tooltip: "Visual Studio"
+      },
+      {
         icon: githublogo,
         tooltip: "GitHub"
-      },
-      {
-        icon: gitlogo,
-        tooltip: "Git"
-      },
-      {
-        icon: vercellogo,
-        tooltip: "Vercel"
-      },
-      {
-        icon: npmlogo,
-        tooltip: "NPM"
       },
     ],
     graphics: FUNKOecommerceGraphics,
@@ -884,5 +876,48 @@ export const ProjectOverviewData = [
       },
     ],
     summary: "As a Front-end Developer and UI/UX Designer, I developed the FUNKO E-Commerce for my university project, featuring a visually appealing interfaces of an e-commerce web app. This project highlights my skills in creating dynamic, responsive, and visually engaging components that enhance the shopping experience, all while integrating a popular cultural theme into the design."
+  },
+  {
+    // TODO: PAPS Barber Shop Project Content
+    // PAPS Barber Shop
+    id: 'PAPSbarberShop',
+    img: '',
+    title: 'PAPS Barber Shop',
+    desc: "PAPS Barber Shop Description",
+    roles: ['UI/UX Designer'],
+    poster: '',
+    content: "PAPS Barber Shop Content",
+    siteLink: "",
+    githubLink: "",
+    category: ['Commission Project', 'University Project', 'UI/UX Design Project'],
+    tools: [
+      {
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
+      },
+      {
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
+      },
+      {
+        icon: tailwindlogo,
+        tooltip: "Tailwind CSS"
+      },
+      {
+        icon: figmalogo,
+        tooltip: "Figma"
+      },
+    ],
+    graphics: '',
+    date: 'March 2024',
+    status: 'Finished',
+    contributor: [
+      {
+        profile: FrederickMoreno,
+        name: 'Frederick Moreno',
+        role: ['UI/UX Designer']
+      },
+    ],
+    summary: ""
   },
 ];
