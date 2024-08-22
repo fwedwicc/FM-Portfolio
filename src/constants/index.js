@@ -507,7 +507,6 @@ export const ProjectOverviewData = [
     summary: "As the Web Developer and UI/UX Designer for this project, I am dedicated to crafting and maintaining high-quality components and templates. Every Tailwind CSS component was thoughtfully designed from scratch, ensuring a seamless and error-free experience across the application. My role is to ensure that each element not only meets the project's aesthetic goals but also functions flawlessly."
   },
   {
-    // TODO: FM DailyUI Project Content
     // FM DailyUI
     id: 'FM-DailyUI',
     img: FMDailyUIThumbnail,
@@ -574,7 +573,6 @@ export const ProjectOverviewData = [
     summary: 'As a Front-end Developer and UI/UX Designer, I tackled the 100 Days of UI challenge from DailyUI by crafting original, dynamic designs using my custom system, fmUI. This project showcases my ability to merge design and development, creating flexible, visually striking user interfaces that excel in both aesthetics and functionality, even when facing complex challenges.'
   },
   {
-    // TODO: FM Gallery Project Content
     // FM Gallery
     id: 'FM-Gallery',
     img: FMGalleryThumbnail,
@@ -633,7 +631,6 @@ export const ProjectOverviewData = [
     summary: 'As a Front-end Developer and UI/UX Designer, I developed FM Gallery to beautifully present my most exceptional portrait masterpieces. By combining technical skill with creative design, I crafted an engaging platform that highlights both my artistic journey and the evolution of my skills.'
   },
   {
-    // TODO: FM Portfolio Project Content
     // FM Portfolio
     id: 'FM-Portfolio',
     img: FMPortfolioThumbnail,
@@ -768,7 +765,6 @@ export const ProjectOverviewData = [
     summary: 'QCU-LMS Summary'
   },
   {
-    // TODO: quackOverflow Project Content
     // quackOverflow
     id: 'quackOverflow',
     img: quackOverflowThumbnail,
@@ -827,7 +823,6 @@ export const ProjectOverviewData = [
     summary: "As a Web Developer and UI/UX Designer in this project, I created quackOverflow to make debugging both fun and effective. This quirky app lets you chat your code problems to a virtual rubber duck that only says 'quack, ' turning the serious task of debugging into a lighthearted, yet surprisingly helpful, experience."
   },
   {
-    // TODO: FUNKO Ecommerce Project Content
     // FUNKO Ecommerce
     id: 'FUNKOecommerce',
     img: FUNKOecommerceThumbnail,
@@ -909,7 +904,7 @@ export const ProjectOverviewData = [
       },
     ],
     graphics: '',
-    date: 'March 2024',
+    date: 'April 2024',
     status: 'Finished',
     contributor: [
       {
