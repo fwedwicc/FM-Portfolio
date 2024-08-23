@@ -61,7 +61,7 @@
   /* ------- //Navigation Styles ------- */
   /* ------- Hero Heading Styles ------- */
   #hero-heading-parent {
-    @apply lg:w-[1038px] w-[350px] text-white font-black text-[2rem] lg:text-[10rem] lg:mb-[-4.8rem] mb-[-2rem] uppercase overflow-hidden relative whitespace-nowrap;
+    @apply lg:w-[1038px] w-[220px] text-white font-black text-[2rem] lg:text-[10rem] lg:mb-[-4.8rem] mb-[-2rem] uppercase overflow-hidden relative whitespace-nowrap;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;

@@ -157,7 +157,7 @@ const ProjectOverview = ({ projects }) => {
           {/* Main Content */}
           <div className='grid lg:grid-cols-7 grid-cols-1 gap-10'>
             {/* Visuals */}
-            <div className='md:col-span-5 col-span-1 ring-[1px] lg:rounded-[18px] md:rounded-[15px] rounded-[7px] ring-[#221c38] border-[0.5rem] relative h-[20rem] lg:h-[40rem] md:h-[30rem] border-[#191529]/30'>
+            <div className='md:col-span-5 col-span-1 ring-[1px] lg:rounded-[18px] md:rounded-[15px] rounded-[7px] ring-[#221c38] border-[0.5rem] relative h-[12rem] lg:h-[40rem] md:h-[30rem] border-[#191529]/30'>
               <img src={project.graphics} alt={`${project.id} Graphics`} className='object-cover absolute w-full h-full lg:rounded-[14px] md:rounded-[11px] rounded-[4px]' />
             </div>
             {/* Details */}

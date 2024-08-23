@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <>
       <img src={glow01} alt="Glow eclipse" className='absolute inset-0' id='scroll-animation-3' />
-      <div className='lg:pl-[11rem] pl-12 h-full lg:p-6 p-4 flex'>
+      <div className='lg:pl-[11rem] pl-14 h-full lg:p-6 p-4 flex'>
         <div className='md:flex hidden md:mb-0 mb-[6rem] flex-col justify-end items-end md:pr-4 pr-0 uppercase' id='scroll-animation-2'>
           {heroData.role.map((role, index) => (
             <h4 key={index} className="text-white text-nowrap lg:text-sm text-xs">{role}</h4>
