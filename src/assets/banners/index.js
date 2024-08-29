@@ -1,3 +1,5 @@
+import fmUIThumbnail from './fmUI-thumbnail.png'
+import fmUIBanner from './fmUI-banner.png'
 import FMPortfolioThumbnail from './FM-Portfolio-thumbnail.png'
 import FMPortfolioBanner from './FM-Portfolio-banner.png'
 import FMDailyUIThumbnail from './FM-DailyUI-thumbnail.png'
@@ -10,6 +12,8 @@ import FUNKOshopThumbnail from './FUNKO-Shop-thumbnail.png'
 import FUNKOshopBanner from './FUNKO-Shop-banner.png'
 
 export {
+  fmUIThumbnail,
+  fmUIBanner,
   FMPortfolioThumbnail,
   FMPortfolioBanner,
   FMDailyUIThumbnail,

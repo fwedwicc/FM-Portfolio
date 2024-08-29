@@ -72,6 +72,7 @@ import {
 import { FrederickMoreno, LianTorres } from '../assets/profiles';
 
 import {
+  fmUIGraphics,
   FMPortfolioGraphics,
   FMDailyUIGraphics,
   FMGalleryGraphics,
@@ -80,6 +81,8 @@ import {
 } from '../assets/graphics';
 
 import {
+  fmUIThumbnail,
+  fmUIBanner,
   FMPortfolioThumbnail,
   FMPortfolioBanner,
   FMDailyUIBanner,
@@ -523,15 +526,14 @@ export const ProjectOverviewData = [
     summary: 'Tech-Commr Summary'
   },
   {
-    // TODO: fmUI Project Content
     // fmUI
     id: 'fmUI',
-    pageStatus: '',
-    img: 'https://placehold.co/300x200',
+    pageStatus: 'Done',
+    img: fmUIThumbnail,
     title: 'fmUI',
     desc: 'A project aimed at providing a diverse range of open-source Tailwind CSS components and templates for seamless web development.',
     roles: ['Web Developer', 'UI/UX Designer'],
-    poster: FMPortfolioBanner,
+    poster: fmUIBanner,
     content: "fmUI is an extensive collection of free Tailwind CSS components and templates created specifically for your forthcoming project. With a diverse set of components and sample pages, you are able to develop websites, web apps, and much more.",
     siteLink: "https://fwedwicc.github.io/fmUI/",
     githubLink: "https://github.com/fwedwicc/fmUI",
@@ -578,7 +580,7 @@ export const ProjectOverviewData = [
         tooltip: "NPM"
       },
     ],
-    graphics: '',
+    graphics: fmUIGraphics,
     date: 'June 2024 - Present',
     status: 'Work in progress',
     contributor: [
