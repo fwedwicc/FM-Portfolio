@@ -1,127 +1,45 @@
-import {
-  github,
-  instagram,
-  linkedin,
-  facebook,
-  mail,
-  phone,
-  location,
-} from '../assets';
+// Svg Icon Imports
+import { github, instagram, linkedin, facebook, mail, phone, location, } from '../assets';
 
+// Icon Imports
 import {
-  html,
-  css,
-  javascript,
-  react,
-  nextjs,
-  vue,
-  tailwind,
-  bootstrap,
-  gsap,
-  php,
-  figma,
-  git,
-  npm,
+  html, css, javascript, react, nextjs, vue, tailwind, bootstrap, gsap, php, figma, git, npm,
 } from '../assets/icons';
 
+// Logo Imports
 import {
-  qcu,
-  bcp,
-  htmllogo,
-  csslogo,
-  jslogo,
-  figmalogo,
-  reactlogo,
-  vuelogo,
-  nextlogo,
-  phplogo,
-  netlogo,
-  gsaplogo,
-  framerlogo,
-  vitelogo,
-  vercellogo,
-  gitlogo,
-  githublogo,
-  npmlogo,
-  vscodelogo,
-  vslogo,
-  tailwindlogo,
-  bootstraplogo,
-  FMLogo,
-  fmUILogo,
+  qcu, bcp, htmllogo, csslogo, jslogo, figmalogo, reactlogo, vuelogo, nextlogo, phplogo, netlogo, gsaplogo, framerlogo, vitelogo, vercellogo, gitlogo, githublogo, npmlogo, vscodelogo, vslogo, tailwindlogo, bootstraplogo, FMLogo, fmUILogo,
 } from '../assets/logos';
 
+// Certification Imports
 import {
-  cert01,
-  cert02,
-  cert03,
-  cert04,
-  cert05,
-  cert06,
-  cert07,
-  cert08,
-  cert09,
-  cert10,
-  cert11,
-  cert12,
-  cert13,
-  cert14,
-  cert15
+  cert01, cert02, cert03, cert04, cert05, cert06, cert07, cert08, cert09, cert10, cert11, cert12, cert13, cert14, cert15
 } from '../assets/certifications';
 
+// Profile Imports
 import { FrederickMoreno, LianTorres } from '../assets/profiles';
 
+// Graphics Imports
 import {
-  fmUIGraphics,
-  FMPortfolioGraphics,
-  FMDailyUIGraphics,
-  FMGalleryGraphics,
-  quackOverflowGraphics,
-  FUNKOshopGraphics,
+  fmUIGraphics, FMPortfolioGraphics, FMDailyUIGraphics, FMGalleryGraphics, quackOverflowGraphics, FUNKOshopGraphics,
 } from '../assets/graphics';
 
+// Banner and Thumbnail Imports
 import {
-  fmUIThumbnail,
-  fmUIBanner,
-  FMPortfolioThumbnail,
-  FMPortfolioBanner,
-  FMDailyUIBanner,
-  FMDailyUIThumbnail,
-  FMGalleryThumbnail,
-  FMGalleryUIBanner,
-  quackOverflowThumbnail,
-  quackOverflowBanner,
-  FUNKOshopThumbnail,
-  FUNKOshopBanner,
+  fmUIThumbnail, fmUIBanner, FMPortfolioThumbnail, FMPortfolioBanner, FMDailyUIBanner, FMDailyUIThumbnail, FMGalleryThumbnail, FMGalleryUIBanner, quackOverflowThumbnail, quackOverflowBanner, FUNKOshopThumbnail, FUNKOshopBanner,
 } from '../assets/banners';
 
+// Navigation Links Data
 export const navLinks = [
-  {
-    id: 'home',
-    title: 'HOME',
-  },
-  {
-    id: 'about',
-    title: 'ABOUT',
-  },
-  {
-    id: 'education',
-    title: 'EDUCATION',
-  },
-  {
-    id: 'expertise',
-    title: 'EXPERTISE',
-  },
-  {
-    id: 'projects',
-    title: 'PROJECTS',
-  },
-  {
-    id: 'contact',
-    title: 'CONTACT',
-  },
+  { id: 'home', title: 'HOME', },
+  { id: 'about', title: 'ABOUT', },
+  { id: 'education', title: 'EDUCATION', },
+  { id: 'expertise', title: 'EXPERTISE', },
+  { id: 'projects', title: 'PROJECTS', },
+  { id: 'contact', title: 'CONTACT', },
 ]
 
+// Socials Data
 export const Socials = [
   {
     svg: 'M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z',
@@ -150,17 +68,16 @@ export const Socials = [
   }
 ];
 
+// Hero Data
 export const HeroData = [
   {
-    role: [
-      "Front-end",
-      "UI/UX"
-    ],
+    role: ["Front-end", "UI/UX"],
     name: "FREDERICK MORENO",
     content: " a BSIT student based in the Philippines. I am a Front-end Developer and UI/UX Designer, combining technology and creativity. I'm also a traditional artist, bringing a unique blend of artistic sensibility and technical expertise to all my projects."
   }
 ]
 
+// About Data
 export const AboutData = [
   {
     whoAmI: [
@@ -168,40 +85,19 @@ export const AboutData = [
         name: "Frederick Moreno",
         content: "A dedicated BSIT student from the Philippines with a fervent passion for technology and creativity. My digital career focuses on front-end development and UI/UX design, aiming to create seamless and engaging user experiences. My expertise lies in bridging the gap between design and development, ensuring that every project is both functional and visually appealing. Beyond my technical pursuits, I am a traditional artist, bringing a unique blend of artistic sensibility and technical prowess to my work.",
         badge: [
-          {
-            title: "Front-end Developer",
-            svgPath: "M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"
-          },
-          {
-            title: "UI/UX Designer",
-            svgPath: "m4.988 19.012 5.41-5.41m2.366-6.424 4.058 4.058-2.03 5.41L5.3 20 4 18.701l3.355-9.494 5.41-2.029Zm4.626 4.625L12.197 6.61 14.807 4 20 9.194l-2.61 2.61Z"
-          },
-          {
-            title: "Traditional Artist",
-            svgPath: "m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125"
-          },
+          { title: "Front-end Developer", svgPath: "M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" },
+          { title: "UI/UX Designer", svgPath: "m4.988 19.012 5.41-5.41m2.366-6.424 4.058 4.058-2.03 5.41L5.3 20 4 18.701l3.355-9.494 5.41-2.029Zm4.626 4.625L12.197 6.61 14.807 4 20 9.194l-2.61 2.61Z" },
+          { title: "Traditional Artist", svgPath: "m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" },
         ]
       }
     ],
     howItStarted: [
       {
         icons: [
-          {
-            icon: html,
-            tooltip: "HyperText Markup Language"
-          },
-          {
-            icon: css,
-            tooltip: "Cascading Style Sheet"
-          },
-          {
-            icon: javascript,
-            tooltip: "JavaScript"
-          },
-          {
-            icon: figma,
-            tooltip: "Figma"
-          },
+          { icon: html, tooltip: "HyperText Markup Language" },
+          { icon: css, tooltip: "Cascading Style Sheet" },
+          { icon: javascript, tooltip: "JavaScript" },
+          { icon: figma, tooltip: "Figma" },
         ],
         content: "Way back in 2019 (SHS), my journey began with a curiosity for how websites work, leading me to dive into the world of web development. Starting with the basics of HTML, CSS, and JavaScript, I quickly found joy in crafting interactive and visually appealing web pages. As I honed my skills, Figma became my go-to tool for designing intuitive user interfaces, merging creativity with functionality. This foundation laid the groundwork for my ongoing passion and expertise in front-end development and UI/UX design."
       }
@@ -209,46 +105,16 @@ export const AboutData = [
     howsItGoing: [
       {
         icons: [
-          {
-            icon: html,
-            tooltip: "HyperText Markup Language"
-          },
-          {
-            icon: css,
-            tooltip: "Cascading Style Sheet"
-          },
-          {
-            icon: javascript,
-            tooltip: "JavaScript"
-          },
-          {
-            icon: figma,
-            tooltip: "Figma"
-          },
-          {
-            icon: react,
-            tooltip: "React JS"
-          },
-          {
-            icon: nextjs,
-            tooltip: "Next JS"
-          },
-          {
-            icon: vue,
-            tooltip: "Vue JS"
-          },
-          {
-            icon: php,
-            tooltip: "Hypertext Preprocessor"
-          },
-          {
-            icon: tailwind,
-            tooltip: "Tailwind CSS"
-          },
-          {
-            icon: bootstrap,
-            tooltip: "Bootstrap"
-          },
+          { icon: html, tooltip: "HyperText Markup Language" },
+          { icon: css, tooltip: "Cascading Style Sheet" },
+          { icon: javascript, tooltip: "JavaScript" },
+          { icon: figma, tooltip: "Figma" },
+          { icon: react, tooltip: "React JS" },
+          { icon: nextjs, tooltip: "Next JS" },
+          { icon: vue, tooltip: "Vue JS" },
+          { icon: php, tooltip: "Hypertext Preprocessor" },
+          { icon: tailwind, tooltip: "Tailwind CSS" },
+          { icon: bootstrap, tooltip: "Bootstrap" },
         ],
         content: `Since starting in web development, I have significantly expanded my skill set. I've mastered HTML, CSS, and JavaScript, and embraced modern frameworks like React JS, Next JS, and Vue JS. PHP aids my server-side scripting, while Tailwind CSS and Bootstrap ensure responsive design. This diverse expertise allows me to create functional and visually engaging projects, driven by a passion for continuous learning and growth in web development and UI/UX design.`
       }
@@ -283,18 +149,9 @@ export const ProjectData = [
     title: "Projects",
     content: "This section serves as a comprehensive showcase of my innovative and creative web development projects. In these endeavors, I take on multiple roles, including Front-end Developer and UI/UX Designer, to ensure the delivery of high-quality websites and web applications.",
     badge: [
-      {
-        title: "Front-end Development",
-        svgPath: "M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"
-      },
-      {
-        title: "UI/UX Design",
-        svgPath: "m4.988 19.012 5.41-5.41m2.366-6.424 4.058 4.058-2.03 5.41L5.3 20 4 18.701l3.355-9.494 5.41-2.029Zm4.626 4.625L12.197 6.61 14.807 4 20 9.194l-2.61 2.61Z"
-      },
-      {
-        title: "Wireframe",
-        svgPath: "m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125"
-      },
+      { title: "Front-end Development", svgPath: "M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" },
+      { title: "UI/UX Design", svgPath: "m4.988 19.012 5.41-5.41m2.366-6.424 4.058 4.058-2.03 5.41L5.3 20 4 18.701l3.355-9.494 5.41-2.029Zm4.626 4.625L12.197 6.61 14.807 4 20 9.194l-2.61 2.61Z" },
+      { title: "Wireframe", svgPath: "m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" },
     ],
   }
 ];
@@ -303,21 +160,9 @@ export const ContactData = [
   {
     name: "Frederick Moreno",
     contacts: [
-      {
-        icon: mail,
-        alt: "mail",
-        name: "moreno.frederick.capiral@gmail.com"
-      },
-      {
-        icon: phone,
-        alt: "phone",
-        name: "+63 951 432 6912"
-      },
-      {
-        icon: location,
-        alt: "location",
-        name: "Caloocan City, Philippines"
-      }
+      { icon: mail, alt: "mail", name: "moreno.frederick.capiral@gmail.com" },
+      { icon: phone, alt: "phone", name: "+63 951 432 6912" },
+      { icon: location, alt: "location", name: "Caloocan City, Philippines" }
     ]
   }
 ];
@@ -325,86 +170,26 @@ export const ContactData = [
 export const ExpertiseData = [
   {
     techStacks: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "JavaScript"
-      },
-      {
-        icon: reactlogo,
-        tooltip: "ReactJS"
-      },
-      {
-        icon: nextlogo,
-        tooltip: "NextJS"
-      },
-      {
-        icon: vuelogo,
-        tooltip: "VueJS"
-      },
-      {
-        icon: tailwindlogo,
-        tooltip: "Tailwind CSS"
-      },
-      {
-        icon: bootstraplogo,
-        tooltip: "Bootstrap"
-      },
-      {
-        icon: phplogo,
-        tooltip: "Hypertext Preprocessor"
-      },
-      {
-        icon: netlogo,
-        tooltip: ".NET"
-      },
-      {
-        icon: gsaplogo,
-        tooltip: "GSAP"
-      },
-      {
-        icon: framerlogo,
-        tooltip: "Framer Motion"
-      },
-      {
-        icon: vitelogo,
-        tooltip: "Vite"
-      },
-      {
-        icon: vercellogo,
-        tooltip: "Vercel"
-      },
-      {
-        icon: gitlogo,
-        tooltip: "Git"
-      },
-      {
-        icon: npmlogo,
-        tooltip: "NPM"
-      },
-      {
-        icon: figmalogo,
-        tooltip: "Figma"
-      },
-      {
-        icon: githublogo,
-        tooltip: "GitHub"
-      },
-      {
-        icon: vscodelogo,
-        tooltip: "VS Code"
-      },
-      {
-        icon: vslogo,
-        tooltip: "Visual Studio"
-      },
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: reactlogo, tooltip: "ReactJS" },
+      { icon: nextlogo, tooltip: "NextJS" },
+      { icon: vuelogo, tooltip: "VueJS" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: bootstraplogo, tooltip: "Bootstrap" },
+      { icon: phplogo, tooltip: "Hypertext Preprocessor" },
+      { icon: netlogo, tooltip: ".NET" },
+      { icon: gsaplogo, tooltip: "GSAP" },
+      { icon: framerlogo, tooltip: "Framer Motion" },
+      { icon: vitelogo, tooltip: "Vite" },
+      { icon: vercellogo, tooltip: "Vercel" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: npmlogo, tooltip: "NPM" },
+      { icon: figmalogo, tooltip: "Figma" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: vscodelogo, tooltip: "VS Code" },
+      { icon: vslogo, tooltip: "Visual Studio" },
     ],
     githubStats: [],
     certifications: [
@@ -414,27 +199,9 @@ export const ExpertiseData = [
         content: "My extensive collection includes a variety of completed courses, active participation in <br class='md:block hidden' /> numerous workshops and seminars, and from tech industry-relevant webinars.",
         btnText: "View Certificates",
         link: "#",
-        images01: [
-          { src: cert05 },
-          { src: cert06 },
-          { src: cert07 },
-          { src: cert01 },
-          { src: cert02 },
-          { src: cert03 },
-          { src: cert04 },
-          { src: cert02 },
-          { src: cert03 },
+        images01: [{ src: cert05 }, { src: cert06 }, { src: cert07 }, { src: cert01 }, { src: cert02 }, { src: cert03 }, { src: cert04 }, { src: cert02 }, { src: cert03 },
         ],
-        images02: [
-          { src: cert11 },
-          { src: cert12 },
-          { src: cert08 },
-          { src: cert15 },
-          { src: cert09 },
-          { src: cert05 },
-          { src: cert10 },
-          { src: cert02 },
-          { src: cert03 },
+        images02: [{ src: cert11 }, { src: cert12 }, { src: cert08 }, { src: cert15 }, { src: cert09 }, { src: cert05 }, { src: cert10 }, { src: cert02 }, { src: cert03 },
         ]
       }
     ]
@@ -457,46 +224,16 @@ export const ProjectOverviewData = [
     githubLink: "https://github.com/itgauy/Tech-Commr",
     category: ['Startup Project', 'Full-Stack Project', 'Team Project'],
     tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "JavaScript"
-      },
-      {
-        icon: reactlogo,
-        tooltip: "ReactJS"
-      },
-      {
-        icon: tailwindlogo,
-        tooltip: "Tailwind CSS"
-      },
-      {
-        icon: framerlogo,
-        tooltip: "Framer Motion"
-      },
-      {
-        icon: githublogo,
-        tooltip: "GitHub"
-      },
-      {
-        icon: gitlogo,
-        tooltip: "Git"
-      },
-      {
-        icon: vitelogo,
-        tooltip: "Vite"
-      },
-      {
-        icon: npmlogo,
-        tooltip: "NPM"
-      },
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: reactlogo, tooltip: "ReactJS" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: framerlogo, tooltip: "Framer Motion" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: vitelogo, tooltip: "Vite" },
+      { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: '',
     date: 'August 2024 - Present',
@@ -535,42 +272,15 @@ export const ProjectOverviewData = [
     githubLink: "https://github.com/fwedwicc/profolios",
     category: ['Startup Project', 'Full-Stack Project', 'Business Project'],
     tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "JavaScript"
-      },
-      {
-        icon: nextlogo,
-        tooltip: "NextJS"
-      },
-      {
-        icon: tailwindlogo,
-        tooltip: "Tailwind CSS"
-      },
-      {
-        icon: framerlogo,
-        tooltip: "Framer Motion"
-      },
-      {
-        icon: githublogo,
-        tooltip: "GitHub"
-      },
-      {
-        icon: gitlogo,
-        tooltip: "Git"
-      },
-      {
-        icon: npmlogo,
-        tooltip: "NPM"
-      },
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: nextlogo, tooltip: "NextJS" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: framerlogo, tooltip: "Framer Motion" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: '',
     date: 'August 2024 - Present',
@@ -598,46 +308,16 @@ export const ProjectOverviewData = [
     githubLink: "https://github.com/fwedwicc/fmUI",
     category: ['Web Development Project', 'UI/UX Design Project', 'Career Project'],
     tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "JavaScript"
-      },
-      {
-        icon: reactlogo,
-        tooltip: "ReactJS"
-      },
-      {
-        icon: tailwindlogo,
-        tooltip: "Tailwind CSS"
-      },
-      {
-        icon: framerlogo,
-        tooltip: "Framer Motion"
-      },
-      {
-        icon: githublogo,
-        tooltip: "GitHub"
-      },
-      {
-        icon: gitlogo,
-        tooltip: "Git"
-      },
-      {
-        icon: vitelogo,
-        tooltip: "Vite"
-      },
-      {
-        icon: npmlogo,
-        tooltip: "NPM"
-      },
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: reactlogo, tooltip: "ReactJS" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: framerlogo, tooltip: "Framer Motion" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: vitelogo, tooltip: "Vite" },
+      { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: fmUIGraphics,
     date: 'June 2024 - Present',
@@ -665,46 +345,16 @@ export const ProjectOverviewData = [
     githubLink: "https://github.com/fwedwicc/FM-DailyUI",
     category: ['Front-end Development Project', 'UI/UX Design Project', 'Career Project'],
     tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "JavaScript"
-      },
-      {
-        icon: reactlogo,
-        tooltip: "ReactJS"
-      },
-      {
-        icon: tailwindlogo,
-        tooltip: "Tailwind CSS"
-      },
-      {
-        icon: framerlogo,
-        tooltip: "Framer Motion"
-      },
-      {
-        icon: githublogo,
-        tooltip: "GitHub"
-      },
-      {
-        icon: gitlogo,
-        tooltip: "Git"
-      },
-      {
-        icon: vitelogo,
-        tooltip: "Vite"
-      },
-      {
-        icon: npmlogo,
-        tooltip: "NPM"
-      },
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: reactlogo, tooltip: "ReactJS" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: framerlogo, tooltip: "Framer Motion" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: vitelogo, tooltip: "Vite" },
+      { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: FMDailyUIGraphics,
     date: 'July 2024 - Present',
@@ -732,38 +382,14 @@ export const ProjectOverviewData = [
     githubLink: "https://github.com/fwedwicc/FM-Gallery",
     category: ['Front-end Development Project', 'Career Project', 'Personal Project'],
     tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "JavaScript"
-      },
-      {
-        icon: tailwindlogo,
-        tooltip: "Tailwind CSS"
-      },
-      {
-        icon: gsaplogo,
-        tooltip: "GSAP"
-      },
-      {
-        icon: githublogo,
-        tooltip: "GitHub"
-      },
-      {
-        icon: gitlogo,
-        tooltip: "Git"
-      },
-      {
-        icon: npmlogo,
-        tooltip: "NPM"
-      },
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: gsaplogo, tooltip: "GSAP" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: FMGalleryGraphics,
     date: 'July 2024',
@@ -791,50 +417,17 @@ export const ProjectOverviewData = [
     githubLink: "https://github.com/fwedwicc/FM-Portfolio",
     category: ['Front-end Development Project', 'UI/UX Design Project', 'Career Project'],
     tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "JavaScript"
-      },
-      {
-        icon: reactlogo,
-        tooltip: "ReactJS"
-      },
-      {
-        icon: tailwindlogo,
-        tooltip: "Tailwind CSS"
-      },
-      {
-        icon: gsaplogo,
-        tooltip: "GSAP"
-      },
-      {
-        icon: framerlogo,
-        tooltip: "Framer Motion"
-      },
-      {
-        icon: githublogo,
-        tooltip: "GitHub"
-      },
-      {
-        icon: gitlogo,
-        tooltip: "Git"
-      },
-      {
-        icon: vitelogo,
-        tooltip: "Vite"
-      },
-      {
-        icon: npmlogo,
-        tooltip: "NPM"
-      },
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: reactlogo, tooltip: "ReactJS" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: gsaplogo, tooltip: "GSAP" },
+      { icon: framerlogo, tooltip: "Framer Motion" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: vitelogo, tooltip: "Vite" },
+      { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: FMPortfolioGraphics,
     date: 'June 2024 - Present',
@@ -862,38 +455,14 @@ export const ProjectOverviewData = [
     githubLink: "https://github.com/fwedwicc/quackOverflow",
     category: ['Personal Project', 'Entertainment Project'],
     tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "JavaScript"
-      },
-      {
-        icon: tailwindlogo,
-        tooltip: "Tailwind CSS"
-      },
-      {
-        icon: githublogo,
-        tooltip: "GitHub"
-      },
-      {
-        icon: gitlogo,
-        tooltip: "Git"
-      },
-      {
-        icon: vercellogo,
-        tooltip: "Vercel"
-      },
-      {
-        icon: npmlogo,
-        tooltip: "NPM"
-      },
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: vercellogo, tooltip: "Vercel" },
+      { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: quackOverflowGraphics,
     date: 'May 2024',
@@ -921,30 +490,12 @@ export const ProjectOverviewData = [
     githubLink: "https://github.com/fwedwicc/IPT101-Moreno-eCommerce",
     category: ['University Project', 'Web Development Project', 'Front-end Development Project'],
     tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: tailwindlogo,
-        tooltip: "Tailwind CSS"
-      },
-      {
-        icon: netlogo,
-        tooltip: "ASP.Net"
-      },
-      {
-        icon: vslogo,
-        tooltip: "Visual Studio"
-      },
-      {
-        icon: githublogo,
-        tooltip: "GitHub"
-      },
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: netlogo, tooltip: "ASP.Net" },
+      { icon: vslogo, tooltip: "Visual Studio" },
+      { icon: githublogo, tooltip: "GitHub" },
     ],
     graphics: FUNKOshopGraphics,
     date: 'March 2024',
@@ -973,22 +524,10 @@ export const ProjectOverviewData = [
     githubLink: "",
     category: ['Commission Project', 'University Project', 'UI/UX Design Project'],
     tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: tailwindlogo,
-        tooltip: "Tailwind CSS"
-      },
-      {
-        icon: figmalogo,
-        tooltip: "Figma"
-      },
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: figmalogo, tooltip: "Figma" },
     ],
     graphics: '',
     date: 'April 2024',
@@ -1017,38 +556,14 @@ export const ProjectOverviewData = [
     githubLink: "",
     category: ['Software Engineering Project', 'University Project', 'Full-Stack Project'],
     tools: [
-      {
-        icon: htmllogo,
-        tooltip: "HyperText Markup Language"
-      },
-      {
-        icon: csslogo,
-        tooltip: "Cascading Style Sheet"
-      },
-      {
-        icon: jslogo,
-        tooltip: "JavaScript"
-      },
-      {
-        icon: phplogo,
-        tooltip: "Hypertext Preprocessor"
-      },
-      {
-        icon: githublogo,
-        tooltip: "GitHub"
-      },
-      {
-        icon: gitlogo,
-        tooltip: "Git"
-      },
-      {
-        icon: vitelogo,
-        tooltip: "Vite"
-      },
-      {
-        icon: npmlogo,
-        tooltip: "NPM"
-      },
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: phplogo, tooltip: "Hypertext Preprocessor" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: vitelogo, tooltip: "Vite" },
+      { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: '',
     date: 'Unknown - Present',
