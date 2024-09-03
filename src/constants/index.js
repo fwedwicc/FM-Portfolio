@@ -454,7 +454,7 @@ export const ProjectOverviewData = [
     poster: '',
     content: "Tech-Commr Content",
     siteLink: "",
-    githubLink: "",
+    githubLink: "https://github.com/itgauy/Tech-Commr",
     category: ['Startup Project', 'Full-Stack Project', 'Team Project'],
     tools: [
       {
@@ -517,13 +517,72 @@ export const ProjectOverviewData = [
         name: 'Kiel Marice Serrano',
         role: ['Marketing Officer', 'Social Media Manager', 'Content Strategist']
       },
-      {
-        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
-        name: 'Reanna Carreon',
-        role: ['Social Media Manager', 'Influencer Marketing Manager']
-      },
     ],
     summary: 'Tech-Commr Summary'
+  },
+  {
+    // TODO: profolios Project Content
+    // profolios
+    id: 'profolios',
+    pageStatus: '',
+    img: 'https://placehold.co/300x200',
+    title: 'profolios',
+    desc: 'profolios Description',
+    roles: ['Web Developer', 'Front-end Developer', 'UI/UX Designer'],
+    poster: '',
+    content: "profolios Content",
+    siteLink: "",
+    githubLink: "https://github.com/fwedwicc/profolios",
+    category: ['Startup Project', 'Full-Stack Project', 'Business Project'],
+    tools: [
+      {
+        icon: htmllogo,
+        tooltip: "HyperText Markup Language"
+      },
+      {
+        icon: csslogo,
+        tooltip: "Cascading Style Sheet"
+      },
+      {
+        icon: jslogo,
+        tooltip: "JavaScript"
+      },
+      {
+        icon: nextlogo,
+        tooltip: "NextJS"
+      },
+      {
+        icon: tailwindlogo,
+        tooltip: "Tailwind CSS"
+      },
+      {
+        icon: framerlogo,
+        tooltip: "Framer Motion"
+      },
+      {
+        icon: githublogo,
+        tooltip: "GitHub"
+      },
+      {
+        icon: gitlogo,
+        tooltip: "Git"
+      },
+      {
+        icon: npmlogo,
+        tooltip: "NPM"
+      },
+    ],
+    graphics: '',
+    date: 'August 2024 - Present',
+    status: 'Work in progress',
+    contributor: [
+      {
+        profile: FrederickMoreno,
+        name: 'Frederick Moreno',
+        role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
+      }
+    ],
+    summary: 'profolios Summary'
   },
   {
     // fmUI
