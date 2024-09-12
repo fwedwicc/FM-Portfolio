@@ -21,12 +21,12 @@ import { FrederickMoreno, LianTorres, KielMariceSerrano } from '../assets/profil
 
 // Graphics Imports
 import {
-  fmUIGraphics, FMPortfolioGraphics, FMDailyUIGraphics, FMGalleryGraphics, quackOverflowGraphics, FUNKOshopGraphics,
+  TechCommrGraphics, fmUIGraphics, FMPortfolioGraphics, FMDailyUIGraphics, FMGalleryGraphics, quackOverflowGraphics, FUNKOshopGraphics,
 } from '../assets/graphics';
 
 // Banner and Thumbnail Imports
 import {
-  fmUIThumbnail, fmUIBanner, FMPortfolioThumbnail, FMPortfolioBanner, FMDailyUIBanner, FMDailyUIThumbnail, FMGalleryThumbnail, FMGalleryUIBanner, quackOverflowThumbnail, quackOverflowBanner, FUNKOshopThumbnail, FUNKOshopBanner,
+  TechCommrThumbnail, TechCommrBanner, fmUIThumbnail, fmUIBanner, FMPortfolioThumbnail, FMPortfolioBanner, FMDailyUIBanner, FMDailyUIThumbnail, FMGalleryThumbnail, FMGalleryUIBanner, quackOverflowThumbnail, quackOverflowBanner, FUNKOshopThumbnail, FUNKOshopBanner,
 } from '../assets/banners';
 
 // Navigation Links Data
@@ -210,17 +210,16 @@ export const ExpertiseData = [
 
 export const ProjectOverviewData = [
   {
-    // TODO: Tech-Commr Project Content
     // Tech-Commr
     id: 'Tech-Commr',
-    pageStatus: '',
-    img: 'https://placehold.co/300x200',
+    pageStatus: 'Done',
+    img: TechCommrThumbnail,
     title: 'Tech-Commr',
-    desc: 'Tech-Commr Description',
+    desc: 'A platform delivering custom technical solutions in programming, web development, database management, graphic design, and paperworks for students and professionals.',
     roles: ['Front-end Developer', 'UI/UX Designer', 'Graphic Designer'],
-    poster: '',
-    content: "Tech-Commr Content",
-    siteLink: "",
+    poster: TechCommrBanner,
+    content: "Tech-Commr is a platform providing personalized technical solutions to help students and professionals succeed in academic and professional projects. From programming and web development to database management and graphic design, we offer a range of services tailored to each client's needs, ensuring precise and successful outcomes.",
+    siteLink: "https://tech-commr.vercel.app/",
     githubLink: "https://github.com/itgauy/Tech-Commr",
     category: ['Startup Project', 'Full-Stack Project', 'Team Project', 'Business Project'],
     tools: [
@@ -239,9 +238,9 @@ export const ProjectOverviewData = [
       { icon: vitelogo, tooltip: "Vite" },
       { icon: npmlogo, tooltip: "NPM" },
     ],
-    graphics: '',
-    date: 'August 2024 - Present',
-    status: 'Work in progress',
+    graphics: TechCommrGraphics,
+    date: 'August 2024 - September 2024',
+    status: 'Finished',
     contributor: [
       {
         profile: LianTorres,
@@ -259,7 +258,7 @@ export const ProjectOverviewData = [
         role: ['Project Coordinator', 'Social Media Manager', 'System Analyst']
       },
     ],
-    summary: 'Tech-Commr Summary'
+    summary: "As the lead Front-end Developer, UI/UX Designer, and Graphic Designer at Tech-Commr, I focus on delivering custom solutions that are both visually compelling and functionally seamless. From design to execution, I ensure each project meets the highest standards, driving success through expert design and technical precision."
   },
   {
     // TODO: profolios Project Content
