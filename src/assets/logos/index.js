@@ -11,6 +11,10 @@ import phplogo from './php-logo.png'
 import netlogo from './net-logo.png'
 import gsaplogo from './gsap-logo.png'
 import framerlogo from './framer-motion-logo.png'
+import nodelogo from './nodejs-logo.png'
+import expresslogo from './express-logo.png'
+import mongodblogo from './mongodb-logo.png'
+import postmanlogo from './postman-logo.png'
 import vitelogo from './vite-logo.png'
 import vercellogo from './vercel-logo.png'
 import githublogo from './github-logo.png'
@@ -37,6 +41,10 @@ export {
   netlogo,
   gsaplogo,
   framerlogo,
+  nodelogo,
+  expresslogo,
+  mongodblogo,
+  postmanlogo,
   vitelogo,
   vercellogo,
   githublogo,

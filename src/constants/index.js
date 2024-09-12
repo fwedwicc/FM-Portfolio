@@ -8,7 +8,7 @@ import {
 
 // Logo Imports
 import {
-  qcu, bcp, htmllogo, csslogo, jslogo, figmalogo, reactlogo, vuelogo, nextlogo, phplogo, netlogo, gsaplogo, framerlogo, vitelogo, vercellogo, gitlogo, githublogo, npmlogo, vscodelogo, vslogo, tailwindlogo, bootstraplogo, FMLogo, fmUILogo,
+  qcu, bcp, htmllogo, csslogo, jslogo, figmalogo, reactlogo, vuelogo, nextlogo, phplogo, netlogo, gsaplogo, framerlogo, nodelogo, expresslogo, mongodblogo, postmanlogo, vitelogo, vercellogo, gitlogo, githublogo, npmlogo, vscodelogo, vslogo, tailwindlogo, bootstraplogo, FMLogo, fmUILogo,
 } from '../assets/logos';
 
 // Certification Imports
@@ -17,7 +17,7 @@ import {
 } from '../assets/certifications';
 
 // Profile Imports
-import { FrederickMoreno, LianTorres } from '../assets/profiles';
+import { FrederickMoreno, LianTorres, KielMariceSerrano } from '../assets/profiles';
 
 // Graphics Imports
 import {
@@ -222,12 +222,16 @@ export const ProjectOverviewData = [
     content: "Tech-Commr Content",
     siteLink: "",
     githubLink: "https://github.com/itgauy/Tech-Commr",
-    category: ['Startup Project', 'Full-Stack Project', 'Team Project'],
+    category: ['Startup Project', 'Full-Stack Project', 'Team Project', 'Business Project'],
     tools: [
       { icon: htmllogo, tooltip: "HyperText Markup Language" },
       { icon: csslogo, tooltip: "Cascading Style Sheet" },
       { icon: jslogo, tooltip: "JavaScript" },
       { icon: reactlogo, tooltip: "ReactJS" },
+      { icon: nodelogo, tooltip: "NodeJS" },
+      { icon: expresslogo, tooltip: "ExpressJS" },
+      { icon: mongodblogo, tooltip: "MongoDB" },
+      { icon: postmanlogo, tooltip: "Postman" },
       { icon: tailwindlogo, tooltip: "Tailwind CSS" },
       { icon: framerlogo, tooltip: "Framer Motion" },
       { icon: githublogo, tooltip: "GitHub" },
@@ -250,9 +254,9 @@ export const ProjectOverviewData = [
         role: ['Front-end Developer', 'UI/UX Designer', 'Graphic Designer']
       },
       {
-        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+        profile: KielMariceSerrano,
         name: 'Kiel Marice Serrano',
-        role: ['Marketing Officer', 'Social Media Manager', 'Content Strategist']
+        role: ['Project Coordinator', 'Social Media Manager', 'System Analyst']
       },
     ],
     summary: 'Tech-Commr Summary'
