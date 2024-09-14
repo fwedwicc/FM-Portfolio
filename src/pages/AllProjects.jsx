@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FMlogo, grid01, glow07 } from '../assets';
+import { defaultThumbnail } from '../assets/banners';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
@@ -37,13 +38,13 @@ const AllProjects = ({ projects }) => {
           <h1 className='uppercase text-white font-black text-[3rem] lg:text-[9rem] whitespace-nowrap leading-none text-center' id='scroll-animation-'>Projects</h1>
           <p className='text-white text-center w-full lg:max-w-3xl max-w-[40rem]'>This section provides as a comprehensive exhibition of my innovative and imaginative web development work. These works are a representation of a dedication to both aesthetically pleasing and usefulness; combining my technical skills with a touch of creativity to deliver smooth and enjoyable user experiences.</p>
         </div>
-        <div className='grid grid-cols-1 lg:grid-cols-2 mt-[4rem] gap-6'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 mt-[4rem] gap-6 md:px-24'>
           {projects.map(project => (
             <Link key={project.id} to={`/FM-Portfolio/all-projects/${project.id}`}>
               <Card
                 title={project.title}
                 desc={project.desc}
-                img={project.img}
+                img={project.img ? project.img : defaultThumbnail}
                 roles={project.roles}
               />
             </Link>

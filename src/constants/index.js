@@ -266,7 +266,7 @@ export const ProjectOverviewData = [
     // profolios
     id: 'profolios',
     pageStatus: '',
-    img: 'https://placehold.co/300x200',
+    img: '',
     title: 'profolios',
     desc: 'profolios Description',
     roles: ['Web Developer', 'Front-end Developer', 'UI/UX Designer'],

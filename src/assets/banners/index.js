@@ -1,3 +1,4 @@
+import defaultThumbnail from './FM-Portfolio-default-thumbnail.png'
 import TechCommrThumbnail from './Tech-Commr-thumbnail.png'
 import TechCommrBanner from './Tech-Commr-banner.png'
 import fmUIThumbnail from './fmUI-thumbnail.png'
@@ -14,6 +15,7 @@ import FUNKOshopThumbnail from './FUNKO-Shop-thumbnail.png'
 import FUNKOshopBanner from './FUNKO-Shop-banner.png'
 
 export {
+  defaultThumbnail,
   TechCommrThumbnail,
   TechCommrBanner,
   fmUIThumbnail,
