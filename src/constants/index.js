@@ -212,6 +212,7 @@ export const ProjectOverviewData = [
   {
     // Tech-Commr
     id: 'Tech-Commr',
+    type: 'special',
     pageStatus: 'Done',
     img: TechCommrThumbnail,
     title: 'Tech-Commr',
@@ -265,6 +266,7 @@ export const ProjectOverviewData = [
     // TODO: profolios Project Content
     // profolios
     id: 'profolios',
+    type: 'special',
     pageStatus: '',
     img: '',
     title: 'profolios',
@@ -301,6 +303,7 @@ export const ProjectOverviewData = [
   {
     // fmUI
     id: 'fmUI',
+    type: 'special',
     pageStatus: 'Done',
     img: fmUIThumbnail,
     title: 'fmUI',

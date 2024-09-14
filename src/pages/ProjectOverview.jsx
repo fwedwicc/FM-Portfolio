@@ -44,7 +44,7 @@ const ProjectOverview = ({ projects }) => {
         <Alert />
       )}
       <img src={project.poster} alt={`${project.id} Banner`} className='w-full h-full object-cover object-center absolute -z-10' id='scroll-animation-' />
-      <div className='z-20 lg:p-12 p-6 relative'>
+      <div className='z-20 lg:p-12 p-6 relative overflow-x-hidden'>
         <Link to="/FM-Portfolio/all-projects">
           <img src={FMlogo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem]" />
         </Link>
@@ -204,7 +204,7 @@ const ProjectOverview = ({ projects }) => {
           <div className='mt-[5rem] z-10'>
             <Footer link={renderLink} />
           </div>
-          <img src={glow05} alt="Glow eclipse" className='absolute bottom-0 -z-10' id='scroll-animation-' />
+          <img src={glow05} alt="Glow eclipse" className='absolute bottom-0 -z-10 right-1' id='scroll-animation-' />
         </div>
       </div>
     </motion.div >
