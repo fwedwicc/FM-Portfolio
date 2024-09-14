@@ -198,7 +198,7 @@ export const ExpertiseData = [
         title: "Certifications",
         content: "My extensive collection includes a variety of completed courses, active participation in <br class='md:block hidden' /> numerous workshops and seminars, and from tech industry-relevant webinars.",
         btnText: "View Certificates",
-        link: "#",
+        link: "https://drive.google.com/drive/folders/1zmwS59a85LqUvTd-WQXUFQ-SKbuyvmCv?usp=sharing",
         images01: [{ src: cert05 }, { src: cert06 }, { src: cert07 }, { src: cert01 }, { src: cert02 }, { src: cert03 }, { src: cert04 }, { src: cert02 }, { src: cert03 },
         ],
         images02: [{ src: cert11 }, { src: cert12 }, { src: cert08 }, { src: cert15 }, { src: cert09 }, { src: cert05 }, { src: cert10 }, { src: cert02 }, { src: cert03 },
@@ -252,6 +252,7 @@ export const ProjectOverviewData = [
         name: 'Frederick Moreno',
         role: ['Front-end Developer', 'UI/UX Designer', 'Graphic Designer']
       },
+      // INSERT: Reanna Carreon | Ate totssss
       {
         profile: KielMariceSerrano,
         name: 'Kiel Marice Serrano',
@@ -273,7 +274,7 @@ export const ProjectOverviewData = [
     content: "profolios Content",
     siteLink: "",
     githubLink: "https://github.com/fwedwicc/profolios",
-    category: ['Startup Project', 'Full-Stack Project', 'Business Project'],
+    category: ['Freelance Project', 'Full-Stack Project', 'Business Project'],
     tools: [
       { icon: htmllogo, tooltip: "HyperText Markup Language" },
       { icon: csslogo, tooltip: "Cascading Style Sheet" },
@@ -511,78 +512,5 @@ export const ProjectOverviewData = [
       },
     ],
     summary: "As a Front-end Developer and UI/UX Designer, I developed the FUNKO Shop for my university project, featuring a visually appealing interfaces of an e-commerce web app. This project highlights my skills in creating dynamic, responsive, and visually engaging components that enhance the shopping experience, all while integrating a popular cultural theme into the design."
-  },
-  {
-    // TODO: PAPS Barber Shop Project Content
-    // PAPS Barber Shop
-    id: 'PAPSbarberShop',
-    pageStatus: '',
-    img: 'https://placehold.co/300x200',
-    title: 'PAPS Barber Shop',
-    desc: "PAPS Barber Shop Description",
-    roles: ['UI/UX Designer'],
-    poster: '',
-    content: "PAPS Barber Shop Content",
-    siteLink: "",
-    githubLink: "",
-    category: ['Commission Project', 'University Project', 'UI/UX Design Project'],
-    tools: [
-      { icon: htmllogo, tooltip: "HyperText Markup Language" },
-      { icon: csslogo, tooltip: "Cascading Style Sheet" },
-      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
-      { icon: figmalogo, tooltip: "Figma" },
-    ],
-    graphics: '',
-    date: 'April 2024',
-    status: 'Finished',
-    contributor: [
-      {
-        profile: FrederickMoreno,
-        name: 'Frederick Moreno',
-        role: ['UI/UX Designer']
-      },
-    ],
-    summary: ""
-  },
-  {
-    // TODO: QCU-LMS Project Content
-    // QCU-LMS
-    id: 'QCU-LMS',
-    pageStatus: '',
-    img: 'https://placehold.co/300x200',
-    title: 'QCU-LMS',
-    desc: 'QCU-LMS Description',
-    roles: ['Front-end Developer', 'UI/UX Designer'],
-    poster: '',
-    content: "QCU-LMS Content",
-    siteLink: "",
-    githubLink: "",
-    category: ['Software Engineering Project', 'University Project', 'Full-Stack Project'],
-    tools: [
-      { icon: htmllogo, tooltip: "HyperText Markup Language" },
-      { icon: csslogo, tooltip: "Cascading Style Sheet" },
-      { icon: jslogo, tooltip: "JavaScript" },
-      { icon: phplogo, tooltip: "Hypertext Preprocessor" },
-      { icon: githublogo, tooltip: "GitHub" },
-      { icon: gitlogo, tooltip: "Git" },
-      { icon: vitelogo, tooltip: "Vite" },
-      { icon: npmlogo, tooltip: "NPM" },
-    ],
-    graphics: '',
-    date: 'Unknown - Present',
-    status: '',
-    contributor: [
-      {
-        profile: FrederickMoreno,
-        name: 'Frederick Moreno',
-        role: ['Front-end Developer', 'UI/UX Designer']
-      },
-      {
-        profile: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
-        name: 'Lian Torres',
-        role: ['Project Manager', 'Lead Programmer', 'Back-end Developer']
-      },
-    ],
-    summary: 'QCU-LMS Summary'
   },
 ];
