@@ -7,7 +7,6 @@ import Card from '../components/Card';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import useScrollToTop from '../hooks/useScrollToTop';
-import Alert from '../components/Alert';
 
 const AllProjects = ({ projects }) => {
   useScrollToTop();
@@ -27,8 +26,6 @@ const AllProjects = ({ projects }) => {
       exit={{ opacity: 0 }}
       transition={{ duration: 1.5 }}
     >
-      {/* Temporary Alert */}
-      <Alert />
       <img src={glow07} alt="Glow eclipse" className='-z-10 fixed' id='scroll-animation-' />
       <img src={grid01} alt="Grid" className='w-full h-full object-contain -z-20 object-center fixed' id='scroll-animation-' />
       <div className='lg:p-8 p-6 z-10'>
