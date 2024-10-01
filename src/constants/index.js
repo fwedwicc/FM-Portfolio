@@ -483,6 +483,51 @@ export const ProjectOverviewData = [
     summary: "As a Web Developer and UI/UX Designer in this project, I created quackOverflow to make debugging both fun and effective. This quirky app lets you chat your code problems to a virtual rubber duck that only says 'quack, ' turning the serious task of debugging into a lighthearted, yet surprisingly helpful, experience."
   },
   {
+    // TODO: BNNMS Project Content
+    // BNNMS
+    id: 'BNNMS',
+    pageStatus: '',
+    img: '',
+    title: 'BNNMS',
+    desc: 'BNNMS Description',
+    roles: ['Web Developer', 'Front-end Developer', 'UI/UX Designer'],
+    poster: '',
+    content: "BNNMS Content",
+    siteLink: "",
+    githubLink: "https://github.com/itgauy/bms-prod",
+    category: ['University Project', 'Full-Stack Project'],
+    tools: [
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: npmlogo, tooltip: "NPM" },
+    ],
+    graphics: '',
+    date: 'September 2024 - Present',
+    status: 'Work in progress',
+    contributor: [
+      {
+        profile: LianTorres,
+        name: 'Lian Torres',
+        role: ['Lead Programmer', 'Back-end Developer']
+      },
+      {
+        profile: FrederickMoreno,
+        name: 'Frederick Moreno',
+        role: ['Front-end Developer', 'UI/UX Designer']
+      },
+      {
+        profile: KielMariceSerrano,
+        name: 'Kiel Marice Serrano',
+        role: ['Project Manager', 'System Analyst']
+      },
+    ],
+    summary: 'BNNMS Summary'
+  },
+  {
     // FUNKO Shop
     id: 'FUNKOshop',
     pageStatus: 'Done',
