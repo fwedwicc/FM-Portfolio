@@ -3,6 +3,7 @@ import { glow01 } from '../assets'
 import Button from './Button'
 import useGsapAnimations from '../hooks/useGsapAnimations';
 import { HeroData, ContactData } from '../constants';
+import Resume from '../assets/file/MORENO, Frederick C. - Resume.pdf';
 
 const Hero = () => {
   const heroData = HeroData[0];
@@ -29,12 +30,13 @@ const Hero = () => {
                 </p>
               </div>
               <div className='flex lg:justify-end lg:items-start gap-4'>
-                {/* TODO: Download Resume Button */}
-                <Button text={'Resume'} styles={'hover:bg-[#100E16]'}>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-3 lg:size-4">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                  </svg>
-                </Button>
+                <a href={Resume} target="_blank" rel="noopener noreferrer">
+                  <Button text={'Resume'} styles={'hover:bg-[#100E16]'}>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-3 lg:size-4">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg>
+                  </Button>
+                </a>
                 <a href={`mailto:${contacts.contacts[0].name}`}>
                   <Button text={'Get in touch'} styles={'bg-indigo-600 hover:bg-indigo-700'} round={'rounded-md lg:rounded-tr-[1.5rem]'}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-3 lg:size-4">
