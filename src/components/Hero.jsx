@@ -3,7 +3,6 @@ import { glow01 } from '../assets'
 import Button from './Button'
 import useGsapAnimations from '../hooks/useGsapAnimations';
 import { HeroData, ContactData } from '../constants';
-import Resume from '../assets/file/MORENO, Frederick C. - Resume.pdf';
 
 const Hero = () => {
   const heroData = HeroData[0];
@@ -30,10 +29,10 @@ const Hero = () => {
                 </p>
               </div>
               <div className='flex lg:justify-end lg:items-start gap-4'>
-                <a href={Resume} target="_blank" rel="noopener noreferrer">
-                  <Button text={'Resume'} styles={'hover:bg-[#100E16]'}>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-3 lg:size-4">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                <a href={'https://fm-linktree.vercel.app/'} target="_blank" rel="noopener noreferrer">
+                  <Button text={'Linktree'} styles={'hover:bg-[#100E16]'}>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-3 lg:size-4">
+                      <path fillRule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clipRule="evenodd" />
                     </svg>
                   </Button>
                 </a>
