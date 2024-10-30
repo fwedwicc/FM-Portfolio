@@ -71,10 +71,9 @@ const SocialLinks = () => (
     {Socials.map((social, index) => (
       <a key={index} href={social.link} target="_blank" rel="noopener noreferrer" className='self-start transition duration-300 ease-in-out hover:bg-neutral-800 hover:scale-110 p-[2px] rounded-md'>
         <svg className="size-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-          <path fill-rule="evenodd" d={social.svg} clip-rule="evenodd" />
-          {index === 1 ? (
-            <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
-          ) : null}
+          {Array.isArray(social.svg) ? social.svg.map((p, idx) => (
+            <path d={p} key={idx} />
+          )) : <path d={social.svg} />}
         </svg>
       </a>
     ))}
