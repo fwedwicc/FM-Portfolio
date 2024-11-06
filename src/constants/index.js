@@ -473,7 +473,7 @@ export const ProjectOverviewData = [
       { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: '',
-    date: 'September 2024 - Present',
+    date: 'November 2024 - Present',
     status: 'Work in progress',
     contributor: [
       {
