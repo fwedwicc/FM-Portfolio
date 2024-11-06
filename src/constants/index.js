@@ -448,6 +448,43 @@ export const ProjectOverviewData = [
     summary: 'As a Web Developer and UI/UX Designer, I crafted FM Portfolio to provide an in-depth showcase of my professional journey. This project highlights my personal background, education, and achievements while also featuring my innovative works in the tech industry. I focused on creating a seamless user experience that effectively represents my skills, experiences, and dedication to front-end development and UI/UX design.'
   },
   {
+    // TODO: pixelore Project Content
+    // pixelore
+    id: 'pixelore',
+    pageStatus: '',
+    img: '',
+    title: 'pixelore',
+    desc: 'pixelore Description',
+    roles: ['Front-end Developer', 'UI/UX Designer'],
+    poster: '',
+    content: "pixelore Content",
+    siteLink: "",
+    githubLink: "https://github.com/fwedwicc/pixelore",
+    category: ['Front-end Development Project', 'Art/Design Project', 'TikTok Content Project'],
+    tools: [
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: reactlogo, tooltip: "ReactJS" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: vitelogo, tooltip: "Vite" },
+      { icon: npmlogo, tooltip: "NPM" },
+    ],
+    graphics: '',
+    date: 'September 2024 - Present',
+    status: 'Work in progress',
+    contributor: [
+      {
+        profile: FrederickMoreno,
+        name: 'Frederick Moreno',
+        role: ['Front-end Developer', 'UI/UX Designer']
+      }
+    ],
+    summary: 'pixelore Summary'
+  },
+  {
     // quackOverflow
     id: 'quackOverflow',
     pageStatus: 'Done',
