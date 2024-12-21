@@ -14,7 +14,7 @@ const Card = ({ title, badge, desc, img, roles = [] }) => {
               <h2 className='text-white font-bold text-[1.3rem]'>{title}</h2>
               {badge}
             </div>
-            <p className='text-[13px]'>{desc}</p>
+            <p className='text-[13px] line-clamp-2'>{desc}</p>
           </div>
           <div className='space-y-2'>
             <h3 className='text-white font-bold text-sm'>Role/s:</h3>

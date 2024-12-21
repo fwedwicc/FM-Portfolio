@@ -27,7 +27,7 @@ const Contact = () => {
               <li className='block text-indigo-400 font-extrabold lg:text-[1.2rem] text-[0.9rem] uppercase'>{contacts.name}</li>
               <li className='inline-block'>
                 <a href={'https://fm-linktree.vercel.app'} target='_blank' className='flex items-center'>
-                  <p className='text-indigo-400 underline'>FM Linktree</p>
+                  <p className='text-indigo-400 underline'>Linktree</p>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-3.5 mt-1 text-indigo-400">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                   </svg>
@@ -37,7 +37,7 @@ const Contact = () => {
                 <li key={index} className='flex items-center gap-3'>
                   <img src={contact.icon} alt={contact.alt} className='w-4 h-4' />
                   <p>{contact.name}</p>
-                </li> 
+                </li>
               ))}
             </ul>
             <div className='scroll-animation-19'>

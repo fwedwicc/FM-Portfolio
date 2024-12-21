@@ -236,6 +236,7 @@ export const ProjectOverviewData = [
       { icon: githublogo, tooltip: "GitHub" },
       { icon: gitlogo, tooltip: "Git" },
       { icon: vitelogo, tooltip: "Vite" },
+      { icon: vercellogo, tooltip: "Vercel" },
       { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: TechCommrGraphics,
@@ -285,6 +286,8 @@ export const ProjectOverviewData = [
       { icon: framerlogo, tooltip: "Framer Motion" },
       { icon: githublogo, tooltip: "GitHub" },
       { icon: gitlogo, tooltip: "Git" },
+      { icon: vitelogo, tooltip: "Vite" },
+      { icon: vercellogo, tooltip: "Vercel" },
       { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: '',
@@ -520,49 +523,47 @@ export const ProjectOverviewData = [
     summary: "As a Web Developer and UI/UX Designer in this project, I created quackOverflow to make debugging both fun and effective. This quirky app lets you chat your code problems to a virtual rubber duck that only says 'quack, ' turning the serious task of debugging into a lighthearted, yet surprisingly helpful, experience."
   },
   {
-    // TODO: BNNMS Project Content
-    // BNNMS
-    id: 'BNNMS',
+    // TODO: FM Journal Project Content
+    // FM Journal
+    id: 'FM-Journal',
     pageStatus: '',
     img: '',
-    title: 'BNNMS',
-    desc: 'BNNMS Description',
+    title: 'FM Journal',
+    desc: 'FM Journal Description',
     roles: ['Web Developer', 'Front-end Developer', 'UI/UX Designer'],
     poster: '',
-    content: "BNNMS Content",
+    content: "FM Journal Content",
     siteLink: "",
-    githubLink: "https://github.com/itgauy/bms-prod",
-    category: ['University Project', 'Full-Stack Project'],
+    githubLink: "",
+    category: ['Personal Project', 'Full-Stack Project'],
     tools: [
       { icon: htmllogo, tooltip: "HyperText Markup Language" },
       { icon: csslogo, tooltip: "Cascading Style Sheet" },
       { icon: jslogo, tooltip: "JavaScript" },
+      { icon: reactlogo, tooltip: "ReactJS" },
+      { icon: nodelogo, tooltip: "NodeJS" },
+      { icon: expresslogo, tooltip: "ExpressJS" },
+      { icon: mongodblogo, tooltip: "MongoDB" },
+      { icon: postmanlogo, tooltip: "Postman" },
       { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      // { icon: framerlogo, tooltip: "Framer Motion" },
       { icon: githublogo, tooltip: "GitHub" },
       { icon: gitlogo, tooltip: "Git" },
+      { icon: vitelogo, tooltip: "Vite" },
+      // { icon: vercellogo, tooltip: "Vercel" },
       { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: '',
-    date: 'September 2024 - Present',
+    date: 'December 2024 - Present',
     status: 'Work in progress',
     contributor: [
       {
-        profile: LianTorres,
-        name: 'Lian Torres',
-        role: ['Lead Programmer', 'Back-end Developer']
-      },
-      {
         profile: FrederickMoreno,
         name: 'Frederick Moreno',
-        role: ['Front-end Developer', 'UI/UX Designer']
-      },
-      {
-        profile: KielMariceSerrano,
-        name: 'Kiel Marice Serrano',
-        role: ['Project Manager', 'System Analyst']
+        role: ['Full-stack Developer', 'UI/UX Designer']
       },
     ],
-    summary: 'BNNMS Summary'
+    summary: 'FM Journal Summary'
   },
   {
     // FUNKO Shop
