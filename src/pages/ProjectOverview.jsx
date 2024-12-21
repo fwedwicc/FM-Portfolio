@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import { NoPage } from './index'
 import { motion } from 'framer-motion';
 import { FMlogo, glow05 } from '../assets';
+import { defaultBanner } from '../assets/banners';
+import { defaultGraphics } from '../assets/graphics';
 import Badge from '../components/Badge';
 import Button from '../components/Button';
 import Alert from '../components/Alert';
@@ -29,6 +31,9 @@ const ProjectOverview = ({ projects }) => {
     return <NoPage />;
   }
 
+  const fallbackPoster = defaultBanner
+  const fallbackGraphics = defaultGraphics
+
   // TODO: GSAP Scroll Animation
   return (
     <motion.div
@@ -43,7 +48,7 @@ const ProjectOverview = ({ projects }) => {
       ) : (
         <Alert />
       )}
-      <img src={project.poster} alt={`${project.id} Banner`} className='w-full h-full object-cover object-center absolute -z-10' id='scroll-animation-' />
+      <img src={project.poster || fallbackPoster} alt={`${project.id} Banner`} className='w-full h-full object-cover object-center absolute -z-10' id='scroll-animation-' />
       <div className='z-20 lg:p-12 p-6 relative overflow-x-hidden'>
         <Link to="/FM-Portfolio/all-projects">
           <img src={FMlogo} alt="FM-logo" className="lg:w-[1.5rem] lg:h-[1.5rem] w-[1rem] h-[1rem]" />
@@ -158,7 +163,7 @@ const ProjectOverview = ({ projects }) => {
           <div className='grid lg:grid-cols-7 grid-cols-1 gap-10'>
             {/* Visuals */}
             <div className='md:col-span-5 col-span-1 ring-[1px] lg:rounded-[18px] md:rounded-[15px] rounded-[7px] ring-[#221c38] border-[0.5rem] relative h-[12rem] lg:h-[40rem] md:h-[30rem] border-[#191529]/30'>
-              <img src={project.graphics} alt={`${project.id} Graphics`} className='object-cover absolute w-full h-full lg:rounded-[14px] md:rounded-[11px] rounded-[4px]' />
+              <img src={project.graphics || fallbackGraphics} alt={`${project.id} Graphics`} className='object-cover absolute w-full h-full lg:rounded-[14px] md:rounded-[11px] rounded-[4px]' />
             </div>
             {/* Details */}
             <div className='md:col-span-2 col-span-1 flex flex-col gap-6'>
