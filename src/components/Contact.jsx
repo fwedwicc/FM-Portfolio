@@ -23,14 +23,22 @@ const Contact = () => {
 
   const closeModal = () => {
     setIsOpen(false);
+    setErrors({});
+    setFormData({
+      name: '',
+      email: '',
+      message: '',
+    });
   };
 
-  // Form Scripts
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: '',
   });
+  const [errors, setErrors] = useState({});
+  const [isSuccessOpen, setIsSuccessOpen] = useState(false);
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -40,10 +48,43 @@ const Contact = () => {
     }));
   };
 
+  // Form Validation
+  const validate = () => {
+    let formErrors = {};
+    if (!formData.name) formErrors.name = 'Name is required.';
+    if (!formData.message) formErrors.message = 'Message is required.';
+    if (!formData.email) {
+      formErrors.email = 'Email address is required.';
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      formErrors.email = 'Email address is invalid.';
+    }
+    return formErrors;
+  };
+
+  // Hnadle form logic
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log('Form data submitted:', formData);
+    const formErrors = validate();
+    if (Object.keys(formErrors).length > 0) {
+      setErrors(formErrors);
+    } else {
+      setErrors({});
+      console.log('Form data submitted:', formData);
+      setIsOpen(false);
+      // Simulate form submission
+      setTimeout(() => {
+        setFormData({
+          name: '',
+          email: '',
+          message: '',
+        });
+        setIsSuccessOpen(true);
+      }, 1000);
+    }
+  };
+
+  const closeSuccessModal = () => {
+    setIsSuccessOpen(false);
   };
 
   return (
@@ -91,56 +132,64 @@ const Contact = () => {
           }`}
       >
         <div
-          className={`bg-base backdrop-blur-md border border-[#59568fbd]/20 rounded-lg md:p-6 p-4 max-w-xl w-full text-center transform transition-transform duration-300 ease-out ${isOpen ? 'scale-100' : 'scale-95'
+          className={`bg-base backdrop-blur-md border border-[#59568fbd]/20 rounded-lg md:p-6 p-4 md:max-w-xl max-w-sm w-full text-center transform transition-transform duration-300 ease-out ${isOpen ? 'scale-100' : 'scale-95'
             }`}
         >
           <form onSubmit={handleSubmit}>
-            <div className='grid grid-cols-2 gap-3'>
+            <div className='grid md:grid-cols-2 grid-cols-1 gap-3'>
               {/* Name */}
-              <label
-                htmlFor="name"
-                className="relative block overflow-hidden rounded-md text-white border border-[#59568fbd]/20 px-3 pt-3 shadow-sm focus-within:border-indigo-600 focus-within:ring-1 focus-within:ring-indigo-600 transition duration-300 ease-in-out">
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  placeholder='Name'
-                  className="peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm" />
-                <span
-                  className="absolute start-3 top-3 -translate-y-1/2 text-xs text-[#afacdebd] transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs">
-                  Name
-                </span>
-              </label>
+              <div>
+                <label
+                  htmlFor="name"
+                  className={`relative block overflow-hidden rounded-md text-white border border-[#59568fbd]/20 px-3 pt-3 shadow-sm focus-within:border-indigo-600 focus-within:ring-1 focus-within:ring-indigo-600 transition duration-300 ease-in-out ${errors.name ? 'border-yellow-500/30' : 'border-[#59568fbd]/20'}`}>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    placeholder='Name'
+                    className="peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 md:text-sm text-xs" />
+                  <span
+                    className="absolute start-3 top-3 -translate-y-1/2 md:text-sm text-xs text-[#afacdebd] transition-all peer-placeholder-shown:top-1/2 md:peer-placeholder-shown:text-sm peer-placeholder-shown:text-xs peer-focus:top-3 md:peer-focus:text-xs md:peer-focus:text-[11px]">
+                    Name
+                  </span>
+                </label>
+                {errors.name && <p className="text-yellow-400 md:text-sm text-xs mt-1 text-left">{errors.name}</p>}
+              </div>
               {/* Email */}
-              <label
-                htmlFor="email"
-                className="relative block overflow-hidden rounded-md text-white border border-[#59568fbd]/20 px-3 pt-3 shadow-sm focus-within:border-indigo-600 focus-within:ring-1 focus-within:ring-indigo-600 transition duration-300 ease-in-out">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  placeholder='Name'
-                  className="peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm" />
-                <span
-                  className="absolute start-3 top-3 -translate-y-1/2 text-xs text-[#afacdebd] transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs">
-                  Email
-                </span>
-              </label>
+              <div>
+                <label
+                  htmlFor="email"
+                  className={`relative block overflow-hidden rounded-md text-white border border-[#59568fbd]/20 px-3 pt-3 shadow-sm focus-within:border-indigo-600 focus-within:ring-1 focus-within:ring-indigo-600 transition duration-300 ease-in-out ${errors.email ? 'border-yellow-500/30' : 'border-[#59568fbd]/20'}`}>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    placeholder='Name'
+                    className="peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 md:text-sm text-xs" />
+                  <span
+                    className="absolute start-3 top-3 -translate-y-1/2 md:text-sm text-xs text-[#afacdebd] transition-all peer-placeholder-shown:top-1/2 md:peer-placeholder-shown:text-sm peer-placeholder-shown:text-xs peer-focus:top-3 md:peer-focus:text-xs md:peer-focus:text-[11px]">
+                    Email
+                  </span>
+                </label>
+                {errors.email && <p className="text-yellow-400 md:text-sm text-xs mt-1 text-left">{errors.email}</p>}
+              </div>
+
               {/* Message */}
               <div className='col-span-full'>
                 <textarea
                   id="message"
-                  className="w-full rounded-lg bg-transparent border-[#59568fbd]/20 align-top text-white placeholder:text-[#afacdebd] shadow-sm focus-within:border-indigo-600 focus-within:ring-1 focus-within:ring-indigo-600 transition duration-300 ease-in-out sm:text-sm resize-none"
+                  className={`w-full rounded-lg bg-transparent border-[#59568fbd]/20 align-top text-white placeholder:text-[#afacdebd] shadow-sm focus-within:border-indigo-600 focus-within:ring-1 focus-within:ring-indigo-600 transition duration-300 ease-in-out sm:text-sm md:text-sm text-xs resize-none ${errors.message ? 'border-yellow-500/30' : 'border-[#59568fbd]/20'}`}
                   rows="2"
                   placeholder="Your message here..."
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
                 ></textarea>
+                {errors.message && <p className="text-yellow-400 md:text-sm text-xs mt-1 text-left">{errors.message}</p>}
               </div>
             </div>
             {/* Preview */}
@@ -166,11 +215,32 @@ const Contact = () => {
                 )}"
               </p>
             </div>
-            <div className='flex justify-end gap-3 pt-6'>
-              <Button text={'Cancel'} onClick={closeModal}></Button>
-              <Button text={'Submit'} styles={'bg-indigo-600 hover:bg-indigo-700'}></Button>
+            <div className='flex justify-center gap-3 pt-6'>
+              <Button text={'Close'} onClick={closeModal} type="button"></Button>
+              <Button text={'Submit'} type="submit" styles={`bg-indigo-600 hover:bg-indigo-700`}></Button>
             </div>
           </form>
+        </div>
+      </div>
+      {/* Success Modal */}
+      <div
+        className={`fixed inset-0 flex items-center justify-center bg-base bg-opacity-70 z-50 transition-opacity duration-300 ease-out ${isSuccessOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+          }`}
+      >
+        <div
+          className={`bg-base backdrop-blur-md border border-[#59568fbd]/20 rounded-lg md:p-6 p-4 w-full max-w-xs text-center transform transition-transform duration-300 ease-out ${isSuccessOpen ? 'scale-100' : 'scale-95'
+            }`}
+        >
+          <div className="mb-6 flex flex-col items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="size-10 text-indigo-500 mb-3">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
+            </svg>
+            <p className='text-md'>Message sent successfully! <br />I'll get back to you soon!</p>
+          </div>
+          <Button text={'Got it'}
+            onClick={closeSuccessModal}
+          >
+          </Button>
         </div>
       </div>
     </div>

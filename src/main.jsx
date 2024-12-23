@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { NoPage, Home, AllProjects, ProjectOverview, Contact } from './pages/index.js';
+import { NoPage, Home, AllProjects, ProjectOverview } from './pages/index.js';
 import { ProjectOverviewData } from './constants/index.js';
 import App from './App.jsx'
 import './index.css'
@@ -24,10 +24,6 @@ const router = createBrowserRouter([
       {
         path: "/FM-Portfolio/all-projects/:projectId",
         element: <ProjectOverview projects={projects} />,
-      },
-      {
-        path: "/FM-Portfolio/contact",
-        element: <Contact />,
       },
       {
         path: "*",

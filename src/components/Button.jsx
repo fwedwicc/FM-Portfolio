@@ -1,11 +1,12 @@
 import React from "react";
 
-const Button = ({ text, styles, children, round, onClick, disabled }) => (
+const Button = ({ text, styles, children, round, type, onClick, disabled }) => (
   <button
     className={`relative inline-flex lg:h-10 h-8 overflow-hidden rounded-md ${round} p-[1px] ${disabled ? "opacity-50 cursor-not-allowed" : "hover:shadow-lg hover:shadow-[#412F84]/30"
       } transition duration-300 ease-in-out`}
     onClick={disabled ? undefined : onClick}
     disabled={disabled}
+    type={type}
   >
     <span
       className={`absolute inset-[-1000%] ${disabled ? "" : "animate-[spin_2s_linear_infinite]"
