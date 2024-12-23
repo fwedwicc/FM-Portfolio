@@ -1,0 +1,58 @@
+import React from 'react'
+import Footer from '../components/Footer'
+import Button from '../components/Button'
+import { glow05 } from '../assets'
+import { ContactData } from '../constants'
+
+const Contact = () => {
+  const contacts = ContactData[0];
+  const renderLink = (link) => (
+    <a
+      href={`#${link.id}`}
+      className='lg:text-sm text-[12px]'
+    >
+      {link.title}
+    </a>
+  );
+
+  return (
+    <div className='flex justify-center items-center md:h-screen h-auto md:p-[2rem] p-4 relative'>
+      <div className='h-full w-full grid grid-rows-6 z-20'>
+        <div className='row-span-4 rounded-md p-4 text-white'>
+          <div className='space-y-4'>
+            <div>
+              <h1 className='uppercase font-black text-[3rem] lg:text-[9rem] md:text-nowrap text-wrap whitespace-nowrap leading-none' id=''>Let's talk<span className='text-[#9291DD]'>.</span></h1>
+            </div>
+            <ul className='space-y-1.5 pb-[0.8rem] '>
+              <li className='block'>
+                <p className='font-medium'>Kindly <span className='text-indigo-400'>fill-out</span> this for and I'll get back to you!</p>
+              </li>
+
+
+              <div className='pt-3'>
+                <p>Hello</p>
+                <p>My name is</p>
+                <p>Here is my email</p>
+                <p>And message</p>
+              </div>
+            </ul>
+            <div className=''>
+              <Button text={'Send message'} styles={'hover:bg-[#100E16]'}>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+                  <path d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
+                </svg>
+              </Button>
+            </div>
+          </div>
+        </div>
+        <div className='row-span-2 flex items-end'>
+          <Footer link={renderLink} />
+        </div>
+      </div>
+      <img src={glow05} alt="Glow eclipse" className='absolute bottom-0' id='' />
+    </div>
+
+  )
+}
+
+export default Contact
