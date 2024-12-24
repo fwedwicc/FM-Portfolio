@@ -3,6 +3,7 @@ import Footer from './Footer'
 import Button from './Button'
 import { glow05 } from '../assets'
 import { ContactData } from '../constants'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const contacts = ContactData[0];
@@ -14,6 +15,10 @@ const Contact = () => {
       {link.title}
     </a>
   );
+
+  const serviceId = import.meta.env.VITE_SERVICE_ID;
+  const templateId = import.meta.env.VITE_TEMPLATE_ID;
+  const publicUser = import.meta.env.VITE_PUBLIC_USER;
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -68,18 +73,39 @@ const Contact = () => {
     if (Object.keys(formErrors).length > 0) {
       setErrors(formErrors);
     } else {
+      // console.log('Form data submitted:', formData);
       setErrors({});
-      console.log('Form data submitted:', formData);
       setIsOpen(false);
-      // Simulate form submission
-      setTimeout(() => {
-        setFormData({
-          name: '',
-          email: '',
-          message: '',
-        });
-        setIsSuccessOpen(true);
-      }, 1000);
+      emailjs
+        .send(
+          serviceId,
+          templateId,
+          {
+            name: formData.name,
+            email: formData.email,
+            message: formData.message,
+          },
+          publicUser
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            // Simulate form submission
+            setTimeout(() => {
+              setFormData({
+                name: '',
+                email: '',
+                message: '',
+              });
+              setIsSuccessOpen(true);
+            }, 1000);
+          },
+          (error) => {
+            console.log(error.text);
+            alert('An error occurred. Please try again.');
+          }
+        );
+
     }
   };
 
