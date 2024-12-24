@@ -56,12 +56,12 @@ const Contact = () => {
   // Form Validation
   const validate = () => {
     let formErrors = {};
-    if (!formData.name) formErrors.name = 'Name is required.';
-    if (!formData.message) formErrors.message = 'Message is required.';
+    if (!formData.name) formErrors.name = 'Name is required';
+    if (!formData.message) formErrors.message = 'Message is required';
     if (!formData.email) {
-      formErrors.email = 'Email address is required.';
+      formErrors.email = 'Email address is required';
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      formErrors.email = 'Email address is invalid.';
+      formErrors.email = 'Email address is invalid';
     }
     return formErrors;
   };
@@ -162,6 +162,10 @@ const Contact = () => {
             }`}
         >
           <form onSubmit={handleSubmit}>
+            <div className='mb-6 text-left space-y-1 text-[#59568fbd]/50'>
+              <p className='lg:text-[1.4rem] text-[1rem]'>Drop me a line!</p>
+              {/* <p>Kindly fill out this form, and I'll get in touch with you shortly!</p> */}
+            </div>
             <div className='grid md:grid-cols-2 grid-cols-1 gap-3'>
               {/* Name */}
               <div>
@@ -189,7 +193,7 @@ const Contact = () => {
                   htmlFor="email"
                   className={`relative block overflow-hidden rounded-md text-white border border-[#59568fbd]/20 px-3 pt-3 shadow-sm focus-within:border-indigo-600 focus-within:ring-1 focus-within:ring-indigo-600 transition duration-300 ease-in-out ${errors.email ? 'border-yellow-500/30' : 'border-[#59568fbd]/20'}`}>
                   <input
-                    type="email"
+                    type="text"
                     id="email"
                     name="email"
                     value={formData.email}
@@ -219,21 +223,22 @@ const Contact = () => {
               </div>
             </div>
             {/* Preview */}
-            <div className="pt-6">
+            <div className="pt-6 space-y-1">
+              <p className='text-xs text-left'>Preview:</p>
               <p className="italic text-start">
-                "Hi there! My name is{" "}
+                "Hi there! I’m{" "}
                 {formData.name ? (
                   <span className="text-indigo-500">{formData.name}</span>
                 ) : (
                   <span className="text-indigo-500">your name</span>
                 )}
-                , here is my email{" "}
+                . You can reach me at{" "}
                 {formData.email ? (
                   <span className="text-indigo-500">{formData.email}</span>
                 ) : (
-                  <span className="text-indigo-500">your email </span>
+                  <span className="text-indigo-500">your email</span>
                 )}
-                , and message{" "}
+                , Here’s my message;{" "}
                 {formData.message ? (
                   <span className="text-indigo-500">{formData.message}</span>
                 ) : (
@@ -241,7 +246,7 @@ const Contact = () => {
                 )}"
               </p>
             </div>
-            <div className='flex justify-center gap-3 pt-6'>
+            <div className='flex justify-center gap-3 pt-8'>
               <Button text={'Close'} onClick={closeModal} type="button"></Button>
               <Button text={'Submit'} type="submit" styles={`bg-indigo-600 hover:bg-indigo-700`}></Button>
             </div>
