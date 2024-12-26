@@ -73,7 +73,7 @@ const Contact = () => {
     if (Object.keys(formErrors).length > 0) {
       setErrors(formErrors);
     } else {
-      // console.log('Form data submitted:', formData);
+      console.log('Form data submitted:', formData);
       setErrors({});
       setIsOpen(false);
       emailjs
