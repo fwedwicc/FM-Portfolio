@@ -16,9 +16,11 @@ const Contact = () => {
     </a>
   );
 
-  const serviceId = import.meta.env.VITE_SERVICE_ID;
-  const templateId = import.meta.env.VITE_TEMPLATE_ID;
-  const publicUser = import.meta.env.VITE_PUBLIC_USER;
+
+  // Nobody cares for these keys, right? 😅
+  const serviceId = service_mulg8rj;
+  const templateId = template_sqgu5v6;
+  const publicUser = CuwmRaHiSJOHr1v13;
 
   const [isOpen, setIsOpen] = useState(false);
 
