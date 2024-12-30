@@ -457,11 +457,11 @@ export const ProjectOverviewData = [
     pageStatus: '',
     img: '',
     title: 'pixelore',
-    desc: 'pixelore Description',
+    desc: 'A curated collection of pixel-coded art by Frederick Moreno, showcasing creative and intricate designs crafted to share on TikTok.',
     roles: ['Front-end Developer', 'UI/UX Designer'],
     poster: '',
-    content: "pixelore Content",
-    siteLink: "",
+    content: "pixelore is a a showcase of my passion for pixel-coded art, featuring a variety of creative and carefully crafted designs. This project highlights my dedication to the art form and serves as a platform to share my work with a wider audience on TikTok and beyond.",
+    siteLink: "https://pixelore.vercel.app",
     githubLink: "https://github.com/fwedwicc/pixelore",
     category: ['Front-end Development Project', 'Art/Design Project', 'TikTok Content Project'],
     tools: [
@@ -473,6 +473,7 @@ export const ProjectOverviewData = [
       { icon: githublogo, tooltip: "GitHub" },
       { icon: gitlogo, tooltip: "Git" },
       { icon: vitelogo, tooltip: "Vite" },
+      { icon: vercellogo, tooltip: "Vercel" },
       { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: '',
@@ -485,7 +486,7 @@ export const ProjectOverviewData = [
         role: ['Front-end Developer', 'UI/UX Designer']
       }
     ],
-    summary: 'pixelore Summary'
+    summary: "As a Front-end Developer and UI/UX Designer, I created 'pixelore' to showcase my passion and love for pixel art. This project features a diverse collection of imaginative and detailed pixel-coded art, reflecting my creativity and dedication to the art form. With pixelore, I aim to share my work with a broader audience (TikTok), creating a captivating visual experience that highlights my skills in front-end development and design."
   },
   {
     // quackOverflow

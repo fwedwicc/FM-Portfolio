@@ -97,16 +97,16 @@ const ProjectOverview = ({ projects }) => {
                     switch (true) {
                       case !project.siteLink && !project.githubLink:
                         return (
-                          <span className='flex items-center text-xs font-thin gap-1.5 text-yellow-400'>
+                          <span className='flex items-center text-xs gap-1.5 text-yellow-400'>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                               <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
                             </svg>
-                            This project has no live site & GitHub repository
+                            This project has no live site and is in a private repository.
                           </span>
                         );
                       case !project.siteLink:
                         return (
-                          <span className='flex items-center text-xs font-thin gap-1.5 text-yellow-400'>
+                          <span className='flex items-center text-xs gap-1.5 text-yellow-400'>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                               <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
                             </svg>
@@ -115,11 +115,11 @@ const ProjectOverview = ({ projects }) => {
                         );
                       case !project.githubLink:
                         return (
-                          <span className='flex items-center text-xs font-thin gap-1.5 text-yellow-400'>
+                          <span className='flex items-center text-xs gap-1.5 text-yellow-400'>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                               <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
                             </svg>
-                            This project has no GitHub repository
+                            This project has private GitHub repository
                           </span>
                         );
                       default:
@@ -170,7 +170,7 @@ const ProjectOverview = ({ projects }) => {
               {/* Header */}
               <div>
                 <h4 className='font-semibold text-lg'>{project.title}</h4>
-                <p className='font-thin italic text-[#a297c5]'>{project.date}</p>
+                <p className='font-light italic text-[#a297c5]'>{project.date}</p>
               </div>
               {/* Badges */}
               <div>
