@@ -2,6 +2,8 @@ import defaultThumbnail from './FM-Portfolio-default-thumbnail.png'
 import defaultBanner from './FM-default-banner.png'
 import TechCommrThumbnail from './Tech-Commr-thumbnail.png'
 import TechCommrBanner from './Tech-Commr-banner.png'
+import iConvThumbnail from './iConv-thumbnail.png'
+import iConvBanner from './iConv-banner.png'
 import fmUIThumbnail from './fmUI-thumbnail.png'
 import fmUIBanner from './fmUI-banner.png'
 import FMPortfolioThumbnail from './FM-Portfolio-thumbnail.png'
@@ -20,6 +22,8 @@ export {
   defaultBanner,
   TechCommrThumbnail,
   TechCommrBanner,
+  iConvThumbnail,
+  iConvBanner,
   fmUIThumbnail,
   fmUIBanner,
   FMPortfolioThumbnail,

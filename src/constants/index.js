@@ -3,7 +3,7 @@ import { github, instagram, linkedin, facebook, mail, phone, location, } from '.
 
 // Icon Imports
 import {
-  html, css, javascript, react, nextjs, vue, tailwind, bootstrap, gsap, php, figma, git, npm,
+  html, css, javascript, react, nodejs, expressjs, mongodb, nextjs, vue, tailwind, bootstrap, gsap, php, figma, git, npm,
 } from '../assets/icons';
 
 // Logo Imports
@@ -22,11 +22,12 @@ import { FrederickMoreno, LianTorres, KielMariceSerrano } from '../assets/profil
 // Graphics Imports
 import {
   TechCommrGraphics, fmUIGraphics, FMPortfolioGraphics, FMDailyUIGraphics, FMGalleryGraphics, quackOverflowGraphics, FUNKOshopGraphics,
+  iConvGraphics,
 } from '../assets/graphics';
 
 // Banner and Thumbnail Imports
 import {
-  TechCommrThumbnail, TechCommrBanner, fmUIThumbnail, fmUIBanner, FMPortfolioThumbnail, FMPortfolioBanner, FMDailyUIBanner, FMDailyUIThumbnail, FMGalleryThumbnail, FMGalleryUIBanner, quackOverflowThumbnail, quackOverflowBanner, FUNKOshopThumbnail, FUNKOshopBanner,
+  TechCommrThumbnail, TechCommrBanner, iConvThumbnail, iConvBanner, fmUIThumbnail, fmUIBanner, FMPortfolioThumbnail, FMPortfolioBanner, FMDailyUIBanner, FMDailyUIThumbnail, FMGalleryThumbnail, FMGalleryUIBanner, quackOverflowThumbnail, quackOverflowBanner, FUNKOshopThumbnail, FUNKOshopBanner,
 } from '../assets/banners';
 
 // Navigation Links Data
@@ -110,7 +111,9 @@ export const AboutData = [
           { icon: javascript, tooltip: "JavaScript" },
           { icon: figma, tooltip: "Figma" },
           { icon: react, tooltip: "React JS" },
-          // Nodejs, Expressjs, MongoDB
+          { icon: nodejs, tooltip: "Node JS" },
+          { icon: expressjs, tooltip: "Express JS" },
+          { icon: mongodb, tooltip: "MongoDB" },
           { icon: nextjs, tooltip: "Next JS" },
           // { icon: vue, tooltip: "Vue JS" },
           // { icon: php, tooltip: "Hypertext Preprocessor" },
@@ -273,11 +276,11 @@ export const ProjectOverviewData = [
     id: 'iconv',
     type: 'special',
     pageStatus: '',
-    img: '',
+    img: iConvThumbnail,
     title: 'iConv',
     desc: 'iConv Description',
     roles: ['Front-end Developer', 'UI/UX Designer', 'Graphic Designer'],
-    poster: '',
+    poster: iConvBanner,
     content: "iConv Content",
     siteLink: "https://iconv.vercel.app",
     githubLink: "",
@@ -299,7 +302,7 @@ export const ProjectOverviewData = [
       { icon: vercellogo, tooltip: "Vercel" },
       { icon: npmlogo, tooltip: "NPM" },
     ],
-    graphics: '',
+    graphics: iConvGraphics,
     date: 'January 2025 - Present',
     status: 'Work in progress',
     contributor: [

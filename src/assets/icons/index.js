@@ -2,6 +2,9 @@ import html from './html-icon.svg'
 import css from './css-icon.svg'
 import javascript from './javascript-icon.svg'
 import react from './react-icon.svg'
+import nodejs from './nodejs-icon.svg'
+import expressjs from './expressjs-icon.svg'
+import mongodb from './mongodb-icon.svg'
 import nextjs from './next-icon.svg'
 import vue from './vue-icon.svg'
 import tailwind from './tailwind-icon.svg'
@@ -17,6 +20,9 @@ export {
   css,
   javascript,
   react,
+  nodejs,
+  expressjs,
+  mongodb,
   nextjs,
   vue,
   tailwind,

@@ -1,5 +1,6 @@
 import defaultGraphics from './FM-default-graphics.png'
 import TechCommrGraphics from './Tech-Commr-graphics.png'
+import iConvGraphics from './iConv-graphics.png'
 import fmUIGraphics from './fmUI-graphics.png'
 import FMPortfolioGraphics from './FM-Portfolio-graphics.png'
 import FMDailyUIGraphics from './FM-DailyUI-graphics.png'
@@ -10,6 +11,7 @@ import FUNKOshopGraphics from './FUNKO-Shop-graphics.png'
 export {
   defaultGraphics,
   TechCommrGraphics,
+  iConvGraphics,
   fmUIGraphics,
   FMPortfolioGraphics,
   FMDailyUIGraphics,
