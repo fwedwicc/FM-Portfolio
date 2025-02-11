@@ -34,7 +34,7 @@ const AllProjects = ({ projects }) => {
         </Link>
         <div className='gap-4 md:mt-0 mt-12 flex flex-col justify-center items-center'>
           <h1 className='uppercase text-white font-black text-[3rem] lg:text-[9rem] whitespace-nowrap leading-none text-center' id='scroll-animation-'>Projects</h1>
-          <p className='text-white text-center w-full lg:max-w-3xl max-w-[40rem]'>This section provides as a comprehensive exhibition of my innovative and imaginative web development work. These works are a representation of a dedication to both aesthetically pleasing and usefulness; combining my technical skills with a touch of creativity to deliver smooth and enjoyable user experiences.</p>
+          <p className='text-white text-center w-full lg:max-w-3xl max-w-[40rem]'>This section showcases my innovative web development and collaborative projects. Each one reflects <br class='md:block hidden' /> my passion for creating designs that are both visually appealing and functional.</p>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 mt-[4rem] gap-6 md:px-24'>
           {projects.map(project => (

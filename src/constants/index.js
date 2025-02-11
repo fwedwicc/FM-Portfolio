@@ -73,7 +73,7 @@ export const HeroData = [
   {
     role: ["Front-end", "UI/UX"],
     name: "FREDERICK MORENO",
-    content: " a BSIT student based in the Philippines. I am a Front-end Developer and UI/UX Designer, combining technology and creativity. I'm also a traditional artist, bringing a unique blend of artistic sensibility and technical expertise to all my projects."
+    content: " a BSIT student based in the Philippines. I’m into Front-end Development, UI/UX and Graphic Design, and working toward becoming a Full-Stack Developer.  I'm also a traditional artist, I love merging creativity with tech to bring unique ideas to life!"
   }
 ]
 
@@ -83,11 +83,11 @@ export const AboutData = [
     whoAmI: [
       {
         name: "Frederick Moreno",
-        content: "A dedicated BSIT student from the Philippines with a fervent passion for technology and creativity. My digital career focuses on front-end development and UI/UX design, aiming to create seamless and engaging user experiences. My expertise lies in bridging the gap between design and development, ensuring that every project is both functional and visually appealing. Beyond my technical pursuits, I am a traditional artist, bringing a unique blend of artistic sensibility and technical prowess to my work.",
+        content: "A passionate BSIT student from the Philippines, blending my passion for tech and creativity. I specialize in Front-end Development and UI/UX Design, aiming to create seamless and engaging user experiences. I’m currently upskilling to become a full-stack developer, merging design and code to build functional, visually appealing creations. Outside my career, I’m also a traditional artist, I bring a unique mix of artistry and technical skills to everything I do.",
         badge: [
           { title: "Front-end Developer", svgPath: "M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" },
           { title: "UI/UX Designer", svgPath: "m4.988 19.012 5.41-5.41m2.366-6.424 4.058 4.058-2.03 5.41L5.3 20 4 18.701l3.355-9.494 5.41-2.029Zm4.626 4.625L12.197 6.61 14.807 4 20 9.194l-2.61 2.61Z" },
-          { title: "Traditional Artist", svgPath: "m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" },
+          { title: "Aspiring Full-Stack Developer", svgPath: "m8 9 3 3-3 3m5 0h3M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z" },
         ]
       }
     ],
@@ -99,7 +99,7 @@ export const AboutData = [
           { icon: javascript, tooltip: "JavaScript" },
           { icon: figma, tooltip: "Figma" },
         ],
-        content: "Way back in 2019 (SHS), my journey began with a curiosity for how websites work, leading me to dive into the world of web development. Starting with the basics of HTML, CSS, and JavaScript, I quickly found joy in crafting interactive and visually appealing web pages. As I honed my skills, Figma became my go-to tool for designing intuitive user interfaces, merging creativity with functionality. This foundation laid the groundwork for my ongoing passion and expertise in front-end development and UI/UX design."
+        content: "Back in 2019 (SHS), I got curious about how websites worked and decided to dive into web development. I started with the basics: HTML, CSS, and JavaScript, and fell in love with creating interactive web pages. Over time, Figma became my favorite tool for designing user-friendly interfaces, where I could mix creativity with functionality. That’s how my passion for Front-End Development and UI/UX Designing began, and it’s been growing ever since!"
       }
     ],
     howsItGoing: [
@@ -110,13 +110,14 @@ export const AboutData = [
           { icon: javascript, tooltip: "JavaScript" },
           { icon: figma, tooltip: "Figma" },
           { icon: react, tooltip: "React JS" },
+          // Nodejs, Expressjs, MongoDB
           { icon: nextjs, tooltip: "Next JS" },
-          { icon: vue, tooltip: "Vue JS" },
-          { icon: php, tooltip: "Hypertext Preprocessor" },
+          // { icon: vue, tooltip: "Vue JS" },
+          // { icon: php, tooltip: "Hypertext Preprocessor" },
           { icon: tailwind, tooltip: "Tailwind CSS" },
-          { icon: bootstrap, tooltip: "Bootstrap" },
+          // { icon: bootstrap, tooltip: "Bootstrap" },
         ],
-        content: `Since starting in web development, I have significantly expanded my skill set. I've mastered HTML, CSS, and JavaScript, and embraced modern frameworks like React JS, Next JS, and Vue JS. PHP aids my server-side scripting, while Tailwind CSS and Bootstrap ensure responsive design. This diverse expertise allows me to create functional and visually engaging projects, driven by a passion for continuous learning and growth in web development and UI/UX design.`
+        content: `Since starting in web development, I’ve mastered HTML, CSS, and JavaScript, and now work with ReactJS, NextJS, and Tailwind CSS to build sleek, responsive designs. With the MERN stack (MongoDB, Express, React, Node) as my go-to, I able to build functional and visually engaging projects. I’m all about learning and growing in web development and UI/UX design because there’s always something new to explore!`
       }
     ],
     education: [
@@ -147,11 +148,12 @@ export const AboutData = [
 export const ProjectData = [
   {
     title: "Projects",
-    content: "This section serves as a comprehensive showcase of my innovative and creative web development projects. In these endeavors, I take on multiple roles, including Front-end Developer and UI/UX Designer, to ensure the delivery of high-quality websites and web applications.",
+    content: "This section highlights my creative web development and collaboration projects. In these, I take on multiple roles: Front-end Developer, UI/UX and Graphic Designer to deliver high-quality websites and web applications.",
     badge: [
       { title: "Front-end Development", svgPath: "M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" },
       { title: "UI/UX Design", svgPath: "m4.988 19.012 5.41-5.41m2.366-6.424 4.058 4.058-2.03 5.41L5.3 20 4 18.701l3.355-9.494 5.41-2.029Zm4.626 4.625L12.197 6.61 14.807 4 20 9.194l-2.61 2.61Z" },
-    ],
+      { title: "Full-stack Development", svgPath: "m8 9 3 3-3 3m5 0h3M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z" },
+    ]
   }
 ];
 
@@ -173,18 +175,21 @@ export const ExpertiseData = [
       { icon: csslogo, tooltip: "Cascading Style Sheet" },
       { icon: jslogo, tooltip: "JavaScript" },
       { icon: reactlogo, tooltip: "ReactJS" },
+      { icon: nodelogo, tooltip: "NodeJS" },
+      { icon: expresslogo, tooltip: "ExpressJS" },
+      { icon: mongodblogo, tooltip: "MongoDB" },
       { icon: nextlogo, tooltip: "NextJS" },
-      { icon: vuelogo, tooltip: "VueJS" },
+      // { icon: vuelogo, tooltip: "VueJS" },
       { icon: tailwindlogo, tooltip: "Tailwind CSS" },
       { icon: bootstraplogo, tooltip: "Bootstrap" },
       { icon: phplogo, tooltip: "Hypertext Preprocessor" },
       { icon: netlogo, tooltip: ".NET" },
       { icon: gsaplogo, tooltip: "GSAP" },
       { icon: framerlogo, tooltip: "Framer Motion" },
-      { icon: vitelogo, tooltip: "Vite" },
-      { icon: vercellogo, tooltip: "Vercel" },
+      // { icon: vitelogo, tooltip: "Vite" },
+      // { icon: vercellogo, tooltip: "Vercel" },
       { icon: gitlogo, tooltip: "Git" },
-      { icon: npmlogo, tooltip: "NPM" },
+      // { icon: npmlogo, tooltip: "NPM" },
       { icon: figmalogo, tooltip: "Figma" },
       { icon: githublogo, tooltip: "GitHub" },
       { icon: vscodelogo, tooltip: "VS Code" },
@@ -195,7 +200,7 @@ export const ExpertiseData = [
       {
         // TODO: Certification Link
         title: "Certifications",
-        content: "My extensive collection includes a variety of completed courses, active participation in <br class='md:block hidden' /> numerous workshops and seminars, and from tech industry-relevant webinars.",
+        content: "My extensive collection of certificates includes completed courses, active participation <br class='md:block hidden' /> in workshops and from tech industry-relevant webinars.",
         btnText: "View Certificates",
         link: "https://drive.google.com/drive/folders/1zmwS59a85LqUvTd-WQXUFQ-SKbuyvmCv?usp=sharing",
         images01: [{ src: cert05 }, { src: cert06 }, { src: cert07 }, { src: cert01 }, { src: cert02 }, { src: cert03 }, { src: cert04 }, { src: cert02 }, { src: cert03 },
@@ -271,7 +276,7 @@ export const ProjectOverviewData = [
     img: '',
     title: 'iConv',
     desc: 'iConv Description',
-    roles: ['Front-end Developer', 'UI/UX Designer'],
+    roles: ['Front-end Developer', 'UI/UX Designer', 'Graphic Designer'],
     poster: '',
     content: "iConv Content",
     siteLink: "https://iconv.vercel.app",
