@@ -22,12 +22,12 @@ import { FrederickMoreno, LianTorres, KielMariceSerrano } from '../assets/profil
 // Graphics Imports
 import {
   TechCommrGraphics, fmUIGraphics, FMPortfolioGraphics, FMDailyUIGraphics, FMGalleryGraphics, quackOverflowGraphics, FUNKOshopGraphics,
-  iConvGraphics,
+  iConvGraphics, RebyuwerGraphics
 } from '../assets/graphics';
 
 // Banner and Thumbnail Imports
 import {
-  TechCommrThumbnail, TechCommrBanner, iConvThumbnail, iConvBanner, fmUIThumbnail, fmUIBanner, FMPortfolioThumbnail, FMPortfolioBanner, FMDailyUIBanner, FMDailyUIThumbnail, FMGalleryThumbnail, FMGalleryUIBanner, quackOverflowThumbnail, quackOverflowBanner, FUNKOshopThumbnail, FUNKOshopBanner,
+  TechCommrThumbnail, TechCommrBanner, iConvThumbnail, iConvBanner, fmUIThumbnail, fmUIBanner, RebyuwerThumbnail, RebyuwerBanner, FMPortfolioThumbnail, FMPortfolioBanner, FMDailyUIBanner, FMDailyUIThumbnail, FMGalleryThumbnail, FMGalleryUIBanner, quackOverflowThumbnail, quackOverflowBanner, FUNKOshopThumbnail, FUNKOshopBanner,
 } from '../assets/banners';
 
 // Navigation Links Data
@@ -318,6 +318,49 @@ export const ProjectOverviewData = [
       },
     ],
     summary: "iConv Summary"
+  },
+  {
+    // Rebyuwer
+    id: 'Rebyuwer',
+    type: 'special',
+    pageStatus: 'Done',
+    img: RebyuwerThumbnail,
+    title: 'Rebyuwer',
+    desc: 'Rebyuwer is an interactive learning app designed to help users strengthen their knowledge and mastery through digital flashcards.',
+    roles: ['Full-Stack Developer', 'UI/UX Designer'],
+    poster: RebyuwerBanner,
+    content: "Rebyuwer is an interactive learning web application designed to enhance knowledge retention and mastery through digital flashcards. It provides an engaging way to review topics, test understanding, and reinforce memory across various subjects.",
+    siteLink: "https://rebyuwer.vercel.app",
+    githubLink: "https://github.com/fwedwicc/rebyuwer-app",
+    category: ['Full-Stack Project', 'Web Development Project', 'UX Design Project'],
+    tools: [
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: reactlogo, tooltip: "ReactJS" },
+      { icon: nodelogo, tooltip: "NodeJS" },
+      { icon: expresslogo, tooltip: "ExpressJS" },
+      { icon: mongodblogo, tooltip: "MongoDB" },
+      { icon: postmanlogo, tooltip: "Postman" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: framerlogo, tooltip: "Framer Motion" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: vitelogo, tooltip: "Vite" },
+      { icon: vercellogo, tooltip: "Vercel" },
+      { icon: npmlogo, tooltip: "NPM" },
+    ],
+    graphics: RebyuwerGraphics,
+    date: 'Feb 2025 - Mar 2025',
+    status: 'Finished',
+    contributor: [
+      {
+        profile: FrederickMoreno,
+        name: 'Frederick Moreno',
+        role: ['Full-stack Developer', 'UI/UX Designer']
+      },
+    ],
+    summary: "As the Full-stack Web Developer and UI/UX Designer of Rebyuwer, I crafted a seamless and engaging flashcard experience using the MERN stack. From design to functionality, I focused on creating a user-friendly, responsive, and efficient platform that makes studying and reviewing interactive and effective."
   },
   {
     // TODO: profolios Project Content
