@@ -445,11 +445,11 @@ export const ProjectOverviewData = [
     id: 'FM-DailyUI',
     pageStatus: 'Done',
     img: FMDailyUIThumbnail,
-    title: 'FM DailyUI',
-    desc: 'A curated collection of 100 Days of UI challenge prompts from https://www.dailyui.co, showcasing creative and innovative UI designs using my design system; fmUI.',
+    title: 'FM DailyUI S1',
+    desc: 'A curated collection showcasing 25 designs (Series 1) from 100 Days of UI prompts from https://www.dailyui.co, showcasing creative UI designs using my design system; fmUI.',
     roles: ['Front-end Developer', 'UI/UX Designer'],
     poster: FMDailyUIBanner,
-    content: "FM DailyUI is an extensive compilation of 100 Days of UI challenge prompts from DailyUI. This project showcases a wide range of creative and innovative UI designs, each crafted using my custom design system, fmUI. It's a journey through diverse design challenges, highlighting the versatility and capabilities of fmUI in creating dynamic and visually appealing user interfaces.",
+    content: "FM DailyUI is an extensive compilation of 100 Days of UI challenge prompts from DailyUI. This project features Series 1, containing the first 25 designs, each crafted using my custom design system, fmUI. It's a journey through diverse design challenges, highlighting the versatility and capabilities of fmUI in creating dynamic and visually appealing user interfaces.",
     siteLink: "https://fwedwicc.github.io/FM-DailyUI/",
     githubLink: "https://github.com/fwedwicc/FM-DailyUI",
     category: ['Front-end Development Project', 'UI/UX Design Project', 'Career Project'],
@@ -466,8 +466,8 @@ export const ProjectOverviewData = [
       { icon: npmlogo, tooltip: "NPM" },
     ],
     graphics: FMDailyUIGraphics,
-    date: 'July 2024 - Present',
-    status: 'Work in progress',
+    date: 'July 2024 - March 2025',
+    status: 'Finished',
     contributor: [
       {
         profile: FrederickMoreno,
@@ -475,7 +475,7 @@ export const ProjectOverviewData = [
         role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
       },
     ],
-    summary: 'As a Front-end Developer and UI/UX Designer, I tackled the 100 Days of UI challenge from DailyUI by crafting original, dynamic designs using my custom system, fmUI. This project showcases my ability to merge design and development, creating flexible, visually striking user interfaces that excel in both aesthetics and functionality, even when facing complex challenges.'
+    summary: 'As a Front-end Developer and UI/UX Designer, I tackled the 25 UI challenge from DailyUI by crafting original, dynamic designs using my custom system, fmUI. This project showcases my ability to merge design and development, creating flexible, visually striking user interfaces that excel in both aesthetics and functionality, even when facing complex challenges.'
   },
   {
     // FM Gallery
