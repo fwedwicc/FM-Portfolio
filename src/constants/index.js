@@ -441,8 +441,8 @@ export const ProjectOverviewData = [
     summary: "As the Web Developer and UI/UX Designer for this project, I am dedicated to crafting and maintaining high-quality components and templates. Every Tailwind CSS component was thoughtfully designed from scratch, ensuring a seamless and error-free experience across the application. My role is to ensure that each element not only meets the project's aesthetic goals but also functions flawlessly."
   },
   {
-    // FM DailyUI
-    id: 'FM-DailyUI',
+    // FM DailyUI S1
+    id: 'FM-DailyUI-S1',
     pageStatus: 'Done',
     img: FMDailyUIThumbnail,
     title: 'FM DailyUI S1',
@@ -476,6 +476,43 @@ export const ProjectOverviewData = [
       },
     ],
     summary: 'As a Front-end Developer and UI/UX Designer, I tackled the 25 UI challenge from DailyUI by crafting original, dynamic designs using my custom system, fmUI. This project showcases my ability to merge design and development, creating flexible, visually striking user interfaces that excel in both aesthetics and functionality, even when facing complex challenges.'
+  },
+  {
+    // FM DailyUI S2
+    id: 'FM-DailyUI-S2',
+    pageStatus: '',
+    img: '',
+    title: 'FM DailyUI S2',
+    desc: 'FM DailyUI S2: a curated collection showcasing 26 to 50 design challenges (Series 2) from the 100 Days of UI challenge prompts from https://www.dailyui.co.',
+    roles: ['Front-end Developer', 'UI/UX Designer'],
+    poster: '',
+    content: "FM DailyUI is an extensive compilation of 100 Days of UI challenge prompts from DailyUI. This project features Series 2, containing the 26 to 50 designs, each crafted interface inspired from Official Tailwind UI. It's a journey through diverse design challenges, highlighting the versatility and capabilities of fmUI in creating dynamic and visually appealing user interfaces.",
+    siteLink: "https://fwedwicc.github.io/FM-DailyUI-S2/",
+    githubLink: "https://github.com/fwedwicc/FM-DailyUI-S2",
+    category: ['Front-end Development Project', 'UI/UX Design Project', 'Career Project'],
+    tools: [
+      { icon: htmllogo, tooltip: "HyperText Markup Language" },
+      { icon: csslogo, tooltip: "Cascading Style Sheet" },
+      { icon: jslogo, tooltip: "JavaScript" },
+      { icon: reactlogo, tooltip: "ReactJS" },
+      { icon: tailwindlogo, tooltip: "Tailwind CSS" },
+      { icon: framerlogo, tooltip: "Framer Motion" },
+      { icon: githublogo, tooltip: "GitHub" },
+      { icon: gitlogo, tooltip: "Git" },
+      { icon: vitelogo, tooltip: "Vite" },
+      { icon: npmlogo, tooltip: "NPM" },
+    ],
+    graphics: '',
+    date: 'March 2025 - Present',
+    status: 'Work in Progress',
+    contributor: [
+      {
+        profile: FrederickMoreno,
+        name: 'Frederick Moreno',
+        role: ['Web Developer', 'Front-end Developer', 'UI/UX Designer']
+      },
+    ],
+    summary: 'FM DailyUI S2 Summary'
   },
   {
     // FM Gallery
