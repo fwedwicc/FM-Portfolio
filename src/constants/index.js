@@ -504,7 +504,7 @@ export const ProjectOverviewData = [
     ],
     graphics: '',
     date: 'March 2025 - Present',
-    status: 'Work in Progress',
+    status: 'Work in progress',
     contributor: [
       {
         profile: FrederickMoreno,

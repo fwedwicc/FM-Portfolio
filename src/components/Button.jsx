@@ -13,7 +13,7 @@ const Button = ({ text, styles, children, round, type, onClick, disabled }) => (
         } bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]`}
     />
     <span
-      className={`inline-flex h-full w-full items-center justify-center transition duration-300 ease-in-out rounded-md bg-base px-3 lg:px-3.5 py-1 text-xs lg:text-sm font-medium text-white backdrop-blur-3xl gap-3 ${styles
+      className={`inline-flex h-full w-full items-center justify-center transition duration-300 ease-in-out rounded-md bg-base px-3 lg:px-3.5 py-1 text-xs lg:text-sm font-medium text-white backdrop-blur-3xl gap-2 ${styles
         }`}
     >
       {text}
