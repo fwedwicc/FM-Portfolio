@@ -271,7 +271,6 @@ export const ProjectOverviewData = [
     summary: "As the lead Front-end Developer, UI/UX Designer, and Graphic Designer at Tech-Commr, I focus on delivering custom solutions that are both visually compelling and functionally seamless. From design to execution, I ensure each project meets the highest standards, driving success through expert design and technical precision."
   },
   {
-    // TODO: iConv Project Content
     // iConv
     id: 'iconv',
     type: 'special',
