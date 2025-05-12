@@ -362,7 +362,6 @@ export const ProjectOverviewData = [
     summary: "As the Full-stack Web Developer and UI/UX Designer of Rebyuwer, I crafted a seamless and engaging flashcard experience using the MERN stack. From design to functionality, I focused on creating a user-friendly, responsive, and efficient platform that makes studying and reviewing interactive and effective."
   },
   {
-    // TODO: profolios Project Content
     // profolios
     id: 'profolios',
     type: 'special',
